@@ -1,1 +1,1 @@
-I'm going to the IMAX opening fan event of the first Phase 6 MCU movie, and the day after, I'm going to Mount Rainier park to do some stargazing. Can you please tell me the sunset at the park on the day I'm arriving there? 
+I'm going to the IMAX opening fan event of the first Phase 6 MCU movie, and the day after, I'm going to Mount Rainier park to do some stargazing. Can you please tell me the sunset at the park on the day I'm arriving there?

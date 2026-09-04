@@ -1,4 +1,4 @@
-- Donald Trump was first inaugurated as president on January 20, 2017.
-- The video game purchased on January 20, 2017 was "Game Title 87
-- The price of the video game "Game Title 87" on January 20, 2017, was $130.99.
-- The payment method for purchasing the video game "Game Title 87" on January 20, 2017, was cash.
+Donald Trump was first inaugurated as president on January 20, 2017.
+The video game purchased on January 20, 2017 was "Game Title 87
+The price of the video game "Game Title 87" on January 20, 2017, was $130.99.
+The payment method for purchasing the video game "Game Title 87" on January 20, 2017, was cash.

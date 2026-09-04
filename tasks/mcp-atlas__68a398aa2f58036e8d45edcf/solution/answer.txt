@@ -1,2 +1,2 @@
-- Giannis Antetokounmpo won his first NBA championship ring in 2021.
-- In 2021, a total of 26 sports games were sold online according to cloud NoSQL video game store data.
+Giannis Antetokounmpo won his first NBA championship ring in 2021.
+In 2021, a total of 26 sports games were sold online according to cloud NoSQL video game store data.

@@ -1,9 +1,9 @@
-- Isle Royale National Park is located in Michigan.
-- Isle Royale National Park is a remote island wilderness.
-- Isle Royale National Park is located in the middle of Lake Superior.
-- Devils Postpile National Monument is located in California.
-- Devils Postpile National Monument was established in 1911.
-- Devils Postpile National Monument was established by presidential proclamation.
-- Michael Phelps won 28 Olympic medals.
-- Michael Phelps won 23 Olympic gold medals.
-- The translation of "Welcome back, I missed you so much!" to French is "Bienvenue, tu m'as tellement manqué !
+Isle Royale National Park is located in Michigan.
+Isle Royale National Park is a remote island wilderness.
+Isle Royale National Park is located in the middle of Lake Superior.
+Devils Postpile National Monument is located in California.
+Devils Postpile National Monument was established in 1911.
+Devils Postpile National Monument was established by presidential proclamation.
+Michael Phelps won 28 Olympic medals.
+Michael Phelps won 23 Olympic gold medals.
+The translation of "Welcome back, I missed you so much!" to French is "Bienvenue, tu m'as tellement manqué !

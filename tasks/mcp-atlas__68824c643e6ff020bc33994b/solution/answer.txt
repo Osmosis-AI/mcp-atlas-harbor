@@ -1,5 +1,5 @@
-- Pelé died on December 29, 2022.
-- The last FIFA World Cup before Pelé's death was in 2022.
-- The most expensive order in the user's cloud database in 2022 had Order Date July 17, 2022
-- The most expensive order in the user's cloud database in 2022 had PurchaseOrderValue $14981
-- The time difference between July 17, 2022 and December 29, 2022 is 165 days (0 years, 165 days).
+Pelé died on December 29, 2022.
+The last FIFA World Cup before Pelé's death was in 2022.
+The most expensive order in the user's cloud database in 2022 had Order Date July 17, 2022
+The most expensive order in the user's cloud database in 2022 had PurchaseOrderValue $14981
+The time difference between July 17, 2022 and December 29, 2022 is 165 days (0 years, 165 days).

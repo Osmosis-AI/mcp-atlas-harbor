@@ -1,2 +1,2 @@
-- The user's largest monthly USD withdrawal occurred in March 2023.
-- The total accumulated revenue for the video game store in March 2023 was $2,726.35.
+The user's largest monthly USD withdrawal occurred in March 2023.
+The total accumulated revenue for the video game store in March 2023 was $2,726.35.

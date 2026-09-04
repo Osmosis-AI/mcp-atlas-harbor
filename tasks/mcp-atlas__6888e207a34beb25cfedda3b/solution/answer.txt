@@ -1,2 +1,2 @@
-- The average rating of haircuts registered in the environment is 4.25625.
-- The average age of the clients who got the haircut service is 32.5.
+The average rating of haircuts registered in the environment is 4.25625.
+The average age of the clients who got the haircut service is 32.5.

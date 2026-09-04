@@ -1,2 +1,2 @@
-- The movie that won the best picture and two other Oscars at the 2019 ceremony is "Green Book
-- "Green Book" is listed in the movie backlog file "Top Movies.csv
+The movie that won the best picture and two other Oscars at the 2019 ceremony is "Green Book
+"Green Book" is listed in the movie backlog file "Top Movies.csv

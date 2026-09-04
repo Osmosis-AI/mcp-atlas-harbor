@@ -1,1 +1,1 @@
-Hi, I'm organizing a trip on August 17, 2025, to Cuyahoga Valley park to do some stargazing, so I'd like to know about all the available visitor centers, as well as the moonrise and sunset times, so I can better plan that evening. 
+Hi, I'm organizing a trip on August 17, 2025, to Cuyahoga Valley park to do some stargazing, so I'd like to know about all the available visitor centers, as well as the moonrise and sunset times, so I can better plan that evening.

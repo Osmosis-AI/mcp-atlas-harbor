@@ -1,2 +1,2 @@
-- The transaction of the game sold with the reference number ending in 0002 took place on February 11, 2021.
-- A price reduction was applied to the transaction with the reference number ending in 0002.
+The transaction of the game sold with the reference number ending in 0002 took place on February 11, 2021.
+A price reduction was applied to the transaction with the reference number ending in 0002.

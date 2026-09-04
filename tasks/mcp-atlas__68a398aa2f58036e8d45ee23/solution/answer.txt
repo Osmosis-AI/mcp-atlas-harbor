@@ -1,5 +1,5 @@
-- The 2014 UEFA Champions League final was played on May 24, 2014.
-- The opening reported price of Apple stock on May 23, 2014, was 21.6875 USD.
-- The Relative Strength Index (RSI) of Apple stock on May 23, 2014, was 74.55995.
-- The player who scored the goal in the 93rd minute of the 2014 UEFA Champions League final was Sergio Ramos.
-- The birthplace of Sergio Ramos is Camas, Spain.
+The 2014 UEFA Champions League final was played on May 24, 2014.
+The opening reported price of Apple stock on May 23, 2014, was 21.6875 USD.
+The Relative Strength Index (RSI) of Apple stock on May 23, 2014, was 74.55995.
+The player who scored the goal in the 93rd minute of the 2014 UEFA Champions League final was Sergio Ramos.
+The birthplace of Sergio Ramos is Camas, Spain.

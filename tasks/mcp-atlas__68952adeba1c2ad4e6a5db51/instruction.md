@@ -1,1 +1,1 @@
-In the same year that loic djaileb made the first submission of the investigation about the breast cancer, which supplier received the highest innovation customer score in the second quarter from the data in the data repository? 
+In the same year that loic djaileb made the first submission of the investigation about the breast cancer, which supplier received the highest innovation customer score in the second quarter from the data in the data repository?

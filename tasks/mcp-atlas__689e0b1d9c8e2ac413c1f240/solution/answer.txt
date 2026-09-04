@@ -1,23 +1,23 @@
-- According to the "Crime_records.csv" file, male suspects committed a total of 42 crimes.
-- According to the "Crime_records.csv" file, female suspects committed a total of 29 crimes.
-- According to the "Crime_records.csv" file, male suspects committed 5 cases of theft.
-- According to the "Crime_records.csv" file, male suspects committed 3 cases of burglary.
-- According to the "Crime_records.csv" file, male suspects committed 6 cases of robbery.
-- According to the "Crime_records.csv" file, male suspects committed 5 cases of vandalism.
-- According to the "Crime_records.csv" file, male suspects committed 3 cases of drug trafficking.
-- According to the "Crime_records.csv" file, male suspects committed 3 cases of kidnapping.
-- According to the "Crime_records.csv" file, male suspects committed 5 cases of assault.
-- According to the "Crime_records.csv" file, male suspects committed 4 cases of cybercrime.
-- According to the "Crime_records.csv" file, male suspects committed 5 cases of arson.
-- According to the "Crime_records.csv" file, male suspects committed 3 cases of fraud.
-- According to the "Crime_records.csv" file, female suspects committed 3 cases of assault.
-- According to the "Crime_records.csv" file, female suspects committed 5 cases of fraud.
-- According to the "Crime_records.csv" file, female suspects committed 3 cases of cybercrime.
-- According to the "Crime_records.csv" file, female suspects committed 3 cases of vandalism.
-- According to the "Crime_records.csv" file, female suspects committed 4 cases of kidnapping.
-- According to the "Crime_records.csv" file, female suspects committed 4 cases of drug trafficking.
-- According to the "Crime_records.csv" file, female suspects committed 3 cases of shoplifting.
-- According to the "Crime_records.csv" file, female suspects committed 2 cases of burglary.
-- According to the "Crime_records.csv" file, female suspects committed 2 cases of theft.
-- According to the "Crime_records.csv" file, the oldest crime record committed by a male was on May 10, 2014.
-- On May 10, 2025, the highest temperature in Seattle was 16.4°C
+According to the "Crime_records.csv" file, male suspects committed a total of 42 crimes.
+According to the "Crime_records.csv" file, female suspects committed a total of 29 crimes.
+According to the "Crime_records.csv" file, male suspects committed 5 cases of theft.
+According to the "Crime_records.csv" file, male suspects committed 3 cases of burglary.
+According to the "Crime_records.csv" file, male suspects committed 6 cases of robbery.
+According to the "Crime_records.csv" file, male suspects committed 5 cases of vandalism.
+According to the "Crime_records.csv" file, male suspects committed 3 cases of drug trafficking.
+According to the "Crime_records.csv" file, male suspects committed 3 cases of kidnapping.
+According to the "Crime_records.csv" file, male suspects committed 5 cases of assault.
+According to the "Crime_records.csv" file, male suspects committed 4 cases of cybercrime.
+According to the "Crime_records.csv" file, male suspects committed 5 cases of arson.
+According to the "Crime_records.csv" file, male suspects committed 3 cases of fraud.
+According to the "Crime_records.csv" file, female suspects committed 3 cases of assault.
+According to the "Crime_records.csv" file, female suspects committed 5 cases of fraud.
+According to the "Crime_records.csv" file, female suspects committed 3 cases of cybercrime.
+According to the "Crime_records.csv" file, female suspects committed 3 cases of vandalism.
+According to the "Crime_records.csv" file, female suspects committed 4 cases of kidnapping.
+According to the "Crime_records.csv" file, female suspects committed 4 cases of drug trafficking.
+According to the "Crime_records.csv" file, female suspects committed 3 cases of shoplifting.
+According to the "Crime_records.csv" file, female suspects committed 2 cases of burglary.
+According to the "Crime_records.csv" file, female suspects committed 2 cases of theft.
+According to the "Crime_records.csv" file, the oldest crime record committed by a male was on May 10, 2014.
+On May 10, 2025, the highest temperature in Seattle was 16.4°C

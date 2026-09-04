@@ -1,3 +1,3 @@
-- The Coinbase trade history file for the last month of 2022 shows that the assets XLM and BAT had a spot price of less than 0.5 USD.
-- The exchanges "Binance", "Coinbase Pro", "Huobi", and "OKEx" are available for the symbol "XLM/USD
-- The exchanges "Bibox" and "Binance" are available for the symbol "BAT/USD
+The Coinbase trade history file for the last month of 2022 shows that the assets XLM and BAT had a spot price of less than 0.5 USD.
+The exchanges "Binance", "Coinbase Pro", "Huobi", and "OKEx" are available for the symbol "XLM/USD
+The exchanges "Bibox" and "Binance" are available for the symbol "BAT/USD

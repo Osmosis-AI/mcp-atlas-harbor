@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "68993ef3cf3e953b8ab83fbd"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "68993ef3cf3e953b8ab83fbd"
 enabled_tool_count = 15
-source_enabled_tools = ["desktop-commander_get_config","desktop-commander_read_file","desktop-commander_list_directory","desktop-commander_search_files","desktop-commander_get_file_info","ddg-search_search","ddg-search_fetch_content","google-workspace_list_events","github_search_code","github_search_users","git_git_diff_unstaged","git_git_diff","git_git_status","open-library_get_book_by_title","open-library_get_author_info"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["ddg-search","desktop-commander","git","github","google-workspace","o
 required_env_vars = ["GITHUB_TOKEN","GOOGLE_CLIENT_ID","GOOGLE_CLIENT_SECRET","GOOGLE_REFRESH_TOKEN"]
 requires_credentials = true
 credential_free = false
-external_data_servers = ["google-workspace"]
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

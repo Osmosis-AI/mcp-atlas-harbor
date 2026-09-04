@@ -1,3 +1,3 @@
-- The date of Edwin Hawkins' death was January 15, 2018.
-- According to the video game store database, the cost of the video game sold on January 15, 2018, was $43.15.
-- According to the video game store database, the category of the video game sold on January 15, 2018, was accessories.
+The date of Edwin Hawkins' death was January 15, 2018.
+According to the video game store database, the cost of the video game sold on January 15, 2018, was $43.15.
+According to the video game store database, the category of the video game sold on January 15, 2018, was accessories.

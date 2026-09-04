@@ -1,7 +1,7 @@
-- The Apollo 10 mission was launched on May 18, 1969.
-- In the list of delivery orders sorted by ascending Order ID, the first five deliveries were handled by UPS, DHL, UPS, USPS, and USPS, respectively.
-- UPS was founded in 1907.
-- DHL was founded in 1969.
-- USPS was founded on July 26, 1775.
-- USPS and UPS existed during the Apollo 10 mission launch on May 18, 1969.
-- It can't be said for sure if DHL existed during the Apollo 10 mission launch on May 18, 1969.
+The Apollo 10 mission was launched on May 18, 1969.
+In the list of delivery orders sorted by ascending Order ID, the first five deliveries were handled by UPS, DHL, UPS, USPS, and USPS, respectively.
+UPS was founded in 1907.
+DHL was founded in 1969.
+USPS was founded on July 26, 1775.
+USPS and UPS existed during the Apollo 10 mission launch on May 18, 1969.
+It can't be said for sure if DHL existed during the Apollo 10 mission launch on May 18, 1969.

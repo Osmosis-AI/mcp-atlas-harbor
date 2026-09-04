@@ -1,4 +1,4 @@
-- The translation for people living in Quebec of the information about the piece 482551 is: 
+The translation for people living in Quebec of the information about the piece 482551 is:
 Titre : Tout
 Artiste : Darío Villalba
 Biographie de l'artiste : espagnol, San Sebastián 1939-2018 Madrid
@@ -7,7 +7,7 @@ Ligne de crédit : The Merrill G. and Emita E. Hastings Foundation, Samuel I. Ne
 Médium : papier déchiré et collé et impressions argentiques sur papier
 Dimensions : 45 × 60 1/4 po (114,3 × 153 cm)
 Mots-clés : Abstraction
-- The translation for people living in Quebec of the department's names is: 
+The translation for people living in Quebec of the department's names is:
 ID du département : 1, Nom affiché : Arts décoratifs américains
 ID du département : 3, Nom affiché : Art ancien du Proche-Orient
 ID du département : 4, Nom affiché : Armes et armures

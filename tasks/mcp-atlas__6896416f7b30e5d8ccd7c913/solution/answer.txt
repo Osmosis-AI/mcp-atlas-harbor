@@ -1,5 +1,5 @@
-- The Mona Lisa is located in the Louvre.
-- The van Gogh self-portrait is located in the Musée d'Orsay.
-- The Louvre is under an hour walk from the Eiffel Tower.
-- The Musée d'Orsay is under an hour walk from the Eiffel Tower.
-- The Thierry Marx restaurant (Madame Brasserie) is located at the first floor of the Eiffel Tower.
+The Mona Lisa is located in the Louvre.
+The van Gogh self-portrait is located in the Musée d'Orsay.
+The Louvre is under an hour walk from the Eiffel Tower.
+The Musée d'Orsay is under an hour walk from the Eiffel Tower.
+The Thierry Marx restaurant (Madame Brasserie) is located at the first floor of the Eiffel Tower.

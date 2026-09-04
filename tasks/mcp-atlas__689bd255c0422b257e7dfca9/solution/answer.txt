@@ -1,1 +1,1 @@
-- The translation of the note section in the slackr_bot.r file is "#' @note Potrebno <https://www.slack.com> vam je račun za  i morat ćete\n#'   postaviti dolazni webhook:<https://api.slack.com/>. Stari stil web-dojavnika\nviše nije podržan.
+The translation of the note section in the slackr_bot.r file is "#' @note Potrebno <https://www.slack.com> vam je račun za  i morat ćete\n#'   postaviti dolazni webhook:<https://api.slack.com/>. Stari stil web-dojavnika\nviše nije podržan.

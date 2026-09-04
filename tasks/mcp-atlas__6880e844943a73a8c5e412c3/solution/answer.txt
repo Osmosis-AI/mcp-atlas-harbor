@@ -1,6 +1,6 @@
-- Jen-Hsun "Jensen" Huang, CEO of Nvidia, did not publish any scholarly articles in 2024.
-- Four articles by other authors mention Nvidia's superchip from 2024.
-- One article mentioning Nvidia's superchip in 2024 is titled "OPMOS: Algoritmo paralelo ordenado para rutas más cortas multiobjetivo
-- One article mentioning Nvidia's superchip in 2024 is titled "Pie: agrupación de la memoria de la CPU para la inferencia de LLM
-- One article mentioning Nvidia's superchip in 2024 is titled "Aceleración de la factorización de Cholesky fuera del núcleo de precisión mixta con programación de tareas estáticas
-- One article mentioning Nvidia's superchip in 2024 is titled "Comparación microarquitectónica y modelado en núcleo de CPU de última generación: Grace, Sapphire Rapids y Genoa
+Jen-Hsun "Jensen" Huang, CEO of Nvidia, did not publish any scholarly articles in 2024.
+Four articles by other authors mention Nvidia's superchip from 2024.
+One article mentioning Nvidia's superchip in 2024 is titled "OPMOS: Algoritmo paralelo ordenado para rutas más cortas multiobjetivo
+One article mentioning Nvidia's superchip in 2024 is titled "Pie: agrupación de la memoria de la CPU para la inferencia de LLM
+One article mentioning Nvidia's superchip in 2024 is titled "Aceleración de la factorización de Cholesky fuera del núcleo de precisión mixta con programación de tareas estáticas
+One article mentioning Nvidia's superchip in 2024 is titled "Comparación microarquitectónica y modelado en núcleo de CPU de última generación: Grace, Sapphire Rapids y Genoa

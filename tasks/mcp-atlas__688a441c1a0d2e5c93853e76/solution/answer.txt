@@ -1,6 +1,6 @@
-- The latest study related to oncology and machine learning published in November 2024 containing the word "cancer" in its title was "xCG: Explainable Cell Graphs for Survival Prediction in Non-Small Cell Lung Cancer
-- The title of the article "xCG: Explainable Cell Graphs for Survival Prediction in Non-Small Cell Lung Cancer" translates into Spanish as "xCG: gráficos de celdas explicables para la predicción de supervivencia en el cáncer de pulmón de células no pequeñas
-- The abstract of the article is: "Understanding how deep learning models predict oncology patient risk can
+The latest study related to oncology and machine learning published in November 2024 containing the word "cancer" in its title was "xCG: Explainable Cell Graphs for Survival Prediction in Non-Small Cell Lung Cancer
+The title of the article "xCG: Explainable Cell Graphs for Survival Prediction in Non-Small Cell Lung Cancer" translates into Spanish as "xCG: gráficos de celdas explicables para la predicción de supervivencia en el cáncer de pulmón de células no pequeñas
+The abstract of the article is: "Understanding how deep learning models predict oncology patient risk can
 provide critical insights into disease progression, support clinical
 decision-making, and pave the way for trustworthy and data-driven precision
 medicine. Building on recent advances in the spatial modeling of the tumor
@@ -14,4 +14,4 @@ Our ablation studies highlight the importance of incorporating the cancer stage
 and model ensembling to improve the quality of risk estimates. Our xCG method,
 together with the IMC data, is made publicly available to support further
 research.
-- In 1912, Isaac Adler published the first literature review about lung cancer
+In 1912, Isaac Adler published the first literature review about lung cancer

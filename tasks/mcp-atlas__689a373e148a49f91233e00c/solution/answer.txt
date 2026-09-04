@@ -1,3 +1,3 @@
-- The album "The Car", by The Arctic Monkeys, was released on October 21st, 2022.
-- On October 11th of 2022, the order 'ORDER00730' was placed.
-- On October 11th of 2022, "Game Title 115" was sold.
+The album "The Car", by The Arctic Monkeys, was released on October 21st, 2022.
+On October 11th of 2022, the order 'ORDER00730' was placed.
+On October 11th of 2022, "Game Title 115" was sold.

@@ -1,3 +1,3 @@
-- In the Pet Care 2023 Weekly Financials data, week 39 had the highest combined grooming and training revenue.
-- In week 39 of 2023, the drink with the highest average price in the food and beverage consumption data was Wine.
-- In week 39 of 2023, the pet care service with the highest revenue in the Pet Care 2023 Weekly Financials data was Daily Care.
+In the Pet Care 2023 Weekly Financials data, week 39 had the highest combined grooming and training revenue.
+In week 39 of 2023, the drink with the highest average price in the food and beverage consumption data was Wine.
+In week 39 of 2023, the pet care service with the highest revenue in the Pet Care 2023 Weekly Financials data was Daily Care.

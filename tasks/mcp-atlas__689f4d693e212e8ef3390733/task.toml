@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "689f4d693e212e8ef3390733"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "689f4d693e212e8ef3390733"
 enabled_tool_count = 14
-source_enabled_tools = ["memory_read_graph","memory_search_nodes","pubmed_download_pubmed_pdf","pubmed_search_pubmed_advanced","pubmed_search_pubmed_key_words","pubmed_get_pubmed_article_metadata","lara-translate_translate","lara-translate_list_languages","filesystem_read_file","filesystem_read_text_file","filesystem_read_media_file","filesystem_read_multiple_files","filesystem_list_directory","oxylabs_universal_scraper"]
 source_enabled_tool_count = 14
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["filesystem","lara-translate","memory","oxylabs","pubmed"]
 required_env_vars = ["LARA_ACCESS_KEY_ID","LARA_ACCESS_KEY_SECRET","OXYLABS_PASSWORD","OXYLABS_USERNAME"]
 requires_credentials = true
 credential_free = false
-external_data_servers = []
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

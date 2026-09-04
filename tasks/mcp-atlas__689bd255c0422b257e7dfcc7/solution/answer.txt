@@ -1,5 +1,5 @@
-- Tom Petty passed away in 2017.
-- The Sales team had the worst performance in the first quarter of 2017 compared to the Finance team.
-- The Sales team had a total score of 15.91 in the first quarter of 2017.
-- The Finance team had a total score of 16.13 in the first quarter of 2017.
-- The lowest individual score from the Sales team in the first quarter of 2017 was 2.35.
+Tom Petty passed away in 2017.
+The Sales team had the worst performance in the first quarter of 2017 compared to the Finance team.
+The Sales team had a total score of 15.91 in the first quarter of 2017.
+The Finance team had a total score of 16.13 in the first quarter of 2017.
+The lowest individual score from the Sales team in the first quarter of 2017 was 2.35.

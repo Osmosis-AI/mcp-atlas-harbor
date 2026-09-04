@@ -1,1 +1,1 @@
-Could you tell me what the moon phase was in the city where the champion of the 2019 tour de france was born, on the day he was crowned champion? I would also like to know the reported price of btc in us dollars on the last day of that same month in which he was crowned champion. 
+Could you tell me what the moon phase was in the city where the champion of the 2019 tour de france was born, on the day he was crowned champion? I would also like to know the reported price of btc in us dollars on the last day of that same month in which he was crowned champion.

@@ -1,2 +1,2 @@
-- Lee Whittlesey wrote a book about Yellowstone National Park.
-- The address for the headquarters of Yellowstone National Park is 2 Officers Row, Yellowstone National Park Headquarters, Yellowstone National Park, WY, 82190.
+Lee Whittlesey wrote a book about Yellowstone National Park.
+The address for the headquarters of Yellowstone National Park is 2 Officers Row, Yellowstone National Park Headquarters, Yellowstone National Park, WY, 82190.

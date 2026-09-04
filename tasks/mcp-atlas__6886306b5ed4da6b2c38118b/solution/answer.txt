@@ -1,4 +1,4 @@
-- El Salvador officially adopted Bitcoin (BTC) as legal tender on September 7, 2021.
-- The closing price of Bitcoin on September 7, 2021, was $52,739.80.
-- The average closing price of Bitcoin over the seven days from September 8 to September 14, 2021, was $45,847.61.
-- The average closing price of Bitcoin for the week following September 7, 2021, was $6,892.19 lower than the closing price on September 7, 2021.
+El Salvador officially adopted Bitcoin (BTC) as legal tender on September 7, 2021.
+The closing price of Bitcoin on September 7, 2021, was $52,739.80.
+The average closing price of Bitcoin over the seven days from September 8 to September 14, 2021, was $45,847.61.
+The average closing price of Bitcoin for the week following September 7, 2021, was $6,892.19 lower than the closing price on September 7, 2021.

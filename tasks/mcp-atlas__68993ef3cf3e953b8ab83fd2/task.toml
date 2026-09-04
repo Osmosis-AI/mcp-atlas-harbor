@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "68993ef3cf3e953b8ab83fd2"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "68993ef3cf3e953b8ab83fd2"
 enabled_tool_count = 8
-source_enabled_tools = ["f1-mcp-server_get_event_schedule","f1-mcp-server_get_event_info","f1-mcp-server_get_session_results","f1-mcp-server_get_driver_info","f1-mcp-server_analyze_driver_performance","f1-mcp-server_compare_drivers","f1-mcp-server_get_championship_standings","f1-mcp-server_get_telemetry","github_search_repositories","github_search_users","github_get_issue","github_search_issues","github_list_issues","github_list_branches","ddg-search_search","github_get_repository"]
 source_enabled_tool_count = 16
 unavailable_tool_count = 8
 unavailable_tools = ["f1-mcp-server_get_event_schedule","f1-mcp-server_get_event_info","f1-mcp-server_get_session_results","f1-mcp-server_get_driver_info","f1-mcp-server_analyze_driver_performance","f1-mcp-server_compare_drivers","f1-mcp-server_get_championship_standings","f1-mcp-server_get_telemetry"]
@@ -27,8 +24,6 @@ servers = ["ddg-search","github"]
 required_env_vars = ["GITHUB_TOKEN"]
 requires_credentials = true
 credential_free = false
-external_data_servers = []
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

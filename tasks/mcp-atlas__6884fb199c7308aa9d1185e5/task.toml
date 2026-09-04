@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "6884fb199c7308aa9d1185e5"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "6884fb199c7308aa9d1185e5"
 enabled_tool_count = 13
-source_enabled_tools = ["notion_API-get-user","notion_API-get-users","lara-translate_translate","lara-translate_list_languages","github_search_repositories","github_get_file_contents","github_list_commits","github_search_users","github_push_files","github_update_issue","github_add_issue_comment","github_search_issues","github_search_code"]
 source_enabled_tool_count = 13
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["github","lara-translate","notion"]
 required_env_vars = ["GITHUB_TOKEN","LARA_ACCESS_KEY_ID","LARA_ACCESS_KEY_SECRET","NOTION_TOKEN"]
 requires_credentials = true
 credential_free = false
-external_data_servers = ["notion"]
-has_external_mutation_tools = true
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

@@ -1,6 +1,0 @@
-{
-  "ddg-search": "/run/mcp-atlas-backends/public/atlas.sock",
-  "desktop-commander": "/run/mcp-atlas-backends/public/atlas.sock",
-  "fetch": "/run/mcp-atlas-backends/public/atlas.sock",
-  "mcp-code-executor": "/run/mcp-atlas-backends/public/atlas.sock"
-}

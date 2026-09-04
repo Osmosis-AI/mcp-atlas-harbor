@@ -1,2 +1,2 @@
-- On June 17, 2023, the user ate at Home.
-- Employee 392's fourth service occurred on June 17, 2023.
+On June 17, 2023, the user ate at Home.
+Employee 392's fourth service occurred on June 17, 2023.

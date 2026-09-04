@@ -1,4 +1,4 @@
-- The Abraham Lincoln Birthplace National Historical Park is located at 2995 Lincoln Farm Road, Hodgenville, Kentucky 42748.
-- The coordinates of the Abraham Lincoln Birthplace National Historical Park are 37.5858662, -85.67330523.
-- The nearest school within 3 kilometers of the coordinates 37.5858662, -85.67330523 is West School, located at latitude 37.5808947 and longitude -85.6396844.
-- "Abraham Lincoln" is a painting by George Peter Alexander Healy, created in 1860.
+The Abraham Lincoln Birthplace National Historical Park is located at 2995 Lincoln Farm Road, Hodgenville, Kentucky 42748.
+The coordinates of the Abraham Lincoln Birthplace National Historical Park are 37.5858662, -85.67330523.
+The nearest school within 3 kilometers of the coordinates 37.5858662, -85.67330523 is West School, located at latitude 37.5808947 and longitude -85.6396844.
+"Abraham Lincoln" is a painting by George Peter Alexander Healy, created in 1860.

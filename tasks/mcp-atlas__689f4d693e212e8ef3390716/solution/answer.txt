@@ -1,4 +1,4 @@
-- Babe Ruth is the home run king of baseball before 1950.
-- The Met Museum is located on 1000 Fifth Avenue, New York.
-- The most antique baseball card of Babe Ruth in the NY Met Museum is dated 1929 and its dimensions are (7 × 4.4 cm).
-- There is a Github repository of Babe Ruth Statistics named Babe_Ruth_Statistics by the user ainnes84.
+Babe Ruth is the home run king of baseball before 1950.
+The Met Museum is located on 1000 Fifth Avenue, New York.
+The most antique baseball card of Babe Ruth in the NY Met Museum is dated 1929 and its dimensions are (7 × 4.4 cm).
+There is a Github repository of Babe Ruth Statistics named Babe_Ruth_Statistics by the user ainnes84.

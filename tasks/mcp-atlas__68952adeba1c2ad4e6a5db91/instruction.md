@@ -1,1 +1,1 @@
-I was analyzing historical literary figures and their correlation with sales trends. from the month and year when the no mans nightingale author passed away, what was the quantity of vehicles delivered in commercial performance data using the cloud database? 
+I was analyzing historical literary figures and their correlation with sales trends. from the month and year when the no mans nightingale author passed away, what was the quantity of vehicles delivered in commercial performance data using the cloud database?

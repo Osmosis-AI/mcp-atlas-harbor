@@ -1,4 +1,4 @@
-- The investment period begins on June 10, 2014, the publication date of the paper "Generative Adversarial Networks
-- The investment period ends on June 12, 2017, the publication date of the paper "Attention Is All You Need
-- A $1000 investment in Bitcoin on June 10, 2014, would be worth $4161.82 on June 12, 2017.
-- The paper 'Attention Is All You Need' introduced the transformer architecture
+The investment period begins on June 10, 2014, the publication date of the paper "Generative Adversarial Networks
+The investment period ends on June 12, 2017, the publication date of the paper "Attention Is All You Need
+A $1000 investment in Bitcoin on June 10, 2014, would be worth $4161.82 on June 12, 2017.
+The paper 'Attention Is All You Need' introduced the transformer architecture

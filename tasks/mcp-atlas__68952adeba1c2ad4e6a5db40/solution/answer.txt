@@ -1,9 +1,9 @@
-- The department is Modern Art.
-- The Modern Art department has an ID of 21.
-- The year to target is 2021
-- The object ID is 487112 and its title is "Ruba Rombic" Jug.
-- There is one record for the period 2021-12.
-- The unique device type is Mobile.
-- The traffic source is Direct.
-- The visits were 1054.
-- The average time was 4.27 minutes
+The department is Modern Art.
+The Modern Art department has an ID of 21.
+The year to target is 2021
+The object ID is 487112 and its title is "Ruba Rombic" Jug.
+There is one record for the period 2021-12.
+The unique device type is Mobile.
+The traffic source is Direct.
+The visits were 1054.
+The average time was 4.27 minutes

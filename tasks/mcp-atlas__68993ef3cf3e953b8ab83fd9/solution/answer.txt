@@ -1,3 +1,3 @@
-- The user's top two most used cryptocurrencies, in order of most frequency, are Bitcoin (BTC) and Ether (ETH).
-- On 2024-01-24 the BTC  closing price was 40077.074219 USD , based on Coinbase Pro.
-- On 2024-01-24 the ETH  closing price was 2235.03 USD, based on Huobi.
+The user's top two most used cryptocurrencies, in order of most frequency, are Bitcoin (BTC) and Ether (ETH).
+On 2024-01-24 the BTC  closing price was 40077.074219 USD , based on Coinbase Pro.
+On 2024-01-24 the ETH  closing price was 2235.03 USD, based on Huobi.

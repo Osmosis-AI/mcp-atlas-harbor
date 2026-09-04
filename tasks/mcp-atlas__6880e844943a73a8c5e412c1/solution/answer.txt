@@ -1,7 +1,7 @@
-- The ethereum.org domain was registered before the second Bitcoin halving event.
-- The registration date for the ethereum.org domain was November 27, 2013.
-- The date of the second Bitcoin halving event was July 9, 2016.
-- The date of the third Bitcoin halving event was May 11, 2020.
-- The starting reported price of Ethereum (ETH) on the day of the second halving was $10.9957223473.
-- The starting reported price of Ethereum (ETH) on the day of the third halving was $188.137226159.
-- The percentage change in the price of Ethereum (ETH) between the second and third Bitcoin halving events was 1611%.
+The ethereum.org domain was registered before the second Bitcoin halving event.
+The registration date for the ethereum.org domain was November 27, 2013.
+The date of the second Bitcoin halving event was July 9, 2016.
+The date of the third Bitcoin halving event was May 11, 2020.
+The starting reported price of Ethereum (ETH) on the day of the second halving was $10.9957223473.
+The starting reported price of Ethereum (ETH) on the day of the third halving was $188.137226159.
+The percentage change in the price of Ethereum (ETH) between the second and third Bitcoin halving events was 1611%.

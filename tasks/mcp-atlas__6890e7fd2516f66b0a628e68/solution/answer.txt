@@ -1,9 +1,9 @@
-- The Estádio Olímpico Nilton Santos is also known as Engenhão.
-- The Estádio Olímpico Nilton Santos is the home stadium of Botafogo de Futebol e Regatas.
-- Botafogo de Futebol e Regatas is commonly known as Botafogo.
-- The name of the shopping mall that contains the word "Botafogo" is Botafogo Praia Shopping.
-- Botafogo Praia Shopping is located in the Botafogo Neighborhood.
-- The name of the Red and Black soccer team is Flamengo.
-- Flamengo is the name of a neighborhood that is next to the Botafogo neighborhood.
-- Rua Cruz Lima is a street in the Flamengo neighborhood.
-- The rounded kilometer distance from Rua Cruz Lima Street to Botafogo Praia Shopping is 2 kilometers.
+The Estádio Olímpico Nilton Santos is also known as Engenhão.
+The Estádio Olímpico Nilton Santos is the home stadium of Botafogo de Futebol e Regatas.
+Botafogo de Futebol e Regatas is commonly known as Botafogo.
+The name of the shopping mall that contains the word "Botafogo" is Botafogo Praia Shopping.
+Botafogo Praia Shopping is located in the Botafogo Neighborhood.
+The name of the Red and Black soccer team is Flamengo.
+Flamengo is the name of a neighborhood that is next to the Botafogo neighborhood.
+Rua Cruz Lima is a street in the Flamengo neighborhood.
+The rounded kilometer distance from Rua Cruz Lima Street to Botafogo Praia Shopping is 2 kilometers.

@@ -1,1 +1,1 @@
-I'm going to Gunnison Park on august 20, 2025, and I need to know the campsites available there. I'm going to do some stargazing, so I'd like to know the phase of the moon on that night. 
+I'm going to Gunnison Park on august 20, 2025, and I need to know the campsites available there. I'm going to do some stargazing, so I'd like to know the phase of the moon on that night.

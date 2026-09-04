@@ -1,1 +1,1 @@
-I want to visit the department of modern art, but only if it has the painting street story quilt. I love it, and they say the artist's first art with the story quilt technique is named who's afraid of aunt jemima. Is this true? 
+I want to visit the department of modern art, but only if it has the painting street story quilt. I love it, and they say the artist's first art with the story quilt technique is named who's afraid of aunt jemima. Is this true?

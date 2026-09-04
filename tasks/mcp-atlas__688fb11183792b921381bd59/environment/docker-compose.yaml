@@ -2,7 +2,7 @@ services:
   main:
     depends_on:
       mcp-atlas-gateway:
-        condition: service_started
+        condition: service_healthy
     networks:
       - mcp-front
 
@@ -12,7 +12,7 @@ services:
       - /agent-environment/.venv/bin/python
       - /harbor/harbor_mcp_bridge.py
     environment:
-      MCP_ATLAS_BACKENDS_FILE: /harbor/atlas_backends.json
+      MCP_ATLAS_BASE_URL: http://mcp-atlas-runtime:1984
       MCP_ATLAS_ENABLED_TOOLS_FILE: /harbor/enabled_tools.json
       MCP_ATLAS_STARTUP_TIMEOUT_SEC: "240"
       MCP_ATLAS_TIMEOUT_SEC: "180"
@@ -22,34 +22,33 @@ services:
     volumes:
       - ./harbor_mcp_bridge.py:/harbor/harbor_mcp_bridge.py:ro,z
       - ./enabled_tools.json:/harbor/enabled_tools.json:ro,z
-      - ./atlas_backends.json:/harbor/atlas_backends.json:ro,z
-      - type: volume
-        source: mcp-atlas-public-socket
-        target: /run/mcp-atlas-backends/public
-        read_only: true
-      - type: volume
-        source: mcp-atlas-airtable-socket
-        target: /run/mcp-atlas-backends/airtable
-        read_only: true
-      - type: volume
-        source: mcp-atlas-google-maps-socket
-        target: /run/mcp-atlas-backends/google-maps
-        read_only: true
-      - type: volume
-        source: mcp-atlas-mongodb-socket
-        target: /run/mcp-atlas-backends/mongodb
-        read_only: true
-    expose:
-      - "18765"
     depends_on:
-      mcp-atlas-public:
-        condition: service_started
-      mcp-atlas-airtable:
-        condition: service_started
-      mcp-atlas-google-maps:
-        condition: service_started
-      mcp-atlas-mongodb:
-        condition: service_started
+      mcp-atlas-runtime:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen('http://localhost:18765/healthz',timeout=5).read()
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 10s
+    init: true
+    networks:
+      - mcp-front
+      - mcp-backend
+
+  mcp-atlas-runtime:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    environment:
+      ENABLED_SERVERS: "airtable,google-maps,mongodb,wikipedia"
+      AIRTABLE_API_KEY: "${AIRTABLE_API_KEY:-}"
+      GOOGLE_MAPS_API_KEY: "${GOOGLE_MAPS_API_KEY:-}"
+      MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
     healthcheck:
       test:
         - CMD
@@ -57,153 +56,16 @@ services:
         - -c
         - >-
           import json,urllib.request;
-          response=urllib.request.urlopen('http://localhost:18765/healthz',timeout=5);
-          raise SystemExit(0 if response.status == 200 and json.load(response).get('status') == 'ok' else 1)
-      interval: 5s
-      timeout: 10s
-      retries: 36
-      start_period: 10s
-    init: true
-    cap_drop:
-      - ALL
-    security_opt:
-      - no-new-privileges:true
-    networks:
-      - mcp-front
-
-  mcp-atlas-public:
-    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
-    entrypoint:
-      - /agent-environment/.venv/bin/python
-      - /harbor/atlas_entrypoint.py
-    environment:
-      ENABLED_SERVERS: "wikipedia"
-      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
-      MCP_ATLAS_REQUIRED_ENV: ""
-      UV_CONSTRAINT: /harbor/uv-constraints.txt
-      # No Atlas credentials are required by this task.
-    volumes:
-      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
-      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
-      - type: volume
-        source: mcp-atlas-public-socket
-        target: /run/mcp-atlas
-    healthcheck:
-      test:
-        - CMD
-        - /agent-environment/.venv/bin/python
-        - /harbor/atlas_entrypoint.py
-        - --check
+          data=json.load(urllib.request.urlopen('http://localhost:1984/health',timeout=5));
+          raise SystemExit(0 if data.get('status') == 'health_and_client_connection_ok' else 1)
       interval: 5s
       timeout: 10s
       retries: 36
       start_period: 30s
     init: true
     networks:
-      - mcp-atlas-public-egress
-
-  mcp-atlas-airtable:
-    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
-    entrypoint:
-      - /agent-environment/.venv/bin/python
-      - /harbor/atlas_entrypoint.py
-    environment:
-      ENABLED_SERVERS: "airtable"
-      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
-      MCP_ATLAS_REQUIRED_ENV: "AIRTABLE_API_KEY"
-      UV_CONSTRAINT: /harbor/uv-constraints.txt
-      AIRTABLE_API_KEY: "${AIRTABLE_API_KEY:-}"
-    volumes:
-      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
-      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
-      - type: volume
-        source: mcp-atlas-airtable-socket
-        target: /run/mcp-atlas
-    healthcheck:
-      test:
-        - CMD
-        - /agent-environment/.venv/bin/python
-        - /harbor/atlas_entrypoint.py
-        - --check
-      interval: 5s
-      timeout: 10s
-      retries: 36
-      start_period: 30s
-    init: true
-    networks:
-      - mcp-atlas-airtable-egress
-
-  mcp-atlas-google-maps:
-    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
-    entrypoint:
-      - /agent-environment/.venv/bin/python
-      - /harbor/atlas_entrypoint.py
-    environment:
-      ENABLED_SERVERS: "google-maps"
-      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
-      MCP_ATLAS_REQUIRED_ENV: "GOOGLE_MAPS_API_KEY"
-      UV_CONSTRAINT: /harbor/uv-constraints.txt
-      GOOGLE_MAPS_API_KEY: "${GOOGLE_MAPS_API_KEY:-}"
-    volumes:
-      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
-      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
-      - type: volume
-        source: mcp-atlas-google-maps-socket
-        target: /run/mcp-atlas
-    healthcheck:
-      test:
-        - CMD
-        - /agent-environment/.venv/bin/python
-        - /harbor/atlas_entrypoint.py
-        - --check
-      interval: 5s
-      timeout: 10s
-      retries: 36
-      start_period: 30s
-    init: true
-    networks:
-      - mcp-atlas-google-maps-egress
-
-  mcp-atlas-mongodb:
-    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
-    entrypoint:
-      - /agent-environment/.venv/bin/python
-      - /harbor/atlas_entrypoint.py
-    environment:
-      ENABLED_SERVERS: "mongodb"
-      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
-      MCP_ATLAS_REQUIRED_ENV: "MONGODB_CONNECTION_STRING"
-      UV_CONSTRAINT: /harbor/uv-constraints.txt
-      MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
-    volumes:
-      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
-      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
-      - type: volume
-        source: mcp-atlas-mongodb-socket
-        target: /run/mcp-atlas
-    healthcheck:
-      test:
-        - CMD
-        - /agent-environment/.venv/bin/python
-        - /harbor/atlas_entrypoint.py
-        - --check
-      interval: 5s
-      timeout: 10s
-      retries: 36
-      start_period: 30s
-    init: true
-    networks:
-      - mcp-atlas-mongodb-egress
-
-volumes:
-  mcp-atlas-public-socket:
-  mcp-atlas-airtable-socket:
-  mcp-atlas-google-maps-socket:
-  mcp-atlas-mongodb-socket:
+      - mcp-backend
 
 networks:
   mcp-front:
-  mcp-atlas-public-egress:
-  mcp-atlas-airtable-egress:
-  mcp-atlas-google-maps-egress:
-  mcp-atlas-mongodb-egress:
+  mcp-backend:

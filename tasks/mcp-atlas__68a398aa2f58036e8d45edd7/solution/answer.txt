@@ -1,4 +1,4 @@
-- The paper titled 'Unique continuation for locally uniformly distributed measures' was published on January 23, 2025.
-- February 29, 2024 is the last day of the following month in the previous year relative to January 23, 2025.
-- On February 29, 2024, the reported opening price of the QQQ ETF was $438.23001 USD.
-- On February 29, 2024, the reported Relative Strength Index (RSI) of the QQQ ETF was 62.085756.
+The paper titled 'Unique continuation for locally uniformly distributed measures' was published on January 23, 2025.
+February 29, 2024 is the last day of the following month in the previous year relative to January 23, 2025.
+On February 29, 2024, the reported opening price of the QQQ ETF was $438.23001 USD.
+On February 29, 2024, the reported Relative Strength Index (RSI) of the QQQ ETF was 62.085756.

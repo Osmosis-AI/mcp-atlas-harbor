@@ -1,3 +1,3 @@
-- Suzanne Collins was born in 1962.
-- According to the Car Dealership database, 3 employees left human resources in the first quarter of 2022.
-- According to the Car Dealership database, 8 employees left human resources in the third quarter of 2022.
+Suzanne Collins was born in 1962.
+According to the Car Dealership database, 3 employees left human resources in the first quarter of 2022.
+According to the Car Dealership database, 8 employees left human resources in the third quarter of 2022.

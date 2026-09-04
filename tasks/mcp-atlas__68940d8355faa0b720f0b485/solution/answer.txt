@@ -1,1 +1,1 @@
-- There are no files left unstaged in the local git repository `storyteller`.
+There are no files left unstaged in the local git repository `storyteller`.

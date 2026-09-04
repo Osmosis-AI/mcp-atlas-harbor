@@ -1,4 +1,4 @@
-- According to the local pet care financial data, the total profits amounted to $342,870.
-- According to the local pet care financial data, the training services revenue amounted to $242,466.
-- According to the local pet care financial data, the latest end date was December 31, 2023.
-- On December 31, 2023, the moonrise time in Seattle was 09:24 PM.
+According to the local pet care financial data, the total profits amounted to $342,870.
+According to the local pet care financial data, the training services revenue amounted to $242,466.
+According to the local pet care financial data, the latest end date was December 31, 2023.
+On December 31, 2023, the moonrise time in Seattle was 09:24 PM.

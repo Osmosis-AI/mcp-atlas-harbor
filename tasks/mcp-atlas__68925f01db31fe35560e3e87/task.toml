@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "68925f01db31fe35560e3e87"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "68925f01db31fe35560e3e87"
 enabled_tool_count = 15
-source_enabled_tools = ["mongodb_list-collections","mongodb_list-databases","mongodb_collection-schema","mongodb_aggregate","airtable_list_bases","airtable_list_tables","airtable_list_records","airtable_search_records","airtable_get_record","exa_web_search_exa","github_search_repositories","github_search_code","github_search_users","github_get_issue","git_git_diff_unstaged"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["airtable","exa","git","github","mongodb"]
 required_env_vars = ["AIRTABLE_API_KEY","EXA_API_KEY","GITHUB_TOKEN","MONGODB_CONNECTION_STRING"]
 requires_credentials = true
 credential_free = false
-external_data_servers = ["airtable","mongodb"]
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

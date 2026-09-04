@@ -18,9 +18,8 @@ Public dataset:
 Modifications by the Harbor authors include schema normalization,
 deterministic Harbor packaging, removal and explicit recording of four
 unavailable distractor server prefixes, omission of reference trajectories,
-per-task MCP allowlist enforcement, credential-isolated container topology,
-ATIF-aware final-answer extraction, Harbor-compatible claim scoring,
-release manifests, and dataset registry views.
+per-task MCP allowlist enforcement, a REST-to-MCP bridge, Harbor-compatible
+claim scoring, release manifests, and dataset registry views.
 
 MCP-Atlas source code is MIT licensed. Harbor-authored code in this
 distribution is Apache-2.0 licensed. Benchmark-derived data is CC BY 4.0

@@ -1,7 +1,7 @@
-- The country referenced by the user is Chile.
-- The flag of Chile resembles the flag of Texas.
-- Hayao Miyazaki made at least one movie between 2020 and 2025.
-- Hayao Miyazaki made the movie ¨**The Boy and the Heron**.
-- *The Boy and the Heron** is a movie from the year 2023.
-- The southernmost city of Chile is **Punta Arenas**.
-- The elevation of Punta Arenas is **34.33** rounded to two decimals.
+The country referenced by the user is Chile.
+The flag of Chile resembles the flag of Texas.
+Hayao Miyazaki made at least one movie between 2020 and 2025.
+Hayao Miyazaki made the movie ¨**The Boy and the Heron**.
+*The Boy and the Heron** is a movie from the year 2023.
+The southernmost city of Chile is **Punta Arenas**.
+The elevation of Punta Arenas is **34.33** rounded to two decimals.

@@ -1,5 +1,5 @@
-- The two most populous cities in the United States are New York and Los Angeles.
-- The two most populous cities in Brazil are São Paulo and Rio de Janeiro.
-- The distance from New York to Los Angeles is 4,489 kilometers.
-- The distance from São Paulo to Rio de Janeiro is 446 kilometers.
-- The distance between New York and Los Angeles is greater than the distance between São Paulo and Rio de Janeiro.
+The two most populous cities in the United States are New York and Los Angeles.
+The two most populous cities in Brazil are São Paulo and Rio de Janeiro.
+The distance from New York to Los Angeles is 4,489 kilometers.
+The distance from São Paulo to Rio de Janeiro is 446 kilometers.
+The distance between New York and Los Angeles is greater than the distance between São Paulo and Rio de Janeiro.

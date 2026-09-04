@@ -1,4 +1,4 @@
-- It takes 13 minutes to walk from the intersection of East 77th Street and East 78th Street in Manhattan to 1000 Fifth Avenue, New York, NY 10028.
-- The book that the user is referring to is titled "1984
-- George Orwell is the author of "1984
-- The image of George Orwell is available at covers.openlibrary.org/a/.../OL118077A-L.jpg.
+It takes 13 minutes to walk from the intersection of East 77th Street and East 78th Street in Manhattan to 1000 Fifth Avenue, New York, NY 10028.
+The book that the user is referring to is titled "1984
+George Orwell is the author of "1984
+The image of George Orwell is available at covers.openlibrary.org/a/.../OL118077A-L.jpg.

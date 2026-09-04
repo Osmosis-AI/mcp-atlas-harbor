@@ -1,4 +1,4 @@
-- The user "mcpdumle" made a recommendation in the #movie-suggestions private Slack channel.
-- The user "mcpdumle" made a recommendation about Napoleon Dynamite.
-- The user "mcpdumple" posted on 2025-06-27 at 16:38:56.421649+00:00.
-- Napoleon is the French leader who was exiled to Santa Helena Island.
+The user "mcpdumle" made a recommendation in the #movie-suggestions private Slack channel.
+The user "mcpdumle" made a recommendation about Napoleon Dynamite.
+The user "mcpdumple" posted on 2025-06-27 at 16:38:56.421649+00:00.
+Napoleon is the French leader who was exiled to Santa Helena Island.

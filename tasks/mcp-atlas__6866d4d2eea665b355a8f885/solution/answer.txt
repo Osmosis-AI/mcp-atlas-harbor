@@ -1,3 +1,3 @@
-- There is a game recommendation message found in the Slack "#gaming-suggestions" channel that states: "One of my favorite games growing up was Paper Mario and the Thousand Year Old Door on the Nintendo GameCube.
-- Paper Mario: The Thousand-Year Door is a single-player game released in 2004 for the Nintendo GameCube developed by Intelligent Systems.
-- Fire Emblem Gaiden was developed by Intelligent Systems.
+There is a game recommendation message found in the Slack "#gaming-suggestions" channel that states: "One of my favorite games growing up was Paper Mario and the Thousand Year Old Door on the Nintendo GameCube.
+Paper Mario: The Thousand-Year Door is a single-player game released in 2004 for the Nintendo GameCube developed by Intelligent Systems.
+Fire Emblem Gaiden was developed by Intelligent Systems.

@@ -1,5 +1,5 @@
-- Anita Brookner died on March 10, 2016.
-- The article "Template Matching via Densities on the Roto-Translation Group" was published on March 10, 2016.
-- The article "Template Matching via Densities on the Roto-Translation Group" is about a template matching method for detection in 2D images.
-- Devils Postpile National Monument was established in 1911 by Presidential Proclamation
-- Devils Postpile National Monument is in California.
+Anita Brookner died on March 10, 2016.
+The article "Template Matching via Densities on the Roto-Translation Group" was published on March 10, 2016.
+The article "Template Matching via Densities on the Roto-Translation Group" is about a template matching method for detection in 2D images.
+Devils Postpile National Monument was established in 1911 by Presidential Proclamation
+Devils Postpile National Monument is in California.

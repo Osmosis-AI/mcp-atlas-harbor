@@ -1,5 +1,5 @@
-- According to "Top Movies.csv", the movie marked as "Watched" with the highest personal rating is Avengers: Infinity War.
-- According to "Top Movies.csv", Avengers: Infinity War has an IMDb rating of 8.5.
-- According to "Top Movies.csv", Avengers: Infinity War has a runtime of 149 minutes.
-- According to "Top Movies.csv", Avengers: Infinity War belongs to the Action genre.
-- Avengers: Infinity War was released in 2018.
+According to "Top Movies.csv", the movie marked as "Watched" with the highest personal rating is Avengers: Infinity War.
+According to "Top Movies.csv", Avengers: Infinity War has an IMDb rating of 8.5.
+According to "Top Movies.csv", Avengers: Infinity War has a runtime of 149 minutes.
+According to "Top Movies.csv", Avengers: Infinity War belongs to the Action genre.
+Avengers: Infinity War was released in 2018.

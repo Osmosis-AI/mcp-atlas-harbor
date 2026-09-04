@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "689af4e653c3905e7b5b25bd"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "689af4e653c3905e7b5b25bd"
 enabled_tool_count = 13
-source_enabled_tools = ["alchemy_fetchTokenPriceHistoryBySymbol","balldontlie_get_teams","balldontlie_get_games","brave-search_brave_web_search","git_git_status","git_git_diff_unstaged","slack_channels_list","slack_conversations_history","slack_conversations_search_messages","slack_conversations_add_message","slack_conversations_replies","met-museum_list-departments","met-museum_search-museum-objects","calculator_calculate","fetch_fetch"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 2
 unavailable_tools = ["balldontlie_get_teams","balldontlie_get_games"]
@@ -27,8 +24,6 @@ servers = ["alchemy","brave-search","calculator","fetch","git","met-museum","sla
 required_env_vars = ["ALCHEMY_API_KEY","BRAVE_API_KEY","SLACK_MCP_XOXC_TOKEN","SLACK_MCP_XOXD_TOKEN"]
 requires_credentials = true
 credential_free = false
-external_data_servers = ["slack"]
-has_external_mutation_tools = true
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

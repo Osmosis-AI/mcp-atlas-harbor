@@ -1,2 +1,2 @@
-- The report of an assault crime that occurred in a restaurant against a 40-year-old victim occurred on 2017-07-22.
-- The average age of assaults suspects between 2017 and 2020 is 32.2 years.
+The report of an assault crime that occurred in a restaurant against a 40-year-old victim occurred on 2017-07-22.
+The average age of assaults suspects between 2017 and 2020 is 32.2 years.

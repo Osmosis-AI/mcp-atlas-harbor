@@ -1,3 +1,3 @@
-- The month among all years in which the Car Dealership achieved the highest single-month sales revenue from the sedan category was May 2018.
-- The Car Dealership's total sales revenue in May 2018 was $472608,20.
-- The moon phase in New York on May 1, 2018, was Waning Gibbous.
+The month among all years in which the Car Dealership achieved the highest single-month sales revenue from the sedan category was May 2018.
+The Car Dealership's total sales revenue in May 2018 was $472608,20.
+The moon phase in New York on May 1, 2018, was Waning Gibbous.

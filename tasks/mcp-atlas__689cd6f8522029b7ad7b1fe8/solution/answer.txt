@@ -1,3 +1,3 @@
-- According to the local food consumption data, the food type with the most satisfaction ratings of 5 is vegetarian.
-- According to the local food consumption data, wine accompanies vegetarian meals with satisfaction ratings of 5 a total of 3 times.
-- According to the local food consumption data, coffee accompanies vegetarian meals with satisfaction ratings of 5 a total of 2 times.
+According to the local food consumption data, the food type with the most satisfaction ratings of 5 is vegetarian.
+According to the local food consumption data, wine accompanies vegetarian meals with satisfaction ratings of 5 a total of 3 times.
+According to the local food consumption data, coffee accompanies vegetarian meals with satisfaction ratings of 5 a total of 2 times.

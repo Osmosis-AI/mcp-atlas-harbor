@@ -1,2 +1,2 @@
-- The article "Optimal Control of Fluid Dosing in Hemorrhage Resuscitation" was published on December 11th of 2023.
-- According to the user's cloud database, on December 11th of 2021, the Game Title 116 was sold in the Video Games Store.
+The article "Optimal Control of Fluid Dosing in Hemorrhage Resuscitation" was published on December 11th of 2023.
+According to the user's cloud database, on December 11th of 2021, the Game Title 116 was sold in the Video Games Store.

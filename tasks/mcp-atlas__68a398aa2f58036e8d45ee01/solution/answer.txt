@@ -1,3 +1,3 @@
-- The user's local PC files contain a repository in the folder /data/repos/balldontlie-mcp.
-- balldontlie-mcp is sports-related repository.
-- On Github, the repository balldontlie-mcp has a total of 54 commits made between its creation and August 6, 2025.
+The user's local PC files contain a repository in the folder /data/repos/balldontlie-mcp.
+balldontlie-mcp is sports-related repository.
+On Github, the repository balldontlie-mcp has a total of 54 commits made between its creation and August 6, 2025.

@@ -1,3 +1,3 @@
-- The motto "Avant, avant, Lion le melhor!" belongs to the city of Lyon, France.
-- According to the 2015 INSEE census data, the population of Lyon (aged 15 and over) was 1,115,678.
-- A project with a 50 million USD budget for a population of 1,115,678 has a per-capita cost of 44.81579810662216 USD.
+The motto "Avant, avant, Lion le melhor!" belongs to the city of Lyon, France.
+According to the 2015 INSEE census data, the population of Lyon (aged 15 and over) was 1,115,678.
+A project with a 50 million USD budget for a population of 1,115,678 has a per-capita cost of 44.81579810662216 USD.

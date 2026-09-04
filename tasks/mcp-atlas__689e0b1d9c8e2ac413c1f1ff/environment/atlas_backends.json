@@ -1,5 +1,0 @@
-{
-  "github": "/run/mcp-atlas-backends/github/atlas.sock",
-  "national-parks": "/run/mcp-atlas-backends/national-parks/atlas.sock",
-  "oxylabs": "/run/mcp-atlas-backends/oxylabs/atlas.sock"
-}

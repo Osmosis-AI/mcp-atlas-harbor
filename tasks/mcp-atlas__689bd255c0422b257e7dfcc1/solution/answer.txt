@@ -1,5 +1,5 @@
-- The first clinical rounds event in July 2025 occurred on July 2, 2025.
-- The last clinical rounds event in July 2025 occurred on July 31, 2025.
-- The price of Ethereum on July 2, 2025, was 2405.10455928.
-- The price of Ethereum on July 31, 2025, was 3807.4166010824.
-- The percentage growth of Ethereum between these two dates was 58.305658121666056%.
+The first clinical rounds event in July 2025 occurred on July 2, 2025.
+The last clinical rounds event in July 2025 occurred on July 31, 2025.
+The price of Ethereum on July 2, 2025, was 2405.10455928.
+The price of Ethereum on July 31, 2025, was 3807.4166010824.
+The percentage growth of Ethereum between these two dates was 58.305658121666056%.

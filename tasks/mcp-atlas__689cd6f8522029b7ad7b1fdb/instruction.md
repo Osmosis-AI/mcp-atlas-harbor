@@ -1,1 +1,1 @@
-I was looking at an artwork named old faithful geyser in the biggest museum in new york and I got curious about the address of the headquarters of the national park that was depicted in the artwork, can you get it? 
+I was looking at an artwork named old faithful geyser in the biggest museum in new york and I got curious about the address of the headquarters of the national park that was depicted in the artwork, can you get it?

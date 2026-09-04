@@ -1,5 +1,5 @@
-- Michael Thompson is connected to the profession of civil engineering.
-- The American Society of Civil Engineers (ASCE) is an American professional society founded in 1852.
-- The ASCE is grouped with the Institution of Civil Engineers (ICE) in the category of Global and International Organizations.
-- The ASCE is grouped with the International Federation of Consulting Engineers (FIDIC) in the category of Global and International Organizations.
-- The ASCE is grouped with the World Federation of Engineering Organizations (WFEO) in the category of Global and International Organizations.
+Michael Thompson is connected to the profession of civil engineering.
+The American Society of Civil Engineers (ASCE) is an American professional society founded in 1852.
+The ASCE is grouped with the Institution of Civil Engineers (ICE) in the category of Global and International Organizations.
+The ASCE is grouped with the International Federation of Consulting Engineers (FIDIC) in the category of Global and International Organizations.
+The ASCE is grouped with the World Federation of Engineering Organizations (WFEO) in the category of Global and International Organizations.

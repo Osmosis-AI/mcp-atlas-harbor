@@ -1,2 +1,2 @@
-- Based on the local crime data, the average age of suspects who committed robbery between 2016 and 2021 is 32.60 years.
-- Based on the local crime data, the most frequent location where robbery occurred between 2016 and 2021 is Bank.
+Based on the local crime data, the average age of suspects who committed robbery between 2016 and 2021 is 32.60 years.
+Based on the local crime data, the most frequent location where robbery occurred between 2016 and 2021 is Bank.

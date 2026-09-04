@@ -21,14 +21,3 @@ Generated task configuration references, but does not redistribute, these images
 - `python:3.12-slim-bookworm@sha256:782412e85d0f0984994c290652577d4018aff08145c85b262bb63dc0c7522254`
 
 The images and packages they contain remain governed by their own upstream licenses and notices. No image tarball or derivative image is distributed by this repository.
-
-## Referenced MCP server sources
-
-The runtime records immutable revisions for Git-based MCP servers:
-
-- GitHub: `68368436034fb0003a6d8ed91afc9d0a64142b84`
-- PubMed: `e452cfc7d23cd4c0248c177d7814df3d9e82ea3b`
-- Weather: `3474c7841d00f5f40c087c5d2188a5c0f41bd134`
-- Weather data: `70b6a7c8183c8a3acc175f786f4b7be9c2ba66e4`
-
-Those projects are fetched or used by the referenced runtime and are not vendored as source archives here. Their own licenses apply.

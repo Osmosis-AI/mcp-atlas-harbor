@@ -1,5 +1,5 @@
-- The macOS version released in 2014 was called Yosemite.
-- Yosemite shares its name with Yosemite National Park in California.
-- The movie referred to in the prompt as "The Maze of Pan" is actually "Pan's Labyrinth
-- Pan's Labyrinth was originally spoken in Spanish.
-- The official description of Yosemite National Park in Spanish is: "No solo un gran valle, sino un santuario para la previsión humana, la fuerza del granito, el poder de los glaciares, la persistencia de la vida y la tranquilidad de la Alta Sierra. El Parque Nacional de Yosemite, protegido por primera vez en 1864, es más conocido por sus cascadas, pero en sus casi 3100 km² también puedes encontrar valles profundos, grandes praderas, antiguas secuoyas gigantes, una vasta área silvestre y mucho más.
+The macOS version released in 2014 was called Yosemite.
+Yosemite shares its name with Yosemite National Park in California.
+The movie referred to in the prompt as "The Maze of Pan" is actually "Pan's Labyrinth
+Pan's Labyrinth was originally spoken in Spanish.
+The official description of Yosemite National Park in Spanish is: "No solo un gran valle, sino un santuario para la previsión humana, la fuerza del granito, el poder de los glaciares, la persistencia de la vida y la tranquilidad de la Alta Sierra. El Parque Nacional de Yosemite, protegido por primera vez en 1864, es más conocido por sus cascadas, pero en sus casi 3100 km² también puedes encontrar valles profundos, grandes praderas, antiguas secuoyas gigantes, una vasta área silvestre y mucho más.

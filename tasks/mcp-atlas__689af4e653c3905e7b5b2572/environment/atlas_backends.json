@@ -1,5 +1,0 @@
-{
-  "airtable": "/run/mcp-atlas-backends/airtable/atlas.sock",
-  "brave-search": "/run/mcp-atlas-backends/brave-search/atlas.sock",
-  "github": "/run/mcp-atlas-backends/github/atlas.sock"
-}

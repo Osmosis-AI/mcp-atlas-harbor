@@ -1,8 +1,8 @@
 [
   {
     "name": "mcp-atlas",
-    "version": "1.0.3",
-    "description": "Full public MCP-Atlas task set converted to Harbor.",
+    "version": "1.0.4",
+    "description": "Full public MCP-Atlas task set.",
     "tasks": [
       {
         "name": "mcp-atlas__6863f438a500a4b36aab0f24",
@@ -2008,8 +2008,8 @@
   },
   {
     "name": "mcp-atlas-credential-free",
-    "version": "1.0.3",
-    "description": "Strict subset whose complete original tool allowlist uses no API credentials.",
+    "version": "1.0.4",
+    "description": "Tasks whose Atlas servers need no credentials.",
     "tasks": [
       {
         "name": "mcp-atlas__6863f438a500a4b36aab0f24",
@@ -2135,28 +2135,12 @@
   },
   {
     "name": "mcp-atlas-smoke",
-    "version": "1.0.3",
-    "description": "Five-task credential-free deployment smoke.",
+    "version": "1.0.4",
+    "description": "Credential-free deployment smoke task.",
     "tasks": [
       {
-        "name": "mcp-atlas__6863f438a500a4b36aab0f24",
-        "path": "tasks/mcp-atlas__6863f438a500a4b36aab0f24"
-      },
-      {
-        "name": "mcp-atlas__686bdf0ca7f3bf48518a1738",
-        "path": "tasks/mcp-atlas__686bdf0ca7f3bf48518a1738"
-      },
-      {
-        "name": "mcp-atlas__686d2c79e1db37ea23ddd9fa",
-        "path": "tasks/mcp-atlas__686d2c79e1db37ea23ddd9fa"
-      },
-      {
-        "name": "mcp-atlas__686d2c79e1db37ea23ddda26",
-        "path": "tasks/mcp-atlas__686d2c79e1db37ea23ddda26"
-      },
-      {
-        "name": "mcp-atlas__688706e2ca6b330849710721",
-        "path": "tasks/mcp-atlas__688706e2ca6b330849710721"
+        "name": "mcp-atlas__68a398aa2f58036e8d45ee0c",
+        "path": "tasks/mcp-atlas__68a398aa2f58036e8d45ee0c"
       }
     ]
   }

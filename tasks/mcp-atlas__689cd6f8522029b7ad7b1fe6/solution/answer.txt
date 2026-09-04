@@ -1,4 +1,4 @@
-- The author of La mia storia tra le dita is Gianluca Grignani.
-- Gianluca Grignani is an Italian singer-songwriter.
-- The first commit in the repository metmuseum-mcp was made on April 9, 2025.
-- On April 9, 2025, the Italian violinist Roberto Salvatore Cani passed away.
+The author of La mia storia tra le dita is Gianluca Grignani.
+Gianluca Grignani is an Italian singer-songwriter.
+The first commit in the repository metmuseum-mcp was made on April 9, 2025.
+On April 9, 2025, the Italian violinist Roberto Salvatore Cani passed away.

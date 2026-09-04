@@ -1,4 +1,4 @@
-- The television series suggested by your colleague is called Mad Men (released the same year of the super bowl XLI, 2007)
-- The actor who plays the main character in the series Mad Men is named Jon Hamm.
-- Mad Men won 16 Emmys and 5 Golden Globes.
-- The series Mad Men has an imdb rating of 8.7.
+The television series suggested by your colleague is called Mad Men (released the same year of the super bowl XLI, 2007)
+The actor who plays the main character in the series Mad Men is named Jon Hamm.
+Mad Men won 16 Emmys and 5 Golden Globes.
+The series Mad Men has an imdb rating of 8.7.

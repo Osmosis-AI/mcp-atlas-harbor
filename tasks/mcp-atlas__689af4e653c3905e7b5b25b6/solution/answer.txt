@@ -1,3 +1,3 @@
-- The first commit to the local snake game repository was made on November 24, 2022.
-- On November 24, 2022, the opening price of ETH in USD was 1184.48999.
-- On November 24, 2022, the cost of 5 ETH at the opening price was 5922.44995 USD.
+The first commit to the local snake game repository was made on November 24, 2022.
+On November 24, 2022, the opening price of ETH in USD was 1184.48999.
+On November 24, 2022, the cost of 5 ETH at the opening price was 5922.44995 USD.

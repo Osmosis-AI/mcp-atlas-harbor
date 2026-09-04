@@ -1,1 +1,1 @@
-Which issue was the first created in the official tensorflow repository in the same year that max verstappen became formula one world champion for the first time? 
+Which issue was the first created in the official tensorflow repository in the same year that max verstappen became formula one world champion for the first time?

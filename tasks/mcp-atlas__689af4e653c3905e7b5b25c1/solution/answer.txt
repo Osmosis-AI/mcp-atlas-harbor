@@ -1,4 +1,4 @@
-- The person in the local graph who speaks both Spanish and Mandarin is Sofia Reyes.
-- "Hello there my friend" in Spanish is "hola, amigo
-- "Hello there my friend" in Mandarin is "你好，我的朋友
-- The Mexican singer named Sofia Reyes was born in Monterrey, Mexico.
+The person in the local graph who speaks both Spanish and Mandarin is Sofia Reyes.
+"Hello there my friend" in Spanish is "hola, amigo
+"Hello there my friend" in Mandarin is "你好，我的朋友
+The Mexican singer named Sofia Reyes was born in Monterrey, Mexico.

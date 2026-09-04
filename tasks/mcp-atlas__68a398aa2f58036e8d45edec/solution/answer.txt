@@ -1,2 +1,2 @@
-- The game is Game Title 175.
-- The genre of the game Game Title 175 is Puzzle.
+The game is Game Title 175.
+The genre of the game Game Title 175 is Puzzle.

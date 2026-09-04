@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "689cd6f8522029b7ad7b2007"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "689cd6f8522029b7ad7b2007"
 enabled_tool_count = 14
-source_enabled_tools = ["memory_read_graph","memory_search_nodes","memory_open_nodes","slack_channels_list","slack_conversations_add_message","oxylabs_universal_scraper","oxylabs_google_search_scraper","oxylabs_amazon_search_scraper","weather-data_weather_history","weather-data_weather_astronomy","cli-mcp-server_run_command","cli-mcp-server_show_security_rules","notion_API-get-user","notion_API-get-users"]
 source_enabled_tool_count = 14
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["cli-mcp-server","memory","notion","oxylabs","slack","weather-data"]
 required_env_vars = ["NOTION_TOKEN","OXYLABS_PASSWORD","OXYLABS_USERNAME","SLACK_MCP_XOXC_TOKEN","SLACK_MCP_XOXD_TOKEN","WEATHER_API_KEY"]
 requires_credentials = true
 credential_free = false
-external_data_servers = ["notion","slack"]
-has_external_mutation_tools = true
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

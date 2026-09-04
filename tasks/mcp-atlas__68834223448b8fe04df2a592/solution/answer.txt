@@ -1,6 +1,6 @@
-- According to the database, there are five apartments built in 2017.
-- 2017 is the year Hurricane Harvey hit the United States.
-- The five apartments in the database each have 2 bedrooms.
-- The five apartments in the database each have a 12-month lease.
-- The five apartments in the database each have premium amenities.
-- The average rent of the five apartments in the database is 2,679.
+According to the database, there are five apartments built in 2017.
+2017 is the year Hurricane Harvey hit the United States.
+The five apartments in the database each have 2 bedrooms.
+The five apartments in the database each have a 12-month lease.
+The five apartments in the database each have premium amenities.
+The average rent of the five apartments in the database is 2,679.

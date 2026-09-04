@@ -1,5 +1,5 @@
-- There's a 2024 paper by Jane Castleman with the title "Why am I Still Seeing This: Measuring the Effectiveness Of Ad Controls and Explanations in AI-Mediated Ad Targeting Systems
-- The abstract of the paper with title "Why am I Still Seeing This: Measuring the Effectiveness Of Ad Controls and Explanations in AI-Mediated Ad Targeting Systems" is: "Recently, Meta has shifted towards AI-mediated ad targeting mechanisms that
+There's a 2024 paper by Jane Castleman with the title "Why am I Still Seeing This: Measuring the Effectiveness Of Ad Controls and Explanations in AI-Mediated Ad Targeting Systems
+The abstract of the paper with title "Why am I Still Seeing This: Measuring the Effectiveness Of Ad Controls and Explanations in AI-Mediated Ad Targeting Systems" is: "Recently, Meta has shifted towards AI-mediated ad targeting mechanisms that
 do not require advertisers to provide detailed targeting criteria, likely
 driven by excitement over AI capabilities as well as new data privacy policies
 and targeting changes agreed upon in civil rights settlements. At the same
@@ -25,6 +25,6 @@ explainability and transparency tools have not yet been developed. Our work
 thus provides evidence for the need of new methods for transparency and user
 control, suitable and reflective of increasingly complex AI-mediated ad
 delivery systems
-- There's a tie between three advertising campaigns with an engagement rate of 15%.
-- The starting dates of the three winning advertising campaigns are: 2022-06-24, 2019-09-20 and 2017-09-09
-- The localities of the three winning advertisement campaigns are: "National", "International" and "International
+There's a tie between three advertising campaigns with an engagement rate of 15%.
+The starting dates of the three winning advertising campaigns are: 2022-06-24, 2019-09-20 and 2017-09-09
+The localities of the three winning advertisement campaigns are: "National", "International" and "International

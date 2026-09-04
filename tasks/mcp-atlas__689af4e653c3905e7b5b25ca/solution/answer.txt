@@ -1,3 +1,3 @@
-- The article by Wonodi and Knoll about a virus is titled "Oxford-AstraZeneca COVID-19 vaccine efficacy
-- The article "Oxford-AstraZeneca COVID-19 vaccine efficacy" was published in the year 2021.
-- The average GDP growth for the year 2021, calculated from the local "Covid 19 impacts on hospitals.csv" file with duplicate rows removed, is approximately -2.99.
+The article by Wonodi and Knoll about a virus is titled "Oxford-AstraZeneca COVID-19 vaccine efficacy
+The article "Oxford-AstraZeneca COVID-19 vaccine efficacy" was published in the year 2021.
+The average GDP growth for the year 2021, calculated from the local "Covid 19 impacts on hospitals.csv" file with duplicate rows removed, is approximately -2.99.

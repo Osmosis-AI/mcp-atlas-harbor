@@ -1,6 +1,6 @@
-- In the Car Dealership database, employee performance records are not associated with names.
-- There is only one record for "Sales Targets Met" for a "Service" department employee in the third quarter of 2022 that matches Zogarth's description.
-- The employee ID is "D9JtnK" and their score is "1.07
-- There are two authors named Zogarth, both with top works containing the word "Hunter" in their titles.
-- Only one of the authors named Zogarth has more than one book listed.
-- The Open Library Author ID for the Zogarth who has more than one book is "OL10649790A
+In the Car Dealership database, employee performance records are not associated with names.
+There is only one record for "Sales Targets Met" for a "Service" department employee in the third quarter of 2022 that matches Zogarth's description.
+The employee ID is "D9JtnK" and their score is "1.07
+There are two authors named Zogarth, both with top works containing the word "Hunter" in their titles.
+Only one of the authors named Zogarth has more than one book listed.
+The Open Library Author ID for the Zogarth who has more than one book is "OL10649790A

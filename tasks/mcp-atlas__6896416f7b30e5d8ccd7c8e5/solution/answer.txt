@@ -1,3 +1,3 @@
-- In the Marvel Universe, Doctor Strange lives in the Sanctum Sanctorum in New York.
-- The closest pizzeria from the Sanctum Sanctorum is the Artistic Pizza
-- Artistic Pizza is 3 minutes away in walking distance from the Sanctum Sanctorum.
+In the Marvel Universe, Doctor Strange lives in the Sanctum Sanctorum in New York.
+The closest pizzeria from the Sanctum Sanctorum is the Artistic Pizza
+Artistic Pizza is 3 minutes away in walking distance from the Sanctum Sanctorum.

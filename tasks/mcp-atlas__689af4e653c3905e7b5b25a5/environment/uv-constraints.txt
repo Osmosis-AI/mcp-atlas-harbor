@@ -1,2 +1,0 @@
-# Avoid incompatible MCP 2.x resolution in source-based uvx fallbacks.
-mcp>=1.9.3,<2

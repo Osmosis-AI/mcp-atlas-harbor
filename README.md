@@ -1,28 +1,31 @@
 # MCP-Atlas for Harbor
 
-This repository is the immutable, generated [Harbor](https://github.com/Osmosis-AI/harbor) distribution of [Scale AI MCP-Atlas](https://github.com/scaleapi/mcp-atlas), a benchmark for tool-use competency with real Model Context Protocol (MCP) servers.
+This repository contains the generated Harbor distribution of
+[Scale AI MCP-Atlas](https://github.com/scaleapi/mcp-atlas), a benchmark for
+tool use with real Model Context Protocol servers.
 
-Release **v1.0.3** contains the complete pinned public split: **500 tasks**, **1,952 normalized claims**, a strict **30-task credential-free subset**, and a fixed **5-task smoke subset**. Reference trajectories are intentionally excluded.
+Release **v1.0.4** contains the complete pinned public split: **500 tasks** and
+**1,952 normalized claims**. Reference trajectories are intentionally excluded.
 
 ## Datasets
 
 | Dataset | Tasks | Intended use |
 |---|---:|---|
-| `mcp-atlas-smoke@1.0.3` | 5 | First deployment check; credential-free and intentionally small. |
-| `mcp-atlas-credential-free@1.0.3` | 30 | Evaluation without Atlas service credentials. An evaluator model is still required. |
-| `mcp-atlas@1.0.3` | 500 | Full public split; credentials and prepared external-service state may be required. |
+| `mcp-atlas-smoke@1.0.4` | 1 | Credential-free Docker deployment check. |
+| `mcp-atlas-credential-free@1.0.4` | 30 | Evaluation without Atlas service credentials. |
+| `mcp-atlas@1.0.4` | 500 | Full public split; credentials and prepared external state may be required. |
 
-Start with the smoke set on local Docker and one concurrent trial:
+Start with the smoke task:
 
 ```bash
 harbor run \
-  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.3 \
-  --dataset mcp-atlas-smoke@1.0.3 \
+  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.4 \
+  --dataset mcp-atlas-smoke@1.0.4 \
   --agent <agent> \
   --model <model>
 ```
 
-The verifier uses an OpenAI-compatible judge endpoint:
+The claim grader uses an OpenAI-compatible endpoint:
 
 ```bash
 export EVAL_LLM_API_KEY='...'
@@ -30,74 +33,105 @@ export EVAL_LLM_BASE_URL='https://your-endpoint'
 export EVAL_LLM_MODEL='your-judge-model'
 ```
 
-Agent-model credentials are configured normally for the selected Harbor agent.
+## Runtime
 
-## Runtime and safety
+Each task uses the digest-pinned official MCP-Atlas image. Because that image
+exposes Atlas REST endpoints rather than an MCP endpoint, the task includes a
+small streamable-HTTP bridge:
 
-This release officially supports **local Docker only**. MCP-Atlas is resource-heavy; allow at least 8 GB of memory and more than a minute for a cold start. Remote Compose providers and Podman have different startup, networking, mount-label, and secret-injection behavior and are not release-supported here.
+```text
+Harbor agent -> allowlisting MCP bridge -> official MCP-Atlas runtime
+```
 
-Only 30 of 500 tasks have a completely credential-free original tool allowlist. The remaining 470 may need one or more Atlas service credentials and upstream-prepared external state. Export only the credentials required by the selected tasks in the host shell. Never pass Atlas service credentials through Harbor `--agent-env` / `--ae` or task environment variables, because those paths can expose values to the main agent container.
+The bridge exposes only the task's enabled tools. Atlas credentials are
+substituted only into the runtime sidecar; the bridge and main agent do not
+receive them.
 
-The generated topology isolates each credential-bearing server in its own sidecar, egress network, and Unix socket. The agent reaches only an allowlisting MCP gateway and receives neither backend sockets nor Atlas credentials. Use short-lived credentials for disposable accounts with minimum permissions.
+Local Docker is the supported environment. Keep concurrency low because every
+trial starts an Atlas runtime and cold startup can take more than a minute.
 
-**33 tasks expose known mutating tools**, including Slack posting and GitHub create/update operations. Inspect task metadata before running the full dataset, use disposable prepared accounts, and assume a successful tool call can change external state.
+### Credentialed tasks
 
-The official Atlas image is referenced by digest; this repository does not redistribute or publish a derivative container image.
+Only 30 tasks are credential-free. For other tasks, export the required Atlas
+credentials in the host shell before starting Harbor:
+
+```bash
+export GITHUB_TOKEN='short-lived-token-for-a-disposable-account'
+export BRAVE_API_KEY='...'
+```
+
+Do not put Atlas credentials in `--agent-env` or the Harbor agent
+configuration. Some tasks also rely on external accounts prepared for the
+original benchmark, so a valid key alone may not recreate their state.
 
 ## Evaluation fidelity
 
-The adapter preserves each prompt, the available gold tools, the official MCP server implementations, and the official per-claim grades: fulfilled = 1, partially fulfilled = 0.5, and not fulfilled = 0. A task reward is the arithmetic mean rounded to three decimals. The verifier also reports pass indicators at coverage thresholds 0.50 and 0.75.
+The adapter preserves prompts, available official tools, and MCP-Atlas's
+per-claim grades: fulfilled = 1, partially fulfilled = 0.5, and not fulfilled =
+0. The task reward is their arithmetic mean, rounded to three decimals.
 
-The public reference `TRAJECTORY` column is dropped before normalization and is never copied into a task. Ground-truth claims and the oracle answer live only in Harbor verifier/solution surfaces, not in the normal agent environment.
+The source `TRAJECTORY` column is discarded. Claims and oracle answers live in
+Harbor verifier/solution surfaces and are not exposed to a normal agent.
 
-Four obsolete distractor prefixes in the public data—`anili`, `balldontlie`, `f1-mcp-server`, and `rijksmuseum-server`—are absent from the pinned official image. They occur in 85 tasks but are never called by the public reference trajectories. The adapter removes only those unavailable distractors and records the removal in task metadata.
+Four distractor prefixes in the public data are absent from the pinned image:
+`anili`, `balldontlie`, `f1-mcp-server`, and `rijksmuseum-server`. The adapter
+removes those unavailable tools and records them in task metadata. They occur
+in 85 tasks and are not called by the public reference trajectories.
 
-Quantitative original-versus-Harbor model parity has not yet been run. Smoke and oracle validation establish packaging/runtime correctness, not model-score parity.
+Results from live external services can drift. Quantitative
+original-versus-Harbor model parity has not yet been run; conversion and smoke
+validation are not reported as model parity.
 
-## Immutable provenance
+## Pinned provenance
 
 | Input | Pin |
 |---|---|
 | Hugging Face dataset | `ScaleAI/MCP-Atlas` at `8c563b55d7c967755f474299848049834d624617` |
-| Public Parquet | `MCP-Atlas.parquet`, 15,638,757 bytes, SHA-256 `2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0` |
+| Public Parquet | SHA-256 `2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0` |
 | Upstream source | `scaleapi/mcp-atlas` at `f24ba3fb0bfa484c86acb28431fad6d7282455f9` |
-| Harbor adapter | `Osmosis-AI/harbor` at `686608ee693ed210b009ddc620e2c80b9c0c3e81` |
+| Harbor adapter | `Osmosis-AI/harbor` at `034b274ef82534a66c473a467cfe93569f6cbcd9` |
 | Official Atlas image | `ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c` |
-| Main/verifier image | `python:3.12-slim-bookworm@sha256:782412e85d0f0984994c290652577d4018aff08145c85b262bb63dc0c7522254` |
 
-`manifests/mcp-atlas-1.0.3.json` records those inputs, runtime Git pins, every task checksum, subset membership, mutation flags, and removed distractors. Its `dataset.git_commit` is intentionally null because embedding a commit hash in content changes that same commit; the annotated `v1.0.3` tag is the authoritative immutable repository pin.
+`manifests/mcp-atlas-1.0.4.json` records these inputs and every generated task
+checksum. The immutable `v1.0.4` tag pins this repository snapshot.
 
 ## Repository layout
 
 ```text
 .
-├── tasks/                              # 500 generated Harbor task directories
-├── manifests/mcp-atlas-1.0.3.json     # provenance and per-task checksums
-├── registry.json                       # full, credential-free, and smoke views
-├── scripts/release.sh                  # regenerate, validate, and byte-diff
-└── .github/workflows/validate.yml      # reproducibility gate
+├── tasks/                          # 500 Harbor tasks
+├── manifests/mcp-atlas-1.0.4.json # source pins and task checksums
+├── registry.json                   # full, credential-free, and smoke views
+└── scripts/release.sh              # regenerate, validate, and compare
 ```
 
-No raw Parquet, source exports, credentials, trajectories, image archives, or generated evaluation outputs belong in this repository.
+No source exports, credentials, trajectories, image archives, or evaluation
+outputs belong in this repository.
 
 ## Reproduce the release
 
-The check script reads the adapter commit and dataset version from the committed manifest, checks out that exact Harbor revision, downloads and verifies the pinned source artifact, regenerates all 500 tasks, runs the adapter validator, and compares tasks, registry, and manifest byte-for-byte:
+The check script fetches the pinned Harbor adapter and public Parquet,
+regenerates all tasks, validates them, and compares the result byte-for-byte:
 
 ```bash
 ./scripts/release.sh --check
 ```
 
-For an already verified local Harbor checkout at the exact manifest commit:
+You can use already verified local inputs:
 
 ```bash
-HARBOR_SRC=/path/to/harbor ./scripts/release.sh --check
+HARBOR_SRC=/path/to/harbor \
+MCP_ATLAS_SOURCE_FILE=/path/to/MCP-Atlas.parquet \
+./scripts/release.sh --check
 ```
 
-You may set `MCP_ATLAS_SOURCE_FILE=/path/to/MCP-Atlas.parquet`; the adapter still verifies its pinned SHA-256. Published version tags are immutable and must never be moved or amended.
+Published version tags are immutable and must not be moved.
 
 ## Licensing and attribution
 
-Benchmark-derived prompts, claims, answers, and task-specific data are licensed under **CC BY 4.0**; see [LICENSE-DATA](LICENSE-DATA). Harbor-authored code, scripts, runtime bridge, verifier, and repository documentation are licensed under **Apache-2.0**; see [LICENSE-CODE](LICENSE-CODE). Mixed generated files retain the applicable license for each contribution.
+Benchmark-derived prompts, claims, answers, and task data are CC BY 4.0; see
+[LICENSE-DATA](LICENSE-DATA). Harbor-authored code and documentation are
+Apache-2.0; see [LICENSE-CODE](LICENSE-CODE).
 
-See [NOTICE](NOTICE) for attribution and modifications, [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for referenced third-party software, and [CITATION.bib](CITATION.bib) for the benchmark citation.
+See [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and
+[CITATION.bib](CITATION.bib) for attribution and citation details.

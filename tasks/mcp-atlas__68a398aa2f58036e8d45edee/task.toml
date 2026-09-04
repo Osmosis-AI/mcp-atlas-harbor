@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "68a398aa2f58036e8d45edee"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "68a398aa2f58036e8d45edee"
 enabled_tool_count = 16
-source_enabled_tools = ["clinicaltrialsgov-mcp-server_clinicaltrials_get_study","clinicaltrialsgov-mcp-server_clinicaltrials_list_studies","clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends","cli-mcp-server_run_command","cli-mcp-server_show_security_rules","wikipedia_search_wikipedia","twelvedata_GetTimeSeriesMacd","twelvedata_GetTimeSeriesBBands","twelvedata_GetSymbolSearch","twelvedata_GetTimeSeriesEma","twelvedata_GetCryptocurrencies","twelvedata_GetTimeSeriesRsi","twelvedata_GetTimeSeries","open-library_get_book_by_title","open-library_get_authors_by_name","open-library_get_author_info"]
 source_enabled_tool_count = 16
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["cli-mcp-server","clinicaltrialsgov-mcp-server","open-library","twelv
 required_env_vars = ["TWELVE_DATA_API_KEY"]
 requires_credentials = true
 credential_free = false
-external_data_servers = []
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

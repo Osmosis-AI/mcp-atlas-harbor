@@ -1,2 +1,2 @@
-- The Italian translation of the title content of the Clone PandasAI Repository snippet is: "TITOLO: Clona il repository PandasAI.
-- The Italian translation of the description content of the Clone PandasAI Repository snippet is "DESCRIZIONE: Clona il repository GitHub PandasAI sul tuo computer locale e naviga nella directory del progetto, che è il passaggio iniziale per la configurazione dell'ambiente di sviluppo locale.
+The Italian translation of the title content of the Clone PandasAI Repository snippet is: "TITOLO: Clona il repository PandasAI.
+The Italian translation of the description content of the Clone PandasAI Repository snippet is "DESCRIZIONE: Clona il repository GitHub PandasAI sul tuo computer locale e naviga nella directory del progetto, che è il passaggio iniziale per la configurazione dell'ambiente di sviluppo locale.

@@ -1,6 +1,6 @@
-- The Latino who won the 2003 Monaco GP was Juan Pablo Montoya.
-- Juan Pablo Montoya was born in Bogotá, Colombia.
-- The lunar phase in Bogotá on June 1, 2003, was waxing crescent.
-- The lunar phase in Bogotá on February 1, 2025, was waxing crescent.
-- The ETH closing price on February 1, 2025, was 3118.08 USD.
-- With 5000 USD, one could purchase approximately 1.6035509031198687 ETH at a closing price of 3118.08 USD.
+The Latino who won the 2003 Monaco GP was Juan Pablo Montoya.
+Juan Pablo Montoya was born in Bogotá, Colombia.
+The lunar phase in Bogotá on June 1, 2003, was waxing crescent.
+The lunar phase in Bogotá on February 1, 2025, was waxing crescent.
+The ETH closing price on February 1, 2025, was 3118.08 USD.
+With 5000 USD, one could purchase approximately 1.6035509031198687 ETH at a closing price of 3118.08 USD.

@@ -1,3 +1,3 @@
-- Harper Lee is the author of the novel To Kill a Mockingbird.
-- Harper Lee died in February 2016.
-- The highest number of showroom visitors in one day in February 2016, according to the cloud dataset, is 196.
+Harper Lee is the author of the novel To Kill a Mockingbird.
+Harper Lee died in February 2016.
+The highest number of showroom visitors in one day in February 2016, according to the cloud dataset, is 196.

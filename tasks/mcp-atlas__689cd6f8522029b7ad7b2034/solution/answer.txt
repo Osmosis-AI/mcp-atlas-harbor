@@ -1,5 +1,5 @@
-- The final of the Roland Garros tennis tournament in 2016 was played on June 5.
-- Novak Djokovic won the Roland Garros final in 2016.
-- Novak Djokovic was born in Belgrade, Serbia.
-- On June 5, 2016, the moon phase in Belgrade was a new moon.
-- The price of Bitcoin on May 31, 2016 was 531.407 USD.
+The final of the Roland Garros tennis tournament in 2016 was played on June 5.
+Novak Djokovic won the Roland Garros final in 2016.
+Novak Djokovic was born in Belgrade, Serbia.
+On June 5, 2016, the moon phase in Belgrade was a new moon.
+The price of Bitcoin on May 31, 2016 was 531.407 USD.

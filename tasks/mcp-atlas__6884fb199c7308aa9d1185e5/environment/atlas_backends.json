@@ -1,5 +1,0 @@
-{
-  "github": "/run/mcp-atlas-backends/github/atlas.sock",
-  "lara-translate": "/run/mcp-atlas-backends/lara-translate/atlas.sock",
-  "notion": "/run/mcp-atlas-backends/notion/atlas.sock"
-}

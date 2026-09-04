@@ -1,3 +1,3 @@
-- Big Cypress National Preserve is the national preserve in Florida that was established on October 11, 1974.
-- The official address for Big Cypress National Preserve is 33100 Tamiami Trail East, Ochopee, FL 34141.
-- The official website for Big Cypress National Preserve is https://www.nps.gov/bicy/index.htm.
+Big Cypress National Preserve is the national preserve in Florida that was established on October 11, 1974.
+The official address for Big Cypress National Preserve is 33100 Tamiami Trail East, Ochopee, FL 34141.
+The official website for Big Cypress National Preserve is https://www.nps.gov/bicy/index.htm.

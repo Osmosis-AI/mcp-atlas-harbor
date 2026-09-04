@@ -1,6 +1,0 @@
-{
-  "filesystem": "/run/mcp-atlas-backends/public/atlas.sock",
-  "memory": "/run/mcp-atlas-backends/public/atlas.sock",
-  "pubmed": "/run/mcp-atlas-backends/public/atlas.sock",
-  "google-workspace": "/run/mcp-atlas-backends/google-workspace/atlas.sock"
-}

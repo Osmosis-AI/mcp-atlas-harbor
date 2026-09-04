@@ -1,4 +1,4 @@
-- The marketing department allocated $39,261 to non-recurring transactions in January 2020.
-- The marketing department allocated $65,540 to non-recurring transactions in January 2021.
-- The positive difference in budget allocation between January 2020 and January 2021 was $27,279.
-- Based on the transaction dates recorded for the marketing department, the budget allocation for non-recurring transactions increased by approximately 66.93% from January 2020 to January 2021.
+The marketing department allocated $39,261 to non-recurring transactions in January 2020.
+The marketing department allocated $65,540 to non-recurring transactions in January 2021.
+The positive difference in budget allocation between January 2020 and January 2021 was $27,279.
+Based on the transaction dates recorded for the marketing department, the budget allocation for non-recurring transactions increased by approximately 66.93% from January 2020 to January 2021.

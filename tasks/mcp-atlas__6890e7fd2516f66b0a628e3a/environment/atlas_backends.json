@@ -1,5 +1,0 @@
-{
-  "airtable": "/run/mcp-atlas-backends/airtable/atlas.sock",
-  "e2b-server": "/run/mcp-atlas-backends/e2b-server/atlas.sock",
-  "mongodb": "/run/mcp-atlas-backends/mongodb/atlas.sock"
-}

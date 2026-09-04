@@ -1,4 +1,4 @@
-- Actor Paul Walker died on November 30, 2013.
-- On November 30, 2017, the price of Ethereum (ETH) in US dollars was $454.1609815198.
-- The closest weather station to Acadia National Park is Bar Harbor, Hancock County-Bar Harbor Airport.
-- Bar Harbor, Hancock County-Bar Harbor Airport is located 6.9 miles from Acadia National Park.
+Actor Paul Walker died on November 30, 2013.
+On November 30, 2017, the price of Ethereum (ETH) in US dollars was $454.1609815198.
+The closest weather station to Acadia National Park is Bar Harbor, Hancock County-Bar Harbor Airport.
+Bar Harbor, Hancock County-Bar Harbor Airport is located 6.9 miles from Acadia National Park.

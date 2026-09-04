@@ -1,3 +1,3 @@
-- According to the local Pet Care 2023 Weekly Financials data, Week 46 had the highest total weekly revenue.
-- According to the local Pet Care 2023 Weekly Financials data, the "Daily Care" category had the largest share of revenue for Week 46.
-- The earliest clinical study completed between 2015-01-01 and 2023-12-31 with "Daily Care" in the brief title is "Web-based Daily Care Training of Children With Cerebral Palsy", completed in December 2016.
+According to the local Pet Care 2023 Weekly Financials data, Week 46 had the highest total weekly revenue.
+According to the local Pet Care 2023 Weekly Financials data, the "Daily Care" category had the largest share of revenue for Week 46.
+The earliest clinical study completed between 2015-01-01 and 2023-12-31 with "Daily Care" in the brief title is "Web-based Daily Care Training of Children With Cerebral Palsy", completed in December 2016.

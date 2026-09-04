@@ -1,4 +1,4 @@
-- The book The Sins of the Wolf was authored by Anne Perry.
-- Anne Perry passed away in 2023.
-- There is a collection named "Customers" in the "video_game_store" database.
-- On January 4, 2023, the preferred platform recorded in the "Customers" collection of the "video_game_store" database was Mobile.
+The book The Sins of the Wolf was authored by Anne Perry.
+Anne Perry passed away in 2023.
+There is a collection named "Customers" in the "video_game_store" database.
+On January 4, 2023, the preferred platform recorded in the "Customers" collection of the "video_game_store" database was Mobile.

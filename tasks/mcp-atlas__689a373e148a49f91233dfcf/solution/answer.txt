@@ -1,2 +1,2 @@
-- "Harry Potter and the Deathly Hallows: Part 2" belongs to the genre Adventure, according to local data in "/data/Top Movies.csv
-- The average price for video games sold in 2022 with genre Adventure is 73.93875.
+"Harry Potter and the Deathly Hallows: Part 2" belongs to the genre Adventure, according to local data in "/data/Top Movies.csv
+The average price for video games sold in 2022 with genre Adventure is 73.93875.

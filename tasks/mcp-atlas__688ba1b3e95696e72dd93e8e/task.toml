@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "688ba1b3e95696e72dd93e8e"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "688ba1b3e95696e72dd93e8e"
 enabled_tool_count = 14
-source_enabled_tools = ["wikipedia_search_wikipedia","wikipedia_get_article","wikipedia_get_summary","wikipedia_summarize_article_for_query","osm-mcp-server_geocode_address","osm-mcp-server_reverse_geocode","osm-mcp-server_suggest_meeting_point","osm-mcp-server_find_ev_charging_stations","weather_get_current_weather","weather_get_weather_forecast","weather_get_hourly_forecast","weather_get_weather_alerts","weather_find_weather_stations","weather_get_local_time"]
 source_enabled_tool_count = 14
 unavailable_tool_count = 0
 unavailable_tools = []
@@ -27,8 +24,6 @@ servers = ["osm-mcp-server","weather","wikipedia"]
 required_env_vars = []
 requires_credentials = false
 credential_free = true
-external_data_servers = []
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

@@ -1,2 +1,2 @@
-- Between the publication dates of the Graph Attention Networks paper and the AlphaZero paper, Nvidia's highest closing stock price occurred on November 24, 2017.
-- A search of the video game store's customer transaction database for November 24, 2017, returned a single game title, 'Game Title 88
+Between the publication dates of the Graph Attention Networks paper and the AlphaZero paper, Nvidia's highest closing stock price occurred on November 24, 2017.
+A search of the video game store's customer transaction database for November 24, 2017, returned a single game title, 'Game Title 88

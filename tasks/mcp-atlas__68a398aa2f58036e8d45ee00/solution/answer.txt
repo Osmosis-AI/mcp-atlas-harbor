@@ -1,2 +1,2 @@
-- The only drama movie from the list in editorial.rottentomatoes.com/guide/best-movies-2000 that is also in your local data is Requiem for a Dream
-- Jay C. was the paramedic who left a review about Requiem for a Dream.
+The only drama movie from the list in editorial.rottentomatoes.com/guide/best-movies-2000 that is also in your local data is Requiem for a Dream
+Jay C. was the paramedic who left a review about Requiem for a Dream.

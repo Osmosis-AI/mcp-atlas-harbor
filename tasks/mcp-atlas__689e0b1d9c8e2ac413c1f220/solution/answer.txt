@@ -1,2 +1,2 @@
-- The sun set at 16:43 on December 20th, 2023 in Gifu, Japan.
-- ETH had a price of 2,176.839 USD on December 20th, 2023.
+The sun set at 16:43 on December 20th, 2023 in Gifu, Japan.
+ETH had a price of 2,176.839 USD on December 20th, 2023.

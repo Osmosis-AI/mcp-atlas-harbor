@@ -1,4 +1,4 @@
-- The largest national park in terms of acreage in the state of FL is Everglades National Park.
-- The southern-most visitor center of Everglades National Park is Guy Bradley Visitor Center.
-- The location of the nearest temperature recordings to the Guy Bradley Visitor Center is 25.140881158121363 latitude and -80.92410195274584 longitude.
-- The high temperature recorded on August 11, 2025 at 25.140881158121363,-80.92410195274584 was 30.6 degrees celsius.
+The largest national park in terms of acreage in the state of FL is Everglades National Park.
+The southern-most visitor center of Everglades National Park is Guy Bradley Visitor Center.
+The location of the nearest temperature recordings to the Guy Bradley Visitor Center is 25.140881158121363 latitude and -80.92410195274584 longitude.
+The high temperature recorded on August 11, 2025 at 25.140881158121363,-80.92410195274584 was 30.6 degrees celsius.

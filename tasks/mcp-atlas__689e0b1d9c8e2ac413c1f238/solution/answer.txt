@@ -1,6 +1,6 @@
-- The italian translation of the phrase "the quick brown fox jumps over the lazy dog" has 49 characters: "La volpe marrone agile salta sopra il cane pigro.
-- The spanish (ES) translation of the phrase "the quick brown fox jumps over the lazy dog" has 53 characters: "El zorro marrón rápido salta sobre el perro perezoso.
-- The brazilian portuguese translation of the phrase "the quick brown fox jumps over the lazy dog" has 52 characters: "A rápida raposa marrom salta sobre o cão preguiçoso.
-- The japanese translation of the phrase "the quick brown fox jumps over the lazy dog" has 21 characters (logograms): "敏捷な茶色いキツネが怠け者の犬を飛び越える
-- The average number of characters between the italian, spanish and portuguese translations can be rounded to 51.
-- The ratio percentage between the japanese translation length and the average of italian, spanish and portuguese translations length can be rounded to 41%.
+The italian translation of the phrase "the quick brown fox jumps over the lazy dog" has 49 characters: "La volpe marrone agile salta sopra il cane pigro.
+The spanish (ES) translation of the phrase "the quick brown fox jumps over the lazy dog" has 53 characters: "El zorro marrón rápido salta sobre el perro perezoso.
+The brazilian portuguese translation of the phrase "the quick brown fox jumps over the lazy dog" has 52 characters: "A rápida raposa marrom salta sobre o cão preguiçoso.
+The japanese translation of the phrase "the quick brown fox jumps over the lazy dog" has 21 characters (logograms): "敏捷な茶色いキツネが怠け者の犬を飛び越える
+The average number of characters between the italian, spanish and portuguese translations can be rounded to 51.
+The ratio percentage between the japanese translation length and the average of italian, spanish and portuguese translations length can be rounded to 41%.

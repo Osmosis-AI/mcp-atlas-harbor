@@ -1,4 +1,4 @@
-- The movie recommended by kcpfan in the movie suggestions channel is "The Matrix
-- According to the local data, "The Matrix" is present in the downloaded movie collection.
-- The user's personal rating for "The Matrix" in the local data is 8.2.
-- The IMDb rating stored for "The Matrix" in the local data is 8.7.
+The movie recommended by kcpfan in the movie suggestions channel is "The Matrix
+According to the local data, "The Matrix" is present in the downloaded movie collection.
+The user's personal rating for "The Matrix" in the local data is 8.2.
+The IMDb rating stored for "The Matrix" in the local data is 8.7.

@@ -1,3 +1,3 @@
-- The building located at 11401 NW 12th St, Miami is the Dolphin Mall.
-- The Dolphin Mall opened to the public on March 1st, 2001.
-- 11 medical studies were published on March 1st, 2001.
+The building located at 11401 NW 12th St, Miami is the Dolphin Mall.
+The Dolphin Mall opened to the public on March 1st, 2001.
+11 medical studies were published on March 1st, 2001.

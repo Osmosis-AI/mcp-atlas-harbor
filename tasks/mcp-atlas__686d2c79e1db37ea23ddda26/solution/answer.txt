@@ -1,2 +1,2 @@
-- The initial commit for the snake-game repository is '72539126c678980835973c5cb7d1ce6e7faf594a
-- The commit '72539126c678980835973c5cb7d1ce6e7faf594a' was made on 2022-11-24 11:43:20+05:00.
+The initial commit for the snake-game repository is '72539126c678980835973c5cb7d1ce6e7faf594a
+The commit '72539126c678980835973c5cb7d1ce6e7faf594a' was made on 2022-11-24 11:43:20+05:00.

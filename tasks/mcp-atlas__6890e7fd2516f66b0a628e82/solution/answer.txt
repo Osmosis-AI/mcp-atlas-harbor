@@ -1,5 +1,5 @@
-- The 2012 Summer Olympics were held in London, UK.
-- Jane Austen was the author of the novel "Pride and Prejudice
-- Jane Austen died in 1817.
-- The monarch of United Kingdom in 1817 was George III.
-- George III was crowned in Westminster Abbey, London
+The 2012 Summer Olympics were held in London, UK.
+Jane Austen was the author of the novel "Pride and Prejudice
+Jane Austen died in 1817.
+The monarch of United Kingdom in 1817 was George III.
+George III was crowned in Westminster Abbey, London

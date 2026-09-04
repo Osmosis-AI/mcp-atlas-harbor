@@ -1,4 +1,4 @@
-- The component with the fewest lines of code is AspectRatio
-- The AspectRatio component uses `@radix-ui/react-aspect-ratio`
-- The required dependency version for `@radix-ui/react-aspect-ratio` is
+The component with the fewest lines of code is AspectRatio
+The AspectRatio component uses `@radix-ui/react-aspect-ratio`
+The required dependency version for `@radix-ui/react-aspect-ratio` is
  "^1.0.3

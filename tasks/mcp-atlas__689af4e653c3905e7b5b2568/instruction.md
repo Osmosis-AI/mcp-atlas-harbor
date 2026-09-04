@@ -1,1 +1,1 @@
-I want to retrieve the data of the piece 482551 of the museum and translate it for people living in Quebec. Also, include the translation of the department's names. 
+I want to retrieve the data of the piece 482551 of the museum and translate it for people living in Quebec. Also, include the translation of the department's names.

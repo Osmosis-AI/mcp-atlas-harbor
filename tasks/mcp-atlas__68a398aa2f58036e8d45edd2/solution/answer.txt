@@ -1,3 +1,3 @@
-- The freeCodeCamp English website domain was registered on November 3, 2014.
-- The freeCodeCamp English GitHub repository was created in December 24, 2014.
-- The month difference between these two dates is about one month.
+The freeCodeCamp English website domain was registered on November 3, 2014.
+The freeCodeCamp English GitHub repository was created in December 24, 2014.
+The month difference between these two dates is about one month.

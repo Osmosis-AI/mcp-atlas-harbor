@@ -1,3 +1,3 @@
-- The average visitor per week on Service Center Visits is 70.43,
-- The average visitors on Showroom Visits is 82.43.
-- The highest number of visitors is on Showroom Visits.
+The average visitor per week on Service Center Visits is 70.43,
+The average visitors on Showroom Visits is 82.43.
+The highest number of visitors is on Showroom Visits.

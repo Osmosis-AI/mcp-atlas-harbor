@@ -1,5 +1,0 @@
-{
-  "open-library": "/run/mcp-atlas-backends/public/atlas.sock",
-  "github": "/run/mcp-atlas-backends/github/atlas.sock",
-  "mongodb": "/run/mcp-atlas-backends/mongodb/atlas.sock"
-}

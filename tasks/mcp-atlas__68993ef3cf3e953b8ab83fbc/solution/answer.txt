@@ -1,4 +1,4 @@
-- The guy who wrote The Da Vinci Code is called Dan Brown,
-- 2 Dan Brown was born in 1964.
-- The piece "Studies for Hercules Holding a Club Seen in Frontal View, Male Nude Unsheathing a Sword, and the Movements of Water (recto); Study for Hercules Holding a Club Seen in Rear View (verso)" was acquired by the Metropolitan Museum of Art in 2000.
-- The gap between 1964 and 2000 is 36 years
+The guy who wrote The Da Vinci Code is called Dan Brown,
+2 Dan Brown was born in 1964.
+The piece "Studies for Hercules Holding a Club Seen in Frontal View, Male Nude Unsheathing a Sword, and the Movements of Water (recto); Study for Hercules Holding a Club Seen in Rear View (verso)" was acquired by the Metropolitan Museum of Art in 2000.
+The gap between 1964 and 2000 is 36 years

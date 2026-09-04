@@ -1,1 +1,1 @@
-I have some social media data from my games store on my cloud database. On the day that andre braugher passed away, I made a post on tiktok. If the number of shares were bitcoins, how much money would I have, considering the closing price of btc in usd exactly 1 year after his death? 
+I have some social media data from my games store on my cloud database. On the day that andre braugher passed away, I made a post on tiktok. If the number of shares were bitcoins, how much money would I have, considering the closing price of btc in usd exactly 1 year after his death?

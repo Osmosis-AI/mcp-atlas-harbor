@@ -11,15 +11,12 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
-source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
+source_task_id = "6884fb199c7308aa9d1185d8"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
-source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
-source_task_id = "6884fb199c7308aa9d1185d8"
 enabled_tool_count = 12
-source_enabled_tools = ["brave-search_brave_web_search","cli-mcp-server_run_command","cli-mcp-server_show_security_rules","mcp-server-code-runner_run-code","mcp-code-executor_execute_code","mcp-code-executor_read_code_file","mcp-code-executor_check_installed_packages","mcp-code-executor_get_environment_config","google-workspace_list_events","calculator_calculate","arxiv_search_papers","alchemy_fetchTokenPriceHistoryBySymbol","balldontlie_get_teams"]
 source_enabled_tool_count = 13
 unavailable_tool_count = 1
 unavailable_tools = ["balldontlie_get_teams"]
@@ -27,8 +24,6 @@ servers = ["alchemy","arxiv","brave-search","calculator","cli-mcp-server","googl
 required_env_vars = ["ALCHEMY_API_KEY","BRAVE_API_KEY","GOOGLE_CLIENT_ID","GOOGLE_CLIENT_SECRET","GOOGLE_REFRESH_TOKEN"]
 requires_credentials = true
 credential_free = false
-external_data_servers = ["google-workspace"]
-has_external_mutation_tools = false
 supported_environment_types = ["docker"]
 
 [agent]
@@ -57,9 +52,6 @@ EVAL_LLM_CONCURRENCY = "${EVAL_LLM_CONCURRENCY:-30}"
 EVAL_LLM_MAX_ATTEMPTS = "${EVAL_LLM_MAX_ATTEMPTS:-3}"
 EVAL_LLM_RETRY_BASE_SEC = "${EVAL_LLM_RETRY_BASE_SEC:-1.0}"
 EVAL_LLM_TIMEOUT_SEC = "${EVAL_LLM_TIMEOUT_SEC:-60.0}"
-LLM_API_KEY = "${LLM_API_KEY:-}"
-LLM_BASE_URL = "${LLM_BASE_URL:-}"
-JUDGE_MODEL = "${JUDGE_MODEL:-}"
 
 [environment]
 network_mode = "public"
@@ -82,7 +74,3 @@ timeout_sec = 10
 start_period_sec = 180
 start_interval_sec = 5
 retries = 12
-
-[environment.env]
-
-[solution.env]

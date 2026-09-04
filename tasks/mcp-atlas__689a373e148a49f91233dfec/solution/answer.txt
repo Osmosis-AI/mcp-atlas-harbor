@@ -1,5 +1,5 @@
-- The first three sites in Greece to be added to the World Heritage List were the Temple of Apollo Epicurius at Bassae (1986), the Archaeological Site of Delphi (1987), and the Acropolis of Athens (1987).
-- The Temple of Apollo Epicurius at Bassae is located at coordinates 37.4296358, 21.9002299.
-- The Archaeological Site of Delphi is located at coordinates 38.4811538, 22.5005486.
-- The Acropolis of Athens is located at coordinates 37.9716894, 23.7263197.
-- The route by car to visit them from Athens is: Athens → Acropolis of Athens → Delphi → Temple of Apollo Epicurius at Bassae. The total approximate distance of the route is 488.25 km.
+The first three sites in Greece to be added to the World Heritage List were the Temple of Apollo Epicurius at Bassae (1986), the Archaeological Site of Delphi (1987), and the Acropolis of Athens (1987).
+The Temple of Apollo Epicurius at Bassae is located at coordinates 37.4296358, 21.9002299.
+The Archaeological Site of Delphi is located at coordinates 38.4811538, 22.5005486.
+The Acropolis of Athens is located at coordinates 37.9716894, 23.7263197.
+The route by car to visit them from Athens is: Athens → Acropolis of Athens → Delphi → Temple of Apollo Epicurius at Bassae. The total approximate distance of the route is 488.25 km.

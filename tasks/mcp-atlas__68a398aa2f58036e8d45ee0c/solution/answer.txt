@@ -1,5 +1,5 @@
-- The national stadium in Santiago, Chile, is located in the commune of Ñuñoa.
-- In Chile, Sanhattan (Santiago's version of Manhattan) is located in the commune of Las Condes.
-- Las Condes commune in Santiago, Chile, has better public transportation than Ñuñoa.
-- Las Condes commune in Santiago, Chile, has a public transportation score of 8.9.
-- Ñuñoa commune in Santiago, Chile, has a public transportation score of 5.9.
+The national stadium in Santiago, Chile, is located in the commune of Ñuñoa.
+In Chile, Sanhattan (Santiago's version of Manhattan) is located in the commune of Las Condes.
+Las Condes commune in Santiago, Chile, has better public transportation than Ñuñoa.
+Las Condes commune in Santiago, Chile, has a public transportation score of 8.9.
+Ñuñoa commune in Santiago, Chile, has a public transportation score of 5.9.

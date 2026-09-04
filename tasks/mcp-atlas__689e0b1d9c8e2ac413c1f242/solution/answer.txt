@@ -1,6 +1,6 @@
-- The sculpture of a "solitary, contemplative nude male figure" by a French artist born in 1840 is "The Thinker" by Auguste Rodin.
-- The year the artwork was gifted, according to its credit line, is 1910.
-- The target year, calculated by adding 110 years to 1910, is 2020.
-- The price of Bitcoin (BTC) on January 1st, 2020, was 7195.15389543.
-- The medium of the sculpture is "Bronze
-- The Spanish translation for "Bronze" is "Bronce
+The sculpture of a "solitary, contemplative nude male figure" by a French artist born in 1840 is "The Thinker" by Auguste Rodin.
+The year the artwork was gifted, according to its credit line, is 1910.
+The target year, calculated by adding 110 years to 1910, is 2020.
+The price of Bitcoin (BTC) on January 1st, 2020, was 7195.15389543.
+The medium of the sculpture is "Bronze
+The Spanish translation for "Bronze" is "Bronce

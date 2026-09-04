@@ -1,3 +1,3 @@
-- The month with the most money moved in ETH transactions was September of 2023.
-- 10,012.3 USD were moved in ETH transactions in September of 2023.
-- The Sun rose at 06:26 in Los Angeles on September 1st, 2023.
+The month with the most money moved in ETH transactions was September of 2023.
+10,012.3 USD were moved in ETH transactions in September of 2023.
+The Sun rose at 06:26 in Los Angeles on September 1st, 2023.

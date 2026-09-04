@@ -1,4 +1,0 @@
-{
-  "github": "/run/mcp-atlas-backends/github/atlas.sock",
-  "mongodb": "/run/mcp-atlas-backends/mongodb/atlas.sock"
-}

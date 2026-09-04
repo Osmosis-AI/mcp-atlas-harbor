@@ -1,26 +1,23 @@
 #!/usr/bin/env python3
-"""Expose isolated MCP-Atlas REST backends through one allowlisted MCP gateway."""
+"""Expose MCP-Atlas's REST API as an allowlisted MCP server."""
 
 from __future__ import annotations
 
 import asyncio
 import contextlib
-import http.client
 import json
-import math
 import os
-import socket
-import stat
-import threading
-import time
-from collections.abc import Callable, Mapping, Sequence
+from collections.abc import Mapping, Sequence
 from pathlib import Path
-from typing import Any, Protocol, override
+from typing import Any, Protocol
+from urllib.parse import urlsplit
 
+import httpx
 import mcp.types as types
 import uvicorn
 from mcp.server.lowlevel import Server
 from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
+from pydantic import TypeAdapter, ValidationError
 from starlette.applications import Starlette
 from starlette.requests import Request
 from starlette.responses import JSONResponse
@@ -28,716 +25,164 @@ from starlette.routing import Route
 
 
 DEFAULT_ALLOWLIST_PATH = Path("/harbor/enabled_tools.json")
-DEFAULT_BACKENDS_PATH = Path("/harbor/atlas_backends.json")
-DEFAULT_ALLOWED_CONFIG_ROOT = Path("/harbor")
-DEFAULT_SOCKET_ROOT = Path("/run/mcp-atlas-backends")
+DEFAULT_BASE_URL = "http://mcp-atlas-runtime:1984"
 DEFAULT_HOST = "0.0.0.0"
 DEFAULT_PORT = 18765
 DEFAULT_TIMEOUT_SEC = 180.0
 DEFAULT_STARTUP_TIMEOUT_SEC = 240.0
 DEFAULT_STARTUP_RETRY_INTERVAL_SEC = 1.0
-DEFAULT_HEALTH_TIMEOUT_SEC = 4.0
-MAX_BACKEND_RESPONSE_BYTES = 64 * 1024 * 1024
-BACKEND_RESPONSE_CHUNK_BYTES = 64 * 1024
-MAX_CONFIG_BYTES = 1024 * 1024
-_SERVER_NAME_CHARS = frozenset("abcdefghijklmnopqrstuvwxyz0123456789-")
 
 
-class BridgeError(RuntimeError):
-    """Base class for fail-closed gateway errors."""
+class BridgeConfigurationError(ValueError):
+    """The gateway configuration is invalid."""
 
 
-class BridgeConfigurationError(BridgeError):
-    """The generated runtime configuration is invalid or unsafe."""
+class AtlasBackendError(RuntimeError):
+    """The Atlas REST backend failed or returned invalid data."""
 
 
-class AtlasBackendError(BridgeError):
-    """A private Atlas REST backend failed or returned invalid data."""
+class ToolNotAllowedError(ValueError):
+    """A caller requested a tool outside the task allowlist."""
 
 
-class ToolNotAllowedError(BridgeError):
-    """A caller attempted to bypass the task-local tool allowlist."""
-
-
-def _valid_server_name(value: str) -> bool:
-    return (
-        bool(value)
-        and value[0] in "abcdefghijklmnopqrstuvwxyz0123456789"
-        and all(character in _SERVER_NAME_CHARS for character in value)
-    )
-
-
-def _trusted_file(path: Path, *, allowed_root: Path) -> Path:
-    """Resolve a regular file without permitting symlink/path escape tricks."""
-
-    if not path.is_absolute():
-        raise BridgeConfigurationError("Runtime file paths must be absolute.")
+def load_allowlist(path: Path = DEFAULT_ALLOWLIST_PATH) -> tuple[str, ...]:
+    """Load the exact, ordered tool allowlist generated for this task."""
     try:
-        if path.is_symlink():
-            raise BridgeConfigurationError("Runtime configuration cannot be a symlink.")
-        resolved = path.resolve(strict=True)
-        root = allowed_root.resolve(strict=True)
-    except OSError as exc:
-        raise BridgeConfigurationError(
-            "Runtime configuration is not readable."
-        ) from exc
-    if not resolved.is_file() or resolved.parent != root:
-        raise BridgeConfigurationError(
-            "Runtime configuration escaped its trusted root."
-        )
-    return resolved
-
-
-def _load_json_file(path: Path, *, allowed_root: Path) -> Any:
-    trusted = _trusted_file(path, allowed_root=allowed_root)
-    try:
-        if trusted.stat().st_size > MAX_CONFIG_BYTES:
-            raise BridgeConfigurationError(
-                "Runtime configuration is unexpectedly large."
-            )
-        return json.loads(trusted.read_text(encoding="utf-8"))
+        value = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, UnicodeError, json.JSONDecodeError) as exc:
-        raise BridgeConfigurationError(
-            "Runtime configuration is not valid UTF-8 JSON."
-        ) from exc
-
-
-def load_allowlist(
-    path: Path = DEFAULT_ALLOWLIST_PATH,
-    *,
-    allowed_root: Path = DEFAULT_ALLOWED_CONFIG_ROOT,
-) -> tuple[str, ...]:
-    """Load a non-empty, duplicate-free JSON array of external tool names."""
-
-    value = _load_json_file(path, allowed_root=allowed_root)
+        raise BridgeConfigurationError("Tool allowlist must be valid JSON.") from exc
     if not isinstance(value, list) or not value:
-        raise BridgeConfigurationError("Tool allowlist must be a non-empty JSON array.")
-    tools: list[str] = []
-    seen: set[str] = set()
-    for item in value:
-        if not isinstance(item, str) or not item or item.strip() != item:
-            raise BridgeConfigurationError(
-                "Every allowlist entry must be a non-empty, trimmed string."
-            )
-        if any(character.isspace() or ord(character) < 0x21 for character in item):
-            raise BridgeConfigurationError("Tool names cannot contain whitespace.")
-        if item in seen:
-            raise BridgeConfigurationError("Tool allowlist contains a duplicate name.")
-        seen.add(item)
-        tools.append(item)
-    return tuple(tools)
+        raise BridgeConfigurationError("Tool allowlist must be a non-empty array.")
+    if any(
+        not isinstance(item, str) or not item or item.strip() != item for item in value
+    ):
+        raise BridgeConfigurationError("Tool names must be non-empty, trimmed strings.")
+    if len(value) != len(set(value)):
+        raise BridgeConfigurationError("Tool allowlist contains duplicate names.")
+    return tuple(value)
 
 
-def _validated_socket_path(value: str, *, socket_root: Path) -> Path:
-    path = Path(value)
-    if not path.is_absolute() or path.name != "atlas.sock":
-        raise BridgeConfigurationError("Atlas backend socket path is invalid.")
-    try:
-        relative = path.relative_to(socket_root)
-    except ValueError as exc:
-        raise BridgeConfigurationError(
-            "Atlas backend socket escaped its trusted root."
-        ) from exc
-    if len(relative.parts) != 2 or not _valid_server_name(relative.parts[0]):
-        raise BridgeConfigurationError("Atlas backend socket path is invalid.")
-    return path
+class AtlasRESTClient:
+    """Async client for the three Atlas REST endpoints used by the bridge."""
 
-
-def load_backend_map(
-    path: Path = DEFAULT_BACKENDS_PATH,
-    *,
-    allowed_root: Path = DEFAULT_ALLOWED_CONFIG_ROOT,
-    socket_root: Path = DEFAULT_SOCKET_ROOT,
-) -> dict[str, Path]:
-    """Load the exact server-to-private-socket routing table."""
-
-    value = _load_json_file(path, allowed_root=allowed_root)
-    if not isinstance(value, dict) or not value:
-        raise BridgeConfigurationError("Atlas backend map must be a non-empty object.")
-    result: dict[str, Path] = {}
-    for server, raw_socket in value.items():
-        if not isinstance(server, str) or not _valid_server_name(server):
-            raise BridgeConfigurationError(
-                "Atlas backend map has an invalid server name."
-            )
-        if not isinstance(raw_socket, str):
-            raise BridgeConfigurationError("Atlas backend socket must be a string.")
-        result[server] = _validated_socket_path(raw_socket, socket_root=socket_root)
-    return result
-
-
-class UnixHTTPConnection(http.client.HTTPConnection):
-    """A fresh HTTP/1.1 connection transported over an AF_UNIX socket."""
-
-    def __init__(self, socket_path: Path, timeout: float) -> None:
-        super().__init__("localhost", timeout=timeout)
-        self.socket_path = str(socket_path)
-
-    @override
-    def connect(self) -> None:
-        try:
-            mode = os.lstat(self.socket_path).st_mode
-        except OSError as exc:
-            raise AtlasBackendError("Atlas backend socket is unavailable.") from exc
-        if stat.S_ISLNK(mode) or not stat.S_ISSOCK(mode):
-            raise AtlasBackendError("Atlas backend socket is not a Unix socket.")
-        connection = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
-        connection.settimeout(self.timeout)
-        try:
-            connection.connect(self.socket_path)
-        except BaseException:
-            connection.close()
-            raise
-        self.sock = connection
-
-
-ConnectionFactory = Callable[[Path, float], http.client.HTTPConnection]
-
-
-class _DeadlineConnectionGuard:
-    """Interrupt blocking HTTP I/O when its monotonic deadline expires."""
-
-    def __init__(self) -> None:
-        self._lock = threading.Lock()
-        self._connection: http.client.HTTPConnection | None = None
-        self._socket: socket.socket | None = None
-        self._expired = False
-        self._finished = False
-        self._timeout_handle: asyncio.TimerHandle | None = None
-        self._loop: asyncio.AbstractEventLoop | None = None
-
-    @staticmethod
-    def _interrupt_socket(sock: socket.socket) -> None:
-        try:
-            sock.shutdown(socket.SHUT_RDWR)
-        except OSError:
-            pass
-        try:
-            sock.close()
-        except OSError:
-            pass
-
-    @classmethod
-    def _interrupt(
-        cls,
-        connection: http.client.HTTPConnection,
-        raw_socket: socket.socket | None,
-    ) -> None:
-        sock = (
-            raw_socket if raw_socket is not None else getattr(connection, "sock", None)
-        )
-        if sock is not None:
-            cls._interrupt_socket(sock)
-        try:
-            connection.close()
-        except Exception:
-            # This runs as an event-loop callback and must never escape.
-            pass
-
-    def set_timeout_handle(
-        self,
-        loop: asyncio.AbstractEventLoop,
-        timeout_handle: asyncio.TimerHandle,
-    ) -> None:
-        with self._lock:
-            self._loop = loop
-            self._timeout_handle = timeout_handle
-            finished = self._finished
-        if finished:
-            timeout_handle.cancel()
-
-    def attach(self, connection: http.client.HTTPConnection) -> None:
-        with self._lock:
-            self._connection = connection
-            expired = self._expired
-            raw_socket = self._socket
-        if expired:
-            self._interrupt(connection, raw_socket)
-
-    def attach_socket(self, raw_socket: socket.socket) -> None:
-        with self._lock:
-            self._socket = raw_socket
-            expired = self._expired
-        if expired:
-            self._interrupt_socket(raw_socket)
-
-    def set_socket_timeout(self, timeout_sec: float) -> None:
-        with self._lock:
-            raw_socket = self._socket
-        if raw_socket is not None:
-            raw_socket.settimeout(timeout_sec)
-
-    def ensure_active(self) -> None:
-        with self._lock:
-            expired = self._expired
-        if expired:
-            raise AtlasBackendError("Atlas backend request was canceled.")
-
-    def abort(self) -> None:
-        with self._lock:
-            if self._finished:
-                return
-            self._expired = True
-            connection = self._connection
-            raw_socket = self._socket
-        if connection is not None:
-            self._interrupt(connection, raw_socket)
-        elif raw_socket is not None:
-            self._interrupt_socket(raw_socket)
-
-    def finish(self) -> None:
-        with self._lock:
-            self._finished = True
-            self._connection = None
-            self._socket = None
-            loop = self._loop
-            timeout_handle = self._timeout_handle
-        if loop is not None and timeout_handle is not None:
-            try:
-                loop.call_soon_threadsafe(timeout_handle.cancel)
-            except RuntimeError:
-                pass
-
-
-class AtlasUnixClient:
-    """Small async facade over one private Atlas REST API."""
-
-    _ALLOWED_ENDPOINTS = frozenset({"/call-tool", "/health", "/list-tools"})
+    _ENDPOINTS = frozenset({"/call-tool", "/health", "/list-tools"})
 
     def __init__(
         self,
-        socket_path: Path,
+        base_url: str = DEFAULT_BASE_URL,
         *,
         timeout_sec: float = DEFAULT_TIMEOUT_SEC,
-        max_response_bytes: int = MAX_BACKEND_RESPONSE_BYTES,
-        connection_factory: ConnectionFactory = UnixHTTPConnection,
+        transport: httpx.AsyncBaseTransport | None = None,
     ) -> None:
-        if not socket_path.is_absolute() or socket_path.name != "atlas.sock":
-            raise BridgeConfigurationError("Atlas socket path is invalid.")
-        if not math.isfinite(timeout_sec):
-            raise BridgeConfigurationError("Atlas client timeout must be finite.")
-        if timeout_sec <= 0 or max_response_bytes < 1:
-            raise BridgeConfigurationError("Atlas client limits must be positive.")
-        self.socket_path = socket_path
+        try:
+            parsed = urlsplit(base_url)
+            _ = parsed.port
+        except ValueError as exc:
+            raise BridgeConfigurationError("MCP_ATLAS_BASE_URL is invalid.") from exc
+        if (
+            parsed.scheme != "http"
+            or not parsed.hostname
+            or parsed.username is not None
+            or parsed.password is not None
+            or parsed.path not in {"", "/"}
+            or parsed.query
+            or parsed.fragment
+        ):
+            raise BridgeConfigurationError("MCP_ATLAS_BASE_URL must be an HTTP origin.")
+        if timeout_sec <= 0:
+            raise BridgeConfigurationError("MCP_ATLAS_TIMEOUT_SEC must be positive.")
+        self.base_url = base_url.rstrip("/")
         self.timeout_sec = timeout_sec
-        self.max_response_bytes = max_response_bytes
-        self.connection_factory = connection_factory
+        self.transport = transport
 
     async def request_json(
         self,
         method: str,
         endpoint: str,
         payload: Mapping[str, Any] | None = None,
-        *,
-        deadline_monotonic: float | None = None,
     ) -> Any:
-        now = time.monotonic()
-        client_deadline = now + self.timeout_sec
-        if deadline_monotonic is None:
-            request_deadline = client_deadline
-        else:
-            if not math.isfinite(deadline_monotonic):
-                raise BridgeConfigurationError("Atlas request deadline must be finite.")
-            # An explicit health/startup deadline may narrow but never widen the
-            # configured client limit.
-            request_deadline = min(deadline_monotonic, client_deadline)
-        if request_deadline <= now:
-            raise AtlasBackendError("Atlas backend request deadline expired.")
-
-        loop = asyncio.get_running_loop()
-        guard = _DeadlineConnectionGuard()
-        timeout_handle = loop.call_later(
-            request_deadline - now,
-            guard.abort,
-        )
-        guard.set_timeout_handle(loop, timeout_handle)
+        if endpoint not in self._ENDPOINTS or method not in {"GET", "POST"}:
+            raise BridgeConfigurationError("Unsupported Atlas REST request.")
         try:
-            return await asyncio.to_thread(
-                self._request_json,
-                method,
-                endpoint,
-                payload,
-                request_deadline,
-                guard,
-            )
-        except asyncio.CancelledError:
-            # asyncio cannot cancel a worker that has entered synchronous I/O.
-            # Interrupt its retained socket so TaskGroup sibling cancellation
-            # cannot leave the default executor occupied until the long client
-            # timeout.
-            guard.abort()
-            raise
-
-    @staticmethod
-    def _remaining_timeout(deadline_monotonic: float) -> float:
-        remaining = deadline_monotonic - time.monotonic()
-        if remaining <= 0:
-            raise AtlasBackendError("Atlas backend request deadline expired.")
-        return remaining
-
-    @classmethod
-    def _narrow_connection_timeout(
-        cls,
-        connection: http.client.HTTPConnection,
-        deadline_monotonic: float,
-        guard: _DeadlineConnectionGuard,
-    ) -> None:
-        guard.ensure_active()
-        remaining = cls._remaining_timeout(deadline_monotonic)
-        connection.timeout = remaining
-        guard.set_socket_timeout(remaining)
-
-    def _request_json(
-        self,
-        method: str,
-        endpoint: str,
-        payload: Mapping[str, Any] | None,
-        deadline_monotonic: float,
-        guard: _DeadlineConnectionGuard,
-    ) -> Any:
-        connection: http.client.HTTPConnection | None = None
-        try:
-            if endpoint not in self._ALLOWED_ENDPOINTS:
-                raise BridgeConfigurationError("Atlas REST endpoint is not allowed.")
-            if method not in {"GET", "POST"}:
-                raise BridgeConfigurationError("Atlas REST method is not allowed.")
-            body: bytes | None = None
-            headers = {"Accept": "application/json", "Connection": "close"}
-            if payload is not None:
-                body = json.dumps(
-                    payload, ensure_ascii=False, separators=(",", ":")
-                ).encode("utf-8")
-                headers["Content-Type"] = "application/json"
-
-            guard.ensure_active()
-            connection = self.connection_factory(
-                self.socket_path,
-                self._remaining_timeout(deadline_monotonic),
-            )
-            guard.attach(connection)
-            self._narrow_connection_timeout(connection, deadline_monotonic, guard)
-            connection.connect()
-            raw_socket = getattr(connection, "sock", None)
-            if raw_socket is not None:
-                guard.attach_socket(raw_socket)
-            self._narrow_connection_timeout(connection, deadline_monotonic, guard)
-            connection.request(method, endpoint, body=body, headers=headers)
-            self._narrow_connection_timeout(connection, deadline_monotonic, guard)
-            response = connection.getresponse()
-            content_length = response.getheader("Content-Length")
-            declared_size: int | None = None
-            if content_length is not None:
-                try:
-                    declared_size = int(content_length)
-                except ValueError as exc:
-                    raise AtlasBackendError(
-                        "Atlas backend returned an invalid response length."
-                    ) from exc
-                if declared_size < 0:
-                    raise AtlasBackendError(
-                        "Atlas backend returned an invalid response length."
-                    )
-                if declared_size > self.max_response_bytes:
-                    raise AtlasBackendError(
-                        "Atlas backend response exceeded the safe limit."
-                    )
-
-            raw = bytearray()
-            while True:
-                self._narrow_connection_timeout(
-                    connection,
-                    deadline_monotonic,
-                    guard,
+            async with httpx.AsyncClient(
+                base_url=self.base_url,
+                timeout=self.timeout_sec,
+                transport=self.transport,
+            ) as client:
+                response = await client.request(
+                    method,
+                    endpoint,
+                    json=dict(payload) if payload is not None else None,
                 )
-                read_size = min(
-                    BACKEND_RESPONSE_CHUNK_BYTES,
-                    self.max_response_bytes + 1 - len(raw),
-                )
-                chunk = response.read1(read_size)
-                if not chunk:
-                    break
-                raw.extend(chunk)
-                if len(raw) > self.max_response_bytes:
-                    raise AtlasBackendError(
-                        "Atlas backend response exceeded the safe limit."
-                    )
-            if declared_size is not None and len(raw) != declared_size:
-                raise AtlasBackendError(
-                    "Atlas backend returned an invalid response length."
-                )
-            if not 200 <= response.status < 300:
-                # A backend error body can contain subprocess arguments and secrets.
-                raise AtlasBackendError(
-                    f"Atlas backend request failed with HTTP {response.status}."
-                )
-            try:
-                return json.loads(raw)
-            except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-                raise AtlasBackendError("Atlas backend returned invalid JSON.") from exc
-        except AtlasBackendError:
-            raise
-        except (OSError, TimeoutError, http.client.HTTPException) as exc:
-            raise AtlasBackendError("Atlas backend is unavailable.") from exc
-        finally:
-            try:
-                if connection is not None:
-                    connection.close()
-            finally:
-                guard.finish()
+                response.raise_for_status()
+                return response.json()
+        except (httpx.HTTPError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+            raise AtlasBackendError("Atlas backend request failed.") from exc
 
 
-def _tool_from_json(value: Any, *, advertised_name: str) -> types.Tool:
-    if not isinstance(value, Mapping):
-        raise AtlasBackendError("Atlas list-tools response contains a non-object.")
-    if not isinstance(value.get("name"), str) or not isinstance(
-        value.get("inputSchema"), dict
-    ):
-        raise AtlasBackendError("Atlas list-tools response has an invalid tool.")
-    sanitized = dict(value)
-    sanitized["name"] = advertised_name
-    # Atlas's REST facade returns only MCP content blocks from /call-tool and
-    # discards structuredContent. Advertising the backend outputSchema would
-    # therefore make the MCP SDK reject otherwise successful tool results.
-    sanitized.pop("outputSchema", None)
-    try:
-        return types.Tool.model_validate(sanitized)
-    except Exception as exc:
-        raise AtlasBackendError(
-            "Atlas list-tools response has an invalid tool."
-        ) from exc
-
-
-def _content_from_json(value: Any) -> types.ContentBlock:
-    if not isinstance(value, Mapping):
-        raise AtlasBackendError("Atlas call-tool response contains a non-object.")
-    content_type = {
-        "audio": getattr(types, "AudioContent", None),
-        "image": types.ImageContent,
-        "resource": types.EmbeddedResource,
-        "resource_link": getattr(types, "ResourceLink", None),
-        "text": types.TextContent,
-    }.get(value.get("type"))
-    if content_type is None:
-        raise AtlasBackendError("Atlas call-tool response has an unknown content type.")
-    try:
-        return content_type.model_validate(value)
-    except Exception as exc:
-        raise AtlasBackendError(
-            "Atlas call-tool response has invalid content."
-        ) from exc
-
-
-class BackendClient(Protocol):
+class AtlasClient(Protocol):
     async def request_json(
         self,
         method: str,
         endpoint: str,
         payload: Mapping[str, Any] | None = None,
-        *,
-        deadline_monotonic: float | None = None,
     ) -> Any: ...
 
 
-ClientFactory = Callable[[Path], BackendClient]
+_CONTENT_ADAPTER = TypeAdapter(types.ContentBlock)
+
+
+def _tool_from_json(value: Any) -> types.Tool:
+    if not isinstance(value, Mapping):
+        raise AtlasBackendError("Atlas returned an invalid tool.")
+    data = dict(value)
+    # Atlas returns only content blocks from /call-tool.
+    data.pop("outputSchema", None)
+    try:
+        return types.Tool.model_validate(data)
+    except ValidationError as exc:
+        raise AtlasBackendError("Atlas returned an invalid tool.") from exc
+
+
+def _content_from_json(value: Any) -> types.ContentBlock:
+    try:
+        return _CONTENT_ADAPTER.validate_python(value)
+    except ValidationError as exc:
+        raise AtlasBackendError("Atlas returned invalid tool content.") from exc
 
 
 class MCPAtlasBridge:
-    """Route an exact external allowlist across isolated Atlas backends."""
+    """Expose exactly the tools enabled by the current task."""
 
-    def __init__(
-        self,
-        allowed_tools: Sequence[str],
-        backend_sockets: Mapping[str, Path],
-        *,
-        client_factory: ClientFactory,
-    ) -> None:
+    def __init__(self, allowed_tools: Sequence[str], client: AtlasClient) -> None:
         self.allowed_tools = tuple(allowed_tools)
-        self._allowed_set = frozenset(allowed_tools)
+        self._allowed_set = frozenset(self.allowed_tools)
         if not self.allowed_tools or len(self.allowed_tools) != len(self._allowed_set):
             raise BridgeConfigurationError(
                 "Allowed tools must be non-empty and unique."
             )
-        if not backend_sockets:
-            raise BridgeConfigurationError("At least one Atlas backend is required.")
-        self.backend_sockets = dict(backend_sockets)
-        self._tool_servers = {
-            tool: self._server_for_tool(tool) for tool in self.allowed_tools
-        }
-        if set(self._tool_servers.values()) != set(self.backend_sockets):
-            raise BridgeConfigurationError(
-                "Atlas backend map must exactly cover allowlisted tool servers."
-            )
-        self._servers_by_socket: dict[Path, tuple[str, ...]] = {}
-        for socket_path in sorted(set(self.backend_sockets.values()), key=str):
-            self._servers_by_socket[socket_path] = tuple(
-                sorted(
-                    server
-                    for server, configured_socket in self.backend_sockets.items()
-                    if configured_socket == socket_path
-                )
-            )
-        self._clients = {
-            socket_path: client_factory(socket_path)
-            for socket_path in self._servers_by_socket
-        }
-        self._tool_mapping: dict[str, tuple[BackendClient, str]] = {}
+        self.client = client
         self._advertised_tools: tuple[types.Tool, ...] = ()
-        self._refresh_lock = asyncio.Lock()
-        self._ready = False
-        self._ready_tool_count = 0
-        self._readiness_generation = 0
 
-    @property
-    def ready(self) -> bool:
-        return self._ready
-
-    @property
-    def ready_tool_count(self) -> int:
-        return self._ready_tool_count
-
-    def _server_for_tool(self, tool: str) -> str:
-        matches = [
-            server for server in self.backend_sockets if tool.startswith(f"{server}_")
-        ]
-        if len(matches) != 1:
-            raise BridgeConfigurationError(
-                "Every allowlisted tool must have exactly one configured server prefix."
-            )
-        return matches[0]
-
-    async def _query_backend(
-        self,
-        socket_path: Path,
-        *,
-        check_health: bool,
-        deadline_monotonic: float | None,
-    ) -> tuple[Path, Any]:
-        client = self._clients[socket_path]
-
-        try:
-            if check_health:
-                health = await client.request_json(
-                    "GET",
-                    "/health",
-                    deadline_monotonic=deadline_monotonic,
-                )
-                if not isinstance(health, Mapping) or health.get("status") != (
-                    "health_and_client_connection_ok"
-                ):
-                    raise AtlasBackendError("Atlas backend health check failed.")
-            tools = await client.request_json(
-                "POST",
-                "/list-tools",
-                deadline_monotonic=deadline_monotonic,
-            )
-        except Exception as exc:
-            # Collapse all backend detail before it can reach an agent-facing route.
-            raise AtlasBackendError("Atlas backend is unavailable.") from exc
-        return socket_path, tools
-
-    async def _collect_backend_tools(
-        self,
-        *,
-        check_health: bool,
-        deadline_monotonic: float | None,
-    ) -> dict[Path, Any]:
-        tasks: dict[Path, asyncio.Task[tuple[Path, Any]]] = {}
-        try:
-            async with asyncio.TaskGroup() as group:
-                for socket_path in self._clients:
-                    tasks[socket_path] = group.create_task(
-                        self._query_backend(
-                            socket_path,
-                            check_health=check_health,
-                            deadline_monotonic=deadline_monotonic,
-                        )
-                    )
-        except* Exception as group_error:
-            raise AtlasBackendError(
-                "One or more Atlas backends are unavailable."
-            ) from (group_error)
-        return {socket_path: task.result()[1] for socket_path, task in tasks.items()}
-
-    def _resolve_tool_mapping(
-        self, backend_tools: Mapping[Path, Any]
-    ) -> tuple[dict[str, tuple[BackendClient, str]], tuple[types.Tool, ...]]:
-        mapping: dict[str, tuple[BackendClient, str]] = {}
-        advertised_by_name: dict[str, types.Tool] = {}
-        for socket_path, raw_tools in backend_tools.items():
-            if not isinstance(raw_tools, list):
-                raise AtlasBackendError("Atlas list-tools response must be an array.")
-            by_name: dict[str, Any] = {}
-            for raw_tool in raw_tools:
-                if not isinstance(raw_tool, Mapping) or not isinstance(
-                    raw_tool.get("name"), str
-                ):
-                    raise AtlasBackendError(
-                        "Atlas list-tools response has an invalid tool."
-                    )
-                actual_name = raw_tool["name"]
-                if actual_name in by_name:
-                    raise AtlasBackendError(
-                        "Atlas list-tools response has duplicate names."
-                    )
-                by_name[actual_name] = raw_tool
-
-            servers = self._servers_by_socket[socket_path]
-            external_tools = [
-                tool
-                for tool in self.allowed_tools
-                if self.backend_sockets[self._tool_servers[tool]] == socket_path
-            ]
-            used_actual_names: set[str] = set()
-            for external_name in external_tools:
-                actual_name = external_name
-                if actual_name not in by_name and len(servers) == 1:
-                    prefix = f"{servers[0]}_"
-                    if external_name.startswith(prefix):
-                        stripped = external_name[len(prefix) :]
-                        if stripped in by_name:
-                            actual_name = stripped
-                if actual_name not in by_name:
-                    raise AtlasBackendError(
-                        "Atlas backend is missing one or more allowlisted tools."
-                    )
-                if actual_name in used_actual_names:
-                    raise AtlasBackendError("Atlas tool-name adaptation is ambiguous.")
-                used_actual_names.add(actual_name)
-                mapping[external_name] = (self._clients[socket_path], actual_name)
-                advertised_by_name[external_name] = _tool_from_json(
-                    by_name[actual_name], advertised_name=external_name
-                )
-        if set(mapping) != self._allowed_set:
-            raise AtlasBackendError("Atlas backend tool coverage is incomplete.")
-        return mapping, tuple(advertised_by_name[name] for name in self.allowed_tools)
-
-    async def _refresh_tools_locked(
-        self,
-        *,
-        check_health: bool,
-        deadline_monotonic: float | None,
-    ) -> tuple[types.Tool, ...]:
-        backend_tools = await self._collect_backend_tools(
-            check_health=check_health,
-            deadline_monotonic=deadline_monotonic,
-        )
-        mapping, tools = self._resolve_tool_mapping(backend_tools)
-        self._tool_mapping = mapping
-        self._advertised_tools = tools
-        return tools
-
-    async def refresh_tools(
-        self, *, check_health: bool = False
-    ) -> tuple[types.Tool, ...]:
-        async with self._refresh_lock:
-            return await self._refresh_tools_locked(
-                check_health=check_health,
-                deadline_monotonic=None,
-            )
+    async def refresh_tools(self) -> tuple[types.Tool, ...]:
+        response = await self.client.request_json("POST", "/list-tools")
+        if not isinstance(response, list):
+            raise AtlasBackendError("Atlas list-tools response must be an array.")
+        available: dict[str, types.Tool] = {}
+        for value in response:
+            tool = _tool_from_json(value)
+            if tool.name in available:
+                raise AtlasBackendError("Atlas returned duplicate tool names.")
+            available[tool.name] = tool
+        if self._allowed_set - available.keys():
+            raise AtlasBackendError("Atlas backend is missing an allowlisted tool.")
+        self._advertised_tools = tuple(available[name] for name in self.allowed_tools)
+        return self._advertised_tools
 
     async def list_tools(self) -> list[types.Tool]:
-        tools = self._advertised_tools or await self.refresh_tools()
-        return list(tools)
+        if not self._advertised_tools:
+            await self.refresh_tools()
+        return list(self._advertised_tools)
 
     async def call_tool(
         self, name: str, arguments: Mapping[str, Any] | None
@@ -745,54 +190,29 @@ class MCPAtlasBridge:
         if name not in self._allowed_set:
             raise ToolNotAllowedError("Tool is not enabled for this task.")
         if arguments is not None and not isinstance(arguments, Mapping):
-            raise BridgeError("Tool arguments must be an object.")
-        if name not in self._tool_mapping:
+            raise ValueError("Tool arguments must be an object.")
+        if not self._advertised_tools:
             await self.refresh_tools()
-        route = self._tool_mapping.get(name)
-        if route is None:
-            raise ToolNotAllowedError("Tool is not enabled for this task.")
-        client, actual_name = route
-        response = await client.request_json(
+        response = await self.client.request_json(
             "POST",
             "/call-tool",
             {
-                "tool_name": actual_name,
+                "tool_name": name,
                 "tool_args": dict(arguments or {}),
                 "use_cache": True,
             },
         )
         if not isinstance(response, list):
             raise AtlasBackendError("Atlas call-tool response must be an array.")
-        if not response:
-            return [types.TextContent(type="text", text="success")]
         return [_content_from_json(item) for item in response]
 
-    async def check_ready(self, *, deadline_monotonic: float | None = None) -> int:
-        if deadline_monotonic is not None and not math.isfinite(deadline_monotonic):
-            raise BridgeConfigurationError("Readiness deadline must be finite.")
-        self._readiness_generation += 1
-        generation = self._readiness_generation
-        self._ready = False
-        self._ready_tool_count = 0
-        tool_count = 0
-        succeeded = False
-        try:
-            # Health probes share the discovery lock so neither path can publish a
-            # tool map based on a backend snapshot that overlaps another refresh.
-            async with self._refresh_lock:
-                tools = await self._refresh_tools_locked(
-                    check_health=True,
-                    deadline_monotonic=deadline_monotonic,
-                )
-            tool_count = len(tools)
-            succeeded = True
-        finally:
-            # A newer timed-out probe must remain authoritative if an older probe
-            # later succeeds after cancellation or lock contention.
-            if generation == self._readiness_generation:
-                self._ready = succeeded
-                self._ready_tool_count = tool_count if succeeded else 0
-        return tool_count
+    async def check_ready(self) -> int:
+        health = await self.client.request_json("GET", "/health")
+        if not isinstance(health, Mapping) or health.get("status") != (
+            "health_and_client_connection_ok"
+        ):
+            raise AtlasBackendError("Atlas backend health check failed.")
+        return len(await self.refresh_tools())
 
     async def wait_until_ready(
         self,
@@ -800,31 +220,17 @@ class MCPAtlasBridge:
         timeout_sec: float = DEFAULT_STARTUP_TIMEOUT_SEC,
         retry_interval_sec: float = DEFAULT_STARTUP_RETRY_INTERVAL_SEC,
     ) -> int:
-        """Wait for concurrently starting backends without leaking failure detail."""
-
-        if not math.isfinite(timeout_sec) or not math.isfinite(retry_interval_sec):
-            raise BridgeConfigurationError("Startup timing values must be finite.")
-        if timeout_sec <= 0 or retry_interval_sec <= 0:
-            raise BridgeConfigurationError("Startup timing values must be positive.")
-        deadline = time.monotonic() + timeout_sec
+        loop = asyncio.get_running_loop()
+        deadline = loop.time() + timeout_sec
         last_error: AtlasBackendError | None = None
-        while True:
-            remaining = deadline - time.monotonic()
-            if remaining <= 0:
-                break
+        while loop.time() < deadline:
             try:
-                async with asyncio.timeout(remaining):
-                    return await self.check_ready(deadline_monotonic=deadline)
-            except TimeoutError:
-                break
+                return await self.check_ready()
             except AtlasBackendError as exc:
                 last_error = exc
-            remaining = deadline - time.monotonic()
-            if remaining <= 0:
-                break
-            await asyncio.sleep(min(retry_interval_sec, remaining))
+            await asyncio.sleep(min(retry_interval_sec, max(0, deadline - loop.time())))
         raise AtlasBackendError(
-            "Atlas backends did not become ready before the startup deadline."
+            "Atlas backend did not become ready in time."
         ) from last_error
 
 
@@ -840,15 +246,7 @@ def create_app(
     bridge: MCPAtlasBridge,
     *,
     startup_timeout_sec: float = DEFAULT_STARTUP_TIMEOUT_SEC,
-    health_timeout_sec: float = DEFAULT_HEALTH_TIMEOUT_SEC,
 ) -> Starlette:
-    """Create a stateful streamable-HTTP MCP app with redacted health errors."""
-
-    if not math.isfinite(health_timeout_sec):
-        raise BridgeConfigurationError("Health timeout must be finite.")
-    if health_timeout_sec <= 0:
-        raise BridgeConfigurationError("Health timeout must be positive.")
-
     server = Server("harbor-mcp-atlas-gateway", version="1.0.0")
 
     @server.list_tools()
@@ -862,19 +260,15 @@ def create_app(
         return await bridge.call_tool(name, arguments)
 
     manager = StreamableHTTPSessionManager(
-        app=server,
-        json_response=True,
-        stateless=False,
+        app=server, json_response=True, stateless=False
     )
 
     async def health(_: Request) -> JSONResponse:
-        deadline = time.monotonic() + health_timeout_sec
         try:
-            async with asyncio.timeout(health_timeout_sec):
-                tool_count = await bridge.check_ready(deadline_monotonic=deadline)
-        except (AtlasBackendError, TimeoutError):
+            count = await bridge.check_ready()
+        except AtlasBackendError:
             return JSONResponse({"status": "unavailable"}, status_code=503)
-        return JSONResponse({"status": "ok", "tool_count": tool_count})
+        return JSONResponse({"status": "ok", "tool_count": count})
 
     @contextlib.asynccontextmanager
     async def lifespan(_: Starlette):
@@ -895,65 +289,51 @@ def create_app(
     return app
 
 
-def _positive_float(value: str, *, name: str) -> float:
+def _positive_float(value: str, name: str) -> float:
     try:
-        parsed = float(value)
+        result = float(value)
     except ValueError as exc:
         raise BridgeConfigurationError(f"{name} must be a number.") from exc
-    if not math.isfinite(parsed):
-        raise BridgeConfigurationError(f"{name} must be finite.")
-    if parsed <= 0:
+    if result <= 0:
         raise BridgeConfigurationError(f"{name} must be positive.")
-    return parsed
+    return result
 
 
-def _port(value: str) -> int:
-    try:
-        parsed = int(value)
-    except ValueError as exc:
-        raise BridgeConfigurationError("MCP_BRIDGE_PORT must be an integer.") from exc
-    if not 1 <= parsed <= 65535:
-        raise BridgeConfigurationError("MCP_BRIDGE_PORT is out of range.")
-    return parsed
-
-
-def main() -> None:
+def bridge_from_environment() -> tuple[MCPAtlasBridge, float]:
     allowlist = load_allowlist(
         Path(
             os.environ.get("MCP_ATLAS_ENABLED_TOOLS_FILE", str(DEFAULT_ALLOWLIST_PATH))
         )
     )
-    backend_sockets = load_backend_map(
-        Path(os.environ.get("MCP_ATLAS_BACKENDS_FILE", str(DEFAULT_BACKENDS_PATH)))
-    )
     timeout = _positive_float(
         os.environ.get("MCP_ATLAS_TIMEOUT_SEC", str(DEFAULT_TIMEOUT_SEC)),
-        name="MCP_ATLAS_TIMEOUT_SEC",
+        "MCP_ATLAS_TIMEOUT_SEC",
     )
     startup_timeout = _positive_float(
         os.environ.get(
             "MCP_ATLAS_STARTUP_TIMEOUT_SEC", str(DEFAULT_STARTUP_TIMEOUT_SEC)
         ),
-        name="MCP_ATLAS_STARTUP_TIMEOUT_SEC",
+        "MCP_ATLAS_STARTUP_TIMEOUT_SEC",
     )
-    health_timeout = _positive_float(
-        os.environ.get("MCP_ATLAS_HEALTH_TIMEOUT_SEC", str(DEFAULT_HEALTH_TIMEOUT_SEC)),
-        name="MCP_ATLAS_HEALTH_TIMEOUT_SEC",
+    client = AtlasRESTClient(
+        os.environ.get("MCP_ATLAS_BASE_URL", DEFAULT_BASE_URL), timeout_sec=timeout
     )
-    bridge = MCPAtlasBridge(
-        allowlist,
-        backend_sockets,
-        client_factory=lambda path: AtlasUnixClient(path, timeout_sec=timeout),
-    )
-    app = create_app(
-        bridge,
-        startup_timeout_sec=startup_timeout,
-        health_timeout_sec=health_timeout,
-    )
+    return MCPAtlasBridge(allowlist, client), startup_timeout
+
+
+def main() -> None:
+    bridge, startup_timeout = bridge_from_environment()
+    app = create_app(bridge, startup_timeout_sec=startup_timeout)
+    try:
+        port = int(os.environ.get("MCP_BRIDGE_PORT", str(DEFAULT_PORT)))
+    except ValueError as exc:
+        raise BridgeConfigurationError("MCP_BRIDGE_PORT must be an integer.") from exc
+    if not 1 <= port <= 65535:
+        raise BridgeConfigurationError("MCP_BRIDGE_PORT is out of range.")
     uvicorn.run(
         app,
         host=os.environ.get("MCP_BRIDGE_HOST", DEFAULT_HOST),
-        port=_port(os.environ.get("MCP_BRIDGE_PORT", str(DEFAULT_PORT))),
+        port=port,
         access_log=False,
         log_level="info",
         proxy_headers=False,

@@ -114,17 +114,31 @@ if [[ ! -f "$adapter_dir/pyproject.toml" ]]; then
 fi
 
 generated="$work_dir/generated"
-source_args=()
 if [[ -n "${MCP_ATLAS_SOURCE_FILE:-}" ]]; then
-  source_args=(--source-file "$MCP_ATLAS_SOURCE_FILE")
+  source_file="$MCP_ATLAS_SOURCE_FILE"
+else
+  source_file="$work_dir/MCP-Atlas.parquet"
+  python3 - "$source_revision" "$source_file" <<'PY'
+import shutil
+import sys
+from urllib.request import urlopen
+
+revision, destination = sys.argv[1:]
+url = (
+    "https://huggingface.co/datasets/ScaleAI/MCP-Atlas/resolve/"
+    f"{revision}/MCP-Atlas.parquet"
+)
+with urlopen(url) as response, open(destination, "wb") as output:
+    shutil.copyfileobj(response, output)
+PY
 fi
 
 uv run --frozen --project "$adapter_dir" mcp-atlas generate \
+  --source-file "$source_file" \
   --repo-layout \
   --dataset-version "$dataset_version" \
   --adapter-commit "$adapter_commit" \
-  --output-dir "$generated" \
-  "${source_args[@]}"
+  --output-dir "$generated"
 
 uv run --frozen --project "$adapter_dir" mcp-atlas validate \
   --dataset-dir "$generated"

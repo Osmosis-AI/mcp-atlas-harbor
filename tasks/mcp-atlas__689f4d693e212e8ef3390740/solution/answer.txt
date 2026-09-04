@@ -1,3 +1,3 @@
-- B. K. Meister authored a paper titled "Through the Looking Glass: Bitcoin Treasury Companies
-- "Through the Looking Glass: Bitcoin Treasury Companies" is about Bitcoin.
-- According to /data/CoinbaseTradeHistory.csv in the user's local PC files, the total sum of BTC sell transactions after fees amounts to $6,608.87.
+B. K. Meister authored a paper titled "Through the Looking Glass: Bitcoin Treasury Companies
+"Through the Looking Glass: Bitcoin Treasury Companies" is about Bitcoin.
+According to /data/CoinbaseTradeHistory.csv in the user's local PC files, the total sum of BTC sell transactions after fees amounts to $6,608.87.

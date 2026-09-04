@@ -1,2 +1,2 @@
-- The 2018 World Cup final took place on July 15, 2018.
-- On July 15, 2018, the user's traveled 808 kilometers on his delivery trip.
+The 2018 World Cup final took place on July 15, 2018.
+On July 15, 2018, the user's traveled 808 kilometers on his delivery trip.

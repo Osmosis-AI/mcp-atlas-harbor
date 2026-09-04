@@ -1,5 +1,5 @@
-- In the movie suggestions channel, kcpfan46 suggested The Matrix.
-- In the movie suggestions channel, quickfits01 suggested Oppenheimer.
-- The Matrix won 4 Oscars.
-- Oppenheimer won 7 Oscars.
-- Oppenheimer won more Oscars than The Matrix.
+In the movie suggestions channel, kcpfan46 suggested The Matrix.
+In the movie suggestions channel, quickfits01 suggested Oppenheimer.
+The Matrix won 4 Oscars.
+Oppenheimer won 7 Oscars.
+Oppenheimer won more Oscars than The Matrix.

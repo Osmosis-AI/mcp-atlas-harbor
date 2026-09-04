@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "6888e207a34beb25cfedda95"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "6888e207a34beb25cfedda95"
 enabled_tool_count = 9
+source_enabled_tools = ["notion_API-post-search","notion_API-post-database-query","whois_whois_domain","memory_read_graph","memory_search_nodes","mcp-server-code-runner_run-code","anili_search_character","anili_search_manga","anili_get_manga","anili_get_anime","anili_search_anime","fetch_fetch","alchemy_fetchTokenPriceHistoryBySymbol","calculator_calculate"]
 source_enabled_tool_count = 14
 unavailable_tool_count = 5
 unavailable_tools = ["anili_search_character","anili_search_manga","anili_get_manga","anili_get_anime","anili_search_anime"]

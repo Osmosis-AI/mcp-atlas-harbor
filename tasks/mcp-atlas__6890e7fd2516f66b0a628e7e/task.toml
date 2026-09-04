@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "6890e7fd2516f66b0a628e7e"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "6890e7fd2516f66b0a628e7e"
 enabled_tool_count = 17
+source_enabled_tools = ["github_search_repositories","clinicaltrialsgov-mcp-server_clinicaltrials_list_studies","context7_get-library-docs","met-museum_search-museum-objects","national-parks_getVisitorCenters","national-parks_findParks","osm-mcp-server_geocode_address","osm-mcp-server_reverse_geocode","cli-mcp-server_run_command","google-maps_maps_geocode","google-maps_maps_place_details","desktop-commander_get_config","desktop-commander_read_file","exa_web_search_exa","wikipedia_search_wikipedia","wikipedia_get_article","wikipedia_get_summary"]
 source_enabled_tool_count = 17
 unavailable_tool_count = 0
 unavailable_tools = []

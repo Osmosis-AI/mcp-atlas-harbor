@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "6887c6d4614f06dc73af240d"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "6887c6d4614f06dc73af240d"
 enabled_tool_count = 19
+source_enabled_tools = ["twelvedata_GetTimeSeries","twelvedata_GetTimeSeriesRsi","twelvedata_GetTimeSeriesMacd","twelvedata_GetTimeSeriesBBands","twelvedata_GetTimeSeriesEma","twelvedata_GetSymbolSearch","twelvedata_GetTimeSeriesAtr","twelvedata_GetForexPairs","twelvedata_GetTimeSeriesSma","twelvedata_GetCryptocurrencies","twelvedata_GetCryptocurrencyExchanges","twelvedata_GetExchanges","twelvedata_GetTimeSeriesCross","twelvedata_GetTimeSeriesAdx","calculator_calculate","cli-mcp-server_run_command","cli-mcp-server_show_security_rules","lara-translate_list_languages","lara-translate_translate"]
 source_enabled_tool_count = 19
 unavailable_tool_count = 0
 unavailable_tools = []

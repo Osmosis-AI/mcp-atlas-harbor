@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "689e0b1d9c8e2ac413c1f228"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "689e0b1d9c8e2ac413c1f228"
 enabled_tool_count = 12
+source_enabled_tools = ["national-parks_getParkDetails","national-parks_findParks","national-parks_getVisitorCenters","national-parks_getCampgrounds","fetch_fetch","pubmed_download_pubmed_pdf","pubmed_get_pubmed_article_metadata","pubmed_search_pubmed_advanced","pubmed_search_pubmed_key_words","met-museum_list-departments","met-museum_search-museum-objects","met-museum_get-museum-object","rijksmuseum-server_search_artwork","rijksmuseum-server_get_artwork_details"]
 source_enabled_tool_count = 14
 unavailable_tool_count = 2
 unavailable_tools = ["rijksmuseum-server_search_artwork","rijksmuseum-server_get_artwork_details"]

@@ -7,6 +7,7 @@ import asyncio
 import contextlib
 import http.client
 import json
+import math
 import os
 import socket
 import stat
@@ -204,6 +205,8 @@ class AtlasUnixClient:
     ) -> None:
         if not socket_path.is_absolute() or socket_path.name != "atlas.sock":
             raise BridgeConfigurationError("Atlas socket path is invalid.")
+        if not math.isfinite(timeout_sec):
+            raise BridgeConfigurationError("Atlas client timeout must be finite.")
         if timeout_sec <= 0 or max_response_bytes < 1:
             raise BridgeConfigurationError("Atlas client limits must be positive.")
         self.socket_path = socket_path
@@ -522,6 +525,8 @@ class MCPAtlasBridge:
     ) -> int:
         """Wait for concurrently starting backends without leaking failure detail."""
 
+        if not math.isfinite(timeout_sec) or not math.isfinite(retry_interval_sec):
+            raise BridgeConfigurationError("Startup timing values must be finite.")
         if timeout_sec <= 0 or retry_interval_sec <= 0:
             raise BridgeConfigurationError("Startup timing values must be positive.")
         loop = asyncio.get_running_loop()
@@ -609,6 +614,8 @@ def _positive_float(value: str, *, name: str) -> float:
         parsed = float(value)
     except ValueError as exc:
         raise BridgeConfigurationError(f"{name} must be a number.") from exc
+    if not math.isfinite(parsed):
+        raise BridgeConfigurationError(f"{name} must be finite.")
     if parsed <= 0:
         raise BridgeConfigurationError(f"{name} must be positive.")
     return parsed

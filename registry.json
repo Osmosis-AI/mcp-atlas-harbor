@@ -1,7 +1,7 @@
 [
   {
     "name": "mcp-atlas",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Full public MCP-Atlas task set converted to Harbor.",
     "tasks": [
       {
@@ -2008,7 +2008,7 @@
   },
   {
     "name": "mcp-atlas-credential-free",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Strict subset whose complete original tool allowlist uses no API credentials.",
     "tasks": [
       {
@@ -2135,7 +2135,7 @@
   },
   {
     "name": "mcp-atlas-smoke",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Five-task credential-free deployment smoke.",
     "tasks": [
       {

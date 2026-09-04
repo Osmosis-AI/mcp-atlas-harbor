@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "689e0b1d9c8e2ac413c1f257"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "689e0b1d9c8e2ac413c1f257"
 enabled_tool_count = 15
+source_enabled_tools = ["notion_API-get-user","notion_API-get-users","notion_API-get-self","mcp-code-executor_execute_code","filesystem_read_file","filesystem_list_allowed_directories","filesystem_list_directory","notion_API-post-search","notion_API-retrieve-a-database","notion_API-retrieve-a-page","notion_API-retrieve-a-block","git_git_status","github_search_repositories","github_search_users","notion_API-post-database-query"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 0
 unavailable_tools = []

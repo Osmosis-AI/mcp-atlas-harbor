@@ -2,22 +2,22 @@
 
 This repository is the immutable, generated [Harbor](https://github.com/Osmosis-AI/harbor) distribution of [Scale AI MCP-Atlas](https://github.com/scaleapi/mcp-atlas), a benchmark for tool-use competency with real Model Context Protocol (MCP) servers.
 
-Release **v1.0.1** contains the complete pinned public split: **500 tasks**, **1,952 normalized claims**, a strict **30-task credential-free subset**, and a fixed **5-task smoke subset**. Reference trajectories are intentionally excluded.
+Release **v1.0.2** contains the complete pinned public split: **500 tasks**, **1,952 normalized claims**, a strict **30-task credential-free subset**, and a fixed **5-task smoke subset**. Reference trajectories are intentionally excluded.
 
 ## Datasets
 
 | Dataset | Tasks | Intended use |
 |---|---:|---|
-| `mcp-atlas-smoke@1.0.1` | 5 | First deployment check; credential-free and intentionally small. |
-| `mcp-atlas-credential-free@1.0.1` | 30 | Evaluation without Atlas service credentials. An evaluator model is still required. |
-| `mcp-atlas@1.0.1` | 500 | Full public split; credentials and prepared external-service state may be required. |
+| `mcp-atlas-smoke@1.0.2` | 5 | First deployment check; credential-free and intentionally small. |
+| `mcp-atlas-credential-free@1.0.2` | 30 | Evaluation without Atlas service credentials. An evaluator model is still required. |
+| `mcp-atlas@1.0.2` | 500 | Full public split; credentials and prepared external-service state may be required. |
 
 Start with the smoke set on local Docker and one concurrent trial:
 
 ```bash
 harbor run \
-  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.1 \
-  --dataset mcp-atlas-smoke@1.0.1 \
+  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.2 \
+  --dataset mcp-atlas-smoke@1.0.2 \
   --agent <agent> \
   --model <model>
 ```
@@ -61,18 +61,18 @@ Quantitative original-versus-Harbor model parity has not yet been run. Smoke and
 | Hugging Face dataset | `ScaleAI/MCP-Atlas` at `8c563b55d7c967755f474299848049834d624617` |
 | Public Parquet | `MCP-Atlas.parquet`, 15,638,757 bytes, SHA-256 `2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0` |
 | Upstream source | `scaleapi/mcp-atlas` at `f24ba3fb0bfa484c86acb28431fad6d7282455f9` |
-| Harbor adapter | `Osmosis-AI/harbor` at `99e79435ef324de5c2292e95a519dba3f63c5de8` |
+| Harbor adapter | `Osmosis-AI/harbor` at `22c1b7e9720825b3ae6c7b722f31cd684b9d6a33` |
 | Official Atlas image | `ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c` |
 | Main/verifier image | `python:3.12-slim-bookworm@sha256:782412e85d0f0984994c290652577d4018aff08145c85b262bb63dc0c7522254` |
 
-`manifests/mcp-atlas-1.0.1.json` records those inputs, runtime Git pins, every task checksum, subset membership, mutation flags, and removed distractors. Its `dataset.git_commit` is intentionally null because embedding a commit hash in content changes that same commit; the annotated `v1.0.1` tag is the authoritative immutable repository pin.
+`manifests/mcp-atlas-1.0.2.json` records those inputs, runtime Git pins, every task checksum, subset membership, mutation flags, and removed distractors. Its `dataset.git_commit` is intentionally null because embedding a commit hash in content changes that same commit; the annotated `v1.0.2` tag is the authoritative immutable repository pin.
 
 ## Repository layout
 
 ```text
 .
 ├── tasks/                              # 500 generated Harbor task directories
-├── manifests/mcp-atlas-1.0.1.json     # provenance and per-task checksums
+├── manifests/mcp-atlas-1.0.2.json     # provenance and per-task checksums
 ├── registry.json                       # full, credential-free, and smoke views
 ├── scripts/release.sh                  # regenerate, validate, and byte-diff
 └── .github/workflows/validate.yml      # reproducibility gate

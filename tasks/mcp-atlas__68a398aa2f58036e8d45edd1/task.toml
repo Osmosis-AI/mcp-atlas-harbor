@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "68a398aa2f58036e8d45edd1"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "68a398aa2f58036e8d45edd1"
 enabled_tool_count = 13
+source_enabled_tools = ["mongodb_list-databases","mongodb_list-collections","mongodb_collection-schema","mongodb_aggregate","arxiv_search_papers","google-workspace_list_events","rijksmuseum-server_get_artwork_details","rijksmuseum-server_search_artwork","memory_read_graph","memory_search_nodes","pubmed_search_pubmed_key_words","twelvedata_GetCryptocurrencies","twelvedata_GetSymbolSearch","twelvedata_GetTimeSeries","wikipedia_search_wikipedia"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 2
 unavailable_tools = ["rijksmuseum-server_get_artwork_details","rijksmuseum-server_search_artwork"]

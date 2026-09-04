@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "689e0b1d9c8e2ac413c1f20f"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "689e0b1d9c8e2ac413c1f20f"
 enabled_tool_count = 15
+source_enabled_tools = ["national-parks_getCampgrounds","national-parks_getVisitorCenters","national-parks_findParks","national-parks_getParkDetails","weather-data_weather_search","weather-data_weather_astronomy","weather-data_weather_history","arxiv_search_papers","context7_resolve-library-id","context7_get-library-docs","alchemy_fetchTokenPriceHistoryBySymbol","slack_channels_list","slack_conversations_add_message","slack_conversations_history","slack_conversations_replies"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 0
 unavailable_tools = []

@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "688a441c1a0d2e5c93853e99"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "688a441c1a0d2e5c93853e99"
 enabled_tool_count = 24
+source_enabled_tools = ["clinicaltrialsgov-mcp-server_clinicaltrials_get_study","clinicaltrialsgov-mcp-server_clinicaltrials_list_studies","lara-translate_translate","lara-translate_list_languages","fetch_fetch","notion_API-get-user","notion_API-get-users","notion_API-get-self","notion_API-post-database-query","notion_API-get-block-children","notion_API-post-search","notion_API-retrieve-a-block","notion_API-retrieve-a-page","notion_API-retrieve-a-database","memory_read_graph","memory_search_nodes","memory_open_nodes","slack_channels_list","slack_conversations_add_message","slack_conversations_history","slack_conversations_replies","slack_conversations_search_messages","ddg-search_search","ddg-search_fetch_content"]
 source_enabled_tool_count = 24
 unavailable_tool_count = 0
 unavailable_tools = []

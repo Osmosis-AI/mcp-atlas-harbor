@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "6888e207a34beb25cfedda8b"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "6888e207a34beb25cfedda8b"
 enabled_tool_count = 16
+source_enabled_tools = ["weather-data_weather_airquality","weather-data_weather_timezone","weather-data_weather_sports","weather_get_weather_alerts","fetch_fetch","twelvedata_GetTimeSeries","twelvedata_GetSymbolSearch","whois_whois_domain","weather-data_weather_current","weather-data_weather_forecast","open-library_get_book_by_title","open-library_get_authors_by_name","open-library_get_author_info","open-library_get_book_by_id","lara-translate_translate","lara-translate_list_languages"]
 source_enabled_tool_count = 16
 unavailable_tool_count = 0
 unavailable_tools = []

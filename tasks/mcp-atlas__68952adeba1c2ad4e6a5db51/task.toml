@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "68952adeba1c2ad4e6a5db51"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "68952adeba1c2ad4e6a5db51"
 enabled_tool_count = 15
+source_enabled_tools = ["airtable_list_bases","airtable_list_tables","airtable_search_records","airtable_get_record","airtable_list_records","clinicaltrialsgov-mcp-server_clinicaltrials_get_study","clinicaltrialsgov-mcp-server_clinicaltrials_list_studies","clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends","github_search_repositories","github_search_code","github_search_users","github_get_issue","github_search_issues","github_list_issues","github_get_issue_comments"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 0
 unavailable_tools = []

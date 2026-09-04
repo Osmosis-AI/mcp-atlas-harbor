@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "6896416f7b30e5d8ccd7c8c2"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "6896416f7b30e5d8ccd7c8c2"
 enabled_tool_count = 8
+source_enabled_tools = ["ddg-search_search","f1-mcp-server_get_event_schedule","f1-mcp-server_get_event_info","f1-mcp-server_get_session_results","f1-mcp-server_get_driver_info","f1-mcp-server_analyze_driver_performance","f1-mcp-server_compare_drivers","f1-mcp-server_get_telemetry","f1-mcp-server_get_championship_standings","weather-data_weather_history","weather_find_weather_stations","weather-data_weather_astronomy","weather-data_weather_search","ddg-search_fetch_content","met-museum_search-museum-objects","met-museum_get-museum-object"]
 source_enabled_tool_count = 16
 unavailable_tool_count = 8
 unavailable_tools = ["f1-mcp-server_get_event_schedule","f1-mcp-server_get_event_info","f1-mcp-server_get_session_results","f1-mcp-server_get_driver_info","f1-mcp-server_analyze_driver_performance","f1-mcp-server_compare_drivers","f1-mcp-server_get_telemetry","f1-mcp-server_get_championship_standings"]

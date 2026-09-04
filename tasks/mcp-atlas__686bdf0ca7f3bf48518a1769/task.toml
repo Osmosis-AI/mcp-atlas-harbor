@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "686bdf0ca7f3bf48518a1769"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "686bdf0ca7f3bf48518a1769"
 enabled_tool_count = 17
+source_enabled_tools = ["filesystem_read_file","filesystem_read_multiple_files","filesystem_list_directory","filesystem_list_directory_with_sizes","filesystem_directory_tree","filesystem_search_files","filesystem_get_file_info","filesystem_list_allowed_directories","twelvedata_GetCryptocurrencies","clinicaltrialsgov-mcp-server_clinicaltrials_get_study","clinicaltrialsgov-mcp-server_clinicaltrials_list_studies","mcp-code-executor_read_code_file","memory_read_graph","memory_search_nodes","memory_open_nodes","mcp-code-executor_execute_code","mcp-server-code-runner_run-code"]
 source_enabled_tool_count = 17
 unavailable_tool_count = 0
 unavailable_tools = []

@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "686bdf0ca7f3bf48518a172b"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "686bdf0ca7f3bf48518a172b"
 enabled_tool_count = 11
+source_enabled_tools = ["clinicaltrialsgov-mcp-server_clinicaltrials_get_study","clinicaltrialsgov-mcp-server_clinicaltrials_list_studies","lara-translate_translate","balldontlie_get_teams","balldontlie_get_games","alchemy_fetchTokenPriceHistoryBySymbol","calculator_calculate","e2b-server_run_code","mcp-server-code-runner_run-code","desktop-commander_get_config","desktop-commander_read_file","desktop-commander_read_multiple_files","desktop-commander_list_directory"]
 source_enabled_tool_count = 13
 unavailable_tool_count = 2
 unavailable_tools = ["balldontlie_get_teams","balldontlie_get_games"]

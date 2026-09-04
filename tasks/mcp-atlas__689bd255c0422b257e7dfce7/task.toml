@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "689bd255c0422b257e7dfce7"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "689bd255c0422b257e7dfce7"
 enabled_tool_count = 16
+source_enabled_tools = ["alchemy_fetchTokenPriceHistoryBySymbol","calculator_calculate","google-workspace_list_events","git_git_status","git_git_diff_unstaged","git_git_log","git_git_show","exa_web_search_exa","mcp-code-executor_execute_code","mcp-code-executor_read_code_file","mcp-code-executor_check_installed_packages","mcp-code-executor_get_environment_config","mcp-server-code-runner_run-code","airtable_list_bases","airtable_list_tables","airtable_list_records"]
 source_enabled_tool_count = 16
 unavailable_tool_count = 0
 unavailable_tools = []

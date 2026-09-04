@@ -11,12 +11,15 @@ keywords = ["mcp-atlas", "mcp", "tool-use"]
 [metadata]
 difficulty = "hard"
 category = "tool-use"
+source_kind = "hugging-face"
 source = "ScaleAI/MCP-Atlas"
-source_task_id = "689cd6f8522029b7ad7b2015"
 source_revision = "8c563b55d7c967755f474299848049834d624617"
+source_split = "train"
 source_repository = "https://github.com/scaleapi/mcp-atlas"
 source_repository_commit = "f24ba3fb0bfa484c86acb28431fad6d7282455f9"
+source_task_id = "689cd6f8522029b7ad7b2015"
 enabled_tool_count = 15
+source_enabled_tools = ["filesystem_read_text_file","filesystem_read_multiple_files","filesystem_list_directory","filesystem_list_directory_with_sizes","filesystem_directory_tree","filesystem_get_file_info","filesystem_list_allowed_directories","mcp-code-executor_execute_code","pubmed_search_pubmed_key_words","pubmed_search_pubmed_advanced","fetch_fetch","memory_open_nodes","memory_search_nodes","memory_read_graph","oxylabs_universal_scraper"]
 source_enabled_tool_count = 15
 unavailable_tool_count = 0
 unavailable_tools = []

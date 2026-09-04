@@ -32,6 +32,7 @@ MAX_RESPONSE_CHARS = 500_000
 MAX_JUDGE_RESPONSE_BYTES = 10 * 1024 * 1024
 TRUNCATION_MARKER = "\n\n[TRUNCATED — original response was too long]"
 FALLBACK_FILENAMES = ("response.txt", "final_answer.txt", "answer.txt")
+MINI_SWE_COMPLETION_COMMAND = "echo COMPLETE_TASK_AND_SUBMIT_FINAL_OUTPUT"
 OUTCOME_SCORES = {
     "fulfilled": 1.0,
     "partially_fulfilled": 0.5,
@@ -43,6 +44,7 @@ OUTCOME_SCORES = {
 TERMINAL_TOOL_NAMES = frozenset(
     {
         "answer",
+        "attempt_completion",
         "complete",
         "done",
         "final_answer",
@@ -52,6 +54,7 @@ TERMINAL_TOOL_NAMES = frozenset(
         "respond",
         "submit",
         "submit_answer",
+        "submit_and_exit",
         "task_done",
         "terminate",
     }
@@ -64,6 +67,7 @@ ANSWER_ARGUMENT_KEYS = (
     "answer",
     "response",
     "result",
+    "summary",
     "message",
     "text",
     "output",
@@ -124,6 +128,7 @@ class ExtractionResult:
     response: str
     source: str
     note: str | None = None
+    authoritative: bool = False
 
 
 @dataclass(frozen=True)
@@ -365,6 +370,17 @@ def _is_terminal_call(call: Mapping[str, Any]) -> bool:
     return False
 
 
+def _is_mini_swe_completion_call(call: Mapping[str, Any]) -> bool:
+    """Recognize mini-swe-agent's exact final-output submission sentinel."""
+
+    arguments = call.get("arguments")
+    return (
+        call.get("function_name") == "bash"
+        and isinstance(arguments, Mapping)
+        and arguments.get("command") == MINI_SWE_COMPLETION_COMMAND
+    )
+
+
 def _answer_from_value(value: object, depth: int = 0) -> str:
     if isinstance(value, str):
         return value.strip()
@@ -393,13 +409,71 @@ def _terminal_answer(tool_calls: Sequence[Mapping[str, Any]]) -> str:
     return ""
 
 
+def _producer_completion(
+    step: Mapping[str, Any], producer: str
+) -> ExtractionResult | None:
+    """Read a producer-owned completion state without guessing from its message."""
+
+    extra = step.get("extra")
+    if not isinstance(extra, Mapping):
+        return None
+    producer_extra = extra.get(producer)
+    if not isinstance(producer_extra, Mapping):
+        return None
+    label = "terminus" if producer == "terminus_2" else producer
+    note_label = label
+    if producer == "terminus_2" and producer_extra.get("raw_content") is True:
+        note_label = "terminus_raw"
+    completion = producer_extra.get("task_completion")
+    if not isinstance(completion, Mapping):
+        return ExtractionResult(
+            "", "atif", f"invalid_{note_label}_completion", authoritative=True
+        )
+    status = completion.get("status")
+    if status != "confirmed":
+        return ExtractionResult(
+            "", "atif", f"{note_label}_{status or 'unknown'}", authoritative=True
+        )
+    answer = completion.get("final_answer")
+    if isinstance(answer, str) and answer.strip():
+        return ExtractionResult(
+            answer.strip(), f"atif_{label}_completion", authoritative=True
+        )
+    return ExtractionResult(
+        "",
+        "atif",
+        f"{note_label}_completion_without_answer",
+        authoritative=True,
+    )
+
+
 def extract_atif_response(agent_dir: Path = AGENT_DIR) -> ExtractionResult:
     """Extract the committed final response from the main ATIF trajectory."""
 
     steps = load_main_atif_steps(agent_dir)
     for step in reversed(steps):
-        if step.get("source") != "agent" or step.get("is_copied_context") is True:
+        if step.get("is_copied_context") is True:
             continue
+
+        extra = step.get("extra")
+        if isinstance(extra, Mapping) and extra.get("is_sidechain") is True:
+            continue
+
+        source = step.get("source")
+        if source == "user":
+            return ExtractionResult(
+                "",
+                "atif",
+                "no_agent_response_after_last_user",
+                authoritative=True,
+            )
+        if source != "agent":
+            continue
+
+        for producer in ("terminus_2", "computer_1"):
+            completion = _producer_completion(step, producer)
+            if completion is not None:
+                return completion
 
         text = _message_text(step.get("message"))
         raw_calls = step.get("tool_calls")
@@ -409,14 +483,42 @@ def extract_atif_response(agent_dir: Path = AGENT_DIR) -> ExtractionResult:
             else []
         )
         has_observation = step.get("observation") not in (None, "", [], {})
+        has_reasoning = bool(_message_text(step.get("reasoning_content")))
+        has_inference_metadata = (
+            step.get("metrics") not in (None, "", [], {})
+            or isinstance(step.get("llm_call_count"), int)
+            and step.get("llm_call_count", 0) > 0
+        )
+
+        if (
+            isinstance(extra, Mapping)
+            and extra.get("source_call_id")
+            and not tool_calls
+        ):
+            return ExtractionResult("", "atif", "trailing_orphan_tool_result")
 
         # Empty bookkeeping records do not hide an earlier final response.
-        if not text and not tool_calls and not has_observation:
+        if (
+            not text
+            and not tool_calls
+            and not has_observation
+            and not has_reasoning
+            and not has_inference_metadata
+        ):
             continue
+
+        if not text and not tool_calls and (has_reasoning or has_inference_metadata):
+            return ExtractionResult("", "atif", "trailing_reasoning_without_answer")
 
         if tool_calls:
             # Harbor appends mark_task_complete after the action it commits.  If
             # the final call is anything else, the agent stopped mid-tool-loop.
+            # mini-swe-agent instead uses an exact bash sentinel and stores the
+            # submitted final output in the same ATIF step's message.
+            if _is_mini_swe_completion_call(tool_calls[-1]):
+                if text:
+                    return ExtractionResult(text, "atif_mini_swe_completion")
+                return ExtractionResult("", "atif", "terminal_call_without_answer")
             if not _is_terminal_call(tool_calls[-1]):
                 return ExtractionResult("", "atif", "trailing_nonterminal_tool_call")
             answer = _terminal_answer(tool_calls)
@@ -456,6 +558,8 @@ def extract_response(agent_dir: Path = AGENT_DIR) -> ExtractionResult:
     try:
         atif = extract_atif_response(agent_dir)
         if atif.response:
+            return atif
+        if atif.authoritative:
             return atif
         atif_note = atif.note
     except TrajectoryError as exc:

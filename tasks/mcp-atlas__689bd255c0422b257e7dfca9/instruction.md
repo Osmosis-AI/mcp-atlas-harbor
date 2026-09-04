@@ -1,0 +1,1 @@
+Days ago, while going through an old project on my local repositories, I found a folder full of scripts for a slack integration. One of the files in there is the one that handles bot functionality. I'm collaborating with a team in croatia, so I need the note section of that file translated to their language.

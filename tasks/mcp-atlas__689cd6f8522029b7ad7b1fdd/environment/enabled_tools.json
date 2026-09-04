@@ -1,0 +1,17 @@
+[
+  "notion_API-get-users",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "memory_read_graph",
+  "filesystem_read_file",
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "filesystem_read_text_file",
+  "filesystem_get_file_info"
+]

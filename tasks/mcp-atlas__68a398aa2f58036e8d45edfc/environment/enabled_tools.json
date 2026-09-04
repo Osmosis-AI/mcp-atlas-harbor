@@ -1,0 +1,16 @@
+[
+  "twelvedata_GetSymbolSearch",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetCryptocurrencyExchanges",
+  "pubmed_get_pubmed_article_metadata",
+  "context7_get-library-docs",
+  "context7_resolve-library-id"
+]

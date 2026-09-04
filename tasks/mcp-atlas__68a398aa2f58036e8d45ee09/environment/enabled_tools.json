@@ -1,0 +1,17 @@
+[
+  "weather_find_weather_stations",
+  "osm-mcp-server_geocode_address",
+  "wikipedia_search_wikipedia",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_summarize_article_section",
+  "wikipedia_extract_key_facts",
+  "wikipedia_get_sections",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_search_category",
+  "osm-mcp-server_explore_area"
+]

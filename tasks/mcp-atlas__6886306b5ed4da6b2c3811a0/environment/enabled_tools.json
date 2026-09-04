@@ -1,0 +1,17 @@
+[
+  "arxiv_search_papers",
+  "calculator_calculate",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "google-workspace_list_events",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeries",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "github_create_repository",
+  "brave-search_brave_web_search",
+  "mcp-code-executor_execute_code"
+]

@@ -1,0 +1,1 @@
+I heard about the monument in honor of the first Italian settler in new york state, and I became curious about it. There's also the george m. cohan statue in the same city, what is the driving distance in meters between these two monuments?

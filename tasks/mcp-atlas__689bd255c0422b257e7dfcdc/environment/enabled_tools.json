@@ -1,0 +1,17 @@
+[
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_show",
+  "git_git_log",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "github_get_repository"
+]

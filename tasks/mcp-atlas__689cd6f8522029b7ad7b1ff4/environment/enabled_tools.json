@@ -1,0 +1,17 @@
+[
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "memory_read_graph"
+]

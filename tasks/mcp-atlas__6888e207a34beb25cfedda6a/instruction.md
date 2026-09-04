@@ -1,0 +1,1 @@
+I need help finding all crimes committed in 2014 in my environment. Additionally, I'm working in the area of statistics, so I want to know the average age of the female victims of the crimes of that same year.

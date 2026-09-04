@@ -1,0 +1,18 @@
+[
+  "exa_web_search_exa",
+  "arxiv_search_papers",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "slack_channels_list",
+  "slack_conversations_add_message",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "calculator_calculate"
+]

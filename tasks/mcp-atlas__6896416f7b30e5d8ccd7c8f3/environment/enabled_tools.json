@@ -1,0 +1,16 @@
+[
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_reverse_geocode",
+  "weather-data_weather_history",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "github_search_repositories",
+  "google-maps_maps_search_places",
+  "google-maps_maps_geocode",
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "arxiv_search_papers",
+  "twelvedata_GetTimeSeries",
+  "github_search_users"
+]

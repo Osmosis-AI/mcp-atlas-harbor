@@ -1,0 +1,1 @@
+I need to check my calendar for if I have any flights going anywhere in 2025 in a particular month. Using no sql cloud data, tell me the ranking of the months in the third quarter to find the month with the least views on my webpage for my store in all the past years combined. Using that month to check my calendar to see if I have any flights anywhere before 8/18/2025.

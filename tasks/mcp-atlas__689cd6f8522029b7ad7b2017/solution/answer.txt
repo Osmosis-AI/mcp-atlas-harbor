@@ -1,0 +1,3 @@
+- According to DoorDash's blog on restaurant profit margins, fast food restaurants typically have an average profit margin of 6-9%.
+- According to DoorDash's blog, the fast food establishments can place orders in bulk.
+- The "food and beverage consumption" CSV contains 12 records corresponding to fast food.

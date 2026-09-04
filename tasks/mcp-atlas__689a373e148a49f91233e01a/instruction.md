@@ -1,0 +1,1 @@
+I'm researching the impact of ethereum's transition to proof of stake in the two majors cryptocurrencies bitcoin and ethereum, find the date this transition occurred and compare the percentage change in the two cryptocurrencies between that date and 90 days later. Based on the results, state which would have been the better investment in anticipation of the event.

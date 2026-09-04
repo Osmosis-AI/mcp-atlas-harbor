@@ -1,0 +1,1 @@
+I'm considering where to take my family on a us vacation and want to explore the three largest national parks to understand what activities they share, what makes each one unique, and since we're brazilian I'll need the complete activity list for whichever park offers the most options translated into portuguese.

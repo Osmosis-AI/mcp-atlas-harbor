@@ -1,0 +1,1 @@
+What was the daily high temperature recording in celsius at the nearest location to the southern-most visitor station of the largest national park in terms of acreage in the state of florida on Aug 11, 2025?

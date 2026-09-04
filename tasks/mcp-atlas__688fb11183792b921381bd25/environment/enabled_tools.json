@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_aggregate",
+  "pubmed_search_pubmed_advanced",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "weather_find_weather_stations",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_explore_area",
+  "osm-mcp-server_find_ev_charging_stations",
+  "wikipedia_get_article",
+  "wikipedia_search_wikipedia",
+  "wikipedia_extract_key_facts"
+]

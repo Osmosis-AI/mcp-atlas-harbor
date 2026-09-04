@@ -1,0 +1,15 @@
+[
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_place_details",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_elevation",
+  "google-maps_maps_directions",
+  "desktop-commander_read_file",
+  "desktop-commander_get_config"
+]

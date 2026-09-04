@@ -1,0 +1,1 @@
+I'm conducting a market analysis using the real estate database on places built in the 2010s. What is the average monthly rent and standard deviation, rounded to two decimals, for all furnished four bedroom apartments that have over 2000 square feet and offer premium amenities?

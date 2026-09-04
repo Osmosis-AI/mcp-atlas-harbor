@@ -1,0 +1,15 @@
+[
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_list_allowed_directories",
+  "met-museum_search-museum-objects",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "git_git_diff",
+  "slack_conversations_replies",
+  "oxylabs_universal_scraper",
+  "weather-data_weather_history",
+  "weather_find_weather_stations",
+  "oxylabs_google_search_scraper"
+]

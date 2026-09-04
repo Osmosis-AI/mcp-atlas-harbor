@@ -1,0 +1,1 @@
+I have been digging into some purchase records stored in a cloud database, and i noticed it has christmas entries for every year except one. can you figure out which christmas date is missing, then fast forward 4 years and 6 months from that date, and tell me what rivn stock closed at on that date

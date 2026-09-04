@@ -1,0 +1,1 @@
+Using my files, take a look at the top movies csv to identify which drama movie has the highest gross. Since I'm planning to watch it, I'd like to know the director and how many Oscars it won. If it earned that much, I'ts probably worth seeing.

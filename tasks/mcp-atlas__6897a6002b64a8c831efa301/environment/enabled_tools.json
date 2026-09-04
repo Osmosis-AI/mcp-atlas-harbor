@@ -1,0 +1,16 @@
+[
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "fetch_fetch",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-code-executor_check_installed_packages",
+  "mcp-code-executor_get_environment_config",
+  "github_list_issues",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "ddg-search_search"
+]

@@ -1,0 +1,1 @@
+I'm reviewing shipping performance stats and I recall the world's top courier by 2020 revenue. From our january 2021 video game orders in the database, what was the average distance their shipments traveled?

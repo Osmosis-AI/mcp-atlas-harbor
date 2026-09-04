@@ -1,0 +1,21 @@
+[
+  "context7_get-library-docs",
+  "e2b-server_run_code",
+  "github_search_repositories",
+  "airtable_get_record",
+  "mongodb_list-collections",
+  "pubmed_search_pubmed_key_words",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "desktop-commander_read_file",
+  "git_git_show",
+  "weather_get_current_weather",
+  "weather_get_weather_forecast",
+  "wikipedia_search_wikipedia",
+  "context7_resolve-library-id",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_reverse_geocode",
+  "wikipedia_get_article",
+  "exa_web_search_exa",
+  "osm-mcp-server_find_ev_charging_stations"
+]

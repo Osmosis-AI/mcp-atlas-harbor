@@ -1,0 +1,17 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "airtable_get_record",
+  "pubmed_search_pubmed_key_words",
+  "e2b-server_run_code",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue"
+]

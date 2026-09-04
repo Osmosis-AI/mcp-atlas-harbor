@@ -1,0 +1,18 @@
+[
+  "airtable_list_bases",
+  "airtable_search_records",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "airtable_list_tables"
+]

@@ -1,0 +1,14 @@
+[
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "google-workspace_list_events",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "fetch_fetch",
+  "brave-search_brave_web_search",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "filesystem_get_file_info",
+  "filesystem_search_files",
+  "filesystem_directory_tree"
+]

@@ -1,0 +1,15 @@
+[
+  "brave-search_brave_web_search",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "whois_whois_domain",
+  "whois_whois_tld"
+]

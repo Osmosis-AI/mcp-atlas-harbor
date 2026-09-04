@@ -1,0 +1,1 @@
+I've planned a picnic with the family of a very dear friend. One of her sisters is a nature photographer, and I recently found out she published a paper on a large scale 3d dataset. What's the title of that paper? I'd like to study it so I can impress her at the event.

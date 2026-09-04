@@ -1,0 +1,1 @@
+What was the lowest temperature in medellin, antioquia, on the day alien earth premiered internationally? i also want to know how many locations are called medellin.

@@ -1,0 +1,1 @@
+I knew someone in the gaming suggestions channel that is searching for friends, he mentioned that he is always buying the new fifa so, can you search for someone in the local graph that is related with game sessions to introduce him? I don't really know the real name of my friend so with the information that I told you, can you search it for me?

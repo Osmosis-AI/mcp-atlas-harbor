@@ -1,0 +1,16 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "fetch_fetch",
+  "git_git_status",
+  "git_git_log",
+  "github_search_repositories",
+  "github_list_commits",
+  "calculator_calculate",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories"
+]

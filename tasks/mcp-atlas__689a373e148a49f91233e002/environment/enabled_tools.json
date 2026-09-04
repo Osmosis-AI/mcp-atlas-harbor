@@ -1,0 +1,15 @@
+[
+  "brave-search_brave_web_search",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_get_issue_comments",
+  "github_list_issues",
+  "github_get_repository",
+  "github_get_commit"
+]

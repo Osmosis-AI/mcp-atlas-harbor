@@ -1,0 +1,1 @@
+I have to review a database in car dealership company, and I need some help. I would like to know which team had the worst performance in terms of total scores among the employees during the first quarter of the year that tom petty passed away between sales and finance teams. I also need to know the lowest individual score from the worst team that performed.

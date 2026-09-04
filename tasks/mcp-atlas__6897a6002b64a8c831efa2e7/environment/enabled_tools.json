@@ -1,0 +1,16 @@
+[
+  "ddg-search_search",
+  "twelvedata_GetTimeSeries",
+  "whois_whois_domain",
+  "weather-data_weather_astronomy",
+  "github_search_repositories",
+  "github_get_issue",
+  "github_get_issue_comments",
+  "github_get_commit",
+  "github_get_repository",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_show",
+  "git_git_log",
+  "git_git_diff"
+]

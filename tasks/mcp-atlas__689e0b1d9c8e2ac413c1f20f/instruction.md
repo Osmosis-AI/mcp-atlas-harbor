@@ -1,0 +1,1 @@
+This Sunday I'm planning a fishing trip to the jean lafitte preserve, so I want to know the opening and closing times of the fishing center for that day. Also, the species of fish I'm trying to catch has varying levels of activity depending on the moon phase, so I'd like to know the moon phase for that day, which will be August 17, 2025

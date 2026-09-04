@@ -1,0 +1,1 @@
+My boss at met museum assigned to me a task which consist of investigate about the mother's name of the artist who created the autumn rhythm artwork. I also need the name of the artist and the year of birth.

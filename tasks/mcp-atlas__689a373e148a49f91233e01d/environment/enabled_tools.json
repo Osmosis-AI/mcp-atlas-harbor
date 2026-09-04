@@ -1,0 +1,18 @@
+[
+  "brave-search_brave_web_search",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_read_multiple_files",
+  "desktop-commander_search_code",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "calculator_calculate",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "google-workspace_list_events"
+]

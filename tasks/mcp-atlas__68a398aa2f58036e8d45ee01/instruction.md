@@ -1,0 +1,1 @@
+I have some repos in my local files, one of which is related to sports. I was wondering about the activity of that repo. Can you tell me how many commits that repo has had since its creation until August 6, 2025? If multiple repos exist with the same name, use the repo with the most stars.

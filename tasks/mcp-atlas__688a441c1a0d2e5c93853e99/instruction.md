@@ -1,0 +1,1 @@
+I'm preparing a brief report on lung cancer treatments for my uncle in mexico. I want to focus on studies that began the  month before the esmo virtual congress 2020 took place, so could you pull out the three studies that started closest to that limit? I only need their titles translated into spanish. If the dates are the same, use alphabetical order as a tiebreaker.

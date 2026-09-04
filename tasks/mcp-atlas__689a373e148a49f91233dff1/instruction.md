@@ -1,0 +1,1 @@
+I'm working on a feature exploring unusual overlaps between rare diseases and major global events. I'd like to begin with the year pele passed away, and from that point, I want the title and start date of the oldest clinical trial related to chylomicron retention disease that officially began in that same year, and it was sponsored by the main public hospital network in Lyon.

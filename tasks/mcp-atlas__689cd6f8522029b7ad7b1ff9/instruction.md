@@ -1,0 +1,1 @@
+What was the maximum temperature, in fahrenheit, in paris 8 years after the day we resolved the first service for apartment 117 from our customer feedback database?

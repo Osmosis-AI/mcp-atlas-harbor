@@ -1,0 +1,2 @@
+- The command `transformers chat Qwen/Qwen2.5-0.5B-Instruct` will allow you to chat with a model directly from the command line.
+- The Oklahoma City Thunder's stadium is the Paycom Center.

@@ -1,0 +1,1 @@
+I need you to check the local data and tell me the highest salary among the players drafted in the year when the video game steve recommended in the suggestions channel was released, also tell me what sport this player practices.

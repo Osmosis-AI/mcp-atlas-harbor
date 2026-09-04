@@ -1,0 +1,17 @@
+[
+  "twelvedata_GetTimeSeries",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "weather_find_weather_stations",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "fetch_fetch",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "github_search_repositories",
+  "github_search_code",
+  "twelvedata_GetTimeSeriesMacd"
+]

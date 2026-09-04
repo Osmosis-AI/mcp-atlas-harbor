@@ -1,0 +1,1 @@
+For the second quarter of the year when wings gaming won their first the international dota 2 championship, could you check our car dealership database and see which supplier got the top score? Also, in which particular indicator did they really stand out?

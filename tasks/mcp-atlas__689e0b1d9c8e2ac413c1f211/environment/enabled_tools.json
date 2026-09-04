@@ -1,0 +1,16 @@
+[
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "whois_whois_domain",
+  "mcp-server-code-runner_run-code",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "arxiv_search_papers",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users"
+]

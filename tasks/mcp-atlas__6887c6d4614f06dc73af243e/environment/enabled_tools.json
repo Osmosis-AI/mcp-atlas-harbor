@@ -1,0 +1,16 @@
+[
+  "notion_API-post-search",
+  "notion_API-post-database-query",
+  "context7_resolve-library-id",
+  "notion_API-retrieve-a-database",
+  "calculator_calculate",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "mcp-server-code-runner_run-code",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeriesMacd",
+  "mcp-code-executor_execute_code",
+  "cli-mcp-server_run_command",
+  "slack_channels_list"
+]

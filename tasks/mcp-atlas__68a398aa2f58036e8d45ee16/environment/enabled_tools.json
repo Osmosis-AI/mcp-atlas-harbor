@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_summarize_article_section",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "arxiv_search_papers"
+]

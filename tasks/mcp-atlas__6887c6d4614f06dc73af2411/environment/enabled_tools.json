@@ -1,0 +1,15 @@
+[
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "fetch_fetch",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_search_studies",
+  "whois_whois_domain",
+  "arxiv_search_papers",
+  "notion_API-get-user",
+  "notion_API-post-database-query",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file"
+]

@@ -1,0 +1,17 @@
+[
+  "weather-data_weather_history",
+  "weather-data_weather_forecast",
+  "weather-data_weather_current",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather-data_weather_timezone",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "exa_web_search_exa",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "e2b-server_run_code"
+]

@@ -1,0 +1,7 @@
+- The genre with the most movies is Action, with 12 movies.
+- The second most frequent genre is Drama, with 11 movies.
+- The third most frequent genre is Adventure, with 8 movies.
+- The fourth most frequent genre is Crime, with 7 movies.
+- The fifth most frequent genre is Biography, with 5 movies.
+- The sixth most frequent genre is Animation, with 3 movies.
+- The seventh most frequent genres are None, Comedy, Horror, and Mystery, each with 1 movie.

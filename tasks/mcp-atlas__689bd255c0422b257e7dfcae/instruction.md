@@ -1,0 +1,1 @@
+I was reviewing the car sales expenses in the records on my cloud. specifically, the year marked by the un as both the international year of moderation and the international year of the periodic table of chemical elements.what is the yearly $ average for the average expense per employee in that year when the best selling category was electric?

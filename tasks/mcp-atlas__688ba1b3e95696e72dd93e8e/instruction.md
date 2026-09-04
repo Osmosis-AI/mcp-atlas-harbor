@@ -1,0 +1,1 @@
+I'm drafting a piece that blends history with sustainable travel. I need to know the oldest hospital in the United States, and since visitors might need eco-friendly options nearby, I also need the full address of the nearest electric vehicle charging station to that hospital.

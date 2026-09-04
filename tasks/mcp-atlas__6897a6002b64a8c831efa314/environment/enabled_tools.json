@@ -1,0 +1,16 @@
+[
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "arxiv_search_papers",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "weather-data_weather_history",
+  "weather_find_weather_stations",
+  "github_search_repositories",
+  "git_git_status"
+]

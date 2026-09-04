@@ -1,0 +1,17 @@
+[
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "git_git_show",
+  "git_git_log",
+  "git_git_diff",
+  "airtable_get_record",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "open-library_get_book_by_title",
+  "open-library_get_book_by_id",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "git_git_diff_unstaged"
+]

@@ -1,0 +1,16 @@
+[
+  "filesystem_read_text_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "mcp-code-executor_execute_code",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "arxiv_search_papers",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "exa_web_search_exa",
+  "fetch_fetch",
+  "git_git_log",
+  "git_git_show",
+  "met-museum_search-museum-objects"
+]

@@ -1,0 +1,1 @@
+What year did the company behind the social network occupying the most rows in my table with posts change its name and when did they port their acquired messaging app with the green icon to ipad?

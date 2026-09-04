@@ -1,0 +1,1 @@
+For our spanish newsletter, between July 1 and July 31, 2025, I need the spanish titles of the three most recent papers on video comprehension. Also include books on the topic published in 2023 if they exist.

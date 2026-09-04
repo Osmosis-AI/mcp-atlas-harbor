@@ -1,0 +1,1 @@
+In the root directory I have a list with movies I have watched and also movies I want to watch. I don't feel like going through all the list today, I want to see the best movie I can in the least time possible. Help me by averaging their ratings in a scale up to 100 and then giving me the best movie regarding rating vs time duration ratio. Also what year was that movie released?

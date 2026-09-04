@@ -1,0 +1,13 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_author_photo",
+  "open-library_get_book_by_id",
+  "open-library_get_book_cover",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

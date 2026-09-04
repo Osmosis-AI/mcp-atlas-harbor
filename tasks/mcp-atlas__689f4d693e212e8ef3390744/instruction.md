@@ -1,0 +1,1 @@
+I'm looking for a github project written in c++ whose name contain GN, but I can't remember its full name. I just know that it was made by a user named vivaldi who is located in the same city as the [outlier.ai](http://outlier.ai) domain registrant. Could you verify that this user exist and give me the full project name?

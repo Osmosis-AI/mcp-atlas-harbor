@@ -1,0 +1,18 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "weather-data_weather_current",
+  "weather-data_weather_forecast",
+  "weather-data_weather_history",
+  "weather-data_weather_alerts",
+  "weather-data_weather_airquality",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather-data_weather_timezone",
+  "weather-data_weather_sports",
+  "weather_get_current_weather",
+  "open-library_get_book_by_title"
+]

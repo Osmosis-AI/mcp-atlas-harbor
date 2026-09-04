@@ -1,0 +1,16 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_find",
+  "mongodb_count",
+  "e2b-server_run_code",
+  "exa_web_search_exa",
+  "mongodb_collection-schema",
+  "mongodb_aggregate"
+]

@@ -1,0 +1,17 @@
+[
+  "notion_API-post-search",
+  "notion_API-post-database-query",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-block",
+  "notion_API-retrieve-a-page",
+  "arxiv_search_papers",
+  "fetch_fetch",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "whois_whois_domain",
+  "whois_whois_tld"
+]

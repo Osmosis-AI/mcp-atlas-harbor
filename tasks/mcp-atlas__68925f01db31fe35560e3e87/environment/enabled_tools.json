@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_aggregate",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "exa_web_search_exa",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "git_git_diff_unstaged"
+]

@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_collection-indexes",
+  "mongodb_collection-storage-size"
+]

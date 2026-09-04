@@ -1,0 +1,1 @@
+i’m planning a dawn field recording at stonehenge for the winter solstice in 2010, which was on december 20th. check the local sunrise at its exact coordinates. if it was earlier than ten-to-seven, give me its precise coordinates; otherwise, give me the nearest official parking facility’s name and coordinates relative to the circle.

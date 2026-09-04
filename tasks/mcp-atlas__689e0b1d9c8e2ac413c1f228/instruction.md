@@ -1,0 +1,1 @@
+I'm planning a visit to hot spring park and am curious about what the park has to offer. I wonder if they provide guided tours and have camping areas with picnic tables. I'd love to discover an interesting, fun fact about the park from <https://www.nationalgeographic.com/travel/article/fun-facts-national-parks>.

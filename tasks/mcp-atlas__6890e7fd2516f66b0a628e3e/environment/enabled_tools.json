@@ -1,0 +1,14 @@
+[
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "exa_web_search_exa",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_explore_area",
+  "osm-mcp-server_find_schools_nearby",
+  "osm-mcp-server_find_ev_charging_stations"
+]

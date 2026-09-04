@@ -1,0 +1,1 @@
+i've been optimizing a react component and need to look up a specific hook, the one used for memoizing functions, and remember seeing an issue in their main repo about its dependency array from jan 22nd, 2019; i want to know the person's username who opened it and also find the description for a public repo called babel-plugin-react-persist published by him.

@@ -1,0 +1,1 @@
+I want to know the closing price of bitcoin on a particular date. There is data on my pc about crimes. Among all the records, which suspect sex committed the most crimes? Which ever sex did, take the latest recorded date tell me what the price of the closest recorded time to the time of closing price was on that day.

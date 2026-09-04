@@ -1,0 +1,1 @@
+I was exploring notable artworks in public collections. From the first month of the year in which 'study of a nude man' by gustave courbet was presented as part of the bequest of nanette b. kelekian, which was the best-selling vehicle according to commercial performance data retrieved from the cloud database?

@@ -1,0 +1,22 @@
+[
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_get_pubmed_article_metadata",
+  "arxiv_search_papers",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "git_git_status",
+  "git_git_diff_unstaged"
+]

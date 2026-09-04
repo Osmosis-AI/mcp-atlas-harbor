@@ -1,0 +1,17 @@
+[
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "wikipedia_search_wikipedia",
+  "mongodb_aggregate",
+  "mongodb_db-stats",
+  "mongodb_count",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "whois_whois_domain",
+  "whois_whois_as",
+  "whois_whois_ip",
+  "github_search_repositories",
+  "github_search_code",
+  "twelvedata_GetSymbolSearch"
+]

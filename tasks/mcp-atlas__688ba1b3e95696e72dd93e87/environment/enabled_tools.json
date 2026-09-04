@@ -1,0 +1,16 @@
+[
+  "wikipedia_get_links",
+  "wikipedia_get_sections",
+  "wikipedia_get_related_topics",
+  "wikipedia_extract_key_facts",
+  "wikipedia_summarize_article_section",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_get_summary",
+  "wikipedia_get_article",
+  "wikipedia_search_wikipedia",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema",
+  "mongodb_find"
+]

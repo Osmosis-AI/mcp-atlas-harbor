@@ -1,0 +1,17 @@
+[
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather_find_weather_stations",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "brave-search_brave_web_search",
+  "fetch_fetch"
+]

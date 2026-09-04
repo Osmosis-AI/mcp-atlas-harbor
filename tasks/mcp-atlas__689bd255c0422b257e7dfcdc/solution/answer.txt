@@ -1,0 +1,2 @@
+- The Slack related repository found is the `slackr` repository.
+- There are no files left unstaged in the local git repository `slackr`.

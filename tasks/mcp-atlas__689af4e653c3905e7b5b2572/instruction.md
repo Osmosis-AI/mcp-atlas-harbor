@@ -1,0 +1,1 @@
+I am working on a sales report at car dealership. I need to know the name of the car category that was bestseller in the month and year when carol lynley passed away. I also need to know the total amount of expenses in that period.

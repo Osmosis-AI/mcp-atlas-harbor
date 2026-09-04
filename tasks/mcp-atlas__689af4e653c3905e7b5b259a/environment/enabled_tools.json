@@ -1,0 +1,18 @@
+[
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_search_files",
+  "filesystem_get_file_info",
+  "filesystem_list_allowed_directories",
+  "brave-search_brave_web_search",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "alchemy_fetchTokenPriceHistoryBySymbol"
+]

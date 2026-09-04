@@ -1,0 +1,1 @@
+The other day in my messaging channel where we recommend games to each other I noticed a couple people mentioned the gamecube. I know my friend Pablo in argentina likes the gamecube so I think I'll share those messages with him. Can you tell me exactly what those two messages said and translate them to Argentine spanish so I can share them with him?

@@ -1,0 +1,1 @@
+I'm researching medical advances that occurred when technology companies were still small. Was nvidia's closing share price higher when recruitment for the first malaria vaccine trial begin, considering only trials present on national library of medicine database,  or when the org pytorch domain was registered?

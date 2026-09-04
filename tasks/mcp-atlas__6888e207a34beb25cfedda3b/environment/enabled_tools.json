@@ -1,0 +1,15 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "calculator_calculate",
+  "lara-translate_list_languages",
+  "lara-translate_translate",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-post-database-query",
+  "notion_API-get-self",
+  "notion_API-retrieve-a-block",
+  "notion_API-get-block-children",
+  "notion_API-post-search",
+  "notion_API-retrieve-a-page"
+]

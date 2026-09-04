@@ -1,0 +1,22 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "calculator_calculate",
+  "exa_web_search_exa",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_search_files",
+  "filesystem_get_file_info",
+  "filesystem_list_allowed_directories",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

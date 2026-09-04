@@ -1,0 +1,17 @@
+[
+  "arxiv_search_papers",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "filesystem_read_file",
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "git_git_log",
+  "git_git_show",
+  "git_git_status",
+  "alchemy_fetchTokenPriceHistoryBySymbol"
+]

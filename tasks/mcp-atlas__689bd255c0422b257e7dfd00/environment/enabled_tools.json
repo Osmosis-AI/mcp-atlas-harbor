@@ -1,0 +1,16 @@
+[
+  "memory_search_nodes",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "exa_web_search_exa",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "weather_find_weather_stations",
+  "weather-data_weather_search",
+  "memory_open_nodes",
+  "memory_read_graph",
+  "met-museum_search-museum-objects",
+  "fetch_fetch"
+]

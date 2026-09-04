@@ -1,0 +1,1 @@
+I am the sales cashier at a video game store. Based on our database, I need to know the name of the game that was sold for $137.53. I also need to confirm whether the customer agreed to subscribe to our newsletter.

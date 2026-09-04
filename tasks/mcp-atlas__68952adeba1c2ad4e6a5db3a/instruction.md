@@ -1,0 +1,1 @@
+Check the database and tell me how many people left the hr department in the first and third quarter of the year sixty years after suzanne collins was born.

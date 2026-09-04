@@ -1,0 +1,16 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "twelvedata_GetTimeSeries",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "github_search_repositories",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits",
+  "google-workspace_list_events",
+  "fetch_fetch",
+  "whois_whois_domain",
+  "whois_whois_ip"
+]

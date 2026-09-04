@@ -1,0 +1,1 @@
+Using the cloud database, check my local files to see the lowest amount of eth sent according to my trading history in the same month and year when the turnover rate for the bronco model was 0.17

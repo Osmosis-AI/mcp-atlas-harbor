@@ -1,0 +1,1 @@
+I'm planning a camping trip to grand teton park to watch mercury's greatest western elongation, as reference I wnt to know bout the one in december 2025, so I need to know the sunset and moonrise local times at the park on the day of the elongation, and if the park has any campsites. 

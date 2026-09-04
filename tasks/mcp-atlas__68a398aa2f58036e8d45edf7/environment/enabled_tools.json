@@ -1,0 +1,17 @@
+[
+  "google-workspace_list_events",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_schools_nearby",
+  "osm-mcp-server_find_ev_charging_stations",
+  "osm-mcp-server_find_parking_facilities",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "fetch_fetch",
+  "osm-mcp-server_find_nearby_places"
+]

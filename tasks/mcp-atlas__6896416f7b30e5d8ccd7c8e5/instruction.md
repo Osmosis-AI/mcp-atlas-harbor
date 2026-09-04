@@ -1,0 +1,1 @@
+I am planning a visit to new york and I've heard that there are a lot of fictional superheroes from the marvel universe that live there. There is a superhero that was a surgeon and now uses magic. Could you tell me the closest pizzeria from his place?

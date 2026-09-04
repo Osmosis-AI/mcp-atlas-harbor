@@ -1,0 +1,15 @@
+[
+  "notion_API-post-database-query",
+  "slack_channels_list",
+  "slack_conversations_search_messages",
+  "notion_API-post-search",
+  "slack_conversations_history",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-get-self",
+  "notion_API-get-block-children",
+  "notion_API-retrieve-a-block",
+  "notion_API-retrieve-a-page",
+  "notion_API-retrieve-a-database",
+  "memory_read_graph"
+]

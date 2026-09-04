@@ -1,0 +1,1 @@
+I'm working on a school project about microsoft and I need some help, could you tell me when the company was founded and who the founders were? Also, let's suppose that on august 2 of the year 2000 my grandmother gave me money to purchase stock. What were the reported opening and closing prices of the company's stock that day?

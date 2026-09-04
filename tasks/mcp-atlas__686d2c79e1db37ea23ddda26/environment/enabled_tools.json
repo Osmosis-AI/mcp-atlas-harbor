@@ -1,0 +1,16 @@
+[
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff",
+  "git_git_diff_staged",
+  "git_git_log",
+  "git_git_show",
+  "filesystem_read_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_directory_tree",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_search_files",
+  "filesystem_get_file_info",
+  "filesystem_list_allowed_directories"
+]

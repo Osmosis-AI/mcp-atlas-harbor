@@ -1,0 +1,1 @@
+my friend is on a trip, and he needs to know some details about the mall that opened in october 1988 in san francisco, united states. he's looking for the full address and the coordinates of this place. Also, he likes to know if there is a public contact number for this mall.

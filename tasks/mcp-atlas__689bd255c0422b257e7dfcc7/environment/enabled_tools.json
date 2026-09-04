@@ -1,0 +1,19 @@
+[
+  "exa_web_search_exa",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "github_get_pull_request_review_comments",
+  "github_get_pull_request_comments",
+  "github_get_pull_request_status",
+  "github_get_pull_request_files",
+  "github_list_pull_requests",
+  "github_get_pull_request",
+  "github_get_tag",
+  "github_list_tags",
+  "github_get_file_contents",
+  "github_list_branches",
+  "mcp-server-code-runner_run-code"
+]

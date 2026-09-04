@@ -1,0 +1,17 @@
+[
+  "whois_whois_domain",
+  "filesystem_read_file",
+  "filesystem_read_media_file",
+  "filesystem_read_text_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_list_allowed_directories",
+  "git_git_log",
+  "github_search_repositories",
+  "filesystem_search_files",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "whois_whois_tld"
+]

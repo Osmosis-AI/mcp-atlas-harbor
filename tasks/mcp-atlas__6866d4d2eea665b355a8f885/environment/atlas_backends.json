@@ -1,0 +1,4 @@
+{
+  "oxylabs": "/run/mcp-atlas-backends/oxylabs/atlas.sock",
+  "slack": "/run/mcp-atlas-backends/slack/atlas.sock"
+}

@@ -1,0 +1,1 @@
+I was remembering Hurricane Harvey and started to wonder, how many premium 2-bedroom units with a one-year lease that were built the year the hurricane hit are recorded on my database, and what is their average rent?

@@ -1,0 +1,1 @@
+I'm planning to grab some new video games online, but I want to know the average shipping time for my order. Check the store's cloud data and get me the average shipping time for deliveries of less than the distance from California city to San Francisco. Group the results by delivery service used.

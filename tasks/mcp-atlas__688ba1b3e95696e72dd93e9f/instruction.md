@@ -1,0 +1,1 @@
+Check the local data and tell me what was the highest type of expense the date when the uncharted movie was released in the us, also tell me the units sold six months after.

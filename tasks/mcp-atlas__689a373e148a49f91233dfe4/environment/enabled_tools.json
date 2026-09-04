@@ -1,0 +1,15 @@
+[
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "osm-mcp-server_find_nearby_places",
+  "weather_find_weather_stations",
+  "met-museum_get-museum-object",
+  "met-museum_search-museum-objects",
+  "met-museum_list-departments",
+  "fetch_fetch",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "brave-search_brave_web_search",
+  "context7_resolve-library-id",
+  "context7_get-library-docs"
+]

@@ -1,0 +1,17 @@
+[
+  "git_git_status",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "github_list_issues",
+  "github_list_commits",
+  "github_list_pull_requests",
+  "github_get_pull_request_status",
+  "github_get_pull_request_comments",
+  "github_get_pull_request_review_comments",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "github_get_file_contents",
+  "github_list_branches"
+]

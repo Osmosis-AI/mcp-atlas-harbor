@@ -1,0 +1,1 @@
+i am comparing two paintings, garden at sainte-adresse by claude monet and by the seashore by pierre-auguste renoir, and i want to know the year in which the one with the largest area was created. can you help me with that?

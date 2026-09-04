@@ -1,0 +1,1 @@
+There was a devastating earthquake on the same day the director of the only film without a genre in the local database was born. Can you tell me its magnitude?

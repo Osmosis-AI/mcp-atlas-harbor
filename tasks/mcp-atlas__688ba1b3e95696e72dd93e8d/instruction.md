@@ -1,0 +1,1 @@
+I'm creating a presentation of influential modern architects and their roots. I need to identify the lead architect of the guggenheim musuem in bilbao in order to find his name and the city where he was born. Also retrieve the geographic coordinates for that city's main public library and find the name of the closest subway station to it.

@@ -1,0 +1,14 @@
+[
+  "filesystem_read_text_file",
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "mcp-code-executor_execute_code",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "fetch_fetch",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_search_pubmed_advanced"
+]

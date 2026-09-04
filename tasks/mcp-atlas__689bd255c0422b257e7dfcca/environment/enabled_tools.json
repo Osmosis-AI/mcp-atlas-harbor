@@ -1,0 +1,17 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "calculator_calculate",
+  "exa_web_search_exa",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "fetch_fetch",
+  "github_search_repositories",
+  "github_search_code",
+  "git_git_diff_staged",
+  "git_git_diff_unstaged",
+  "git_git_status"
+]

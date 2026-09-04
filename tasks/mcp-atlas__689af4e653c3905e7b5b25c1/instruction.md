@@ -1,0 +1,1 @@
+Which person in my local graph speaks both spanish and mandarin? I want to greet them in both languages with the phrase hello there my friend, so please provide that greeting on those languages. I also remember that this person has the same full name as a mexican singer, so please give me the city where that singer was born.

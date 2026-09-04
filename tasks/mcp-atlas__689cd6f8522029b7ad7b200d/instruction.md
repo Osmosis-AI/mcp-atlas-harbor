@@ -1,0 +1,1 @@
+My doctor told me that I need to do more exercise and avoid the consequences of sedentarism. I was wondering what studies were made about sedentarism as a condition the year after the release of chat gpt 4, because I feel I spend so much time on that website. Also, tell me the average time gap in days between the start and the completion date of those studies. 

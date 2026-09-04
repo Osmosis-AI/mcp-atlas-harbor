@@ -1,0 +1,15 @@
+[
+  "arxiv_search_papers",
+  "lara-translate_translate",
+  "mcp-server-code-runner_run-code",
+  "git_git_diff_unstaged",
+  "git_git_status",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "whois_whois_domain",
+  "weather_find_weather_stations"
+]

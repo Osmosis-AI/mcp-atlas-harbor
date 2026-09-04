@@ -1,0 +1,18 @@
+[
+  "exa_web_search_exa",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "weather-data_weather_search",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_history",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "calculator_calculate",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "google-workspace_list_events",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_replies"
+]

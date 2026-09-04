@@ -1,0 +1,1 @@
+My father was planning to take us to lafayette national park and was trying to research it but we found out that it its not called that anymore, can you help me find how much the annual pass costs at what used to be called lafayette national park?

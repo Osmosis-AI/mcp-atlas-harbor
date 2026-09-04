@@ -1,0 +1,1 @@
+I am looking for a movie to watch on movie night next week, and I prefer to watch a movie that I've already seen. I also want to consider other's opinions, so can you tell me which movies has the greatest combined imdb and personal ranking? I should have movie information stored in my local PC files.

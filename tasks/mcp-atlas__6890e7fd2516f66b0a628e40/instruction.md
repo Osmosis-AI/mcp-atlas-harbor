@@ -1,0 +1,1 @@
+I'm analalyzing how soccer rivalries affect our customers' spending beahavior. i'd like to compare how much was spent on sports video game during the same month the second la liga clasico between barcelona and real madrid took place in the 2022/2023 season, versus the month before. What was the percentage change in spending, according to our internal store records?

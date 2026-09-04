@@ -1,0 +1,1 @@
+While I was watching a wrestling event and reading about finances, I came up with a question about finances. Can you tell me apple's stock closing price in usd and the daily moving average convergence divergence indicator on the day after the second day of wrestlemania 39?

@@ -1,0 +1,19 @@
+[
+  "wikipedia_search_wikipedia",
+  "weather_get_current_weather",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "wikipedia_get_article",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "e2b-server_run_code",
+  "exa_web_search_exa",
+  "open-library_get_book_by_title",
+  "open-library_get_book_by_id",
+  "open-library_get_book_cover",
+  "open-library_get_author_photo",
+  "open-library_get_author_info",
+  "open-library_get_authors_by_name"
+]

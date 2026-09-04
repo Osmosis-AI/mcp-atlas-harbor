@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "github_search_users",
+  "github_get_issue",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_aggregate",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper"
+]

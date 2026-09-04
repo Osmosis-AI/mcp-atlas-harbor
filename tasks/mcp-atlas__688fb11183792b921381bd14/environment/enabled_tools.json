@@ -1,0 +1,17 @@
+[
+  "context7_get-library-docs",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_summarize_article_for_query",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "weather_find_weather_stations",
+  "weather_get_local_time",
+  "weather_get_weather_alerts"
+]

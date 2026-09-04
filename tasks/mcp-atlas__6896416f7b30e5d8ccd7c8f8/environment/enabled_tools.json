@@ -1,0 +1,18 @@
+[
+  "ddg-search_search",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_history",
+  "weather_find_weather_stations",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_list_issues",
+  "github_get_issue_comments",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits",
+  "github_list_branches",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetSymbolSearch"
+]

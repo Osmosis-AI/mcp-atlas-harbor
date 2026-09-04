@@ -1,0 +1,17 @@
+[
+  "mcp-code-executor_check_installed_packages",
+  "mcp-code-executor_get_environment_config",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_search_files",
+  "filesystem_get_file_info",
+  "filesystem_list_allowed_directories",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

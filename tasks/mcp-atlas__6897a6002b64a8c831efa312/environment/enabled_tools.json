@@ -1,0 +1,17 @@
+[
+  "fetch_fetch",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_place_details",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_elevation",
+  "google-maps_maps_directions",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_issue_comments"
+]

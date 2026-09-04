@@ -1,0 +1,1 @@
+I am a new employee at a car dealership and I need some help. Can you tell me which area had the best performance average in the second quarter of 2017 between the sales and human resources areas, based on our database? I also need the lowest individual score from the losing area.

@@ -1,0 +1,17 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-retrieve-a-block",
+  "notion_API-retrieve-a-page",
+  "notion_API-retrieve-a-database",
+  "calculator_calculate",
+  "mcp-server-code-runner_run-code",
+  "e2b-server_run_code",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetExchanges"
+]

@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "calculator_calculate",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_directory_tree",
+  "git_git_status",
+  "git_git_log",
+  "github_search_repositories",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "arxiv_search_papers",
+  "github_get_repository"
+]

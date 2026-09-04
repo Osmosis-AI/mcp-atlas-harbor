@@ -1,0 +1,1 @@
+I was exploring product trends using the cloud database. In the same year and month that SpaceX launched the first car into space, which was the leading product type in commercial performance data? Which was the most sold vehicle in the world for that category in the same year that SpaceX launched the first car into space?

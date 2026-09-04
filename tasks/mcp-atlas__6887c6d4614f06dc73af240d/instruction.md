@@ -1,0 +1,1 @@
+I remember buying 0.0593578 bitcoins in coinbase pro 2 days after the date of my oldest withdrawal record of my trading history file that I have on my local data. I need to know the lowest price in usd those bitcoins reached on that date.

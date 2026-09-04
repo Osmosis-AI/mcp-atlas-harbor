@@ -1,0 +1,17 @@
+[
+  "exa_web_search_exa",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "weather_get_current_weather",
+  "weather_get_weather_forecast",
+  "weather_get_hourly_forecast",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes"
+]

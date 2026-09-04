@@ -1,0 +1,1 @@
+We were chatting in the break room about TV shows, and two of my colleagues, nosdle and mcpdumle, mentiones their favorite series. I tend to get hooked on longer shows, so I'm curious which of the two recommendations is longer. Search in the tv-show recommendation channel for the shows they mentioned and tell me which one is better for me based on number of seasons and episodes 

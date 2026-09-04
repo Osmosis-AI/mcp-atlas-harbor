@@ -1,0 +1,1 @@
+What was the opening price in dollars of the cryptocurrency conceived by satoshi nakamoto in 2008, the day the scale.ai domain was created? with that money how many nintendo switch consoles could I have bought in the same year?

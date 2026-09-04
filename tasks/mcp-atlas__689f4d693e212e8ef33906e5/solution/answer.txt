@@ -1,0 +1,2 @@
+- Within the slackr repository in the user's local PC files, the user Andrie had the third largest number of commits.
+- Within the slackr repository in the user's local PC files, the user Andrie's 16th commit modified the function slackr_msg().

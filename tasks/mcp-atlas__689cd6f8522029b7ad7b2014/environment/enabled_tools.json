@@ -1,0 +1,17 @@
+[
+  "slack_channels_list",
+  "slack_conversations_add_message",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_directory_tree",
+  "filesystem_list_allowed_directories",
+  "fetch_fetch",
+  "oxylabs_amazon_search_scraper",
+  "oxylabs_universal_scraper",
+  "whois_whois_domain"
+]

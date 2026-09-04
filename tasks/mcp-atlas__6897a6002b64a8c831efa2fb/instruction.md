@@ -1,0 +1,1 @@
+I'm analyzing fraud crimes recorded in my local data from may 2014 to may 2021. I'd like to know what percentage of these filtered crimes occurred online, and for all fraud crimes in that time frame, what the average age of the suspects and the average age of the victims are.

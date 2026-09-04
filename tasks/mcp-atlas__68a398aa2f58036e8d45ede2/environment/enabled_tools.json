@@ -1,0 +1,16 @@
+[
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_repository",
+  "github_get_commit",
+  "fetch_fetch",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_issue_comments"
+]

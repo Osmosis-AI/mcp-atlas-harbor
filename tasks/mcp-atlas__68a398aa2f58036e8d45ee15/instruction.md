@@ -1,0 +1,1 @@
+Using the local data, during the month in which I made my largest withdrawal in usd, using the cloud nosql data, what was the total accumulated revenue for the video game store?

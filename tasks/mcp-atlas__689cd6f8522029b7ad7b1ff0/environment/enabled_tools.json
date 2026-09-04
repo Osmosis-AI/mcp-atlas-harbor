@@ -1,0 +1,16 @@
+[
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "github_search_issues",
+  "github_search_repositories",
+  "mcp-code-executor_execute_code",
+  "fetch_fetch",
+  "arxiv_search_papers",
+  "met-museum_search-museum-objects",
+  "weather-data_weather_search",
+  "weather_find_weather_stations",
+  "whois_whois_domain",
+  "e2b-server_run_code",
+  "slack_conversations_history",
+  "github_search_users"
+]

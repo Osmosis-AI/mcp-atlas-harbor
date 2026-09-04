@@ -1,0 +1,1 @@
+I've got some crime file in my computer, I'm curious about any medical investigation related to dna by xu and eriksson from the year from the first crime I had registered. Can you help me with the title, authors and year?

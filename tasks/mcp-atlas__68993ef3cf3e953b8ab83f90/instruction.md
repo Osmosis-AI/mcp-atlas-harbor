@@ -1,0 +1,1 @@
+In the same year lionel messi signed with paris saint germain, check our local crime records and tell me how many incidentes were reported. Also, among those, one was considered severe. Let me know when it was reported, what happened, where it occurred, and if anyone was arrested.

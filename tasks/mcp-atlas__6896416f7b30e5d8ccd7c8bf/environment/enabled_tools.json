@@ -1,0 +1,17 @@
+[
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "desktop-commander_list_directory",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "ddg-search_search",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_author_photo",
+  "open-library_get_book_cover",
+  "open-library_get_book_by_id"
+]

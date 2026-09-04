@@ -1,0 +1,18 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "wikipedia_get_article",
+  "e2b-server_run_code",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "weather_get_weather_forecast",
+  "git_git_status",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "wikipedia_get_links",
+  "mongodb_aggregate",
+  "context7_resolve-library-id"
+]

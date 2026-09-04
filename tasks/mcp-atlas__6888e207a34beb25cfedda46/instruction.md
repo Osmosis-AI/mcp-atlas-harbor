@@ -1,0 +1,1 @@
+Using my local crime data, can you give me the average age of suspects who committed robbery between 2016 and 2021, and identify where this type of crime occurred most frequently during that same time frame?

@@ -1,0 +1,1 @@
+I'm trying to find the first name of employee 1011 from the staff satisfaction database. I believe their last name was gomez? I'd check the organizational graph, they should be still working with buildwell. Get me their first name and survey ids, please.

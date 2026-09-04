@@ -1,0 +1,20 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_find",
+  "mongodb_aggregate",
+  "mongodb_count",
+  "brave-search_brave_web_search",
+  "mcp-code-executor_execute_code",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "filesystem_read_file",
+  "mongodb_collection-schema",
+  "github_search_repositories",
+  "github_search_code"
+]

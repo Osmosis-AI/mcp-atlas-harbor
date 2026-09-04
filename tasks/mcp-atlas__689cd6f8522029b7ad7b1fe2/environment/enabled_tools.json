@@ -1,0 +1,15 @@
+[
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "oxylabs_universal_scraper",
+  "oxylabs_amazon_search_scraper",
+  "fetch_fetch",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "mcp-server-code-runner_run-code",
+  "slack_channels_list",
+  "arxiv_search_papers",
+  "oxylabs_google_search_scraper"
+]

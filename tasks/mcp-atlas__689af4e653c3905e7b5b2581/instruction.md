@@ -1,0 +1,1 @@
+using the cloud database, can you tell me the score for efficiency in service of the sales department in the first quarter of the year two years after the date of release of the game Lucas recommended in the gaming suggestions channel?

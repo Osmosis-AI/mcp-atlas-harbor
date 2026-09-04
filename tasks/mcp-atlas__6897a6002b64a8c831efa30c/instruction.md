@@ -1,0 +1,1 @@
+My boss asked me to check the local data and find out the stantard deviation of the revenues of movies that are longer than pulp fiction.

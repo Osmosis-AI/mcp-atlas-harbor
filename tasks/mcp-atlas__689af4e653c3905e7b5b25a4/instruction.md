@@ -1,0 +1,1 @@
+On Trump's second inauguration day, i remember i was at an event with my friend's family on a farm and we discussed how expensive bitcoin was. Can you use my local data to find the entertainment that was at that event and also what was the approximate price for that crypto that day?

@@ -1,0 +1,16 @@
+[
+  "pubmed_search_pubmed_key_words",
+  "pubmed_download_pubmed_pdf",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "weather_find_weather_stations"
+]

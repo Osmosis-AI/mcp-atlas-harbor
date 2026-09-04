@@ -1,0 +1,15 @@
+[
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "weather_get_current_weather",
+  "weather_get_weather_forecast",
+  "weather_get_hourly_forecast",
+  "weather_get_weather_alerts",
+  "weather_find_weather_stations",
+  "weather_get_local_time",
+  "airtable_get_record",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places"
+]

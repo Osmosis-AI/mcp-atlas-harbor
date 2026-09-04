@@ -1,0 +1,16 @@
+[
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_search_files",
+  "filesystem_list_allowed_directories",
+  "slack_channels_list",
+  "slack_conversations_add_message",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "weather_find_weather_stations",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "filesystem_read_file"
+]

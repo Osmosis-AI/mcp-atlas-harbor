@@ -1,0 +1,26 @@
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.uv-cache/
+
+# Never store source exports, trajectories, credentials, or image archives here.
+*.parquet
+*.arrow
+*.feather
+*.csv
+*.tsv
+*trajectory*
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.sif

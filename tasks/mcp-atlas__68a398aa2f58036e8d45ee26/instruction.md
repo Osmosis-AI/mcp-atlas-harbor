@@ -1,0 +1,1 @@
+I've been reading about the seqwish alg in a repo written in c++ and I'm curious about how many merge requests it had during the year of the publication of the article that is cited in the repo, what's the abstract of the paper and in which other articles did the authors collaborated in that year with the same editorial?

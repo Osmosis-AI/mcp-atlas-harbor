@@ -1,0 +1,1 @@
+I'm reviewing the barber shop data in my PC files and'd like to know what percentage of clients were female and the average age of those female clients. Round both the percentage and average age to two decimal places

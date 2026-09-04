@@ -1,0 +1,18 @@
+[
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "exa_web_search_exa",
+  "national-parks_findParks",
+  "national-parks_getParkDetails"
+]

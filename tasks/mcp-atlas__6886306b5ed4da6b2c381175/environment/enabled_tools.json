@@ -1,0 +1,14 @@
+[
+  "brave-search_brave_web_search",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "fetch_fetch",
+  "mcp-server-code-runner_run-code",
+  "e2b-server_run_code",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show"
+]

@@ -1,0 +1,1 @@
+In the quarter of 2021 when Bitcoin had its highest closing price on the last day of the quarter, what was the ICU bed occupancy according to our internal records during that same quarter?

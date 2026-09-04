@@ -1,0 +1,1 @@
+I want to know the highest temperature in seattle on a particular month and day of 2025. There is local data on my pc, use it to tell me how many crimes of each type were committed by each sex. Whichever sex committed the most, use the oldest record's month and day to find the temperature in celsius.

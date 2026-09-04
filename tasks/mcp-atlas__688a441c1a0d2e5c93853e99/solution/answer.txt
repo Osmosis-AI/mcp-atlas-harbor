@@ -1,0 +1,3 @@
+- Un estudio clínico de fase II, de un solo brazo y un solo centro, para investigar la eficacia y seguridad de JS001 combinado con axitinib en el tratamiento del cáncer de pulmón no microcítico (CPNM) avanzado con gen conductor negativo después de la quimioterapia de primera línea.
+- Crioablación en combinación (o no) con pembrolizumab y pemetrexed-carboplatino en el tratamiento de primera línea para pacientes con adenocarcinoma de pulmón metastásico: un estudio aleatorizado de fase III.
+- Radiocirugía estereotáctica (SRS) como tratamiento definitivo para un número limitado de metástasis cerebrales de cáncer de pulmón de células pequeñas (SCLC)

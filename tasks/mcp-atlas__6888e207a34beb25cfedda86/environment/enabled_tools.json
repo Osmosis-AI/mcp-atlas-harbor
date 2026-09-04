@@ -1,0 +1,16 @@
+[
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "fetch_fetch",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "whois_whois_domain",
+  "open-library_get_book_by_title",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules"
+]

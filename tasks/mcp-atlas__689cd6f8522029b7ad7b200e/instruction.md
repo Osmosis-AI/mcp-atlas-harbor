@@ -1,0 +1,1 @@
+I was chatting with a friend about Gabo and he mentioned a novel that came out the same year John F Kennedy took office, I´d love to translate it, so I´m curios: what´s the title and who´s the author, the release date and could you share the first paragraph in the original language alongside an English translation?

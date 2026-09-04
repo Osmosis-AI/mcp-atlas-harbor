@@ -1,0 +1,1 @@
+I'm collecting data for a cross-industry research project. Could you tell me which clinical trial related to galactosialidosis was the oldest to officially begin in 2020? Also, for the month when the trial started, I'd like to know the turnover rate for mustang vehicles at the car dealership.

@@ -1,0 +1,14 @@
+[
+  "exa_web_search_exa",
+  "google-maps_maps_geocode",
+  "google-maps_maps_elevation",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "google-maps_maps_distance_matrix",
+  "weather_get_current_weather",
+  "weather_get_weather_forecast",
+  "weather_get_hourly_forecast",
+  "weather_get_weather_alerts",
+  "national-parks_getParkDetails",
+  "met-museum_list-departments"
+]

@@ -1,0 +1,1 @@
+My friend Stacey and I are looking at a commit that Mike made in my repo about sports scores. It was his second commit since the repository was created, but Stacey doesn't understand the commit's message since she primarily speaks Bulgarian. Can you translate the message into Bulgarian please?

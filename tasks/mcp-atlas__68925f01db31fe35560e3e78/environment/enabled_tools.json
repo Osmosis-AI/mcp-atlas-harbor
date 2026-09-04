@@ -1,0 +1,17 @@
+[
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_timezone",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "exa_web_search_exa",
+  "open-library_get_author_info"
+]

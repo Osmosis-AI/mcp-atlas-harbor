@@ -1,0 +1,15 @@
+[
+  "whois_whois_domain",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_repository",
+  "github_list_commits",
+  "github_list_branches",
+  "github_list_tags",
+  "github_get_tag",
+  "github_get_file_contents",
+  "github_list_issues"
+]

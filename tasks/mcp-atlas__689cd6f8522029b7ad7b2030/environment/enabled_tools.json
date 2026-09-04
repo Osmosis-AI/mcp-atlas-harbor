@@ -1,0 +1,17 @@
+[
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_search_messages",
+  "fetch_fetch",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "github_search_repositories",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_repository"
+]

@@ -1,0 +1,1 @@
+Edna Barros, a friend of mine, recomended reading a deep learning paper she was one of the authors for about some improvements for robots in soccer published this july 2025, but I can't recall the title. Could you check what the article was called and when it came out? also, since I'm learning spanish, could you translate the abstract for me?

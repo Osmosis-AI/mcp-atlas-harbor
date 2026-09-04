@@ -1,0 +1,16 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_author_photo",
+  "open-library_get_book_cover",
+  "open-library_get_book_by_id"
+]

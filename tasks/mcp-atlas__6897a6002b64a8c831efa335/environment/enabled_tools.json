@@ -1,0 +1,14 @@
+[
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_place_details",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_elevation",
+  "google-maps_maps_directions",
+  "ddg-search_search",
+  "ddg-search_fetch_content"
+]

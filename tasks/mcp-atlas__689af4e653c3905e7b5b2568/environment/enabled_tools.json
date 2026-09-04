@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "google-workspace_list_events",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-page",
+  "notion_API-post-search",
+  "notion_API-post-database-query",
+  "notion_API-retrieve-a-page-property",
+  "met-museum_search-museum-objects",
+  "met-museum_list-departments",
+  "met-museum_get-museum-object",
+  "slack_channels_list"
+]

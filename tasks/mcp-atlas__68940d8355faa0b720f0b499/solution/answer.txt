@@ -1,0 +1,5 @@
+- The book "Falling Awake" by Alice Oswald was first published in the year 2016.
+- According to records in the database, units sold in April 2016 had the following distribution: Fusion: 37, Bronco: 47, Explorer: 5, Mustang: 52, Edge: 1, Ranger: 21, F-150: 12, Escape: 2.
+- According to records in the database, units sold in May 2016 had the following distribution: Bronco: 16, Escape: 12, Explorer: 69, Mustang: 9, Ranger: 88, Fusion: 20, Edge: 13, F-150: 28.
+- According to records in the database, units sold in June 2016 had the following distribution: Edge: 30, Ranger: 52, Escape: 6, Fusion: 68, Mustang: 1, F-150: 13, Explorer: 17, Bronco: 55.
+- According to records in the database, total units sold during 2016-Q2 had the following distribution: Fusion: 125, Bronco: 118, Explorer: 91, Mustang: 62, Edge: 44, Ranger: 161, F-150: 53, Escape: 20.

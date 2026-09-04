@@ -1,0 +1,1 @@
+Hi! I'm working on the statistics of my business in my local files, and I was looking at how clients rate our haircuts and their age. Can you help me know the average rating for the barbers who did the haircut service?  In addition, I would like to know the average age of those who request this service.

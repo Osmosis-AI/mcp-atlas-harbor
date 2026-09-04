@@ -1,0 +1,1 @@
+Which department in my cloud dealership database had the fewest leavings in the first quarter of the year tina turner passed away?

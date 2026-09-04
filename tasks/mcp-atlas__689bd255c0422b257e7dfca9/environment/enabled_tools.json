@@ -1,0 +1,19 @@
+[
+  "cli-mcp-server_show_security_rules",
+  "cli-mcp-server_run_command",
+  "google-workspace_list_events",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "calculator_calculate",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-get-self",
+  "notion_API-post-search",
+  "notion_API-post-database-query",
+  "notion_API-get-block-children",
+  "notion_API-retrieve-a-page",
+  "notion_API-retrieve-a-block",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-page-property",
+  "notion_API-retrieve-a-comment"
+]

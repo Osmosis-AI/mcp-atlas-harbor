@@ -1,0 +1,16 @@
+[
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-code-executor_check_installed_packages",
+  "mcp-code-executor_get_environment_config",
+  "mcp-server-code-runner_run-code",
+  "lara-translate_list_languages",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "slack_conversations_add_message"
+]

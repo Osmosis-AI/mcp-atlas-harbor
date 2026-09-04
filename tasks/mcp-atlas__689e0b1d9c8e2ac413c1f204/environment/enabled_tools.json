@@ -1,0 +1,16 @@
+[
+  "met-museum_get-museum-object",
+  "met-museum_search-museum-objects",
+  "met-museum_list-departments",
+  "lara-translate_translate",
+  "mcp-server-code-runner_run-code",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "e2b-server_run_code",
+  "git_git_status",
+  "git_git_diff_unstaged"
+]

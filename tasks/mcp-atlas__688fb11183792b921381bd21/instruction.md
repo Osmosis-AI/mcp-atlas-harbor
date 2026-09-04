@@ -1,0 +1,1 @@
+I am helping my friend who works in a video game store, we need to confirm whether the client who bought a game on the same day that the fighter tomas villa passed away did join our member program. We also need the name and genre of the game that they bought, based on our database.

@@ -1,0 +1,18 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "lara-translate_list_languages",
+  "lara-translate_translate",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "fetch_fetch",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-code-executor_check_installed_packages",
+  "mcp-server-code-runner_run-code",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

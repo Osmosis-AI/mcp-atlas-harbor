@@ -1,0 +1,1 @@
+My friend and I are planning a trip to the state where gravity falls was set and we want to visit the national park that is located only there, can you search it for me? and I don't know what can we do there but he has a diploma in engineering so, to learn a little more about him, search in the local graph if he is assisting to any avent.

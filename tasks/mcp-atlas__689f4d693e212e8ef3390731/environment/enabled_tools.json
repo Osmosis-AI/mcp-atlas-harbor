@@ -1,0 +1,17 @@
+[
+  "fetch_fetch",
+  "whois_whois_domain",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_list_issues",
+  "github_search_issues",
+  "github_get_issue_comments",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits",
+  "github_get_file_contents",
+  "github_list_branches",
+  "mcp-code-executor_execute_code"
+]

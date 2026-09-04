@@ -1,0 +1,16 @@
+[
+  "calculator_calculate",
+  "exa_web_search_exa",
+  "notion_API-retrieve-a-comment",
+  "notion_API-retrieve-a-page-property",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-page",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "git_git_log",
+  "git_git_show",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "filesystem_read_multiple_files",
+  "filesystem_read_media_file"
+]

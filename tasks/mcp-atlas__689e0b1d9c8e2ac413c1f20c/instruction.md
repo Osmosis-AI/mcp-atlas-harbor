@@ -1,0 +1,1 @@
+According to our local data, between the years the FIFA World Cup was held in Brazil and the year the Tokyo Olympic Games were held, which month had the highest number of high-severity incidents? And, for that month, what were the specific types of high severity crimes and the exact dates of each incident?

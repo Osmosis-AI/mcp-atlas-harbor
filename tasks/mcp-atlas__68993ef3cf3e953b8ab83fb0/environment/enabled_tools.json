@@ -1,0 +1,17 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "filesystem_list_directory",
+  "filesystem_get_file_info",
+  "filesystem_search_files",
+  "filesystem_list_allowed_directories",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetSymbolSearch",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file"
+]

@@ -1,0 +1,1 @@
+Based on my database inventory, could you calculate the average stock for each game genre for august 2023, rounded to two decimal places? Then, for my research, pick the genre with the highest stock and fin an article about it published on the same day I'm planning to bake cookies with my mom over facetime in july 2025, written by rushia harada. What's the title of that article?

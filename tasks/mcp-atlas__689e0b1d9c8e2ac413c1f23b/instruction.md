@@ -1,0 +1,1 @@
+Last time I saw david thompsons he invited me to his family event (I registered in the local graph). We talked about me being a programmer, and he asked me to make an app for one of the activities at the event. I remember starting that project right after, so can you check my local files and tell me what react components already have files created?

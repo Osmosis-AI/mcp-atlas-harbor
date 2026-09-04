@@ -1,0 +1,1 @@
+There is one crime movie in the local database which has an 8.9 imdb rating. A day before it premiered in us theaters, which spacecraft did nasa lose contact with?

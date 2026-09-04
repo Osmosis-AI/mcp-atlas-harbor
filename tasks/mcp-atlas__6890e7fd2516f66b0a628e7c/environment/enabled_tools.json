@@ -1,0 +1,17 @@
+[
+  "e2b-server_run_code",
+  "exa_web_search_exa",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "google-maps_maps_geocode",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "desktop-commander_read_file",
+  "github_search_repositories",
+  "github_search_code",
+  "national-parks_getParkDetails",
+  "national-parks_findParks",
+  "weather-data_weather_forecast",
+  "weather-data_weather_current",
+  "weather-data_weather_history"
+]

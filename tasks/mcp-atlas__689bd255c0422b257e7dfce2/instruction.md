@@ -1,0 +1,1 @@
+I'm reviewing my pet care 2023 data to determine which week had the highest combined grooming and training revenue. I also need to review my food and beverage consumption data for the drink with the highest average price that same week. And what pet care service generated the most revenue during that peak week?

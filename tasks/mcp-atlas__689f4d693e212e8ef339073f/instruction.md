@@ -1,0 +1,1 @@
+I have some repos on my computer, one of which allows to send messages from a programming language. I was wondering, what function was changed on the first commit made by the person with the 24th most commits in the project?

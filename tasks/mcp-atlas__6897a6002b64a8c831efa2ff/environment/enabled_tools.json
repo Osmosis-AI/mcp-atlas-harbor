@@ -1,0 +1,16 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_elevation",
+  "google-maps_maps_directions",
+  "google-maps_maps_place_details",
+  "google-maps_maps_search_places",
+  "google-workspace_list_events",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions"
+]

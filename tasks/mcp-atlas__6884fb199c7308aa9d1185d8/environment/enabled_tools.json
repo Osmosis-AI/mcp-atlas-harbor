@@ -1,0 +1,14 @@
+[
+  "brave-search_brave_web_search",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "mcp-server-code-runner_run-code",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-code-executor_check_installed_packages",
+  "mcp-code-executor_get_environment_config",
+  "google-workspace_list_events",
+  "calculator_calculate",
+  "arxiv_search_papers",
+  "alchemy_fetchTokenPriceHistoryBySymbol"
+]

@@ -1,0 +1,29 @@
+- The translation for people living in Quebec of the information about the piece 482551 is: 
+Titre : Tout
+Artiste : Darío Villalba
+Biographie de l'artiste : espagnol, San Sebastián 1939-2018 Madrid
+Département : Art moderne et contemporain
+Ligne de crédit : The Merrill G. and Emita E. Hastings Foundation, Samuel I. Newhouse Foundation Inc., Mme William P. Schweitzer, M. et Mme Milton Petrie, Edward et Lydie Shufro, Charles Z. Offin Art Fund, Inc., Jo Anne et Norman M. Schneider et Mme Muriel Palitz Gifts, 1982
+Médium : papier déchiré et collé et impressions argentiques sur papier
+Dimensions : 45 × 60 1/4 po (114,3 × 153 cm)
+Mots-clés : Abstraction
+- The translation for people living in Quebec of the department's names is: 
+ID du département : 1, Nom affiché : Arts décoratifs américains
+ID du département : 3, Nom affiché : Art ancien du Proche-Orient
+ID du département : 4, Nom affiché : Armes et armures
+ID du département : 5, Nom affiché : Arts d'Afrique, d'Océanie et des Amériques
+ID du département : 6, Nom affiché : Art asiatique
+ID du département : 7, Nom affiché : The Cloisters
+ID du département : 8, Nom d'affichage : The Costume Institute
+ID du département : 9, Nom d'affichage : Dessins et impressions
+ID du département : 10, Nom d'affichage : Art égyptien
+ID du département : 11, Nom d'affichage : Peintures européennes
+ID du département : 12, Nom affiché : Sculpture et arts décoratifs européens
+ID du département : 13, Nom affiché : Art grec et romain
+ID du département : 14, Nom d'affichage : Art islamique
+ID du département : 15, Nom affiché : La collection Robert Lehman
+ID du département : 16, Nom affiché : Les bibliothèques
+ID du département : 17, Nom affiché : Art médiéval
+ID du département : 18, Nom affiché : Instruments de musique
+ID du département : 19, Nom affiché : Photographies
+ID du département : 21, Nom affiché : Art moderne

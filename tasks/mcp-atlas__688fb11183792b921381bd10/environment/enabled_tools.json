@@ -1,0 +1,16 @@
+[
+  "wikipedia_search_wikipedia",
+  "airtable_get_record",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_aggregate",
+  "mongodb_list-collections",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show"
+]

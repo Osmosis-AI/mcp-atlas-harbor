@@ -1,0 +1,1 @@
+I like 60s-themed series and I'm looking for one to watch. A colleague recommended a series that aired o the amc and was released the year of the super bowl XLI. I'd like to know the name of this series, which actor plays the main character, and how many emmys and golden globe awards it won ? Also, check if this series has a imdb rating higher than 8.

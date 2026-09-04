@@ -1,0 +1,1 @@
+Using the cloud database, make a comparison of each of the months of the year five years after arthur oschs sulzberger and irene roosevelt aitken gifts purchased the flintlock sporting gun of margarita teresa and tell me which vehicle was the best-selling that year. 

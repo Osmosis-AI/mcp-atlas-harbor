@@ -1,0 +1,16 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesSma",
+  "twelvedata_GetForexPairs",
+  "weather_find_weather_stations",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_history",
+  "weather-data_weather_search",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions"
+]

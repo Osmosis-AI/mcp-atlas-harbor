@@ -1,0 +1,1 @@
+A spanish friend told me that new york is a very stressful place, and if i wanted peace, I could go to the park that was initially intended to prevent a british invasion in 1812 and read the book "el principito". I want to know which park he's referring to and what nationality the author of the first publication of that book is?

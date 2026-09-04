@@ -1,0 +1,1 @@
+I'm looking for the address of a national park, more specifically, the address of the park depicted in the artwork by edward weston in the biggest museum in new york, which mentions the park's volcano in its title.

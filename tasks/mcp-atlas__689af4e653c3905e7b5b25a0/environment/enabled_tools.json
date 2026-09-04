@@ -1,0 +1,18 @@
+[
+  "brave-search_brave_web_search",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "calculator_calculate",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeriesBBands",
+  "arxiv_search_papers"
+]

@@ -1,0 +1,1 @@
+I want to know the bitcoin price on the first date of purchase of the cryptocurrency with the most purchased quantity on my computer data.

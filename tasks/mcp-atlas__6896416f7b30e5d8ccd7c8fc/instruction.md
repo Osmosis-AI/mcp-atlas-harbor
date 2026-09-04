@@ -1,0 +1,1 @@
+I want to visit barcelona with my family. I'm looking at the top two attractions on https://[ticketshop.barcelona](http://ticketshop.barcelona) and wondering how far apart they are in km, and if that walk takes over an hour. Also, for medical purposes, I need to know the elevation of each attraction. Express both responses in kilometers

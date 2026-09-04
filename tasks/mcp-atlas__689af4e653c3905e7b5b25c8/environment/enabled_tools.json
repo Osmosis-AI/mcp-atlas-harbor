@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "calculator_calculate",
+  "weather-data_weather_astronomy",
+  "twelvedata_GetTimeSeries",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues"
+]

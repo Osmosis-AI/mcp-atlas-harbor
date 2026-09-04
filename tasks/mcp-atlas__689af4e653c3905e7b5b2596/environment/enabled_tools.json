@@ -1,0 +1,17 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "filesystem_read_file",
+  "calculator_calculate",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "exa_web_search_exa",
+  "notion_API-post-database-query",
+  "notion_API-get-users",
+  "notion_API-retrieve-a-database",
+  "notion_API-post-search",
+  "context7_resolve-library-id",
+  "slack_channels_list",
+  "airtable_search_records"
+]

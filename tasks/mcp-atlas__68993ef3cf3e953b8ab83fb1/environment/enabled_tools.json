@@ -1,0 +1,14 @@
+[
+  "met-museum_search-museum-objects",
+  "ddg-search_search",
+  "google-maps_maps_geocode",
+  "google-maps_maps_elevation",
+  "twelvedata_GetTimeSeries",
+  "open-library_get_author_info",
+  "osm-mcp-server_geocode_address",
+  "weather-data_weather_search",
+  "github_get_repository",
+  "whois_whois_domain",
+  "pubmed_search_pubmed_advanced",
+  "filesystem_read_file"
+]

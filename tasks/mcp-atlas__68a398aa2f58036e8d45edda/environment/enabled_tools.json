@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_aggregate",
+  "github_search_repositories",
+  "mongodb_collection-indexes",
+  "mongodb_find",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_explain",
+  "github_search_code",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits"
+]

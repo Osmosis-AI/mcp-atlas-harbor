@@ -1,0 +1,16 @@
+MCP-Atlas for Harbor — license map
+
+This repository contains material under two licenses:
+
+1. Benchmark-derived prompts, claims, answers, tool selections, and other
+   task-specific data derived from Scale AI MCP-Atlas are licensed under the
+   Creative Commons Attribution 4.0 International Public License (CC BY 4.0).
+   The complete terms are in LICENSE-DATA.
+
+2. Harbor-authored source code, generated framework/runtime/verifier code,
+   release scripts, and repository documentation are licensed under the
+   Apache License, Version 2.0. The complete terms are in LICENSE-CODE.
+
+A generated file can contain contributions in both categories. Each
+contribution remains governed by its applicable license. See NOTICE for
+attribution and a description of modifications.

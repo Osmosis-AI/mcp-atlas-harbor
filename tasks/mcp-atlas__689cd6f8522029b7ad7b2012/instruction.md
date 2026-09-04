@@ -1,0 +1,1 @@
+A friend from spain is coming to michigan to see it. I'd like to recommend this park that is an island in lake superior. Also, he's reading an article that I recommended about a template matching method used to detect objects in 2d images, published in 2016. What article and park am I recommending? Finally, how do I say Welcome, my dear friend! in spanish?

@@ -1,0 +1,1 @@
+I want to sell all my low valued shitcoins, but coinbase stopped supporting some. Please find from my csv transactions file on my local system the shitcoins I bought or received during the last month of 2022. For each shitcoin, get the available exchanges to trade them to usd. Consider a shitcoin if its spot price at the time or purchase or reception was less than 0.50 usd.

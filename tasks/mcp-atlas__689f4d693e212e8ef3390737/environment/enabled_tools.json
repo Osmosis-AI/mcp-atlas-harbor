@@ -1,0 +1,22 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "github_search_repositories",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_repository",
+  "github_get_issue_comments",
+  "github_list_commits",
+  "github_get_commit",
+  "github_get_pull_request",
+  "github_list_pull_requests",
+  "github_get_pull_request_files",
+  "github_get_pull_request_status"
+]

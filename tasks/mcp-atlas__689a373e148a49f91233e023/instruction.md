@@ -1,0 +1,1 @@
+I want to analyze the percentage change of the ethereum token from the starts of the liquidity mining program for the comp token the year that joe biden wins the presidential election and the first day of autumn in the us the same year.

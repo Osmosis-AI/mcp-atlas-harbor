@@ -1,0 +1,4 @@
+- The Gustave Eiffel project from the 1889 Exposition Universelle is the Eiffel Tower.
+- Within a 10km radius of the Eiffel Tower, there are 2 named equestrian statues.
+- 'La Renommée montée sur Pégase' is a named equestrian statue within a 10km radius of the Eiffel Tower.
+- 'Mercure monté sur Pégase' is a named equestrian statue within a 10km radius of the Eiffel Tower.

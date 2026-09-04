@@ -1,0 +1,1 @@
+I need someone to give me insight on a work at the new york museum that has the van gogh painting shoes. Can you tell me which one of my contacts is the artist who does gallery exhibits and which department at the museum has that painting?

@@ -1,0 +1,18 @@
+[
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "slack_channels_list",
+  "slack_conversations_add_message",
+  "slack_conversations_history",
+  "mcp-code-executor_execute_code",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "exa_web_search_exa",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "filesystem_read_text_file"
+]

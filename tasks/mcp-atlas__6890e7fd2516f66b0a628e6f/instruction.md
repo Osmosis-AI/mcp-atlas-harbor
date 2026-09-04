@@ -1,0 +1,1 @@
+I need you to check the cloud database and tell me how many people left and joined the sales department the first quarter of the year that the game store customer having the number ten on their id made their purchase.

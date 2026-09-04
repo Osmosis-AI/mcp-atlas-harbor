@@ -1,0 +1,1 @@
+My local data reminded me about the Gomez reunion. I know Maria forgot to bring a dish to the potluck, so she had to walk from the NYC park where the reunion was held to pick up a dish at the nearby restaurant Pisticci. Can you tell me what the walking route would be for the walk from the park to the restaurant, as well as the restaurant's contact number and address?

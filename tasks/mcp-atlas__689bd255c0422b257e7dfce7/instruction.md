@@ -1,0 +1,1 @@
+I'm running a what-if scenario for my crypto portfolio. I'm trying to figure out what a hypothetical investment of 12.5 units of ethereum would have been valued at on the reported price from the specific day the European Central Bank announced the preparation phase for the digital euro. Can you calculate that final amount for me?

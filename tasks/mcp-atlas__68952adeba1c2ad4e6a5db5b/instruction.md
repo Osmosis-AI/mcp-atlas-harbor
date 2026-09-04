@@ -1,0 +1,1 @@
+In which month of all years did the car dealership achieve the highest single-month sales revenue when sedan was the best-selling category, and what was the moon phase in new york on the first day of that month?

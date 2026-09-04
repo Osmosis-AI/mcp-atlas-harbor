@@ -1,0 +1,1 @@
+My friend is planning to visit a place where, in the 1900s, paleontologists unearthed the age of mammals when they found skeletons of extinct Miocene mammals in the hills of Nebraska. To visit this place, he needs to know the exact address, the operating days and hours of this place, and the total area of this place.

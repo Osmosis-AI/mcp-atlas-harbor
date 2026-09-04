@@ -1,0 +1,3 @@
+- Isle Royale National Park is park that is an island in Lake Superior, Michigan.
+- The 2016 article on a template matching method for detecting objects in 2D images is titled "Template Matching via Densities on the Roto-Translation Group.
+- The phrase "Welcome, my dear friend!" in Spanish is "¡Bienvenido, mi querido amigo!

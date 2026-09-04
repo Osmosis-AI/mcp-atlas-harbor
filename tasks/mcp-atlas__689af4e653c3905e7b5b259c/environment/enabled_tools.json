@@ -1,0 +1,15 @@
+[
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "google-workspace_list_events",
+  "filesystem_read_file",
+  "filesystem_read_media_file",
+  "filesystem_read_text_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory"
+]

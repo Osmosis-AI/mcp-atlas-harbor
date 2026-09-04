@@ -1,0 +1,17 @@
+[
+  "arxiv_search_papers",
+  "oxylabs_amazon_search_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_universal_scraper",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "fetch_fetch"
+]

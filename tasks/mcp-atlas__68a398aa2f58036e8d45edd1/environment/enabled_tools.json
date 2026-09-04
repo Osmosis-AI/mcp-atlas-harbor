@@ -1,0 +1,15 @@
+[
+  "mongodb_list-databases",
+  "mongodb_list-collections",
+  "mongodb_collection-schema",
+  "mongodb_aggregate",
+  "arxiv_search_papers",
+  "google-workspace_list_events",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "pubmed_search_pubmed_key_words",
+  "twelvedata_GetCryptocurrencies",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeries",
+  "wikipedia_search_wikipedia"
+]

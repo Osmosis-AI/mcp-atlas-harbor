@@ -1,0 +1,1 @@
+I was looking at an artwork named head of the old hance trail in the biggest museum in new york, and noticed it looked really familiar to a national park I was considering to vacation with my family to. Can you tell me the address of the headquarters of the national park depicted in the painting?

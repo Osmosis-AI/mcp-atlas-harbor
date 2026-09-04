@@ -1,0 +1,1 @@
+From my cloud dataset, what's the max number of showroom visitors in a day in the month when the author of the novel to kill a mockingbird died?

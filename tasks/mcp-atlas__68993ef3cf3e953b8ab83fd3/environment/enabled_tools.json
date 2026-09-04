@@ -1,0 +1,16 @@
+[
+  "desktop-commander_get_config",
+  "desktop-commander_read_multiple_files",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "git_git_status",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "arxiv_search_papers"
+]

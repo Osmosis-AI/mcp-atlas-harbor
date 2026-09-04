@@ -1,0 +1,1 @@
+I'm creating a geographical timeline for the artist that painted the artwork named sunrise on the matterhorn in the collection of the biggest new york metropolitan museum. Can you tell me the straight line distance in kilometers between the city hall of his birth city and the city hall of the city where he died?

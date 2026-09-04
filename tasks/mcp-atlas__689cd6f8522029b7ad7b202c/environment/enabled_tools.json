@@ -1,0 +1,17 @@
+[
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "e2b-server_run_code",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "fetch_fetch",
+  "slack_channels_list",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_directory_tree",
+  "filesystem_search_files"
+]

@@ -1,0 +1,4 @@
+- The last version release for the user's local slackr repository was in commit 266f49303621cf01979ed65a02e1f92c1da09460
+- The commit 266f49303621cf01979ed65a02e1f92c1da09460 in the user's local slackr repository is dated 2024-09-26
+- In the commit 266f49303621cf01979ed65a02e1f92c1da09460 for the user's local slackr repository, the file tests/testthat/test-dev-tex.R was deleted.
+- In the commit 266f49303621cf01979ed65a02e1f92c1da09460 for the user's local slackr repository, the file logo.png was deleted.

@@ -1,0 +1,15 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_geocode",
+  "google-workspace_list_events",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

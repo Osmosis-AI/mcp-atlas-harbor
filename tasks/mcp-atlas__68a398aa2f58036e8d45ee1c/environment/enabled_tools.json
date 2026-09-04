@@ -1,0 +1,19 @@
+[
+  "arxiv_search_papers",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_summary",
+  "twelvedata_GetTimeSeries",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "wikipedia_extract_key_facts",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_get_article",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_find"
+]

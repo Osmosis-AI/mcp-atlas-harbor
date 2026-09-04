@@ -1,0 +1,1 @@
+What year did wonodi and knoll publish their article about a virus? I want to know what the average gpd growth in the same year according to my file about coronavirus. I am pretty sure I was taking records of that on my computer, but due to some error those some of them were duplicated, so don't take into account the rows that are an exact copy of other rows.

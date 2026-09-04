@@ -1,0 +1,1 @@
+For a feature on how American history has been captured in art, I'm focusing on a well-known painting that shows George Washington crossing an icy river with his soldiers during the Revolutionary War. The piece is housed in the largest art museum in the U.S, and I'd like to include its dimensions in centimeters as part of the write-up.

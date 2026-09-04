@@ -1,0 +1,1 @@
+My colleague gabe maldoff published a paper on web scraping ethics. In the same month and year as its publication, what was the lowest salary among the players whose contracts expired in that same month and year, according to my fantasy sports archive?

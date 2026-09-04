@@ -1,0 +1,1 @@
+From our nosql video game store database, what was the average price of games sold in 2022 of the same genre as the movie harry potter and the deathly hallows part 2 according to our local data in /data/Top Movies.csv?

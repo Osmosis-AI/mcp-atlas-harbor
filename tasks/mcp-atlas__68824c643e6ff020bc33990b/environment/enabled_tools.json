@@ -1,0 +1,18 @@
+[
+  "notion_API-get-users",
+  "notion_API-get-user",
+  "notion_API-get-self",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-get-block-children",
+  "notion_API-retrieve-a-block",
+  "notion_API-retrieve-a-page",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-page-property",
+  "notion_API-retrieve-a-comment",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "fetch_fetch",
+  "mcp-server-code-runner_run-code"
+]

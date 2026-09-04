@@ -1,0 +1,19 @@
+[
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "calculator_calculate",
+  "fetch_fetch",
+  "mcp-server-code-runner_run-code",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "google-workspace_list_events",
+  "exa_web_search_exa"
+]

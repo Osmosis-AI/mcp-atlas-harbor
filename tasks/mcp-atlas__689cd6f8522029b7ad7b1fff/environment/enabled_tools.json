@@ -1,0 +1,15 @@
+[
+  "filesystem_read_text_file",
+  "notion_API-post-search",
+  "notion_API-post-database-query",
+  "met-museum_search-museum-objects",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "git_git_diff",
+  "slack_conversations_replies",
+  "arxiv_search_papers",
+  "national-parks_findParks",
+  "oxylabs_universal_scraper",
+  "memory_search_nodes",
+  "e2b-server_run_code",
+  "filesystem_list_allowed_directories"
+]

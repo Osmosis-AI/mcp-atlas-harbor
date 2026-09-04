@@ -1,0 +1,1 @@
+I'm doing some business intelligence on videogame sales. Can you grab the customers collection for me and aggregate purchases by game genre? I wish to know the three top genres with a link to each one's wiki page.

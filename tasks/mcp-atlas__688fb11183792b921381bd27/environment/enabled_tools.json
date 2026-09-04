@@ -1,0 +1,18 @@
+[
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions",
+  "osm-mcp-server_find_ev_charging_stations",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "weather_get_current_weather",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "airtable_get_record",
+  "exa_web_search_exa"
+]

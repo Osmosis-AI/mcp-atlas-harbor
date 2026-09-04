@@ -1,0 +1,14 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "mcp-server-code-runner_run-code",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "arxiv_search_papers"
+]

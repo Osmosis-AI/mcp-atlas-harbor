@@ -1,0 +1,1 @@
+I'm investigating a crime involving cryptocurrencies. The other day, a 28 year old person hacked a platform and stole a bunch of cryptocurrencies; actually, the currency I trade the most with. According to my personal data, when was that crime committed? Also, what was the price of the coin at that time and two years after the online crime?

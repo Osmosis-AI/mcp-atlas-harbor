@@ -1,0 +1,5 @@
+- The phrase "el día de la bastilla" translates to Bastille Day.
+- Bastille Day is celebrated on July 14th.
+- The reported price of Bitcoin (BTC) on July 14, 2021, was 32676.3838009602.
+- The reported price of Ethereum (ETH) on July 14, 2021, was 1944.3950166372.
+- The result of dividing 32676.3838009602 by 1944.3950166372 is 16.805424577498396.

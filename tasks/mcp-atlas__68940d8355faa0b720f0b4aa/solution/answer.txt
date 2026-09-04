@@ -1,0 +1,5 @@
+- he quarter mentioned is Q3.
+- From the HR department, four people left.
+- From the marketing team, eight people left.
+- From the technical department, eight people joined.
+- From the finance department, four people joined.

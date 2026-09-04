@@ -1,0 +1,1 @@
+We had a weird payment surge and I need to know, from the data repository, the status of payments and the average amount cross all registers found from transactions made on the day hugh aynesworth, american journalist and author, died.

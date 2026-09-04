@@ -1,0 +1,20 @@
+[
+  "brave-search_brave_web_search",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_aggregate",
+  "mongodb_explain",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue"
+]

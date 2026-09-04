@@ -1,0 +1,9 @@
+{
+  "calculator": "/run/mcp-atlas-backends/public/atlas.sock",
+  "cli-mcp-server": "/run/mcp-atlas-backends/public/atlas.sock",
+  "context7": "/run/mcp-atlas-backends/public/atlas.sock",
+  "fetch": "/run/mcp-atlas-backends/public/atlas.sock",
+  "memory": "/run/mcp-atlas-backends/public/atlas.sock",
+  "alchemy": "/run/mcp-atlas-backends/alchemy/atlas.sock",
+  "notion": "/run/mcp-atlas-backends/notion/atlas.sock"
+}

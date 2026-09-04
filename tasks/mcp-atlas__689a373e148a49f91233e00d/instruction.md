@@ -1,0 +1,1 @@
+I'm preparing a report on historical tech events. I need to anchor it to a meeting in my calendar from july 2025, specifically the first research meeting of the month. Could you find that meeting to get the exact date? On the same calendar day in 2022, I want to know the crypto symbol for the coin known for its dog meme, and the reported price for that day in dollar.

@@ -1,0 +1,16 @@
+[
+  "github_search_repositories",
+  "memory_read_graph",
+  "twelvedata_GetTimeSeries",
+  "whois_whois_domain",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "context7_resolve-library-id",
+  "arxiv_search_papers",
+  "github_get_file_contents",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "twelvedata_GetCryptocurrencies",
+  "twelvedata_GetSymbolSearch",
+  "calculator_calculate"
+]

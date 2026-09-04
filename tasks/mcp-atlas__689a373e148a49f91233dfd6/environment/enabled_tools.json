@@ -1,0 +1,15 @@
+[
+  "calculator_calculate",
+  "brave-search_brave_web_search",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather-data_weather_history",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies"
+]

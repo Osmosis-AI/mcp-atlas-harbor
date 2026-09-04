@@ -1,0 +1,1 @@
+I am studying paintings in the large art museum in manhattan. I need to know the mother's name of the artist who created the musicians artwork. I also need to know the artist's name and year of birth.

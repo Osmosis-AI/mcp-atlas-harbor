@@ -1,0 +1,6 @@
+- Dogecoin was launched in December 2013.
+- On January 31, 2014, the price of Dogecoin was 0.00153493 USD.
+- On June 30, 2014, the price of Dogecoin was 0.0002657753 USD.
+- On July 31, 2014, the price of Dogecoin was 0.0002068991 USD.
+- The lowest price of Dogecoin among January 31, 2014, June 30, 2014, and July 31, 2014, is 0.0002068991 USD.
+- Multiplying the average price of Dogecoin on January 31, 2014, June 30, 2014, and July 31, 2014, by the lowest price among those dates gives 1.3845718117201334e-07 USD.

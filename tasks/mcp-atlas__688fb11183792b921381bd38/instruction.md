@@ -1,0 +1,1 @@
+I am manager at a game store, and I need to know the genre and reference number of the game with the highest existing stock among those named game title 142. I also need the genre and reference number of the game with the lowest existing stock among games with the same name.

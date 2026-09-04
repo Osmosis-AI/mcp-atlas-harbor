@@ -1,0 +1,2 @@
+- Pulp Fiction has runtime of 154 minutes.
+- The standard deviation of the revenues for movies longer than Pulp Fiction is 206.90 million dollars.

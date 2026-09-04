@@ -1,0 +1,3 @@
+- The total revenue from the first 5 transactions in the food and beverage dataset was $134.45.
+- The total revenue from the first 5 transactions in the barbershop dataset was $51.00.
+- The food and beverage industry outperformed the barbershop industry by $83.45.

@@ -1,0 +1,1 @@
+I have a day trip with a brunch in the middle scheduled with my parents for the 1st half of July 2025. The following day, I'll be kayaking in the bay, and I'd also like to visit a church. Can you find a christian church within 10 km of the bay?

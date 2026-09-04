@@ -1,0 +1,1 @@
+I'm piecing together openai's story, specifically the exact date their website went live. I'd like the bitcoin closing price 7 years after the launch date, and its closing price exactly six years after that. Finally, for each of those two prices, how much bitcoin would I need to be a millionaire?

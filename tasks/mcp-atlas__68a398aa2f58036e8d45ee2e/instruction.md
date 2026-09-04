@@ -1,0 +1,1 @@
+I need to find out, according to our database, how many completed deliveries my video games store had for orders placed in a certain month, but I don't really remember which month exactly. All I remember is that it was the next month after the 2022 mpox outbreak had its first case detected according to the who.

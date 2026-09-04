@@ -1,0 +1,1 @@
+I'm planning a visit that links the site where marie antoinette and king louis xvi took their ceremonial wedding which took place in may 1770, and the louvre museum in paris. I need the walking distance between them in kilometers, and I want to know the museums' regular operating hours.

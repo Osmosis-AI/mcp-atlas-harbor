@@ -1,0 +1,1 @@
+Who is the first user that sent a message in my gaming discussion, the 27 June 2025? I want you to give me the total number of messages he sent that day, and multiply that number by the year the messages were sent.

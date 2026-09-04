@@ -1,0 +1,15 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "weather-data_weather_astronomy",
+  "open-library_get_book_by_title",
+  "open-library_get_author_info",
+  "git_git_log",
+  "git_git_show",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

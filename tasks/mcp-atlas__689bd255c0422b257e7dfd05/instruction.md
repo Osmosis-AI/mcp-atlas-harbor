@@ -1,0 +1,1 @@
+Check the local data and the cloud database and tell me the age and gender of the suspect of the crime reported the year when the average expense for each employee in the car business was 4259.72.

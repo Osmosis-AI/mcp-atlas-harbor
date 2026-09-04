@@ -1,0 +1,3 @@
+- The React hook for memoizing functions is `useCallback`.
+- On January 22, 2019, the GitHub issue regarding function memoization in React was opened by the user "DAB0mB
+- The description of the user DAB0mB's public repository named `babel-plugin-react-persist` is: " Automatically useCallback() & useMemo(); memoize inline functions

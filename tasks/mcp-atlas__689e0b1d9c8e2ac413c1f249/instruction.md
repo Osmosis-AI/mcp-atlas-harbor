@@ -1,0 +1,1 @@
+I'm researching important events in mexico's history and would like to know the start date and location of mexico's revolution. Using that, review the moonphase, coordenates, sunrise and sunsets hours on that specific day and location but 100 years later.

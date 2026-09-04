@@ -1,0 +1,15 @@
+[
+  "slack_channels_list",
+  "slack_conversations_history",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "fetch_fetch",
+  "github_create_repository",
+  "memory_open_nodes",
+  "context7_get-library-docs",
+  "notion_API-retrieve-a-page-property",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules"
+]

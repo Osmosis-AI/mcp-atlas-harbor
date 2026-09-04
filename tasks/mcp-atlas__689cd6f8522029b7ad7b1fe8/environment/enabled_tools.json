@@ -1,0 +1,16 @@
+[
+  "filesystem_read_text_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_search_files",
+  "filesystem_list_allowed_directories",
+  "filesystem_get_file_info",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "fetch_fetch",
+  "oxylabs_universal_scraper",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

@@ -1,0 +1,1 @@
+I am making a sales report for the car dealership company database. I need to know the name of the car category that was bestseller in the month and year when paul allen died. I also need to know the total amount of expenses in that period.

@@ -1,0 +1,18 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_get_summary",
+  "wikipedia_summarize_article_section",
+  "wikipedia_extract_key_facts",
+  "wikipedia_get_related_topics",
+  "wikipedia_get_sections",
+  "wikipedia_get_links",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_place_details",
+  "google-maps_maps_elevation",
+  "google-maps_maps_directions"
+]

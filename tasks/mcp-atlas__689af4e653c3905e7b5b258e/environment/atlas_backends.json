@@ -1,0 +1,8 @@
+{
+  "fetch": "/run/mcp-atlas-backends/public/atlas.sock",
+  "weather": "/run/mcp-atlas-backends/public/atlas.sock",
+  "airtable": "/run/mcp-atlas-backends/airtable/atlas.sock",
+  "brave-search": "/run/mcp-atlas-backends/brave-search/atlas.sock",
+  "national-parks": "/run/mcp-atlas-backends/national-parks/atlas.sock",
+  "weather-data": "/run/mcp-atlas-backends/weather-data/atlas.sock"
+}

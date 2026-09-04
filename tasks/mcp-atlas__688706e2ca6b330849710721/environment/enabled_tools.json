@@ -1,0 +1,15 @@
+[
+  "fetch_fetch",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-code-executor_check_installed_packages",
+  "mcp-code-executor_get_environment_config",
+  "calculator_calculate",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip"
+]

@@ -1,0 +1,1 @@
+While checking the hiring records of our car dealership network, I doubted the average performance score per department (rounded to two digits) for the last quarter of 2023. Could you get this info, and according to the one with the highest average score, find an article by greta galliani, with the name of the department included in the title. What's its title?

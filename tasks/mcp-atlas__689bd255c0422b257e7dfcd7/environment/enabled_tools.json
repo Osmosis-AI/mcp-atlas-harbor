@@ -1,0 +1,15 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "calculator_calculate",
+  "fetch_fetch",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_issue_comments",
+  "github_get_commit",
+  "github_get_repository",
+  "github_list_commits",
+  "google-workspace_list_events",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

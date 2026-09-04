@@ -1,0 +1,1 @@
+In my cloud hosted business dataset related to selling vehicles, I have some records about tracking online audience behavior. For the year and month when the king of romania michael i passed away, calculate the average number of distinct individuals who accessed our website.

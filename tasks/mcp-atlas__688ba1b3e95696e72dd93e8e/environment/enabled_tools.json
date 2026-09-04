@@ -1,0 +1,16 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "wikipedia_summarize_article_for_query",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_suggest_meeting_point",
+  "osm-mcp-server_find_ev_charging_stations",
+  "weather_get_current_weather",
+  "weather_get_weather_forecast",
+  "weather_get_hourly_forecast",
+  "weather_get_weather_alerts",
+  "weather_find_weather_stations",
+  "weather_get_local_time"
+]

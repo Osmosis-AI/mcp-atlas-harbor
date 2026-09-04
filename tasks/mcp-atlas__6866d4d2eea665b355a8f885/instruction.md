@@ -1,0 +1,1 @@
+Hey, my friend told me he dropped a recommendation in a channel of the messaging app we use for business about a game developed by the same company behind Fire Emblem Gaiden. He told me it was a single-player game released in 2004 for the GameCube console. Could you check the message he left about the game? Thanks.

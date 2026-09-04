@@ -1,0 +1,17 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "calculator_calculate",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "fetch_fetch",
+  "github_search_repositories",
+  "github_search_code",
+  "arxiv_search_papers",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "exa_web_search_exa"
+]

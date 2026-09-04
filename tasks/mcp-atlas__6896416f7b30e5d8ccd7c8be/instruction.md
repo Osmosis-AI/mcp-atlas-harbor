@@ -1,0 +1,1 @@
+I'm researching in the metropolitan museum of art's asian art department, find an object whose title contains rooster and is linked to flowers. Tell me its full title and artist. From that object please identify the medium and get a brief explanation of what that medium means.

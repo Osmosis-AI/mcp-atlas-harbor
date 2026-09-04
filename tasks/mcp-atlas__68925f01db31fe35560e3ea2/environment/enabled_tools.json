@@ -1,0 +1,22 @@
+[
+  "exa_web_search_exa",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_download_pubmed_pdf",
+  "pubmed_get_pubmed_article_metadata",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_author_photo",
+  "open-library_get_book_cover",
+  "open-library_get_book_by_id",
+  "weather-data_weather_current",
+  "weather-data_weather_forecast",
+  "weather-data_weather_history",
+  "weather-data_weather_alerts",
+  "weather-data_weather_airquality",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather-data_weather_timezone",
+  "weather-data_weather_sports"
+]

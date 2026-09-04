@@ -1,0 +1,1 @@
+i am doing some analysis on our engagement. Could you tell me the cost per impression of our most expensive video and social media campaigns according to our cloud database? Also, I'd like to know how often we tend to invest so much, so I need the span between the campaign starting dates in years and remaining days

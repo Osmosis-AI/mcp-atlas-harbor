@@ -1,0 +1,1 @@
+Give me the moonrise time in seattle on the latest end date of my local pet care financial data if total profits exceed training services revenue; otherwise, use the earliest start date.

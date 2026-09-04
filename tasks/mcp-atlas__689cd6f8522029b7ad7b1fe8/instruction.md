@@ -1,0 +1,1 @@
+Which food type in my local food consumption data has the most satisfaction ratings of 5, and which beverage types accompany it when the rating is 5?

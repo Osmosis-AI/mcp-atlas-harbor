@@ -1,0 +1,16 @@
+[
+  "weather-data_weather_astronomy",
+  "weather-data_weather_history",
+  "oxylabs_google_search_scraper",
+  "mcp-code-executor_execute_code",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_issue_comments",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits"
+]

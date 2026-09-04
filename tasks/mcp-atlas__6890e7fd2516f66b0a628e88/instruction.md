@@ -1,0 +1,1 @@
+We have data that I have to search for in our cloud database. This database has a table that describes what our clients bought. I need to retrieve the title for a video game, the price, and what kind of purchase method they used on the same date as donald trump was named president of usa for the first term.

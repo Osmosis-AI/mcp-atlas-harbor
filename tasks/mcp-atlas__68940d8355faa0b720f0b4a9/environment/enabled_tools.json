@@ -1,0 +1,15 @@
+[
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_author_photo",
+  "open-library_get_book_cover",
+  "open-library_get_book_by_id",
+  "national-parks_getParkDetails",
+  "national-parks_findParks",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds"
+]

@@ -1,0 +1,1 @@
+I want to know all the panda attractions in a 5km radius nearby the monument inaugurated by porfirio diaz to commemorate mexico's independence, what is the distance by walking between the monument and the attractions?

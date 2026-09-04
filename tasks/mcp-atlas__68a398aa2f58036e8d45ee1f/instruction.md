@@ -1,0 +1,1 @@
+A friend came to my store to buy a game the day that olivia newton died. I want to know how much she was charged for the game, and what the name of the game is. This information is in a database, could you help me?

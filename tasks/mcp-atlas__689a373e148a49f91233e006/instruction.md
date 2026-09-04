@@ -1,0 +1,1 @@
+I'am a seller in a video game store, I need to know how much did the video game that was sold on the date when vern holtgrave passed away cost. I also need to know if a price reduction was applied, based on our database.

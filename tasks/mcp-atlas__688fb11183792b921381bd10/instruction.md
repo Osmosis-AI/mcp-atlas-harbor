@@ -1,0 +1,1 @@
+I recently joined the marketing team and I am still getting up to speed. My teammates mentioned that I should look at the social media post that got the most views during the month when the third European Political Community Summit took place. Using the cloud nosql data, could you help me figure out which post that was?.

@@ -1,0 +1,17 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_author_photo",
+  "open-library_get_book_cover",
+  "open-library_get_book_by_id",
+  "weather_get_current_weather",
+  "weather_get_weather_forecast",
+  "weather_get_hourly_forecast",
+  "weather_get_weather_alerts"
+]

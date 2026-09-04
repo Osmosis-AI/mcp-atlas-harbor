@@ -1,0 +1,1 @@
+I am exploring how literary history aligns with broader timelines. Using the death date of the author of the book the orchard keeper, identify on which day that passing occurred, and using an encyclopedic source, what day number of the year was it, and how many days remained in the year from that date until the end of the calendar year.

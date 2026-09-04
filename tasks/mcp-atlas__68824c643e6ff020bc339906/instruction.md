@@ -1,0 +1,1 @@
+I want to know what the percentage of ethereum growth was 7 days after the start of advertising campaign with the lowest local audience reach, whic was only for mobile devices, which was run in the News section in 2017 on the cloud data.

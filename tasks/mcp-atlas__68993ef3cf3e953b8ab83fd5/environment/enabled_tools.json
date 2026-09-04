@@ -1,0 +1,16 @@
+[
+  "ddg-search_search",
+  "twelvedata_GetTimeSeriesMacd",
+  "google-maps_maps_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_elevation",
+  "google-maps_maps_distance_matrix",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "twelvedata_GetTimeSeriesBBands",
+  "ddg-search_fetch_content",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info"
+]

@@ -1,0 +1,20 @@
+[
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "whois_whois_domain",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "github_get_repository",
+  "github_list_commits",
+  "github_list_pull_requests"
+]

@@ -1,0 +1,15 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "arxiv_search_papers",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_issue_comments",
+  "github_get_repository",
+  "memory_read_graph",
+  "memory_search_nodes"
+]

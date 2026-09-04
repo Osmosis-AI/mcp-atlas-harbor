@@ -1,0 +1,1 @@
+I heard that there are some ruins in new mexico that were mistakenly named after a mexican empire and they are a national monument. I'm interest in camping there, so please give me the available campgrounds name and the coordinates of those campagrouds, if there are any.

@@ -1,0 +1,1 @@
+Among the ad campaigns in my database, which ad placement yielded, on average, the greatest reach among international video ad campaigns launched in the same year that the first individual youtuber surpassed 100  million subscribers?

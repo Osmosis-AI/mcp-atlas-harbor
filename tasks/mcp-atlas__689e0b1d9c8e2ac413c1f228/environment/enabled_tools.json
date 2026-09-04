@@ -1,0 +1,14 @@
+[
+  "national-parks_getParkDetails",
+  "national-parks_findParks",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "fetch_fetch",
+  "pubmed_download_pubmed_pdf",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

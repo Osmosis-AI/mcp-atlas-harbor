@@ -1,0 +1,1 @@
+An old friend of mine from croatia will come to visit next month. We worked together on some projects back in the day, and I still have an old one on my computer about a calc for smth server-related. I want to surprise him with the very first version of its main readme as it was first created, but written in his native language.

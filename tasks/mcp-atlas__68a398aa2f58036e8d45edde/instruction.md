@@ -1,0 +1,1 @@
+I am checking the database of a video game store. I need to know how much did the video game that was sold on february 24, the year that the book afterparties by anthony veasna so was for the first time published cost. I also need to know which category the video game belongs.

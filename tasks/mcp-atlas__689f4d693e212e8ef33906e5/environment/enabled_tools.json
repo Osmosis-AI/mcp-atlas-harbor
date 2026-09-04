@@ -1,0 +1,17 @@
+[
+  "git_git_log",
+  "git_git_show",
+  "git_git_diff",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "github_list_issues",
+  "github_get_issue_comments",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits",
+  "github_list_branches",
+  "mcp-code-executor_execute_code"
+]

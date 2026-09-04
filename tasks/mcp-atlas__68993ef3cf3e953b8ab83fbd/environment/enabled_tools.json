@@ -1,0 +1,17 @@
+[
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_get_file_info",
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "google-workspace_list_events",
+  "github_search_code",
+  "github_search_users",
+  "git_git_diff_unstaged",
+  "git_git_diff",
+  "git_git_status",
+  "open-library_get_book_by_title",
+  "open-library_get_author_info"
+]

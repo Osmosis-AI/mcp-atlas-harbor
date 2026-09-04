@@ -1,0 +1,15 @@
+[
+  "weather-data_weather_history",
+  "calculator_calculate",
+  "exa_web_search_exa",
+  "met-museum_search-museum-objects",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "slack_conversations_replies",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "arxiv_search_papers",
+  "national-parks_findParks",
+  "oxylabs_universal_scraper",
+  "memory_search_nodes",
+  "weather_find_weather_stations"
+]

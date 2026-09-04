@@ -1,0 +1,17 @@
+[
+  "github_search_repositories",
+  "github_search_code",
+  "git_git_log",
+  "desktop-commander_search_files",
+  "desktop-commander_search_code",
+  "desktop-commander_start_process",
+  "desktop-commander_read_process_output",
+  "desktop-commander_interact_with_process",
+  "desktop-commander_get_usage_stats",
+  "desktop-commander_give_feedback_to_desktop_commander",
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "arxiv_search_papers",
+  "weather-data_weather_history",
+  "twelvedata_GetTimeSeries"
+]

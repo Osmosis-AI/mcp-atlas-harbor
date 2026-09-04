@@ -1,0 +1,18 @@
+[
+  "weather-data_weather_airquality",
+  "weather-data_weather_timezone",
+  "weather-data_weather_sports",
+  "weather_get_weather_alerts",
+  "fetch_fetch",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetSymbolSearch",
+  "whois_whois_domain",
+  "weather-data_weather_current",
+  "weather-data_weather_forecast",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "open-library_get_book_by_id",
+  "lara-translate_translate",
+  "lara-translate_list_languages"
+]

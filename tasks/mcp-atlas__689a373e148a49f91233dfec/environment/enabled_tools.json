@@ -1,0 +1,16 @@
+[
+  "brave-search_brave_web_search",
+  "arxiv_search_papers",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions",
+  "osm-mcp-server_search_category",
+  "google-workspace_list_events",
+  "fetch_fetch",
+  "calculator_calculate",
+  "osm-mcp-server_suggest_meeting_point"
+]

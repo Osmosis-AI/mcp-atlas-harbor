@@ -1,0 +1,18 @@
+[
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-get-self",
+  "notion_API-retrieve-a-page",
+  "arxiv_search_papers",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "fetch_fetch",
+  "exa_web_search_exa",
+  "ddg-search_search",
+  "ddg-search_fetch_content"
+]

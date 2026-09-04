@@ -1,0 +1,1 @@
+My friend was working at a library and she told me about this teenager who stole a computer and then used it to submit an issue to a scrolling project from a repository from the onion. The issue was submitted four days after the computer was stolen. However, the crime was reported as vandalism, it should be in my local files. Can you get me the contents of the issue?

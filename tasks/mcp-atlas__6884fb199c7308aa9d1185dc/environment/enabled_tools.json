@@ -1,0 +1,13 @@
+[
+  "brave-search_brave_web_search",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-get-self",
+  "fetch_fetch",
+  "mcp-code-executor_execute_code",
+  "calculator_calculate",
+  "oxylabs_universal_scraper",
+  "twelvedata_GetTimeSeries",
+  "slack_channels_list",
+  "slack_conversations_add_message"
+]

@@ -1,0 +1,9 @@
+[
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "git_git_log",
+  "git_git_show",
+  "arxiv_search_papers",
+  "pubmed_search_pubmed_key_words",
+  "oxylabs_google_search_scraper"
+]

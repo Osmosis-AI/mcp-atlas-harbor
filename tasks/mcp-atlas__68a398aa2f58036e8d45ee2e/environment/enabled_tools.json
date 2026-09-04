@@ -1,0 +1,17 @@
+[
+  "github_search_repositories",
+  "github_get_commit",
+  "github_list_commits",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_count",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "whois_whois_domain",
+  "wikipedia_search_wikipedia",
+  "context7_resolve-library-id",
+  "wikipedia_get_article",
+  "wikipedia_get_summary"
+]

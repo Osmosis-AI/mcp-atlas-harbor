@@ -1,0 +1,1 @@
+I'm a reviewing the sales reports in car dealership, I need to know the total amount of sales in the month and year that mario cuomo passed away. I also need to know how many workers were available at that time.

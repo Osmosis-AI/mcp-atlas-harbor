@@ -1,0 +1,1 @@
+In a set of locally recorded entries tracking meals and drinks, there are entries with dishes containing items from the sea prepared at home. considering the entry that represents the largest total expenditure for such a meal, could you provide the market price reported for btc in usd for that same date?

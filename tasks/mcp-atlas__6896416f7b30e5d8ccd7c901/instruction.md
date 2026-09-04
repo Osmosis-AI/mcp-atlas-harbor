@@ -1,0 +1,1 @@
+I´m curious if the distance of the two most populous cities in usa as of 2025 is higher than the distance between the two most populous cities in brazil as of 2025. If not, create a repo with the brazilian cities distance in kilometers.

@@ -1,0 +1,19 @@
+[
+  "github_search_repositories",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "context7_get-library-docs",
+  "met-museum_search-museum-objects",
+  "national-parks_getVisitorCenters",
+  "national-parks_findParks",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "cli-mcp-server_run_command",
+  "google-maps_maps_geocode",
+  "google-maps_maps_place_details",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "exa_web_search_exa",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary"
+]

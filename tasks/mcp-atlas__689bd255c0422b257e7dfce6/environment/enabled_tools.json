@@ -1,0 +1,14 @@
+[
+  "exa_web_search_exa",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather-data_weather_history",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "calculator_calculate",
+  "whois_whois_domain",
+  "whois_whois_tld"
+]

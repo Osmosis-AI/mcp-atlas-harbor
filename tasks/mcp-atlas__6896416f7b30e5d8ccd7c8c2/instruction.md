@@ -1,0 +1,1 @@
+I am preparing a historical report on objects, and I need to know: In what year did the workshop where the tyg object was created begin producing ceramics? I also want to know the name of the workshop.

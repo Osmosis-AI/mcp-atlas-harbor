@@ -1,0 +1,1 @@
+Thinking back to when el salvador made bitcoin legal tender, I'm curious about how btc performed in its first week under the new law. Could you share the closing price of bitcoin for each of the seven days immediately after the adoption date, and let me know if the average closing price for that week was higher or lower than the closing price on adoption day?

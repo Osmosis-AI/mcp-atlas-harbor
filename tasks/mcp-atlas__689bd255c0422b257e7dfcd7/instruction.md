@@ -1,0 +1,1 @@
+There was a day in my trading history in the local database where I made eight transactions of two kinds, out of which only one of them was a deposit. On the two year anniversary of that date, I want to celebrate. Can you tell me which events I have scheduled on my calendar between 6pm and 4am of the next day?

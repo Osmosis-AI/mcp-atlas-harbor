@@ -1,0 +1,16 @@
+[
+  "airtable_list_bases",
+  "calculator_calculate",
+  "e2b-server_run_code",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetSymbolSearch",
+  "google-workspace_list_events",
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-get-self",
+  "notion_API-post-database-query",
+  "notion_API-post-search"
+]

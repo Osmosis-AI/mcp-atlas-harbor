@@ -1,0 +1,1 @@
+In my car dealership database, between the sales and service departments, which one had the worst performance in the third quarter of the year chester bennington died, and what was the lowest individual score in that department?

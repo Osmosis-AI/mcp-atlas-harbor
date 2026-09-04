@@ -1,0 +1,14 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_search_records",
+  "airtable_list_records",
+  "airtable_get_record",
+  "brave-search_brave_web_search",
+  "exa_web_search_exa",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

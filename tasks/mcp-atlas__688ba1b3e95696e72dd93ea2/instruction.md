@@ -1,0 +1,3 @@
+```js
+This guy was talking bout a publication he did before 2024 about mindfulness and psychedelics when he was working at zurich, can you tell me all the authors and what drugs they used? He told me they threw a shroom party at the place of the investigation and then went to the nearest gallery and trespassed. Can you tell me the name of that gallery? And by the way, what is the address of the place the investigation happened? 
+```

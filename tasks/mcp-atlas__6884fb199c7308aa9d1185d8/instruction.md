@@ -1,0 +1,1 @@
+I'm analyzing my earnings from various businesses using records stored on my computer. How much revenue was generated from the pet business during the first half of the incomes week?, and within that same date range, how much income came from food and beverage sales across all location? By the way, what was the total revenue of both?

@@ -1,0 +1,1 @@
+i'm analyzing the performance of ethereum for my records. I want to use the dates of my clinical rounds from july 2025 as the timeframe. Could you find the dates for my first and last clinical rounds in that month? Find the reported prices for ethereum on those two dates and calculate the percentage growth of ethereum during that period.

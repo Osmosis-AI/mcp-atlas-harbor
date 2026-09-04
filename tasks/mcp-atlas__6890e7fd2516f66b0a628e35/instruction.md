@@ -1,0 +1,1 @@
+I'm analyzing item availability in december 2023 using the cloud nosql data, to identify which type of game had the highest remaining quantity on hand (using the record closest to the end of that month as tiebreaker if necessary), and what does the term associated with that game type generally refer to in broader contexts according to online encyclopedias?

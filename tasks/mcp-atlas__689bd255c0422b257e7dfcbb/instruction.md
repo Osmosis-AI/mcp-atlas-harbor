@@ -1,0 +1,1 @@
+My boss at the car dealership is asking me to create a sales report based on our database. I need to know the name of the car category that was bestseller in the month and year when the drummer fred white passed away. I also need to know the total amount of expenses for that period.

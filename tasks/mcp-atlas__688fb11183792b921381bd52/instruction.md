@@ -1,0 +1,1 @@
+I'm a video game seller, and I need to find out the date a game was sold. I remember that the transaction reference number ended in 0002 in my database. I also need to check whether a price reduction was applied in that sale.

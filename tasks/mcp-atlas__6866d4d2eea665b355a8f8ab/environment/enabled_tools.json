@@ -1,0 +1,9 @@
+[
+  "slack_channels_list",
+  "slack_conversations_history",
+  "calculator_calculate",
+  "fetch_fetch",
+  "oxylabs_google_search_scraper",
+  "github_search_repositories",
+  "twelvedata_GetTimeSeries"
+]

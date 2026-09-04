@@ -1,0 +1,1 @@
+Using my dealership data on foot traffic, specifically about service center visits on january 2015, what's the average per week (mon-fri) of visitors? Compare that with the average value for showroom visits in that same period, which is the highest? Obtain the averages rounded to two decimals. 

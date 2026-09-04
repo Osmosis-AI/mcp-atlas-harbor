@@ -1,0 +1,1 @@
+How many visits did the showroom the year that obama finished his period as president? 

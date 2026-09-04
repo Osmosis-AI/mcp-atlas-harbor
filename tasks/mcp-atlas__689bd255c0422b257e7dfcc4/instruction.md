@@ -1,0 +1,1 @@
+My friend steve joined to the movie suggestions channel and recommend a movie, I would like to know if the movie won an oscar for best supporting actor and, if so, what was the bitcoin price on the day the winning actor died.

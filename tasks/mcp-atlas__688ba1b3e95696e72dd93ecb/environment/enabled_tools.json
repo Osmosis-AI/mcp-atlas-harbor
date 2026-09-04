@@ -1,0 +1,18 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_aggregate",
+  "wikipedia_get_article",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_download_pubmed_pdf",
+  "github_search_repositories",
+  "github_search_issues",
+  "mongodb_collection-indexes",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy"
+]

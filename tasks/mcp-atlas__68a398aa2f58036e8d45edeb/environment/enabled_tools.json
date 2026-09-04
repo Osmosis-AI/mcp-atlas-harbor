@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "weather_find_weather_stations",
+  "google-workspace_list_events",
+  "github_search_repositories",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name"
+]

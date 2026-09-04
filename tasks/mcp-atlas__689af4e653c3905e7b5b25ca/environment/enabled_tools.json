@@ -1,0 +1,15 @@
+[
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_download_pubmed_pdf",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "weather_find_weather_stations",
+  "context7_get-library-docs",
+  "context7_resolve-library-id",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "mcp-server-code-runner_run-code"
+]

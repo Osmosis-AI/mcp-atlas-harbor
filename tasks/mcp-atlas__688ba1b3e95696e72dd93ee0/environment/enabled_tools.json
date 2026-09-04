@@ -1,0 +1,19 @@
+[
+  "airtable_get_record",
+  "mongodb_find",
+  "mongodb_count",
+  "mongodb_aggregate",
+  "mongodb_collection-schema",
+  "mongodb_list-databases",
+  "mongodb_list-collections",
+  "osm-mcp-server_analyze_neighborhood",
+  "osm-mcp-server_find_schools_nearby",
+  "osm-mcp-server_find_parking_facilities",
+  "osm-mcp-server_get_route_directions",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "git_git_log",
+  "git_git_diff",
+  "desktop-commander_read_file",
+  "cli-mcp-server_run_command"
+]

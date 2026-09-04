@@ -1,0 +1,1 @@
+We have scheduled our annual family reunion for the 1st week of aug 2025 in an la neighborhood; there is a lake there. Can you check how many days there are between the end date of the festival held there and our reunion?

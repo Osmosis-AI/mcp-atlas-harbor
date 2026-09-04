@@ -1,0 +1,15 @@
+[
+  "context7_resolve-library-id",
+  "mcp-server-code-runner_run-code",
+  "arxiv_search_papers",
+  "twelvedata_GetTimeSeries",
+  "cli-mcp-server_run_command",
+  "google-workspace_list_events",
+  "github_get_file_contents",
+  "github_search_repositories",
+  "oxylabs_universal_scraper",
+  "oxylabs_amazon_search_scraper",
+  "memory_read_graph",
+  "brave-search_brave_web_search",
+  "cli-mcp-server_show_security_rules"
+]

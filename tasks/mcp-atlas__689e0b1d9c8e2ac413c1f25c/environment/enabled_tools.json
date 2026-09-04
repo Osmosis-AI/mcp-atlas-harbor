@@ -1,0 +1,19 @@
+[
+  "filesystem_read_multiple_files",
+  "filesystem_directory_tree",
+  "filesystem_list_allowed_directories",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "fetch_fetch",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "filesystem_search_files",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as"
+]

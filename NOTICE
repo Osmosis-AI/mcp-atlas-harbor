@@ -1,0 +1,30 @@
+MCP-Atlas for Harbor
+Copyright 2026 The Harbor Authors
+
+This distribution contains benchmark material adapted from MCP-Atlas,
+created by Scale AI and the MCP-Atlas authors and made available under the
+Creative Commons Attribution 4.0 International Public License.
+
+Source:
+  https://github.com/scaleapi/mcp-atlas
+  repository commit f24ba3fb0bfa484c86acb28431fad6d7282455f9
+
+Public dataset:
+  https://huggingface.co/datasets/ScaleAI/MCP-Atlas
+  revision 8c563b55d7c967755f474299848049834d624617
+  artifact MCP-Atlas.parquet
+  SHA-256 2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0
+
+Modifications by the Harbor authors include schema normalization,
+deterministic Harbor packaging, removal and explicit recording of four
+unavailable distractor server prefixes, omission of reference trajectories,
+per-task MCP allowlist enforcement, credential-isolated container topology,
+ATIF-aware final-answer extraction, Harbor-compatible claim scoring,
+release manifests, and dataset registry views.
+
+MCP-Atlas source code is MIT licensed. Harbor-authored code in this
+distribution is Apache-2.0 licensed. Benchmark-derived data is CC BY 4.0
+licensed. See LICENSE, LICENSE-CODE, LICENSE-DATA, and
+THIRD_PARTY_NOTICES.md.
+
+Neither Scale AI nor the MCP-Atlas authors endorse this adaptation.

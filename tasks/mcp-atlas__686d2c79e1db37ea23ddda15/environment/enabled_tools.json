@@ -1,0 +1,17 @@
+[
+  "calculator_calculate",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "filesystem_read_file",
+  "oxylabs_google_search_scraper",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-retrieve-a-page-property",
+  "google-workspace_list_events"
+]

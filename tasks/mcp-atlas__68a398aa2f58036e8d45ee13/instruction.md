@@ -1,0 +1,1 @@
+Could you tell me the closing price of microsoft corp stock united states in nasdaq, as well as its relative strength index in us dollars, on the last day of the month of cristiano ronaldo's birthday in the years 2016 and 2024?

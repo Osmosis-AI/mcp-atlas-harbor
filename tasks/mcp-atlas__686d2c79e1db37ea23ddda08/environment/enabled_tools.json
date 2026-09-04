@@ -1,0 +1,17 @@
+[
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "google-workspace_list_events",
+  "fetch_fetch",
+  "calculator_calculate",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "mcp-server-code-runner_run-code",
+  "e2b-server_run_code",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "filesystem_get_file_info"
+]

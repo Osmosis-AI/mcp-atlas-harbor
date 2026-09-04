@@ -1,0 +1,1 @@
+I was reviewing my event records in the knowledge graph, and I wanted to verify crime data in the area. From my local system, I have a file containing crime records. Tell me which family organized the event held at a park, which family members are attending, and how many crimes in my file occurred in any parks.

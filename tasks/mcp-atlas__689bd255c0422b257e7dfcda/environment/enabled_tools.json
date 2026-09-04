@@ -1,0 +1,13 @@
+[
+  "calculator_calculate",
+  "slack_channels_list",
+  "slack_conversations_add_message",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "fetch_fetch",
+  "filesystem_read_file",
+  "filesystem_read_text_file"
+]

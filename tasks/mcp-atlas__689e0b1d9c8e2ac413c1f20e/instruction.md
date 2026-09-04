@@ -1,0 +1,1 @@
+Recently, while reviewing my coinbase trade history file, I became curious about which asset appeared most frequently. I also wondered in what year that coin first appeared, according to  <https://cryptomus.com/blog/how-many-cryptocurrencies-are-there>.

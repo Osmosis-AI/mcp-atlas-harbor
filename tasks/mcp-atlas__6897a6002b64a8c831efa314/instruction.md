@@ -1,0 +1,1 @@
+By reviewing my local files, I want to focus only on the top movies marked as watched in my list. Among those, which movie has my highest personal rating? Include its imdb rating, runtime, and genres. Also, determine the year this movie was released, even if that release year is not present in my local files.

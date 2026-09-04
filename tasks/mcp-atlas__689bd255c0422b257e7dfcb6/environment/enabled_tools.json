@@ -1,0 +1,16 @@
+[
+  "calculator_calculate",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "exa_web_search_exa",
+  "whois_whois_domain",
+  "mcp-code-executor_execute_code",
+  "mcp-server-code-runner_run-code",
+  "fetch_fetch",
+  "oxylabs_amazon_search_scraper",
+  "oxylabs_universal_scraper",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph"
+]

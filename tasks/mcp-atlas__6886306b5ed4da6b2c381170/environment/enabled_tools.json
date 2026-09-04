@@ -1,0 +1,22 @@
+[
+  "twelvedata_GetTimeSeriesBBands",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeriesEma",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesSma",
+  "twelvedata_GetForexPairs",
+  "twelvedata_GetTimeSeriesAtr",
+  "twelvedata_GetCryptocurrencies",
+  "twelvedata_GetExchanges",
+  "twelvedata_GetCryptocurrencyExchanges",
+  "twelvedata_GetTimeSeriesCross",
+  "twelvedata_GetTimeSeriesAdx",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "calculator_calculate",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "brave-search_brave_web_search"
+]

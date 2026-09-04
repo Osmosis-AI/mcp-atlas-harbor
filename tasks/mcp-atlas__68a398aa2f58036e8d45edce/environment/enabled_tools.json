@@ -1,0 +1,17 @@
+[
+  "mongodb_list-databases",
+  "mongodb_list-collections",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_aggregate",
+  "mongodb_explain",
+  "arxiv_search_papers",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "github_get_commit"
+]

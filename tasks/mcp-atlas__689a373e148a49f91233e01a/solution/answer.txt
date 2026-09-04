@@ -1,0 +1,4 @@
+- The Ethereum transition to Proof-of-Stake (The Merge) occurred on September 15, 2022.
+- The percentage change for Bitcoin (BTC) in the 90 days following The Merge was approximately -12.20%
+- The percentage change for Ethereum (ETH) in the 90 days following The Merge was approximately -19.32%
+- Bitcoin (BTC) was the better investment in anticipation of the event due to having smaller losses.

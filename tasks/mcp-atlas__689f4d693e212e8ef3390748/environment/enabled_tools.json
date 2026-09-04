@@ -1,0 +1,17 @@
+[
+  "github_search_repositories",
+  "arxiv_search_papers",
+  "weather_find_weather_stations",
+  "weather-data_weather_astronomy",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "git_git_diff_unstaged",
+  "git_git_status",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "github_list_tags",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper"
+]

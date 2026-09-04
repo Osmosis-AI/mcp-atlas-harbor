@@ -1,0 +1,17 @@
+[
+  "calculator_calculate",
+  "e2b-server_run_code",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "twelvedata_GetTimeSeries",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "fetch_fetch"
+]

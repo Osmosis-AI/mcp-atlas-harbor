@@ -1,0 +1,13 @@
+[
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetSymbolSearch",
+  "google-workspace_list_events",
+  "arxiv_search_papers",
+  "weather_find_weather_stations",
+  "twelvedata_GetTimeSeriesAdx",
+  "twelvedata_GetTimeSeriesCross",
+  "twelvedata_GetCryptocurrencyExchanges",
+  "twelvedata_GetExchanges",
+  "twelvedata_GetCryptocurrencies",
+  "whois_whois_domain"
+]

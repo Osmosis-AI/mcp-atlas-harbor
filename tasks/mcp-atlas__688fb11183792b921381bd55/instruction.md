@@ -1,0 +1,1 @@
+I'm investigating the relationship between video games of different generations based on our customer data. What was the total number of action video game purchases made in 2023 by customers with active memberships who were at least 5 years old at the end of the year in which the first documented first-person shooter game was developed?

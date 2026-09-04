@@ -1,0 +1,16 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "mcp-server-code-runner_run-code",
+  "git_git_log",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_get_repository",
+  "github_list_commits",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search"
+]

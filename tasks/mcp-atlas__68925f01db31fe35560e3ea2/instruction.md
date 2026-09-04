@@ -1,0 +1,1 @@
+been pondering sci-fi as a lens on human nature. There’s this novel called hand something about gender fluidity, written by a woman whose name I can’t recall... any idea who she is? Get me a picture of her.  Also, when did that book first come out, and by the way,tell me how many years elapsed between that publication and uruguay's approval of its trans law?

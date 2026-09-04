@@ -1,0 +1,1 @@
+I'm sorting out some old notes from when I had scheduled that dinner meetup with my colleague at la mar back in july 2025, and we ended up diving into airline investments. Can you tell me the nasdaq ticker for united airlines stock? Plus, to match it against what we were saying about daily fluctuations, what was its nasdaq closing price on the exact day of that dinner?

@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_aggregate",
+  "arxiv_search_papers",
+  "wikipedia_search_wikipedia",
+  "google-workspace_list_events",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "github_search_repositories",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetCryptocurrencies",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetExchanges"
+]

@@ -1,0 +1,19 @@
+[
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "google-workspace_list_events",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_read_text_file",
+  "fetch_fetch",
+  "e2b-server_run_code",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "weather_find_weather_stations",
+  "weather-data_weather_search",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files"
+]

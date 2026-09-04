@@ -1,0 +1,17 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "twelvedata_GetTimeSeries",
+  "git_git_show",
+  "git_git_log",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_read_multiple_files",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_get_file_info",
+  "desktop-commander_search_code",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search"
+]

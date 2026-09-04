@@ -1,0 +1,1 @@
+I'm analyzing the company's media campaigns for my shop, and I want to know, based on the company's nosql data, how many times we used instagram and tiktok for campaigns in the same year and month when I closed the week with the most profit in the pet shop, according to my records.

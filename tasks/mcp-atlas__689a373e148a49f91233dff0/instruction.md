@@ -1,0 +1,1 @@
+I'm doing a report for a video game store, based on their database. I need to know how much did the video game that was sold on the date when marcia brown passed away cost. I also need to know which category the video game belongs.

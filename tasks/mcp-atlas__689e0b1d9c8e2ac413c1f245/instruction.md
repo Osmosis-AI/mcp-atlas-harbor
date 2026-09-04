@@ -1,0 +1,1 @@
+I am a big anime fan and live in the same city where the creator of one piece was born. i am curious to know in my city on which of these two days the sunset occurred earlier and how many minutes of difference there were between the day the first episode of the one piece anime aired and the day the first episode of the dragon ball anime aired.

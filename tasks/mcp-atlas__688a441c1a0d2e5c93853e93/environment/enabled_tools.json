@@ -1,0 +1,16 @@
+[
+  "notion_API-get-self",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-get-block-children",
+  "notion_API-retrieve-a-block",
+  "cli-mcp-server_run_command",
+  "calculator_calculate",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "fetch_fetch",
+  "context7_resolve-library-id",
+  "context7_get-library-docs"
+]

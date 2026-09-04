@@ -1,0 +1,14 @@
+[
+  "brave-search_brave_web_search",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_find",
+  "mongodb_collection-schema",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "mongodb_db-stats"
+]

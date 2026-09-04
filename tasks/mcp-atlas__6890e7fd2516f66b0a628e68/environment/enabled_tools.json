@@ -1,0 +1,17 @@
+[
+  "wikipedia_get_article",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_search_category",
+  "osm-mcp-server_get_route_directions",
+  "osm-mcp-server_suggest_meeting_point",
+  "osm-mcp-server_explore_area",
+  "osm-mcp-server_find_schools_nearby",
+  "osm-mcp-server_find_ev_charging_stations",
+  "osm-mcp-server_analyze_neighborhood",
+  "osm-mcp-server_find_parking_facilities",
+  "weather_get_current_weather",
+  "wikipedia_get_summary",
+  "osm-mcp-server_geocode_address",
+  "wikipedia_search_wikipedia"
+]

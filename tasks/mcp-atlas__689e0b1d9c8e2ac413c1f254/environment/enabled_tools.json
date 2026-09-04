@@ -1,0 +1,16 @@
+[
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "whois_whois_domain",
+  "weather_find_weather_stations",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "arxiv_search_papers",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as"
+]

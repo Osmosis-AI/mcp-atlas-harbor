@@ -1,0 +1,16 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "arxiv_search_papers",
+  "google-maps_maps_search_places",
+  "google-maps_maps_place_details",
+  "github_search_code",
+  "github_search_users",
+  "git_git_diff_staged",
+  "weather-data_weather_history",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_search_pubmed_advanced"
+]

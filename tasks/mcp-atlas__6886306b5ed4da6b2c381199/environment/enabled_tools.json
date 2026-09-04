@@ -1,0 +1,16 @@
+[
+  "brave-search_brave_web_search",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-retrieve-a-database",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_replies",
+  "slack_conversations_search_messages",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "arxiv_search_papers",
+  "notion_API-retrieve-a-page"
+]

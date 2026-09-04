@@ -1,0 +1,18 @@
+[
+  "exa_web_search_exa",
+  "filesystem_read_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_directory_tree",
+  "fetch_fetch",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue"
+]

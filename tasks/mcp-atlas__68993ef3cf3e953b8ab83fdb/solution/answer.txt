@@ -1,0 +1,4 @@
+- According to /data/fantasy sports.csv in the user's local PC files, the sport with the least number of entries is soccer.
+- England created the word "soccer.
+- The capital of England is London.
+- London has an area of  1,579,000,000.00 meters squared.

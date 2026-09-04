@@ -1,0 +1,16 @@
+[
+  "fetch_fetch",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "pubmed_search_pubmed_key_words",
+  "national-parks_findParks",
+  "national-parks_getCampgrounds",
+  "national-parks_getVisitorCenters",
+  "national-parks_getParkDetails",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules"
+]

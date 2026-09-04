@@ -1,0 +1,17 @@
+[
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "git_git_log",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "github_get_pull_request",
+  "github_list_pull_requests",
+  "github_list_tags",
+  "github_list_branches",
+  "github_list_commits",
+  "github_list_issues",
+  "git_git_status",
+  "github_get_commit"
+]

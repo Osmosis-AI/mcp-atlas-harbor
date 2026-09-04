@@ -1,0 +1,16 @@
+[
+  "brave-search_brave_web_search",
+  "airtable_get_record",
+  "airtable_search_records",
+  "airtable_list_records",
+  "airtable_list_tables",
+  "airtable_list_bases",
+  "oxylabs_amazon_search_scraper",
+  "oxylabs_universal_scraper",
+  "fetch_fetch",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_search_files",
+  "cli-mcp-server_show_security_rules",
+  "cli-mcp-server_run_command"
+]

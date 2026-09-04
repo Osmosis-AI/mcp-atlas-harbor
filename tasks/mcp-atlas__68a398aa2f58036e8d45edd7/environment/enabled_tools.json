@@ -1,0 +1,15 @@
+[
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "arxiv_search_papers",
+  "github_search_users",
+  "github_search_code",
+  "github_get_issue",
+  "pubmed_get_pubmed_article_metadata",
+  "fetch_fetch",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study"
+]

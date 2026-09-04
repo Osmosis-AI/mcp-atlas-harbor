@@ -1,0 +1,15 @@
+[
+  "git_git_log",
+  "git_git_show",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "github_get_repository",
+  "github_search_issues",
+  "github_list_issues",
+  "github_list_commits",
+  "github_list_branches",
+  "fetch_fetch"
+]

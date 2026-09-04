@@ -1,0 +1,16 @@
+[
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-server-code-runner_run-code",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "twelvedata_GetTimeSeries",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "memory_read_graph",
+  "memory_search_nodes"
+]

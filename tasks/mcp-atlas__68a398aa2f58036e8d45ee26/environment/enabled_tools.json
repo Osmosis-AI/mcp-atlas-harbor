@@ -1,0 +1,20 @@
+[
+  "pubmed_search_pubmed_key_words",
+  "pubmed_get_pubmed_article_metadata",
+  "github_search_repositories",
+  "github_get_repository",
+  "github_list_commits",
+  "github_get_commit",
+  "github_list_pull_requests",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "github_get_pull_request_comments",
+  "github_get_pull_request_status",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_summary",
+  "wikipedia_get_links",
+  "wikipedia_get_sections",
+  "pubmed_search_pubmed_advanced"
+]

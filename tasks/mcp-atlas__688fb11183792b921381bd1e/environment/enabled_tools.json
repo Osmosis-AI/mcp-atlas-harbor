@@ -1,0 +1,17 @@
+[
+  "weather_get_weather_forecast",
+  "weather_get_hourly_forecast",
+  "cli-mcp-server_run_command",
+  "exa_web_search_exa",
+  "weather_get_current_weather",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "cli-mcp-server_show_security_rules",
+  "e2b-server_run_code",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_aggregate",
+  "mongodb_collection-schema"
+]

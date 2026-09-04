@@ -1,0 +1,15 @@
+[
+  "weather-data_weather_history",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "notion_API-post-database-query",
+  "slack_conversations_history",
+  "arxiv_search_papers",
+  "filesystem_list_directory",
+  "whois_whois_domain",
+  "git_git_log",
+  "memory_read_graph",
+  "lara-translate_translate",
+  "weather_find_weather_stations",
+  "weather-data_weather_search"
+]

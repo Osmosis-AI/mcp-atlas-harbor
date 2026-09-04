@@ -1,0 +1,1 @@
+Two brothers came to my store to buy two different games on the day that tom smothers died. They are making a claim against me and i want to know how much they were charged for each game at that time, could you help me find those two games in the cloud database?

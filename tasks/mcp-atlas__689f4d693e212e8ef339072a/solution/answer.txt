@@ -1,0 +1,3 @@
+- The article "Re-evaluation of G-quadruplex propensity with G4Hunter" was published in 2016 by Bedrat, Lacroix, Mergny.
+- The user LacroixLaurent has a repository called "G4Hunter" written in the programming language R
+- LacroixLaurent last updated the repository G4Hunter on September 20th, 2018, before 2025.

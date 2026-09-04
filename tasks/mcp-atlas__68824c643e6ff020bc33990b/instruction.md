@@ -1,0 +1,1 @@
+My dad told me to get an apartment that was built the same year Spain won its first World Cup. Check the cloud data and tell me if there are any premium one-bedroom units with the best available energy rating built that year. If there are, please provide me with the monthly rent for it.

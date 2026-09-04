@@ -1,0 +1,19 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_summarize_article_for_query",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "exa_web_search_exa",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_find",
+  "mongodb_collection-schema",
+  "mongodb_collection-indexes",
+  "mongodb_aggregate",
+  "mongodb_explain"
+]

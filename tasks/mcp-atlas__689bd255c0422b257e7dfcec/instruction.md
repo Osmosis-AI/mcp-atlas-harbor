@@ -1,0 +1,1 @@
+I was reading news about cryptocurrencies and got curious. Please tell me the usd price of dogecoin on the last calendar day of each month whose name starts with the letter j in the year following its launch. Also, provide the average of these three prices multiplied by the lowest price among them.

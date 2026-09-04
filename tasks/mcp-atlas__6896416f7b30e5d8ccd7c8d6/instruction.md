@@ -1,0 +1,1 @@
+There's a film director who was born 68 years before the second football player with the most points scored from the local database is set to retire. He is american, and I want to know his name and when he won his first oscar and what the oscar was for.

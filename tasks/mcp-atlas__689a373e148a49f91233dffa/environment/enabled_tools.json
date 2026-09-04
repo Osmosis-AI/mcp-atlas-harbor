@@ -1,0 +1,17 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "brave-search_brave_web_search",
+  "calculator_calculate",
+  "desktop-commander_search_files",
+  "desktop-commander_search_code",
+  "desktop-commander_get_file_info",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema"
+]

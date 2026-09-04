@@ -1,0 +1,1 @@
+I am an assistant at a car dealership. I need to know the name of the car category that was best-selling in the month and year when dustin diamond passed away. I also need to know the total amount of expenses in that period.

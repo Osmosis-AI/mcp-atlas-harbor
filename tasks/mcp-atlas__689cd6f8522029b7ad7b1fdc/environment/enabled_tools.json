@@ -1,0 +1,16 @@
+[
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "arxiv_search_papers",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "fetch_fetch",
+  "e2b-server_run_code",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "whois_whois_domain",
+  "met-museum_search-museum-objects",
+  "met-museum_list-departments"
+]

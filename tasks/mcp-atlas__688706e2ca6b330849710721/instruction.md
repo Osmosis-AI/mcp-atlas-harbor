@@ -1,0 +1,1 @@
+I'm checking local police station data on an assault that ocurred at a restaurante with a 40 years old victim. what's the date of that report? And for crimes in this category from 2017 and 2020, what's the average age of the suspects?

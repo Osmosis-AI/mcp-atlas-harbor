@@ -1,0 +1,1 @@
+I need to know the dimensions of a french piece where the pair of angels, seen moving away form the connecter arches, are painted with exceptional precision, against a background decorated with a fine rinceaux patter, This piece belongs to the Art Produced from the 5th to the 15th century in Europe. Could you tell me exactly which artistic period it belongs to?

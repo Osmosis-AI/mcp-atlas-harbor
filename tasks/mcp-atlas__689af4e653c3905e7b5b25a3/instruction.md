@@ -1,0 +1,1 @@
+I was looking at this one painting named merced river by bierstat in the biggest museum in new york, which depicts a beautiful landscape in what I think is a state with a national park somewhere in the us. This interested me to try and visit the place, can you help me to find the full address of the national park depicted in the painting?

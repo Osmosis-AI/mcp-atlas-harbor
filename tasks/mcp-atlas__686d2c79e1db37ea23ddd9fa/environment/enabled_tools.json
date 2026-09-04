@@ -1,0 +1,17 @@
+[
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "mcp-server-code-runner_run-code",
+  "filesystem_read_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "fetch_fetch",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file"
+]

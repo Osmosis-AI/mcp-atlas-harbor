@@ -1,0 +1,16 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_log",
+  "git_git_diff",
+  "git_git_show",
+  "git_git_status",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "memory_search_nodes",
+  "memory_read_graph"
+]

@@ -1,0 +1,15 @@
+[
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_get_pubmed_article_metadata",
+  "github_search_repositories",
+  "github_search_users",
+  "github_search_issues",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records"
+]

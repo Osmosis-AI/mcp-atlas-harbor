@@ -1,0 +1,13 @@
+[
+  "notion_API-get-users",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-get-user",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules"
+]

@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_find",
+  "mongodb_count",
+  "mongodb_aggregate",
+  "mongodb_collection-schema",
+  "mongodb_collection-indexes",
+  "mongodb_explain",
+  "e2b-server_run_code",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_read_multiple_files",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files"
+]

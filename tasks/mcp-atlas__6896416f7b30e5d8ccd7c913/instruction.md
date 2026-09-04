@@ -1,0 +1,1 @@
+I'm currently doing a trip in Paris. I'm at the eiffel tower, and I wanna see the mona lisa and the self-portrait of van gogh, but I don't have a car. Can you tell me if they are reachable by feet (under one hour)? Since I'm hungry, I want to go the thierry marx restaurant first, which floor is it?

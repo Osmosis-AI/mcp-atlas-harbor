@@ -1,0 +1,1 @@
+I was thinking of places to visit, and Missouri came to mind, partly because I remember a friend talking about the park with a huge arch that started its construction in 1963. I'd like to know the exact year that the arch was officially completed. Also, since I'll be visiting Missouri, I want to know the exact date it became a U.S state.

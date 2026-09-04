@@ -1,0 +1,1 @@
+I'm trying to find out which which people had the best ratings, i do haircuts and I have a list about my business where i am known as barber 2, i compete with my partner to see who was better. My other partner, barber 3, is not interested in my competition

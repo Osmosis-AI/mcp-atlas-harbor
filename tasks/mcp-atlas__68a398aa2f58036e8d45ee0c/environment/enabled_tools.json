@@ -1,0 +1,16 @@
+[
+  "osm-mcp-server_analyze_neighborhood",
+  "wikipedia_search_wikipedia",
+  "wikipedia_extract_key_facts",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_search_category",
+  "osm-mcp-server_get_route_directions",
+  "osm-mcp-server_suggest_meeting_point",
+  "osm-mcp-server_explore_area",
+  "osm-mcp-server_find_schools_nearby",
+  "osm-mcp-server_analyze_commute",
+  "wikipedia_get_article",
+  "wikipedia_summarize_article_for_query"
+]

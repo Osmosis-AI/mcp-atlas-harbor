@@ -1,0 +1,3 @@
+- The movie with the best ranking for the index IMDb Rating + My Rating + Metascore/10 is The Lord of the Rings: The Return of the King
+- The Lord of the Rings: The Return of the King index value is 27.70.
+- The director of the Lord of the Rings: The Return of the King is Peter Jackson

@@ -1,0 +1,16 @@
+[
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "fetch_fetch",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "calculator_calculate",
+  "brave-search_brave_web_search",
+  "arxiv_search_papers",
+  "arxiv_read_paper"
+]

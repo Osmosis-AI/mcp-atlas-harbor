@@ -1,0 +1,1 @@
+I was planning to visit the gates of the artic national park, and then visit the glacier bay national park, can you help me calculate the straight-line distance in km of the location of the two national parks?

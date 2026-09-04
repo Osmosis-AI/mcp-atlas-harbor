@@ -1,0 +1,18 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "airtable_get_record",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_search_files",
+  "filesystem_list_allowed_directories",
+  "weather-data_weather_history",
+  "memory_read_graph",
+  "e2b-server_run_code",
+  "exa_web_search_exa"
+]

@@ -1,0 +1,1 @@
+When was the first day of the third week recorded in the computer for the pet business? I saw a man in my husband's pet care, bringing his dog that day. Coincidentally, I saw him scream at my coworker because of problems with his car the same day. What was his id as a customer according to the files for the dealership stored on the cloud?

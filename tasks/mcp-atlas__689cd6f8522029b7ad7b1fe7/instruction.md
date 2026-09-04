@@ -1,0 +1,1 @@
+I was looking to go to california to visit the death valley national park, but then I realized that the state has much more to offer, so I'll also visit the yosemite national park. Can you help me calculate the straight-line distance in km between the parks' PO boxes?

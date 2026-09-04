@@ -1,0 +1,16 @@
+[
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getCampgrounds",
+  "national-parks_getVisitorCenters",
+  "exa_web_search_exa",
+  "weather_find_weather_stations",
+  "weather-data_weather_history",
+  "weather-data_weather_search",
+  "weather-data_weather_astronomy",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "arxiv_search_papers",
+  "alchemy_fetchTokenPriceHistoryBySymbol"
+]

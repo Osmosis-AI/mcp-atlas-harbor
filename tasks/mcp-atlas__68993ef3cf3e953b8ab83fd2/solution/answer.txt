@@ -1,0 +1,2 @@
+- Max Verstappen became F1 world champion for the first time in 2021.
+- The first issue created in the official TensorFlow repository (tensorflow/tensorflow) in 2021 (the same year Verstappen won) was #46100.

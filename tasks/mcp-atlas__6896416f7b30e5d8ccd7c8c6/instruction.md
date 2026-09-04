@@ -1,0 +1,1 @@
+I'm analyzing my local data for the income from my pet care business. In the week 35, I used the income to buy bitcoin. Please check if the profit amount from that week was enough to make the purchase and what was the balance of that transaction.

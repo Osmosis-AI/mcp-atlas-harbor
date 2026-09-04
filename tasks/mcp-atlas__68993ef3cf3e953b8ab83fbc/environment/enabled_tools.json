@@ -1,0 +1,17 @@
+[
+  "context7_resolve-library-id",
+  "met-museum_search-museum-objects",
+  "met-museum_list-departments",
+  "met-museum_get-museum-object",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "weather_find_weather_stations",
+  "weather-data_weather_astronomy",
+  "context7_get-library-docs",
+  "google-workspace_list_events",
+  "google-maps_maps_geocode",
+  "google-maps_maps_reverse_geocode",
+  "open-library_get_author_info",
+  "open-library_get_authors_by_name",
+  "open-library_get_book_by_title"
+]

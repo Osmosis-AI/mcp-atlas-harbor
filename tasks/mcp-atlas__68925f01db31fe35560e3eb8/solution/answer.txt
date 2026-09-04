@@ -1,0 +1,4 @@
+- The first order recorded in the cloud database was placed on January 2, 2015.
+- The distance traveled for the first delivery was 245km.
+- The price of Bitcoin on January 2, 2015, was USD$315.03.
+- Assuming that the delivery vehicle makes 10L/100km, and that the price of gas was 1% of the price of Bitcoin on January 2, 2015, USD$77.18 was spent on fuel to make the delivery.

@@ -1,0 +1,15 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_search_code",
+  "desktop-commander_get_file_info",
+  "desktop-commander_get_config",
+  "git_git_show",
+  "git_git_log",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeriesBBands"
+]

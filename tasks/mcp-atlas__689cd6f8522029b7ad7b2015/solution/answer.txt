@@ -1,0 +1,2 @@
+- The most frequent genre in the local movie data is Action.
+- The medical article from 2009 that mentions "Action movies" in its title is "Action movies: global and regional left ventricular function in reperfused acute myocardial infarction.

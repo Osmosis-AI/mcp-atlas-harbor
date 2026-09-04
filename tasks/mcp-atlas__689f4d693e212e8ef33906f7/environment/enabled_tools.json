@@ -1,0 +1,15 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "arxiv_search_papers",
+  "mcp-server-code-runner_run-code",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "context7_resolve-library-id"
+]

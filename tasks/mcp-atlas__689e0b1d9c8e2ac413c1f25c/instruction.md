@@ -1,0 +1,1 @@
+I've been working on a local project for telling stories where I've already built a few react components. I want to check the required dependency version for the component that has the fewest lines of code.

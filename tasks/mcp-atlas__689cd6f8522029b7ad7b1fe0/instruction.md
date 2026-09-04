@@ -1,0 +1,1 @@
+I was thinking of watching a movie, and I remembered that in june 2025, my friend eldson recommended a movie on the movies channel. I don't remember the name, but I'd like to know the genre and the imdb score that I have recorded on my computer data.

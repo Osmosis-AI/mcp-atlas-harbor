@@ -1,0 +1,1 @@
+What is the programming language that lacroix used to build his repo with the same name as the algorithm mentioned in his article about the re-evaluation of g-quadruplex propensity, and in which year did the article was published and when was the last update in the repo before 2025?

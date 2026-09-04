@@ -1,0 +1,18 @@
+[
+  "arxiv_search_papers",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "weather_find_weather_stations",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "github_search_repositories",
+  "e2b-server_run_code"
+]

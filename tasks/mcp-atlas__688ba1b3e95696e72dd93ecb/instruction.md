@@ -1,0 +1,1 @@
+I am reviewing my video game store db and want to award a gift card to the customer with the highest total purchases of video games in the year the who declared the covid 19 pandemic. Also, find out which age group that customer belongs to.

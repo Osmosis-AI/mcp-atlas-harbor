@@ -1,0 +1,1 @@
+Please consider the information for campaigns that were started in December 2023 of my digital organization system on advertising, and determine the average cpc from mobile devices (round to three decimals).

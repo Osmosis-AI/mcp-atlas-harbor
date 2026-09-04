@@ -1,0 +1,1 @@
+Last night, I was deeply focused on a fascinating paper titled unique continuation for locally uniformly distributed measures, and I started wondering about the etf market before its publication. Could you tell me the reported opening price and the reported relative strength index of the qqq etf on the last day of the month following its publication, but in the previous year?

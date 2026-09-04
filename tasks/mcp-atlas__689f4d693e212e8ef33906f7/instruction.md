@@ -1,0 +1,1 @@
+I'm researching the behavior of bitcoin during a period of rapid, successive ai model releases from the same research lab. I want to find the average price of this crypto between the publication date of the original palm pathways paper and the publication date of the paper that introduced the imagen text to image by chitwan saharia.

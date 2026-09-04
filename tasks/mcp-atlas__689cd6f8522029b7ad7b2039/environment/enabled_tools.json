@@ -1,0 +1,17 @@
+[
+  "national-parks_getParkDetails",
+  "national-parks_findParks",
+  "github_search_repositories",
+  "slack_conversations_search_messages",
+  "mcp-code-executor_execute_code",
+  "filesystem_list_directory",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "filesystem_read_file",
+  "filesystem_directory_tree",
+  "filesystem_list_allowed_directories",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "filesystem_read_text_file"
+]

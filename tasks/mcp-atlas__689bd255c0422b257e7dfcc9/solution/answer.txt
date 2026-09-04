@@ -1,0 +1,4 @@
+- In the file food and beverage consumption.csv, the record with the largest total expenditure has a total price of $70
+- In the file food and beverage consumption.csv, the record with location Home and food type Seafood is dated 5 May 2022
+- The record with the highest total expenditure in food and beverage consumption.csv is dated 5 May 2022.
+- On 5 May 2022, the market price of BTC was 39699.0240412539 USD.

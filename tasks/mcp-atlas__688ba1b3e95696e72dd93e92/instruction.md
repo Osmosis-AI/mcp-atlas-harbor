@@ -1,0 +1,3 @@
+I have a record in my local files about a criminal phone incident from the past where the person believed to be responsible was a woman, the oldest such individual recorded in the file, who has not been aprehended yet.
+
+Tell me the number of reported instances per 10 thousand people related to the global health crisis happening during the year this crime took place, considering only the three month standard yearly period where this date would be included. The information for data related to this health crisis is also in my local files.

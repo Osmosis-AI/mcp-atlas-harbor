@@ -1,0 +1,1 @@
+I'm heading to rapid city. I want to know the city hall coordinates, and I'd love to stay in a natural reserve in that state that offers astronomy and horse trekking activities. It should also be open 24 hours a day, every day. any campsites there without any fees?

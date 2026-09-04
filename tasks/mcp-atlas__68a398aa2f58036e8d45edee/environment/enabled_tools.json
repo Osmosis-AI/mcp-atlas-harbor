@@ -1,0 +1,18 @@
+[
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "wikipedia_search_wikipedia",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeriesBBands",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesEma",
+  "twelvedata_GetCryptocurrencies",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeries",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info"
+]

@@ -1,0 +1,1 @@
+Give me the title translated into spanish of the article about a template matching method for detecting 2d images that was published in the same year as the rio olympic games.

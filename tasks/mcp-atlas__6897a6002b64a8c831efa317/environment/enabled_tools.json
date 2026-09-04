@@ -1,0 +1,16 @@
+[
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_read_multiple_files",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_search_code",
+  "desktop-commander_get_file_info",
+  "desktop-commander_start_process",
+  "desktop-commander_read_process_output",
+  "desktop-commander_interact_with_process",
+  "desktop-commander_get_usage_stats",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata"
+]

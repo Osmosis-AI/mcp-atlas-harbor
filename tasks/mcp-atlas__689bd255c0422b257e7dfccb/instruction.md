@@ -1,0 +1,1 @@
+Among the movies i've watched according to my records, what would be the average of my score and the average of the ratings from the internet movie database?

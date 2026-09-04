@@ -1,0 +1,1 @@
+I'm curious about a paper by b k meister about crypto. It dives into a type of crypto coin and I would like to know the total sum of sell transactions after fees in USD of the coin that was the main subject of meister's research that I have registered in my local pc files.

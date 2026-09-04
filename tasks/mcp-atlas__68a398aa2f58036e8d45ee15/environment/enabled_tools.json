@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_aggregate",
+  "memory_search_nodes",
+  "arxiv_search_papers",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "github_search_repositories",
+  "weather_find_weather_stations",
+  "google-workspace_list_events",
+  "twelvedata_GetTimeSeries",
+  "pubmed_search_pubmed_key_words",
+  "whois_whois_domain",
+  "cli-mcp-server_show_security_rules",
+  "cli-mcp-server_run_command"
+]

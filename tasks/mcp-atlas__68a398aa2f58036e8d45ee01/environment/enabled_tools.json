@@ -1,0 +1,16 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue_comments",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits",
+  "github_list_tags",
+  "github_get_tag",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

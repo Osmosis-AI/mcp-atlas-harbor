@@ -1,0 +1,1 @@
+I'm researching a book about a woman who takes a live-in housekeeping job in a wealthy family's home, only to discover dangerous secrets. Could you find out who wrote it and the year it first came out? Then, in the city where the author was born, give me the address of the oldest church still standing there.

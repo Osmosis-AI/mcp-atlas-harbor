@@ -1,0 +1,14 @@
+[
+  "national-parks_getCampgrounds",
+  "national-parks_getVisitorCenters",
+  "national-parks_getParkDetails",
+  "national-parks_findParks",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "brave-search_brave_web_search",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends"
+]

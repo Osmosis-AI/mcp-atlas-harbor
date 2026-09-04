@@ -1,0 +1,18 @@
+[
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesEma",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesSma",
+  "mongodb_list-databases",
+  "mongodb_list-collections",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_aggregate",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "context7_resolve-library-id",
+  "context7_get-library-docs"
+]

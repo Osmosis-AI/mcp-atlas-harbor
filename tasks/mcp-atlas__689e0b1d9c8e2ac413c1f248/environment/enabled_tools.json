@@ -1,0 +1,17 @@
+[
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "national-parks_findParks",
+  "weather_find_weather_stations",
+  "github_search_repositories",
+  "github_search_code",
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_as",
+  "whois_whois_ip",
+  "arxiv_search_papers",
+  "context7_resolve-library-id",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies"
+]

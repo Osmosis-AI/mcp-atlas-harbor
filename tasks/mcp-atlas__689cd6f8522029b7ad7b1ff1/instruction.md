@@ -1,0 +1,1 @@
+I'm trying to understand some ad data in my database. I want to see some details of campaigns that spend less than $800, specifically what was the most common type of ad, and for the least used one, what the average audience reach was.

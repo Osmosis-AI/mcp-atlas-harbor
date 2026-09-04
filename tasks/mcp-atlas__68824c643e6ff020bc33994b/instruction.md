@@ -1,0 +1,1 @@
+I'd like to know the cost of the  most expensive order in our cloud database, ordered in the year of the last fifa world cup that happened while Pelé was alive, and how much time in years and days passed between the order and the brazilian soccer star's death?

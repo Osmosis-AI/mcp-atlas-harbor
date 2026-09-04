@@ -1,0 +1,15 @@
+[
+  "brave-search_brave_web_search",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "google-workspace_list_events",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "fetch_fetch",
+  "github_search_repositories",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues"
+]

@@ -1,0 +1,15 @@
+[
+  "whois_whois_domain",
+  "whois_whois_tld",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "wikipedia_search_wikipedia",
+  "twelvedata_GetTimeSeries",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "wikipedia_get_article"
+]

@@ -1,0 +1,17 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_aggregate",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_collection-storage-size",
+  "mongodb_find",
+  "mongodb_collection-schema",
+  "mongodb_collection-indexes",
+  "exa_web_search_exa",
+  "cli-mcp-server_show_security_rules",
+  "e2b-server_run_code",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters"
+]

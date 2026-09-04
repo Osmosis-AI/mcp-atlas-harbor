@@ -1,0 +1,17 @@
+[
+  "cli-mcp-server_show_security_rules",
+  "cli-mcp-server_run_command",
+  "airtable_list_tables",
+  "airtable_list_bases",
+  "airtable_get_record",
+  "airtable_search_records",
+  "airtable_list_records",
+  "github_search_repositories",
+  "weather-data_weather_search",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_history",
+  "weather_find_weather_stations",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

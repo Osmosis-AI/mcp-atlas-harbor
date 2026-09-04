@@ -1,0 +1,17 @@
+[
+  "memory_read_graph",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "whois_whois_domain",
+  "pubmed_search_pubmed_key_words",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "github_search_repositories",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "git_git_log",
+  "git_git_show",
+  "arxiv_search_papers",
+  "git_git_diff_staged"
+]

@@ -1,0 +1,17 @@
+[
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "calculator_calculate",
+  "exa_web_search_exa",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "context7_resolve-library-id",
+  "git_git_show",
+  "git_git_log",
+  "google-workspace_list_events",
+  "alchemy_fetchTokenPriceHistoryBySymbol"
+]

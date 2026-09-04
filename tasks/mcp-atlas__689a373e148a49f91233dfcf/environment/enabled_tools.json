@@ -1,0 +1,16 @@
+[
+  "desktop-commander_read_file",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "met-museum_search-museum-objects",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "e2b-server_run_code",
+  "mongodb_collection-indexes",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_aggregate",
+  "mongodb_explain"
+]

@@ -1,0 +1,1 @@
+I'm working on a sales report at car dealership, I need to know the total amount of car sales in july the year that the book the reformatory by tananarive due was for the first time published. I also need the number of workers that were available during that period.

@@ -1,0 +1,21 @@
+[
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "cli-mcp-server_run_command",
+  "mcp-server-code-runner_run-code",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search"
+]

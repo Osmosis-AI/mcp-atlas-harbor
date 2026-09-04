@@ -1,0 +1,1 @@
+I have a florida keys getaway during the first week of july 2025, it's on the calendar. Within those dates, can you tell me looking at my local database, how much I spent on meals or drinks two years before?

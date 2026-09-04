@@ -1,0 +1,1 @@
+what was the original price before the discount, if the sale registered in our video games database, with transaction identification finished in 1969, made on January 9 was recorded with a 7% discount already applied. It happened the same year the website's product page registered 268 unique visitors with a 41.09% bounce rate in the same database.

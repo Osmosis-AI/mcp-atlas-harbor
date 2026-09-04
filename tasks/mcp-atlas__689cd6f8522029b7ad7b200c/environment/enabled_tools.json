@@ -1,0 +1,15 @@
+[
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "git_git_status",
+  "git_git_log",
+  "git_git_show",
+  "github_search_repositories",
+  "github_get_commit",
+  "github_list_commits",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "oxylabs_amazon_search_scraper",
+  "filesystem_search_files"
+]

@@ -1,0 +1,1 @@
+on the day of game 7 of the nba eastern finals in may 2023, I was rooting for the celtics but I can't remember who they played. I do remember that my weekly profit from my old pet care job started that same day, and I know I saved that number somewhere locally. Can you remind me who their opponent was and how much I earned from pet care on the week that started that day?

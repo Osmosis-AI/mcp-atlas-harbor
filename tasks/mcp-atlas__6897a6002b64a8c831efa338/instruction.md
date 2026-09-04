@@ -1,0 +1,1 @@
+I'm planning a trip to the country that hosted the 2023 rugby world cup, and I would like to visit the oldest hospital in this country, could you tell me the name of it? Also, please let me know the full address of the closest charging station to it, since I have an electric car.

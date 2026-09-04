@@ -1,0 +1,1 @@
+I own a video game store and have some data on the cloud. I'm curious about the amount of money spent on fuel to make the first delivery ever made, assuming the vehicle makes 10L/100km, assuming that the price of gas was 1% of the closing price of bitcoin on the day the order was placed.

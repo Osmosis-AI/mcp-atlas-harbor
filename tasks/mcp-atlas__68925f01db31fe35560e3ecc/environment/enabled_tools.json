@@ -1,0 +1,16 @@
+[
+  "exa_web_search_exa",
+  "pubmed_download_pubmed_pdf",
+  "google-maps_maps_directions",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "pubmed_search_pubmed_key_words",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_find",
+  "google-maps_maps_search_places",
+  "mongodb_count",
+  "mongodb_aggregate",
+  "mongodb_collection-schema",
+  "mongodb_collection-indexes"
+]

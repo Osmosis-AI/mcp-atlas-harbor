@@ -1,0 +1,18 @@
+[
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "weather_find_weather_stations",
+  "weather-data_weather_history",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "exa_web_search_exa",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "arxiv_search_papers",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "whois_whois_domain"
+]

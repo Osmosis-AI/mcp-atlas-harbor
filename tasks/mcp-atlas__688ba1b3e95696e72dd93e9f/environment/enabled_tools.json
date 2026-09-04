@@ -1,0 +1,18 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "github_search_users",
+  "github_get_issue",
+  "airtable_get_record",
+  "weather_get_weather_alerts",
+  "weather_get_hourly_forecast",
+  "weather_get_weather_forecast",
+  "wikipedia_extract_key_facts",
+  "exa_web_search_exa",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records"
+]

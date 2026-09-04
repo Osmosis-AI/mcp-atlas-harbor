@@ -1,0 +1,1 @@
+I'm reviewing past social media ad campaigns targeting users on desktop computers in my database. In the last month of the year following the release of the documentary the rise and rise of bitcoin, how many campaigns were launched the day after bitcoin got its lowest price?

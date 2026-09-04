@@ -1,0 +1,1 @@
+I remember recording my earnings of my business focused on animal well-being on the year tina turner died. Could you help me find the net earnings for the seven day period in that year including the day when domingo faustino sarmiento was born.

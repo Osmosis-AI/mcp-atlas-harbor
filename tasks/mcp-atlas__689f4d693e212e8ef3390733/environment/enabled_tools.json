@@ -1,0 +1,16 @@
+[
+  "memory_read_graph",
+  "memory_search_nodes",
+  "pubmed_download_pubmed_pdf",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_get_pubmed_article_metadata",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "oxylabs_universal_scraper"
+]

@@ -1,0 +1,14 @@
+[
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "twelvedata_GetTimeSeries",
+  "weather-data_weather_history",
+  "git_git_status",
+  "whois_whois_domain",
+  "whois_whois_ip",
+  "whois_whois_as",
+  "whois_whois_tld",
+  "github_search_repositories",
+  "github_search_code",
+  "twelvedata_GetSymbolSearch"
+]

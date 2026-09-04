@@ -1,0 +1,3 @@
+- The Rio Olympic Games were held in 2016.
+- In 2016, an article about a template matching method for detecting 2D images was published with the title "Template Matching via Densities on the Roto-Translation Group
+- The Spanish translation of the article title "Template Matching via Densities on the Roto-Translation Group" is "Coincidencia de plantillas a través de densidades en el grupo de rototraslación

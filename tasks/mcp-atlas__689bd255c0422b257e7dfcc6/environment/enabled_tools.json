@@ -1,0 +1,16 @@
+[
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_read_file",
+  "exa_web_search_exa",
+  "filesystem_list_allowed_directories",
+  "filesystem_search_files",
+  "filesystem_read_multiple_files",
+  "filesystem_read_text_file",
+  "calculator_calculate",
+  "fetch_fetch",
+  "oxylabs_amazon_search_scraper",
+  "oxylabs_universal_scraper",
+  "memory_read_graph",
+  "memory_search_nodes"
+]

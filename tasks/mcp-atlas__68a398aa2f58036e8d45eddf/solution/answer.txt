@@ -1,0 +1,4 @@
+- A repository named metmuseum-mcp exists inside the repos directory on the local computer.
+- The official GitHub repository is mikechao/metmuseum-mcp.
+- The most recent commit in the metmuseum-mcp repository before July 31, 2025, was authored by mikechao on July 17, 2025.
+- The latest commit by mikechao in the metmuseum-mcp repository before July 31, 2025 was made on July 17, 2025, and has the commit URL https://github.com/mikechao/metmuseum-mcp/commit/63e298d090107171d512877b37b668962ceff826.

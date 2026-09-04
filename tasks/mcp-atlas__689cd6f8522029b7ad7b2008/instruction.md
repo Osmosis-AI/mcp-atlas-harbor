@@ -1,0 +1,1 @@
+I was talking about movies with my uncle, qt watcher, in our chat, but I don't understand which movie he mentioned. I would like to explain the movie title in spanish, could you help me? When the movie was released?

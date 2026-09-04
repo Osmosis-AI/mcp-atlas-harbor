@@ -1,0 +1,17 @@
+[
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_summarize_article_section",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_aggregate",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "github_search_repositories",
+  "github_search_code"
+]

@@ -1,0 +1,15 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "brave-search_brave_web_search",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_search_messages",
+  "slack_conversations_add_message",
+  "slack_conversations_replies",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "calculator_calculate",
+  "fetch_fetch"
+]

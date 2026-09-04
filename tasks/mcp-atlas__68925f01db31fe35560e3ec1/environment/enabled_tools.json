@@ -1,0 +1,17 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_search_records",
+  "exa_web_search_exa",
+  "airtable_list_records",
+  "weather-data_weather_history",
+  "weather-data_weather_alerts",
+  "national-parks_getParkDetails",
+  "national-parks_findParks",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "google-maps_maps_geocode",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_search_pubmed_advanced",
+  "weather_get_current_weather"
+]

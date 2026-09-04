@@ -1,0 +1,1 @@
+While watching the 2014 uefa champions league final I had a couple of question related to markets. Can you tell me the opening reported price in us dollars of apple stock and its relative strength index on the day before that final?. And please tell me the birthplace of the player who scored the goal in the 93rd minute of that final.

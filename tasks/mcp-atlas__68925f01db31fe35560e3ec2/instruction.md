@@ -1,0 +1,1 @@
+I'm collecting info on a vermeer tronie painted in 1665. What's the elevation of the place where the tronie is located up to July 2025? Also, what is the coordinates from the place where the metropolitan museum of art displays his most famous piece up to July 2025?

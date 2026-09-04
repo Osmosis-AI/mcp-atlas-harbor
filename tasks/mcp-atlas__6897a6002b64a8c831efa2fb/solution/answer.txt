@@ -1,0 +1,3 @@
+- According to "Crime_records.csv", 42.86% of fraud crimes occurred online in the filtered records.
+- According to the file "Crime_records.csv", the average age of fraud suspects was 48.57 years old for the filtered records.
+- According to the file "Crime_records.csv", the average age of fraud victims was 57.14 years for the filtered records.

@@ -1,0 +1,19 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "exa_web_search_exa",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "weather_get_weather_forecast",
+  "weather_get_current_weather",
+  "context7_get-library-docs",
+  "context7_resolve-library-id",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects"
+]

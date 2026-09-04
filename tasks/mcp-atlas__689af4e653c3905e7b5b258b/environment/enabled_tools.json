@@ -1,0 +1,18 @@
+[
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "met-museum_get-museum-object",
+  "met-museum_search-museum-objects",
+  "met-museum_list-departments",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "exa_web_search_exa",
+  "fetch_fetch"
+]

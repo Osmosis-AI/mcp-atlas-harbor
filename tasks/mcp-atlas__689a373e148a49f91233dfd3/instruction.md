@@ -1,0 +1,1 @@
+I'm reviewing the database of a video game store and I need some help, Can you tell me how much did the video game that was sold on the date of the opening match of the fifa world cup where russia defeated saudi arabia 5-0? I also need to know if a price reduction was applied.

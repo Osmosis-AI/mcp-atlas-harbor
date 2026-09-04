@@ -1,0 +1,13 @@
+[
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "lara-translate_translate",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "calculator_calculate",
+  "e2b-server_run_code",
+  "mcp-server-code-runner_run-code",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_read_multiple_files",
+  "desktop-commander_list_directory"
+]

@@ -1,0 +1,251 @@
+services:
+  main:
+    depends_on:
+      mcp-atlas-gateway:
+        condition: service_started
+    networks:
+      - mcp-front
+
+  mcp-atlas-gateway:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/harbor_mcp_bridge.py
+    environment:
+      MCP_ATLAS_BACKENDS_FILE: /harbor/atlas_backends.json
+      MCP_ATLAS_ENABLED_TOOLS_FILE: /harbor/enabled_tools.json
+      MCP_ATLAS_STARTUP_TIMEOUT_SEC: "240"
+      MCP_ATLAS_TIMEOUT_SEC: "180"
+      MCP_BRIDGE_HOST: 0.0.0.0
+      MCP_BRIDGE_PORT: "18765"
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes:
+      - ./harbor_mcp_bridge.py:/harbor/harbor_mcp_bridge.py:ro,z
+      - ./enabled_tools.json:/harbor/enabled_tools.json:ro,z
+      - ./atlas_backends.json:/harbor/atlas_backends.json:ro,z
+      - type: volume
+        source: mcp-atlas-public-socket
+        target: /run/mcp-atlas-backends/public
+        read_only: true
+      - type: volume
+        source: mcp-atlas-alchemy-socket
+        target: /run/mcp-atlas-backends/alchemy
+        read_only: true
+      - type: volume
+        source: mcp-atlas-google-workspace-socket
+        target: /run/mcp-atlas-backends/google-workspace
+        read_only: true
+      - type: volume
+        source: mcp-atlas-oxylabs-socket
+        target: /run/mcp-atlas-backends/oxylabs
+        read_only: true
+      - type: volume
+        source: mcp-atlas-weather-data-socket
+        target: /run/mcp-atlas-backends/weather-data
+        read_only: true
+    expose:
+      - "18765"
+    depends_on:
+      mcp-atlas-public:
+        condition: service_started
+      mcp-atlas-alchemy:
+        condition: service_started
+      mcp-atlas-google-workspace:
+        condition: service_started
+      mcp-atlas-oxylabs:
+        condition: service_started
+      mcp-atlas-weather-data:
+        condition: service_started
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - -c
+        - >-
+          import json,urllib.request;
+          response=urllib.request.urlopen('http://localhost:18765/healthz',timeout=5);
+          raise SystemExit(0 if response.status == 200 and json.load(response).get('status') == 'ok' else 1)
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 10s
+    init: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - mcp-front
+
+  mcp-atlas-public:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "cli-mcp-server,filesystem,git"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: ""
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      # No Atlas credentials are required by this task.
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-public-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-public-egress
+
+  mcp-atlas-alchemy:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "alchemy"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: "ALCHEMY_API_KEY"
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      ALCHEMY_API_KEY: "${ALCHEMY_API_KEY:-}"
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-alchemy-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-alchemy-egress
+
+  mcp-atlas-google-workspace:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "google-workspace"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: "GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET,GOOGLE_REFRESH_TOKEN"
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      GOOGLE_CLIENT_ID: "${GOOGLE_CLIENT_ID:-}"
+      GOOGLE_CLIENT_SECRET: "${GOOGLE_CLIENT_SECRET:-}"
+      GOOGLE_REFRESH_TOKEN: "${GOOGLE_REFRESH_TOKEN:-}"
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-google-workspace-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-google-workspace-egress
+
+  mcp-atlas-oxylabs:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "oxylabs"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: "OXYLABS_PASSWORD,OXYLABS_USERNAME"
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      OXYLABS_PASSWORD: "${OXYLABS_PASSWORD:-}"
+      OXYLABS_USERNAME: "${OXYLABS_USERNAME:-}"
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-oxylabs-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-oxylabs-egress
+
+  mcp-atlas-weather-data:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "weather-data"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: "WEATHER_API_KEY"
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      WEATHER_API_KEY: "${WEATHER_API_KEY:-}"
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-weather-data-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-weather-data-egress
+
+volumes:
+  mcp-atlas-public-socket:
+  mcp-atlas-alchemy-socket:
+  mcp-atlas-google-workspace-socket:
+  mcp-atlas-oxylabs-socket:
+  mcp-atlas-weather-data-socket:
+
+networks:
+  mcp-front:
+  mcp-atlas-public-egress:
+  mcp-atlas-alchemy-egress:
+  mcp-atlas-google-workspace-egress:
+  mcp-atlas-oxylabs-egress:
+  mcp-atlas-weather-data-egress:

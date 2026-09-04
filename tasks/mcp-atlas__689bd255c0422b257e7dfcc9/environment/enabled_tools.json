@@ -1,0 +1,15 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "git_git_status",
+  "git_git_log",
+  "github_search_repositories",
+  "github_get_commit",
+  "github_list_commits",
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records"
+]

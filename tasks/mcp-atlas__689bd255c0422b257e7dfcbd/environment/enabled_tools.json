@@ -1,0 +1,15 @@
+[
+  "fetch_fetch",
+  "slack_channels_list",
+  "slack_conversations_history",
+  "slack_conversations_search_messages",
+  "exa_web_search_exa",
+  "slack_conversations_replies",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "calculator_calculate",
+  "oxylabs_universal_scraper",
+  "oxylabs_amazon_search_scraper",
+  "whois_whois_domain"
+]

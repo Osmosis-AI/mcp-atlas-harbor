@@ -1,0 +1,15 @@
+[
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-retrieve-a-database",
+  "mcp-server-code-runner_run-code",
+  "fetch_fetch",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeriesEma",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesSma",
+  "twelvedata_GetTimeSeriesBBands",
+  "notion_API-retrieve-a-page"
+]

@@ -1,0 +1,16 @@
+[
+  "brave-search_brave_web_search",
+  "notion_API-get-user",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-page-property",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "calculator_calculate",
+  "google-workspace_list_events",
+  "mcp-code-executor_execute_code",
+  "mcp-code-executor_read_code_file",
+  "mcp-code-executor_check_installed_packages",
+  "twelvedata_GetTimeSeries"
+]

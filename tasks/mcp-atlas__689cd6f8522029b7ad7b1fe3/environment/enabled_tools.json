@@ -1,0 +1,17 @@
+[
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-get-block-children",
+  "notion_API-retrieve-a-block",
+  "notion_API-retrieve-a-page",
+  "notion_API-retrieve-a-page-property",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-comment",
+  "e2b-server_run_code",
+  "filesystem_read_file",
+  "filesystem_list_directory",
+  "filesystem_list_allowed_directories",
+  "arxiv_search_papers",
+  "github_search_repositories",
+  "github_get_repository"
+]

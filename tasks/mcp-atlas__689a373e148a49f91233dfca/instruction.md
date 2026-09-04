@@ -1,0 +1,1 @@
+I've been checking out some art lately, and I found the page https://artistro.com/blogs/news/30-most-famous-artworks-in-history-the-greatest-art-of-all-time, and I got curious about what artwork is where the artist focuses more on the humanity of Christ rather than the divine. And I think it measures exactly 100 x 80 cm, am I right?

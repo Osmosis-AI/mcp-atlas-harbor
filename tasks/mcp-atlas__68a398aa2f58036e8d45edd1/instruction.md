@@ -1,0 +1,1 @@
+According to the cloud data, what are the top 10 highest-grossing months for the video game store? I recall that my cousin, mostafa ijavi, published a paper during the same month I had the highest revenue in 2021. what is the title of that paper? I need to share it with my professor.

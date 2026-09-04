@@ -1,0 +1,17 @@
+[
+  "e2b-server_run_code",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "arxiv_search_papers",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "brave-search_brave_web_search",
+  "google-workspace_list_events"
+]

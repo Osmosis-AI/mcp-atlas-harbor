@@ -1,0 +1,1 @@
+What's the third closest weather station to the birthplace of the sport mentioned in the second-to-last row of my fantasy sports file and how far is it?

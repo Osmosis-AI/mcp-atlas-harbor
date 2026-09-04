@@ -1,0 +1,17 @@
+[
+  "pubmed_download_pubmed_pdf",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_schools_nearby",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_extract_key_facts",
+  "mongodb_list-collections",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "e2b-server_run_code",
+  "github_search_repositories",
+  "github_search_code",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "pubmed_get_pubmed_article_metadata",
+  "weather_get_local_time"
+]

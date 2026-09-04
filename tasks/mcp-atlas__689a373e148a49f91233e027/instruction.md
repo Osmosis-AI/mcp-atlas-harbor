@@ -1,0 +1,1 @@
+I'm working as a data analyst in a game video store, based on our database. I need to know how much did the video game that was sold on the date when margaret dunning died cost? I also need to know which category the video game belongs.

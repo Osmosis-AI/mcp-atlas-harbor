@@ -1,0 +1,17 @@
+[
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "ddg-search_search",
+  "mcp-code-executor_execute_code",
+  "osm-mcp-server_reverse_geocode",
+  "osm-mcp-server_search_category",
+  "osm-mcp-server_explore_area",
+  "google-maps_maps_reverse_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_place_details",
+  "google-maps_maps_distance_matrix",
+  "google-maps_maps_directions",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_get_route_directions"
+]

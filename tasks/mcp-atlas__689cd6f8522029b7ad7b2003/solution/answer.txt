@@ -1,0 +1,4 @@
+- The painting Garden at Sainte-Adresse has an area of 12743.19 cm2.
+- The painting By the Seashore has an area of 6668.04 cm2.
+- Between Garden at Sainte-Adresse and By the Seashore, the painting with the largest area is Garden at Sainte-Adresse.
+- Garden at Sainte-Adresse was created in 1867.

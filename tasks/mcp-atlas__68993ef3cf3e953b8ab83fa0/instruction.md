@@ -1,0 +1,1 @@
+I’m exploring my local crime records from 2014 to 2021 to determine the year when female suspects were involved in the most reported incidents. If there’s a tie, decide by the counts of severe cases, then high cases, and then moderate cases. And for whichever year comes out on top, tell me who was Chicago’s mayor.

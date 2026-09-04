@@ -1,0 +1,1 @@
+I'm studying art and I read this book named teutsche academia der bau which was really interesting and made me remember something; the fact that the author was featured in the metropolitan museum multiple times. Can you help me find an artwork by that same person which mentions magdalen in its title?

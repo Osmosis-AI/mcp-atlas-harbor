@@ -1,0 +1,6 @@
+- The last commit in the snake-game repository introduced the game's README file
+- Both the artworks titled Bird and Horse depict animals and thus fit the theme of animals in art
+- The artwork Bird is by Suzuki Osamu and is displayed in the Asian Art department of the Metropolitan Museum of Art
+- The dimensions of Bird are H. 4 5/8 in. (11.7 cm), W. 6 1/4 in. (15.9 cm), and D. 4 3/8 in. (11.1 cm)
+- The artwork Horse is by Suzuki Osamu and is displayed in the Asian Art department of the Metropolitan Museum of Art
+- The dimensions of Horse are H. 15 in. (38.1 cm), W. 8 in. (20.3 cm), and D. 4 1/2 in. (11.4 cm)

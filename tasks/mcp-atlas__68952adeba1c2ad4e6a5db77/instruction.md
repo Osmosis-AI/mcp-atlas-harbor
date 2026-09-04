@@ -1,0 +1,1 @@
+I am an employee at car dealership, and I'm making a sales report. I need to know the brand name of the car category that was a bestseller in april of the year that the book afterparties by anthony veasna so was for the first time published. I also need to know the total amount of expenses in that period.

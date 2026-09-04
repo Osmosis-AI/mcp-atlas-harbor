@@ -1,0 +1,1 @@
+I'm doing a school project about the european paintings at met museum. I need to know the father's name of the artist who created the young ladies of the village. I also need to know the artist's name and year of birth.

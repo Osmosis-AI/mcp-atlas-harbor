@@ -1,0 +1,1 @@
+What's the eth purchase cost on the contract end date of the 2nd player listed as injured and 28 years old, in my computer fantasy sports data?

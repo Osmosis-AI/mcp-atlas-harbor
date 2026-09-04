@@ -1,0 +1,1 @@
+I'm working on a case, and I think it might be related to a crime registered in my personal logs. Could you help me find the identification code and type of crimes that occurred in the same year the author who used the pseudonym richard bachman was awarded the national medal of arts?

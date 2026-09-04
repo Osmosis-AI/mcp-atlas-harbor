@@ -1,0 +1,19 @@
+[
+  "airtable_list_bases",
+  "airtable_list_tables",
+  "airtable_list_records",
+  "airtable_search_records",
+  "exa_web_search_exa",
+  "git_git_status",
+  "github_search_repositories",
+  "google-maps_maps_geocode",
+  "google-maps_maps_search_places",
+  "google-maps_maps_place_details",
+  "context7_resolve-library-id",
+  "weather_get_current_weather",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "open-library_get_author_info",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced"
+]

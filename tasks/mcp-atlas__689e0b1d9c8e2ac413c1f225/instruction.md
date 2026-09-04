@@ -1,0 +1,1 @@
+What movies of the recommended in the channel of the server are already in the list of my computer for the best movies? I want to find the best suggestions. What are the ratings of those matching movies?

@@ -1,0 +1,17 @@
+[
+  "national-parks_getCampgrounds",
+  "national-parks_getVisitorCenters",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "weather-data_weather_search",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_history",
+  "arxiv_search_papers",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "slack_channels_list",
+  "slack_conversations_add_message",
+  "slack_conversations_history",
+  "slack_conversations_replies"
+]

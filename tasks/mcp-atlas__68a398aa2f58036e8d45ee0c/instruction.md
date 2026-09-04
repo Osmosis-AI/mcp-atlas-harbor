@@ -1,0 +1,1 @@
+Tell me which santiago commune has a better public transportation score between the one where the same country's national stadium is located and the one containing most of the city's version of manhattan.

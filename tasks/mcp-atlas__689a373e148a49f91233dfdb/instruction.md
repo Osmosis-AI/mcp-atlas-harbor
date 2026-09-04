@@ -1,0 +1,1 @@
+what is the name of the director of the movie with most value for the index created based in imdb + my rating + metascore/10 for my movie file

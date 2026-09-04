@@ -1,0 +1,1 @@
+In my local data tied to digital assets records, determine whether the market's reported price for a decentralized currency, its ticker starts with b and ends with c, was above or below the spot value I recorded on the day when the largest incoming amount of that currency, only entries that added units to my holdings should be considered.

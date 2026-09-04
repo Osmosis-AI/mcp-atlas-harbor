@@ -1,0 +1,1 @@
+I was reading about space exploration and came across the milestone when nasa's new horizons spacecraft made its closest approach to pluto. For the second quarter of the same year, check our cloud database records and tell me the average customer satisfactions score for each department, as well as the overall average across all departments for that period.

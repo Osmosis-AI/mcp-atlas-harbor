@@ -1,0 +1,1 @@
+I want to analyze the purchases our customers made in relation to sporting events. According to our internal records, for video games in the sport category, what was the total sold in the same month when rihanna performed at a sporting event while pregnant on a platform ?

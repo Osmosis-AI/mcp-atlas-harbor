@@ -1,0 +1,1 @@
+I am testing out a program and want to know about the creator. The program is on my local pc and can be used to tell stories. Tell me when the first commit was on this repo. Tell me what the creator's username according to the hosting platform along with their first and last name

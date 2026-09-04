@@ -1,0 +1,17 @@
+[
+  "twelvedata_GetTimeSeries",
+  "mcp-code-executor_execute_code",
+  "calculator_calculate",
+  "e2b-server_run_code",
+  "github_get_repository",
+  "cli-mcp-server_run_command",
+  "git_git_log",
+  "cli-mcp-server_show_security_rules",
+  "git_git_show",
+  "git_git_status",
+  "github_get_commit",
+  "mcp-code-executor_read_code_file",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetCryptocurrencies",
+  "twelvedata_GetExchanges"
+]

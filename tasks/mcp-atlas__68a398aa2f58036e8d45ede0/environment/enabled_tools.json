@@ -1,0 +1,16 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "twelvedata_GetTimeSeries",
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "twelvedata_GetTimeSeriesRsi",
+  "twelvedata_GetTimeSeriesMacd",
+  "twelvedata_GetTimeSeriesBBands",
+  "twelvedata_GetTimeSeriesEma",
+  "twelvedata_GetSymbolSearch",
+  "twelvedata_GetTimeSeriesSma"
+]

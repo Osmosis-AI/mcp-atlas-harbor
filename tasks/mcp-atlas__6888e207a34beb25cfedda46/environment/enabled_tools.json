@@ -1,0 +1,15 @@
+[
+  "github_create_or_update_file",
+  "github_create_repository",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "calculator_calculate",
+  "github_push_files",
+  "github_create_issue",
+  "cli-mcp-server_run_command",
+  "cli-mcp-server_show_security_rules",
+  "mcp-code-executor_execute_code",
+  "arxiv_search_papers",
+  "fetch_fetch"
+]

@@ -1,0 +1,1 @@
+I have some digital statistics on my cloud database, and I was wondering how much money I would have if the total time(in minutes) on the homepage of my car shop in july 2020, considering every visit, and the average visit time were to be converted to ethereum at the closing price of the day queen elizabeth passed.

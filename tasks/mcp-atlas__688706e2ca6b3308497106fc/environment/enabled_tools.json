@@ -1,0 +1,13 @@
+[
+  "arxiv_search_papers",
+  "e2b-server_run_code",
+  "fetch_fetch",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "slack_conversations_add_message",
+  "context7_resolve-library-id",
+  "mcp-code-executor_check_installed_packages",
+  "mcp-code-executor_read_code_file",
+  "whois_whois_domain",
+  "twelvedata_GetTimeSeries"
+]

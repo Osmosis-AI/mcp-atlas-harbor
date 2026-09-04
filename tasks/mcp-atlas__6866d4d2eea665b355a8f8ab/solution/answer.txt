@@ -1,0 +1,8 @@
+- The GeForce 256 was Nvidia's first GPU.
+- Nvidia's GeForce 256 was released on October 11, 1999.
+- The first Bitcoin halving occurred on November 28, 2012.
+- The GeForce 256 was released before the first Bitcoin halving.
+- The second Bitcoin halving was on July 9, 2016
+- The third Bitcoin halving was on May 11, 2020
+- The first trading day after the second bitcoin halving was 2 day after.
+- The percentage change in Nvidia's opening stock price between the adjusted date for the second bitcoin halving and the date of the third bitcoin halving was an increase of approximately 505.47%

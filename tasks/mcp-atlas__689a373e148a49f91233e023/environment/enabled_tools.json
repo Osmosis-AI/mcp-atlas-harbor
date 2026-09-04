@@ -1,0 +1,15 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "brave-search_brave_web_search",
+  "mcp-server-code-runner_run-code",
+  "github_search_repositories",
+  "github_search_code",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log"
+]

@@ -1,0 +1,1 @@
+I want to know if maybe there is a relationship between the crypto market and the studies that the king saud university produce. So, search for the title of the studies started on the same day and the day after I make five consecutive ethereum purchases in 2024. Get the information from the transactions stored in the data working directory.

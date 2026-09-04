@@ -1,0 +1,1 @@
+I'm on my 2025 summer break and feel like diving into some papers. Earlier this year, my old teacher bernhard mueller at monash did some 3d sims about the formation of a certain type of star. I'm more into the dynamical phase transition for those stars. If we look back before 2018, what's the most recent paper about the topic I am interested in?

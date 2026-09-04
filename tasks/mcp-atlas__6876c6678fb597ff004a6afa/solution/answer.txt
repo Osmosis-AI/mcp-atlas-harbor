@@ -1,0 +1,3 @@
+- The company's revenue for January 2020 is 584,317.36 CAD.
+- The company's revenue for February 2020 is 665,510.48 CAD.
+- The company's revenue for March 2020 is 723,829.36 CAD.

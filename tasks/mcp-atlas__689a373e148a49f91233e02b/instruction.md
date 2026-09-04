@@ -1,0 +1,1 @@
+What is the start day with the highest weekly profits? My partner is convinced that our petcare is being affected by the constellations here in merida, yucatan, but I think is ridiculous, and I want to use the file in my computer to prove it, so he cannot say I don't have real proof. What was the moon phase that day?

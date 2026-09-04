@@ -1,0 +1,1 @@
+I am an employee in a video game store, and I need some information from their database. I need to know how much the video game that was sold on march 16, the year that malibu rising by taylor jenkins reid was published for the first time, cost. I also need to know which category the video game belongs to.

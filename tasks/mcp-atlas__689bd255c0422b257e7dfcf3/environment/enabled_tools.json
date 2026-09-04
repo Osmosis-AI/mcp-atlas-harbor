@@ -1,0 +1,15 @@
+[
+  "exa_web_search_exa",
+  "git_git_status",
+  "git_git_diff_unstaged",
+  "git_git_diff_staged",
+  "git_git_diff",
+  "git_git_log",
+  "git_git_show",
+  "github_search_repositories",
+  "github_search_code",
+  "github_list_issues",
+  "github_search_issues",
+  "github_get_repository",
+  "github_get_issue"
+]

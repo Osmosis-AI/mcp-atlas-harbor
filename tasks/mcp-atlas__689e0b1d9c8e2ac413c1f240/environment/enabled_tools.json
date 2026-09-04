@@ -1,0 +1,20 @@
+[
+  "cli-mcp-server_run_command",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "mcp-server-code-runner_run-code",
+  "github_search_code",
+  "github_search_repositories",
+  "github_get_repository",
+  "github_get_commit",
+  "github_list_commits",
+  "github_list_branches",
+  "github_get_file_contents",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "cli-mcp-server_show_security_rules"
+]

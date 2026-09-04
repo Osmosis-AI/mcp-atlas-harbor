@@ -1,0 +1,1 @@
+I am the owner of a video game seller, and I need to know how much did the video game that was sold on the date when chris reccardi passed away cost. I also need to know if a price reduction was applied.

@@ -1,0 +1,1 @@
+While revisiting some classic films, I found this <https://www.npca.org/articles/7109-11-national-park-cameos-in-movies>. It mentions the park where butch cassidy and the sundance kid was filmed, and I'm interested in staying there. I'm curious about the names of its main information points and their coordinates. 

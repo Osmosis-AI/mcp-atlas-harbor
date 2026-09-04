@@ -1,0 +1,10 @@
+[
+  "cli-mcp-server_show_security_rules",
+  "cli-mcp-server_run_command",
+  "fetch_fetch",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "calculator_calculate"
+]

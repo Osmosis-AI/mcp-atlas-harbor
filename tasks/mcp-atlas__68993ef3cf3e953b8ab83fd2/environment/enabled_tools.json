@@ -1,0 +1,10 @@
+[
+  "github_search_repositories",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_list_branches",
+  "ddg-search_search",
+  "github_get_repository"
+]

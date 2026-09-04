@@ -1,0 +1,17 @@
+[
+  "git_git_log",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_search_files",
+  "filesystem_get_file_info",
+  "filesystem_list_allowed_directories",
+  "github_list_commits",
+  "whois_whois_domain",
+  "github_search_repositories",
+  "github_search_code"
+]

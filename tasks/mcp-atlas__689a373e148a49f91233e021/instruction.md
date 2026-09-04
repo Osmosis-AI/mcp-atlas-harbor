@@ -1,0 +1,1 @@
+In my previous job as a delivery driver for a gaming store, I remember making an extremely long trip in 2018 that happened to be on the same day as that year's football world cup final, so I missed watching it. could you tell me how many kms I covered on that delivery? This info should still be on my data.

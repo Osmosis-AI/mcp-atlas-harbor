@@ -1,0 +1,6 @@
+- The very first version of the main README, translated into Croatian is:
+
+```
+# mcp-kalkulator-poslužitelja
+Poslužitelj Model Context Protocol za izračun
+```

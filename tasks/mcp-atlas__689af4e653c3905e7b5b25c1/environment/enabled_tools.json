@@ -1,0 +1,16 @@
+[
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "brave-search_brave_web_search",
+  "oxylabs_amazon_search_scraper",
+  "oxylabs_universal_scraper",
+  "e2b-server_run_code",
+  "fetch_fetch",
+  "filesystem_read_file",
+  "filesystem_read_multiple_files",
+  "cli-mcp-server_show_security_rules",
+  "cli-mcp-server_run_command"
+]

@@ -1,0 +1,16 @@
+[
+  "brave-search_brave_web_search",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_search_code",
+  "desktop-commander_get_usage_stats",
+  "desktop-commander_read_process_output",
+  "e2b-server_run_code"
+]

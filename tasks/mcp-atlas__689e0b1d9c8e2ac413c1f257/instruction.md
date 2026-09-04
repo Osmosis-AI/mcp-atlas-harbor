@@ -1,0 +1,1 @@
+I'm finishing my work and need to email it to my boss, mike. But first, I need to get some information from a personal file. Could you provide me with the most consumed drinks and food categories for each age demographic? Also, I need my boss's email address. He uses it in the company's data, but I can't remember what it is.

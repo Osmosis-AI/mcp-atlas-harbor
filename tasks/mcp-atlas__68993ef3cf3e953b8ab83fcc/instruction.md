@@ -1,0 +1,1 @@
+During amazon prime days in july 2025, I have scheduled a dinner at a restaurant, and although it's not written in my schedule, I'll probably head over to brickell city centre. Could you confirm the walking distance in miles between those places and how long it would take?

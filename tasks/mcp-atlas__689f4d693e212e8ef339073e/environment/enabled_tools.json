@@ -1,0 +1,17 @@
+[
+  "weather_find_weather_stations",
+  "github_search_repositories",
+  "github_search_users",
+  "github_get_issue",
+  "github_search_issues",
+  "github_list_issues",
+  "github_get_repository",
+  "filesystem_read_file",
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "fetch_fetch",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

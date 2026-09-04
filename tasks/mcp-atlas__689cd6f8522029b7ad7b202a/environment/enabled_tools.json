@@ -1,0 +1,15 @@
+[
+  "oxylabs_google_search_scraper",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "oxylabs_universal_scraper",
+  "oxylabs_amazon_search_scraper",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search"
+]

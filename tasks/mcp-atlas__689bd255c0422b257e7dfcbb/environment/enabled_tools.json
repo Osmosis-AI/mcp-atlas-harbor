@@ -1,0 +1,17 @@
+[
+  "airtable_list_tables",
+  "airtable_list_bases",
+  "airtable_list_records",
+  "airtable_get_record",
+  "airtable_search_records",
+  "exa_web_search_exa",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced"
+]

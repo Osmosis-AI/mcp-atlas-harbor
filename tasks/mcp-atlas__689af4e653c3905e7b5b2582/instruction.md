@@ -1,0 +1,1 @@
+I need to retrieve the number of employees joining the company on the hr, sales and tech areas during the first quarter of the year when the article I was reading this afternoon was released. I was reading an article called retraction notice from the muscle nerve journal.

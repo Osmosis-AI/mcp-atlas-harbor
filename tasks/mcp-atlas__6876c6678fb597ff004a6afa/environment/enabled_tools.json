@@ -1,0 +1,16 @@
+[
+  "mcp-server-code-runner_run-code",
+  "twelvedata_GetTimeSeries",
+  "twelvedata_GetSymbolSearch",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "notion_API-get-block-children",
+  "notion_API-retrieve-a-database",
+  "notion_API-retrieve-a-page-property",
+  "notion_API-retrieve-a-page",
+  "desktop-commander_get_config",
+  "desktop-commander_read_file",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "e2b-server_run_code"
+]

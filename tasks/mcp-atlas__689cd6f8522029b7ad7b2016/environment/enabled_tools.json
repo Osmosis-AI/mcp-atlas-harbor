@@ -1,0 +1,17 @@
+[
+  "filesystem_read_text_file",
+  "filesystem_list_allowed_directories",
+  "filesystem_list_directory",
+  "mcp-code-executor_execute_code",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "slack_channels_list",
+  "slack_conversations_search_messages",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "weather-data_weather_astronomy",
+  "whois_whois_domain",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "memory_search_nodes",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies"
+]

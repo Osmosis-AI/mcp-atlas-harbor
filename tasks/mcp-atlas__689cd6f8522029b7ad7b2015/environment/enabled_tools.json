@@ -1,0 +1,17 @@
+[
+  "filesystem_read_text_file",
+  "filesystem_read_multiple_files",
+  "filesystem_list_directory",
+  "filesystem_list_directory_with_sizes",
+  "filesystem_directory_tree",
+  "filesystem_get_file_info",
+  "filesystem_list_allowed_directories",
+  "mcp-code-executor_execute_code",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "fetch_fetch",
+  "memory_open_nodes",
+  "memory_search_nodes",
+  "memory_read_graph",
+  "oxylabs_universal_scraper"
+]

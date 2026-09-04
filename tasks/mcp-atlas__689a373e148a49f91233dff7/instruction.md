@@ -1,0 +1,1 @@
+Could you tell me how to talk directly with a model from terminal according to a repository written in python of transformers? Could you also tell me the name of the stadium for the oklahoma city thunder?

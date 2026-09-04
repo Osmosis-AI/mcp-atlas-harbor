@@ -1,0 +1,15 @@
+[
+  "git_git_show",
+  "google-workspace_list_events",
+  "desktop-commander_get_config",
+  "desktop-commander_list_directory",
+  "desktop-commander_search_files",
+  "desktop-commander_search_code",
+  "desktop-commander_get_file_info",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "brave-search_brave_web_search",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "weather-data_weather_search",
+  "weather_find_weather_stations"
+]

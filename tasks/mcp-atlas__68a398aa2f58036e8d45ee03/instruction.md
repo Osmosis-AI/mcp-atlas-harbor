@@ -1,0 +1,1 @@
+In the year that matthew perry passed away, I made purchases of eth. They were on the same day and month when I had a sushi class on my calendar in july 2025. I remember I recorded these transactions on my computer data, and I want to know what the highest quantity transacted of eth I bought on that day.

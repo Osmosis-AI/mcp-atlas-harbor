@@ -1,0 +1,17 @@
+[
+  "brave-search_brave_web_search",
+  "fetch_fetch",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object",
+  "pubmed_search_pubmed_key_words",
+  "pubmed_search_pubmed_advanced",
+  "pubmed_get_pubmed_article_metadata",
+  "pubmed_download_pubmed_pdf",
+  "arxiv_search_papers",
+  "e2b-server_run_code",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "mcp-code-executor_execute_code",
+  "mcp-server-code-runner_run-code"
+]

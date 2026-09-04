@@ -1,0 +1,1 @@
+What is the number of cylinders of the model of the car with most sold units in the contry that won the 1978 fifa worldcup two years after la invencion de morel author died?

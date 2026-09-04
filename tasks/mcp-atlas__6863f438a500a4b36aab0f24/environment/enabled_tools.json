@@ -1,0 +1,15 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_article",
+  "wikipedia_get_summary",
+  "wikipedia_summarize_article_for_query",
+  "wikipedia_extract_key_facts",
+  "wikipedia_summarize_article_section",
+  "wikipedia_get_sections",
+  "wikipedia_get_related_topics",
+  "wikipedia_get_links",
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "osm-mcp-server_geocode_address",
+  "fetch_fetch"
+]

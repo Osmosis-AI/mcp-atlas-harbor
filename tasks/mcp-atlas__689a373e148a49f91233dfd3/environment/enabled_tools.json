@@ -1,0 +1,16 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-storage-size",
+  "mongodb_find",
+  "mongodb_collection-schema",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_aggregate",
+  "mongodb_explain",
+  "brave-search_brave_web_search",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

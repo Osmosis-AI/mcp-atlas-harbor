@@ -1,0 +1,1 @@
+I want to take a road trip through greece in my car, starting in athens, to see some of its monuments that are on the world heritage list. Tell me which were the first three monuments in the country to be added to the list, get the exact coordinates of each one and calculate a route to visit all three of them. Finally, tell me the approximate total distance of that route.

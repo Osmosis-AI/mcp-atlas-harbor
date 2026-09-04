@@ -1,0 +1,171 @@
+services:
+  main:
+    depends_on:
+      mcp-atlas-gateway:
+        condition: service_started
+    networks:
+      - mcp-front
+
+  mcp-atlas-gateway:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/harbor_mcp_bridge.py
+    environment:
+      MCP_ATLAS_BACKENDS_FILE: /harbor/atlas_backends.json
+      MCP_ATLAS_ENABLED_TOOLS_FILE: /harbor/enabled_tools.json
+      MCP_ATLAS_STARTUP_TIMEOUT_SEC: "240"
+      MCP_ATLAS_TIMEOUT_SEC: "180"
+      MCP_BRIDGE_HOST: 0.0.0.0
+      MCP_BRIDGE_PORT: "18765"
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes:
+      - ./harbor_mcp_bridge.py:/harbor/harbor_mcp_bridge.py:ro,z
+      - ./enabled_tools.json:/harbor/enabled_tools.json:ro,z
+      - ./atlas_backends.json:/harbor/atlas_backends.json:ro,z
+      - type: volume
+        source: mcp-atlas-public-socket
+        target: /run/mcp-atlas-backends/public
+        read_only: true
+      - type: volume
+        source: mcp-atlas-national-parks-socket
+        target: /run/mcp-atlas-backends/national-parks
+        read_only: true
+      - type: volume
+        source: mcp-atlas-slack-socket
+        target: /run/mcp-atlas-backends/slack
+        read_only: true
+    expose:
+      - "18765"
+    depends_on:
+      mcp-atlas-public:
+        condition: service_started
+      mcp-atlas-national-parks:
+        condition: service_started
+      mcp-atlas-slack:
+        condition: service_started
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - -c
+        - >-
+          import json,urllib.request;
+          response=urllib.request.urlopen('http://localhost:18765/healthz',timeout=5);
+          raise SystemExit(0 if response.status == 200 and json.load(response).get('status') == 'ok' else 1)
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 10s
+    init: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - mcp-front
+
+  mcp-atlas-public:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "arxiv,git,met-museum"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: ""
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      # No Atlas credentials are required by this task.
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-public-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-public-egress
+
+  mcp-atlas-national-parks:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "national-parks"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: "NPS_API_KEY"
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      NPS_API_KEY: "${NPS_API_KEY:-}"
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-national-parks-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-national-parks-egress
+
+  mcp-atlas-slack:
+    image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/atlas_entrypoint.py
+    environment:
+      ENABLED_SERVERS: "slack"
+      MCP_ATLAS_SOCKET: /run/mcp-atlas/atlas.sock
+      MCP_ATLAS_REQUIRED_ENV: "SLACK_MCP_XOXC_TOKEN,SLACK_MCP_XOXD_TOKEN"
+      UV_CONSTRAINT: /harbor/uv-constraints.txt
+      SLACK_MCP_XOXC_TOKEN: "${SLACK_MCP_XOXC_TOKEN:-}"
+      SLACK_MCP_XOXD_TOKEN: "${SLACK_MCP_XOXD_TOKEN:-}"
+    volumes:
+      - ./atlas_entrypoint.py:/harbor/atlas_entrypoint.py:ro,z
+      - ./uv-constraints.txt:/harbor/uv-constraints.txt:ro,z
+      - type: volume
+        source: mcp-atlas-slack-socket
+        target: /run/mcp-atlas
+    healthcheck:
+      test:
+        - CMD
+        - /agent-environment/.venv/bin/python
+        - /harbor/atlas_entrypoint.py
+        - --check
+      interval: 5s
+      timeout: 10s
+      retries: 36
+      start_period: 30s
+    init: true
+    networks:
+      - mcp-atlas-slack-egress
+
+volumes:
+  mcp-atlas-public-socket:
+  mcp-atlas-national-parks-socket:
+  mcp-atlas-slack-socket:
+
+networks:
+  mcp-front:
+  mcp-atlas-public-egress:
+  mcp-atlas-national-parks-egress:
+  mcp-atlas-slack-egress:

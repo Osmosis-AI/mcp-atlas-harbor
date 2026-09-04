@@ -1,0 +1,15 @@
+[
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "context7_resolve-library-id",
+  "context7_get-library-docs",
+  "fetch_fetch",
+  "filesystem_read_file",
+  "filesystem_read_text_file",
+  "filesystem_read_media_file",
+  "filesystem_read_multiple_files",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "met-museum_list-departments",
+  "met-museum_search-museum-objects",
+  "met-museum_get-museum-object"
+]

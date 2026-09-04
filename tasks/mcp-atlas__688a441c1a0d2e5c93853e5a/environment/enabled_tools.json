@@ -1,0 +1,16 @@
+[
+  "calculator_calculate",
+  "ddg-search_search",
+  "ddg-search_fetch_content",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "weather-data_weather_history",
+  "weather-data_weather_forecast",
+  "weather-data_weather_current",
+  "weather_get_weather_forecast",
+  "weather_get_current_weather",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "memory_read_graph",
+  "memory_search_nodes",
+  "memory_open_nodes"
+]

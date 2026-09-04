@@ -1,0 +1,1 @@
+What was the price of ether rounded to three decimals and the sunset time in the prefecture where the fmc from the your name movie lived the day bitcoin was bought at the highest price in my local records?

@@ -1,0 +1,1 @@
+I'm auditing how the marketing departments non recurring budget allocations have changed over the years. according to our financial records in the database, how much did the total budget allocated to non recurring marketing transactions vary between january 2020 and january 2021, depending on the transaction dates? Was it an increase or decrease, and by what percentage?

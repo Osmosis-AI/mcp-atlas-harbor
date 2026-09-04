@@ -1,0 +1,1 @@
+I am the accountant and my client gave me his video game store database. I need to know how much did the video game that was sold on october 19, the year that the fortune men by nadifa mohamed was for the first time published cost. I also need to know which category that video game belongs.

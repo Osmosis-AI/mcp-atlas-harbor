@@ -1,0 +1,15 @@
+[
+  "notion_API-get-user",
+  "notion_API-get-users",
+  "notion_API-get-self",
+  "notion_API-post-database-query",
+  "notion_API-post-search",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "brave-search_brave_web_search",
+  "calculator_calculate",
+  "oxylabs_universal_scraper",
+  "oxylabs_google_search_scraper",
+  "fetch_fetch",
+  "memory_read_graph",
+  "memory_search_nodes"
+]

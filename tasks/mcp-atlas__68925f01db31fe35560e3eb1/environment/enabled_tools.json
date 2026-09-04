@@ -1,0 +1,16 @@
+[
+  "mongodb_list-collections",
+  "mongodb_list-databases",
+  "mongodb_collection-indexes",
+  "mongodb_collection-schema",
+  "mongodb_find",
+  "mongodb_collection-storage-size",
+  "mongodb_count",
+  "mongodb_db-stats",
+  "mongodb_aggregate",
+  "exa_web_search_exa",
+  "e2b-server_run_code",
+  "met-museum_search-museum-objects",
+  "git_git_log",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies"
+]

@@ -1,0 +1,1 @@
+What was the moon phase the day when the author of the haunting of hill house died but in the book's publication year?

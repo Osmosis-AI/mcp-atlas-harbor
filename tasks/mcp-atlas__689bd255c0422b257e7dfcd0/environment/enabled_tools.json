@@ -1,0 +1,17 @@
+[
+  "arxiv_search_papers",
+  "alchemy_fetchTokenPriceHistoryBySymbol",
+  "calculator_calculate",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_get_study",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_list_studies",
+  "clinicaltrialsgov-mcp-server_clinicaltrials_analyze_trends",
+  "e2b-server_run_code",
+  "fetch_fetch",
+  "exa_web_search_exa",
+  "lara-translate_translate",
+  "lara-translate_list_languages",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "national-parks_getVisitorCenters",
+  "national-parks_getCampgrounds"
+]

@@ -1,0 +1,1 @@
+I heard there was an envelope with an image of a bill was found in a puzzle in my city. I want to know where it shows up according to <https://gravityfalls.fandom.com/wiki/Cipher_Hunt> including its coordinates. And I'm curious how long the walk would be from my home in 2250 w 20th st, los angeles, 90018 to that spot.

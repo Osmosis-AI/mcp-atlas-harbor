@@ -1,0 +1,19 @@
+[
+  "wikipedia_search_wikipedia",
+  "wikipedia_get_summary",
+  "wikipedia_get_article",
+  "wikipedia_extract_key_facts",
+  "open-library_get_book_by_title",
+  "open-library_get_authors_by_name",
+  "wikipedia_summarize_article_for_query",
+  "weather-data_weather_history",
+  "weather-data_weather_astronomy",
+  "national-parks_findParks",
+  "national-parks_getParkDetails",
+  "osm-mcp-server_geocode_address",
+  "osm-mcp-server_find_nearby_places",
+  "osm-mcp-server_search_category",
+  "osm-mcp-server_get_route_directions",
+  "open-library_get_author_info",
+  "open-library_get_book_by_id"
+]

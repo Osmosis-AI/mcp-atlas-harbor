@@ -11,9 +11,11 @@ import math
 import os
 import socket
 import stat
+import threading
+import time
 from collections.abc import Callable, Mapping, Sequence
 from pathlib import Path
-from typing import Any, override
+from typing import Any, Protocol, override
 
 import mcp.types as types
 import uvicorn
@@ -34,7 +36,9 @@ DEFAULT_PORT = 18765
 DEFAULT_TIMEOUT_SEC = 180.0
 DEFAULT_STARTUP_TIMEOUT_SEC = 240.0
 DEFAULT_STARTUP_RETRY_INTERVAL_SEC = 1.0
+DEFAULT_HEALTH_TIMEOUT_SEC = 4.0
 MAX_BACKEND_RESPONSE_BYTES = 64 * 1024 * 1024
+BACKEND_RESPONSE_CHUNK_BYTES = 64 * 1024
 MAX_CONFIG_BYTES = 1024 * 1024
 _SERVER_NAME_CHARS = frozenset("abcdefghijklmnopqrstuvwxyz0123456789-")
 
@@ -190,6 +194,111 @@ class UnixHTTPConnection(http.client.HTTPConnection):
 ConnectionFactory = Callable[[Path, float], http.client.HTTPConnection]
 
 
+class _DeadlineConnectionGuard:
+    """Interrupt blocking HTTP I/O when its monotonic deadline expires."""
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self._connection: http.client.HTTPConnection | None = None
+        self._socket: socket.socket | None = None
+        self._expired = False
+        self._finished = False
+        self._timeout_handle: asyncio.TimerHandle | None = None
+        self._loop: asyncio.AbstractEventLoop | None = None
+
+    @staticmethod
+    def _interrupt_socket(sock: socket.socket) -> None:
+        try:
+            sock.shutdown(socket.SHUT_RDWR)
+        except OSError:
+            pass
+        try:
+            sock.close()
+        except OSError:
+            pass
+
+    @classmethod
+    def _interrupt(
+        cls,
+        connection: http.client.HTTPConnection,
+        raw_socket: socket.socket | None,
+    ) -> None:
+        sock = (
+            raw_socket if raw_socket is not None else getattr(connection, "sock", None)
+        )
+        if sock is not None:
+            cls._interrupt_socket(sock)
+        try:
+            connection.close()
+        except Exception:
+            # This runs as an event-loop callback and must never escape.
+            pass
+
+    def set_timeout_handle(
+        self,
+        loop: asyncio.AbstractEventLoop,
+        timeout_handle: asyncio.TimerHandle,
+    ) -> None:
+        with self._lock:
+            self._loop = loop
+            self._timeout_handle = timeout_handle
+            finished = self._finished
+        if finished:
+            timeout_handle.cancel()
+
+    def attach(self, connection: http.client.HTTPConnection) -> None:
+        with self._lock:
+            self._connection = connection
+            expired = self._expired
+            raw_socket = self._socket
+        if expired:
+            self._interrupt(connection, raw_socket)
+
+    def attach_socket(self, raw_socket: socket.socket) -> None:
+        with self._lock:
+            self._socket = raw_socket
+            expired = self._expired
+        if expired:
+            self._interrupt_socket(raw_socket)
+
+    def set_socket_timeout(self, timeout_sec: float) -> None:
+        with self._lock:
+            raw_socket = self._socket
+        if raw_socket is not None:
+            raw_socket.settimeout(timeout_sec)
+
+    def ensure_active(self) -> None:
+        with self._lock:
+            expired = self._expired
+        if expired:
+            raise AtlasBackendError("Atlas backend request was canceled.")
+
+    def abort(self) -> None:
+        with self._lock:
+            if self._finished:
+                return
+            self._expired = True
+            connection = self._connection
+            raw_socket = self._socket
+        if connection is not None:
+            self._interrupt(connection, raw_socket)
+        elif raw_socket is not None:
+            self._interrupt_socket(raw_socket)
+
+    def finish(self) -> None:
+        with self._lock:
+            self._finished = True
+            self._connection = None
+            self._socket = None
+            loop = self._loop
+            timeout_handle = self._timeout_handle
+        if loop is not None and timeout_handle is not None:
+            try:
+                loop.call_soon_threadsafe(timeout_handle.cancel)
+            except RuntimeError:
+                pass
+
+
 class AtlasUnixClient:
     """Small async facade over one private Atlas REST API."""
 
@@ -219,31 +328,104 @@ class AtlasUnixClient:
         method: str,
         endpoint: str,
         payload: Mapping[str, Any] | None = None,
+        *,
+        deadline_monotonic: float | None = None,
     ) -> Any:
-        return await asyncio.to_thread(self._request_json, method, endpoint, payload)
+        now = time.monotonic()
+        client_deadline = now + self.timeout_sec
+        if deadline_monotonic is None:
+            request_deadline = client_deadline
+        else:
+            if not math.isfinite(deadline_monotonic):
+                raise BridgeConfigurationError("Atlas request deadline must be finite.")
+            # An explicit health/startup deadline may narrow but never widen the
+            # configured client limit.
+            request_deadline = min(deadline_monotonic, client_deadline)
+        if request_deadline <= now:
+            raise AtlasBackendError("Atlas backend request deadline expired.")
+
+        loop = asyncio.get_running_loop()
+        guard = _DeadlineConnectionGuard()
+        timeout_handle = loop.call_later(
+            request_deadline - now,
+            guard.abort,
+        )
+        guard.set_timeout_handle(loop, timeout_handle)
+        try:
+            return await asyncio.to_thread(
+                self._request_json,
+                method,
+                endpoint,
+                payload,
+                request_deadline,
+                guard,
+            )
+        except asyncio.CancelledError:
+            # asyncio cannot cancel a worker that has entered synchronous I/O.
+            # Interrupt its retained socket so TaskGroup sibling cancellation
+            # cannot leave the default executor occupied until the long client
+            # timeout.
+            guard.abort()
+            raise
+
+    @staticmethod
+    def _remaining_timeout(deadline_monotonic: float) -> float:
+        remaining = deadline_monotonic - time.monotonic()
+        if remaining <= 0:
+            raise AtlasBackendError("Atlas backend request deadline expired.")
+        return remaining
+
+    @classmethod
+    def _narrow_connection_timeout(
+        cls,
+        connection: http.client.HTTPConnection,
+        deadline_monotonic: float,
+        guard: _DeadlineConnectionGuard,
+    ) -> None:
+        guard.ensure_active()
+        remaining = cls._remaining_timeout(deadline_monotonic)
+        connection.timeout = remaining
+        guard.set_socket_timeout(remaining)
 
     def _request_json(
         self,
         method: str,
         endpoint: str,
-        payload: Mapping[str, Any] | None = None,
+        payload: Mapping[str, Any] | None,
+        deadline_monotonic: float,
+        guard: _DeadlineConnectionGuard,
     ) -> Any:
-        if endpoint not in self._ALLOWED_ENDPOINTS:
-            raise BridgeConfigurationError("Atlas REST endpoint is not allowed.")
-        if method not in {"GET", "POST"}:
-            raise BridgeConfigurationError("Atlas REST method is not allowed.")
-        body: bytes | None = None
-        headers = {"Accept": "application/json", "Connection": "close"}
-        if payload is not None:
-            body = json.dumps(
-                payload, ensure_ascii=False, separators=(",", ":")
-            ).encode("utf-8")
-            headers["Content-Type"] = "application/json"
-        connection = self.connection_factory(self.socket_path, self.timeout_sec)
+        connection: http.client.HTTPConnection | None = None
         try:
+            if endpoint not in self._ALLOWED_ENDPOINTS:
+                raise BridgeConfigurationError("Atlas REST endpoint is not allowed.")
+            if method not in {"GET", "POST"}:
+                raise BridgeConfigurationError("Atlas REST method is not allowed.")
+            body: bytes | None = None
+            headers = {"Accept": "application/json", "Connection": "close"}
+            if payload is not None:
+                body = json.dumps(
+                    payload, ensure_ascii=False, separators=(",", ":")
+                ).encode("utf-8")
+                headers["Content-Type"] = "application/json"
+
+            guard.ensure_active()
+            connection = self.connection_factory(
+                self.socket_path,
+                self._remaining_timeout(deadline_monotonic),
+            )
+            guard.attach(connection)
+            self._narrow_connection_timeout(connection, deadline_monotonic, guard)
+            connection.connect()
+            raw_socket = getattr(connection, "sock", None)
+            if raw_socket is not None:
+                guard.attach_socket(raw_socket)
+            self._narrow_connection_timeout(connection, deadline_monotonic, guard)
             connection.request(method, endpoint, body=body, headers=headers)
+            self._narrow_connection_timeout(connection, deadline_monotonic, guard)
             response = connection.getresponse()
             content_length = response.getheader("Content-Length")
+            declared_size: int | None = None
             if content_length is not None:
                 try:
                     declared_size = int(content_length)
@@ -251,14 +433,37 @@ class AtlasUnixClient:
                     raise AtlasBackendError(
                         "Atlas backend returned an invalid response length."
                     ) from exc
+                if declared_size < 0:
+                    raise AtlasBackendError(
+                        "Atlas backend returned an invalid response length."
+                    )
                 if declared_size > self.max_response_bytes:
                     raise AtlasBackendError(
                         "Atlas backend response exceeded the safe limit."
                     )
-            raw = response.read(self.max_response_bytes + 1)
-            if len(raw) > self.max_response_bytes:
+
+            raw = bytearray()
+            while True:
+                self._narrow_connection_timeout(
+                    connection,
+                    deadline_monotonic,
+                    guard,
+                )
+                read_size = min(
+                    BACKEND_RESPONSE_CHUNK_BYTES,
+                    self.max_response_bytes + 1 - len(raw),
+                )
+                chunk = response.read1(read_size)
+                if not chunk:
+                    break
+                raw.extend(chunk)
+                if len(raw) > self.max_response_bytes:
+                    raise AtlasBackendError(
+                        "Atlas backend response exceeded the safe limit."
+                    )
+            if declared_size is not None and len(raw) != declared_size:
                 raise AtlasBackendError(
-                    "Atlas backend response exceeded the safe limit."
+                    "Atlas backend returned an invalid response length."
                 )
             if not 200 <= response.status < 300:
                 # A backend error body can contain subprocess arguments and secrets.
@@ -274,7 +479,11 @@ class AtlasUnixClient:
         except (OSError, TimeoutError, http.client.HTTPException) as exc:
             raise AtlasBackendError("Atlas backend is unavailable.") from exc
         finally:
-            connection.close()
+            try:
+                if connection is not None:
+                    connection.close()
+            finally:
+                guard.finish()
 
 
 def _tool_from_json(value: Any, *, advertised_name: str) -> types.Tool:
@@ -318,7 +527,18 @@ def _content_from_json(value: Any) -> types.ContentBlock:
         ) from exc
 
 
-ClientFactory = Callable[[Path], AtlasUnixClient]
+class BackendClient(Protocol):
+    async def request_json(
+        self,
+        method: str,
+        endpoint: str,
+        payload: Mapping[str, Any] | None = None,
+        *,
+        deadline_monotonic: float | None = None,
+    ) -> Any: ...
+
+
+ClientFactory = Callable[[Path], BackendClient]
 
 
 class MCPAtlasBridge:
@@ -360,11 +580,12 @@ class MCPAtlasBridge:
             socket_path: client_factory(socket_path)
             for socket_path in self._servers_by_socket
         }
-        self._tool_mapping: dict[str, tuple[AtlasUnixClient, str]] = {}
+        self._tool_mapping: dict[str, tuple[BackendClient, str]] = {}
         self._advertised_tools: tuple[types.Tool, ...] = ()
         self._refresh_lock = asyncio.Lock()
         self._ready = False
         self._ready_tool_count = 0
+        self._readiness_generation = 0
 
     @property
     def ready(self) -> bool:
@@ -385,29 +606,51 @@ class MCPAtlasBridge:
         return matches[0]
 
     async def _query_backend(
-        self, socket_path: Path, *, check_health: bool
+        self,
+        socket_path: Path,
+        *,
+        check_health: bool,
+        deadline_monotonic: float | None,
     ) -> tuple[Path, Any]:
         client = self._clients[socket_path]
+
         try:
             if check_health:
-                health = await client.request_json("GET", "/health")
+                health = await client.request_json(
+                    "GET",
+                    "/health",
+                    deadline_monotonic=deadline_monotonic,
+                )
                 if not isinstance(health, Mapping) or health.get("status") != (
                     "health_and_client_connection_ok"
                 ):
                     raise AtlasBackendError("Atlas backend health check failed.")
-            tools = await client.request_json("POST", "/list-tools")
+            tools = await client.request_json(
+                "POST",
+                "/list-tools",
+                deadline_monotonic=deadline_monotonic,
+            )
         except Exception as exc:
             # Collapse all backend detail before it can reach an agent-facing route.
             raise AtlasBackendError("Atlas backend is unavailable.") from exc
         return socket_path, tools
 
-    async def _collect_backend_tools(self, *, check_health: bool) -> dict[Path, Any]:
+    async def _collect_backend_tools(
+        self,
+        *,
+        check_health: bool,
+        deadline_monotonic: float | None,
+    ) -> dict[Path, Any]:
         tasks: dict[Path, asyncio.Task[tuple[Path, Any]]] = {}
         try:
             async with asyncio.TaskGroup() as group:
                 for socket_path in self._clients:
                     tasks[socket_path] = group.create_task(
-                        self._query_backend(socket_path, check_health=check_health)
+                        self._query_backend(
+                            socket_path,
+                            check_health=check_health,
+                            deadline_monotonic=deadline_monotonic,
+                        )
                     )
         except* Exception as group_error:
             raise AtlasBackendError(
@@ -417,8 +660,8 @@ class MCPAtlasBridge:
 
     def _resolve_tool_mapping(
         self, backend_tools: Mapping[Path, Any]
-    ) -> tuple[dict[str, tuple[AtlasUnixClient, str]], tuple[types.Tool, ...]]:
-        mapping: dict[str, tuple[AtlasUnixClient, str]] = {}
+    ) -> tuple[dict[str, tuple[BackendClient, str]], tuple[types.Tool, ...]]:
+        mapping: dict[str, tuple[BackendClient, str]] = {}
         advertised_by_name: dict[str, types.Tool] = {}
         for socket_path, raw_tools in backend_tools.items():
             if not isinstance(raw_tools, list):
@@ -468,15 +711,29 @@ class MCPAtlasBridge:
             raise AtlasBackendError("Atlas backend tool coverage is incomplete.")
         return mapping, tuple(advertised_by_name[name] for name in self.allowed_tools)
 
+    async def _refresh_tools_locked(
+        self,
+        *,
+        check_health: bool,
+        deadline_monotonic: float | None,
+    ) -> tuple[types.Tool, ...]:
+        backend_tools = await self._collect_backend_tools(
+            check_health=check_health,
+            deadline_monotonic=deadline_monotonic,
+        )
+        mapping, tools = self._resolve_tool_mapping(backend_tools)
+        self._tool_mapping = mapping
+        self._advertised_tools = tools
+        return tools
+
     async def refresh_tools(
         self, *, check_health: bool = False
     ) -> tuple[types.Tool, ...]:
         async with self._refresh_lock:
-            backend_tools = await self._collect_backend_tools(check_health=check_health)
-            mapping, tools = self._resolve_tool_mapping(backend_tools)
-            self._tool_mapping = mapping
-            self._advertised_tools = tools
-            return tools
+            return await self._refresh_tools_locked(
+                check_health=check_health,
+                deadline_monotonic=None,
+            )
 
     async def list_tools(self) -> list[types.Tool]:
         tools = self._advertised_tools or await self.refresh_tools()
@@ -510,12 +767,32 @@ class MCPAtlasBridge:
             return [types.TextContent(type="text", text="success")]
         return [_content_from_json(item) for item in response]
 
-    async def check_ready(self) -> int:
+    async def check_ready(self, *, deadline_monotonic: float | None = None) -> int:
+        if deadline_monotonic is not None and not math.isfinite(deadline_monotonic):
+            raise BridgeConfigurationError("Readiness deadline must be finite.")
+        self._readiness_generation += 1
+        generation = self._readiness_generation
         self._ready = False
-        tools = await self.refresh_tools(check_health=True)
-        self._ready_tool_count = len(tools)
-        self._ready = True
-        return self._ready_tool_count
+        self._ready_tool_count = 0
+        tool_count = 0
+        succeeded = False
+        try:
+            # Health probes share the discovery lock so neither path can publish a
+            # tool map based on a backend snapshot that overlaps another refresh.
+            async with self._refresh_lock:
+                tools = await self._refresh_tools_locked(
+                    check_health=True,
+                    deadline_monotonic=deadline_monotonic,
+                )
+            tool_count = len(tools)
+            succeeded = True
+        finally:
+            # A newer timed-out probe must remain authoritative if an older probe
+            # later succeeds after cancellation or lock contention.
+            if generation == self._readiness_generation:
+                self._ready = succeeded
+                self._ready_tool_count = tool_count if succeeded else 0
+        return tool_count
 
     async def wait_until_ready(
         self,
@@ -529,21 +806,20 @@ class MCPAtlasBridge:
             raise BridgeConfigurationError("Startup timing values must be finite.")
         if timeout_sec <= 0 or retry_interval_sec <= 0:
             raise BridgeConfigurationError("Startup timing values must be positive.")
-        loop = asyncio.get_running_loop()
-        deadline = loop.time() + timeout_sec
+        deadline = time.monotonic() + timeout_sec
         last_error: AtlasBackendError | None = None
         while True:
-            remaining = deadline - loop.time()
+            remaining = deadline - time.monotonic()
             if remaining <= 0:
                 break
             try:
                 async with asyncio.timeout(remaining):
-                    return await self.check_ready()
+                    return await self.check_ready(deadline_monotonic=deadline)
             except TimeoutError:
                 break
             except AtlasBackendError as exc:
                 last_error = exc
-            remaining = deadline - loop.time()
+            remaining = deadline - time.monotonic()
             if remaining <= 0:
                 break
             await asyncio.sleep(min(retry_interval_sec, remaining))
@@ -564,8 +840,14 @@ def create_app(
     bridge: MCPAtlasBridge,
     *,
     startup_timeout_sec: float = DEFAULT_STARTUP_TIMEOUT_SEC,
+    health_timeout_sec: float = DEFAULT_HEALTH_TIMEOUT_SEC,
 ) -> Starlette:
     """Create a stateful streamable-HTTP MCP app with redacted health errors."""
+
+    if not math.isfinite(health_timeout_sec):
+        raise BridgeConfigurationError("Health timeout must be finite.")
+    if health_timeout_sec <= 0:
+        raise BridgeConfigurationError("Health timeout must be positive.")
 
     server = Server("harbor-mcp-atlas-gateway", version="1.0.0")
 
@@ -586,9 +868,13 @@ def create_app(
     )
 
     async def health(_: Request) -> JSONResponse:
-        if not bridge.ready:
+        deadline = time.monotonic() + health_timeout_sec
+        try:
+            async with asyncio.timeout(health_timeout_sec):
+                tool_count = await bridge.check_ready(deadline_monotonic=deadline)
+        except (AtlasBackendError, TimeoutError):
             return JSONResponse({"status": "unavailable"}, status_code=503)
-        return JSONResponse({"status": "ok", "tool_count": bridge.ready_tool_count})
+        return JSONResponse({"status": "ok", "tool_count": tool_count})
 
     @contextlib.asynccontextmanager
     async def lifespan(_: Starlette):
@@ -650,12 +936,20 @@ def main() -> None:
         ),
         name="MCP_ATLAS_STARTUP_TIMEOUT_SEC",
     )
+    health_timeout = _positive_float(
+        os.environ.get("MCP_ATLAS_HEALTH_TIMEOUT_SEC", str(DEFAULT_HEALTH_TIMEOUT_SEC)),
+        name="MCP_ATLAS_HEALTH_TIMEOUT_SEC",
+    )
     bridge = MCPAtlasBridge(
         allowlist,
         backend_sockets,
         client_factory=lambda path: AtlasUnixClient(path, timeout_sec=timeout),
     )
-    app = create_app(bridge, startup_timeout_sec=startup_timeout)
+    app = create_app(
+        bridge,
+        startup_timeout_sec=startup_timeout,
+        health_timeout_sec=health_timeout,
+    )
     uvicorn.run(
         app,
         host=os.environ.get("MCP_BRIDGE_HOST", DEFAULT_HOST),

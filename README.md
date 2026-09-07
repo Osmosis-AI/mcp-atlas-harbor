@@ -109,7 +109,7 @@ validation are not reported as model parity.
 | Hugging Face dataset | `ScaleAI/MCP-Atlas` at `8c563b55d7c967755f474299848049834d624617` |
 | Public Parquet | SHA-256 `2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0` |
 | Upstream source | `scaleapi/mcp-atlas` at `f24ba3fb0bfa484c86acb28431fad6d7282455f9` |
-| Harbor adapter | `Osmosis-AI/harbor` at `4a9f6bf54cad8c57833dfa939661a6de29f6fc31` |
+| Harbor adapter | `Osmosis-AI/harbor` at `2cbb61291ba68bea3cff68f856e21e6a580f5472` |
 | Official Atlas image | `ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c` |
 
 `manifests/mcp-atlas-1.0.6.json` records these inputs and every generated task

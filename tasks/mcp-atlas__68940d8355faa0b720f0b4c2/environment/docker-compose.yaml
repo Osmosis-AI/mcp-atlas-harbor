@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "airtable,clinicaltrialsgov-mcp-server,national-parks,weather"
       AIRTABLE_API_KEY: "${AIRTABLE_API_KEY:-}"
       NPS_API_KEY: "${NPS_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD
@@ -60,10 +63,12 @@ services:
           import json,urllib.request;
           data=json.load(urllib.request.urlopen('http://localhost:1984/health',timeout=5));
           raise SystemExit(0 if data.get('status') == 'health_and_client_connection_ok' else 1)
+      # The runtime installs its MCP servers with uvx on first start (pubmed
+      # builds from git), which can take several minutes on a cold sandbox.
       interval: 5s
       timeout: 10s
-      retries: 36
-      start_period: 30s
+      retries: 72
+      start_period: 60s
     init: true
     networks:
       - mcp-backend

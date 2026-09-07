@@ -6,6 +6,7 @@ from __future__ import annotations
 import asyncio
 import contextlib
 import json
+import math
 import os
 from collections.abc import Mapping, Sequence
 from pathlib import Path
@@ -294,8 +295,8 @@ def _positive_float(value: str, name: str) -> float:
         result = float(value)
     except ValueError as exc:
         raise BridgeConfigurationError(f"{name} must be a number.") from exc
-    if result <= 0:
-        raise BridgeConfigurationError(f"{name} must be positive.")
+    if not math.isfinite(result) or result <= 0:
+        raise BridgeConfigurationError(f"{name} must be a positive finite number.")
     return result
 
 

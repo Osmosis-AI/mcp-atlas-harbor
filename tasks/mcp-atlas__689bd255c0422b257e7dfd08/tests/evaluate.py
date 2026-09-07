@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import math
 import os
 import sys
 from collections.abc import Callable, Mapping, Sequence
@@ -111,12 +112,17 @@ class JudgeConfig:
             )
         except ValueError as exc:
             raise VerifierError("judge numeric configuration is invalid") from exc
-        if min(config.concurrency, config.max_attempts, config.timeout_sec) <= 0:
+        if (
+            config.concurrency <= 0
+            or config.max_attempts <= 0
+            or not math.isfinite(config.timeout_sec)
+            or config.timeout_sec <= 0
+        ):
             raise VerifierError(
-                "judge concurrency, attempts, and timeout must be positive"
+                "judge concurrency, attempts, and timeout must be positive and finite"
             )
-        if config.retry_base_sec < 0:
-            raise VerifierError("judge retry delay cannot be negative")
+        if not math.isfinite(config.retry_base_sec) or config.retry_base_sec < 0:
+            raise VerifierError("judge retry delay must be finite and non-negative")
         return config
 
 

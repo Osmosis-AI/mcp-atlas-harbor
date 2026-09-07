@@ -16,7 +16,7 @@
   },
   "adapter": {
     "repository": "https://github.com/Osmosis-AI/harbor",
-    "commit": "0a3a3485ea62630da93af40473c1ce84c632c095"
+    "commit": "c78c159c57f4c1a1c7176a6485c871006cae3a81"
   },
   "runtime": {
     "topology": "single-atlas-rest-gateway",

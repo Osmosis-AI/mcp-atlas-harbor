@@ -33,10 +33,13 @@ services:
         - >-
           import urllib.request;
           urllib.request.urlopen('http://localhost:18765/healthz',timeout=5).read()
-      interval: 5s
+      # /healthz re-probes the Atlas backend and re-lists its tools on every
+      # call, so poll modestly once the bridge is up. Failures inside
+      # start_period (the bridge's own startup timeout) do not count.
+      interval: 15s
       timeout: 10s
-      retries: 36
-      start_period: 10s
+      retries: 4
+      start_period: 240s
     init: true
     networks:
       - mcp-front

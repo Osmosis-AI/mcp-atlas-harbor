@@ -4,23 +4,23 @@ This repository contains the generated Harbor distribution of
 [Scale AI MCP-Atlas](https://github.com/scaleapi/mcp-atlas), a benchmark for
 tool use with real Model Context Protocol servers.
 
-Release **v1.0.4** contains the complete pinned public split: **500 tasks** and
+Release **v1.0.5** contains the complete pinned public split: **500 tasks** and
 **1,952 normalized claims**. Reference trajectories are intentionally excluded.
 
 ## Datasets
 
 | Dataset | Tasks | Intended use |
 |---|---:|---|
-| `mcp-atlas-smoke@1.0.4` | 1 | Credential-free Docker deployment check. |
-| `mcp-atlas-credential-free@1.0.4` | 30 | Evaluation without Atlas service credentials. |
-| `mcp-atlas@1.0.4` | 500 | Full public split; credentials and prepared external state may be required. |
+| `mcp-atlas-smoke@1.0.5` | 1 | Credential-free Docker deployment check. |
+| `mcp-atlas-credential-free@1.0.5` | 30 | Evaluation without Atlas service credentials. |
+| `mcp-atlas@1.0.5` | 500 | Full public split; credentials and prepared external state may be required. |
 
 Start with the smoke task:
 
 ```bash
 harbor run \
-  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.4 \
-  --dataset mcp-atlas-smoke@1.0.4 \
+  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.5 \
+  --dataset mcp-atlas-smoke@1.0.5 \
   --agent <agent> \
   --model <model>
 ```
@@ -29,9 +29,17 @@ The claim grader uses an OpenAI-compatible endpoint:
 
 ```bash
 export EVAL_LLM_API_KEY='...'
-export EVAL_LLM_BASE_URL='https://your-endpoint'
+export EVAL_LLM_BASE_URL='https://your-endpoint'   # a trailing /v1 is accepted
 export EVAL_LLM_MODEL='your-judge-model'
 ```
+
+The verifier scores an empty or `ERROR:` response as `0`. Verifier-side
+failures (missing judge credentials, judge outages, unreadable claims) exit
+non-zero without writing `reward.json`, so Harbor records a verifier error and
+retries instead of reporting a zero score. The graded answer is an explicit
+final-answer tool argument in the ATIF trajectory, otherwise the agent's last
+message, otherwise `response.txt`, `final_answer.txt`, or `answer.txt` under
+`/logs/agent`.
 
 ## Runtime
 
@@ -52,8 +60,10 @@ trial starts an Atlas runtime and cold startup can take more than a minute.
 
 ### Credentialed tasks
 
-Only 30 tasks are credential-free. For other tasks, export the required Atlas
-credentials in the host shell before starting Harbor:
+465 tasks need at least one Atlas credential; 278 of them use a stateful
+server (Airtable, Google Workspace, MongoDB, Notion, Slack) whose account must
+first be seeded with the upstream `data_exports`. For those tasks, export the
+required Atlas credentials in the host shell before starting Harbor:
 
 ```bash
 export GITHUB_TOKEN='short-lived-token-for-a-disposable-account'
@@ -89,18 +99,18 @@ validation are not reported as model parity.
 | Hugging Face dataset | `ScaleAI/MCP-Atlas` at `8c563b55d7c967755f474299848049834d624617` |
 | Public Parquet | SHA-256 `2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0` |
 | Upstream source | `scaleapi/mcp-atlas` at `f24ba3fb0bfa484c86acb28431fad6d7282455f9` |
-| Harbor adapter | `Osmosis-AI/harbor` at `034b274ef82534a66c473a467cfe93569f6cbcd9` |
+| Harbor adapter | `Osmosis-AI/harbor` at `eba22020099645173401fc54c712f00e21537f76` |
 | Official Atlas image | `ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c` |
 
-`manifests/mcp-atlas-1.0.4.json` records these inputs and every generated task
-checksum. The immutable `v1.0.4` tag pins this repository snapshot.
+`manifests/mcp-atlas-1.0.5.json` records these inputs and every generated task
+checksum. The immutable `v1.0.5` tag pins this repository snapshot.
 
 ## Repository layout
 
 ```text
 .
 ├── tasks/                          # 500 Harbor tasks
-├── manifests/mcp-atlas-1.0.4.json # source pins and task checksums
+├── manifests/mcp-atlas-1.0.5.json # source pins and task checksums
 ├── registry.json                   # full, credential-free, and smoke views
 └── scripts/release.sh              # regenerate, validate, and compare
 ```

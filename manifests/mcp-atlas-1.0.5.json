@@ -2,7 +2,7 @@
   "schema_version": 1,
   "dataset": {
     "name": "mcp-atlas",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "task_count": 500
   },
   "source": {
@@ -16,7 +16,7 @@
   },
   "adapter": {
     "repository": "https://github.com/Osmosis-AI/harbor",
-    "commit": "034b274ef82534a66c473a467cfe93569f6cbcd9"
+    "commit": "eba22020099645173401fc54c712f00e21537f76"
   },
   "runtime": {
     "topology": "single-atlas-rest-gateway",
@@ -27,3001 +27,3001 @@
   "tasks": {
     "mcp-atlas__6863f438a500a4b36aab0f24": {
       "source_task_id": "6863f438a500a4b36aab0f24",
-      "tree_sha256": "5b784c785e52a09120cb2045fa51316b1172c09755909904f1a68f8991d12d7b",
+      "tree_sha256": "424569c76e95db5ae4251288f618ce83c73131ee53223543570f2f889337130c",
       "claim_count": 6,
       "credential_free": true
     },
     "mcp-atlas__6866d4d2eea665b355a8f884": {
       "source_task_id": "6866d4d2eea665b355a8f884",
-      "tree_sha256": "ceee7ad6ec0b1ce88fb0e30c45f9764f18456cc8c1b781cfe6864240da299d9a",
+      "tree_sha256": "c9cfe69b31ebe7129115e0756a7c53381e74d075091758b0cf42c44f1aaa4e66",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6866d4d2eea665b355a8f885": {
       "source_task_id": "6866d4d2eea665b355a8f885",
-      "tree_sha256": "27b65d9202b8bf2f5cc34181eb082dee782664761f4b0114cb9d405bd4fa1d4a",
+      "tree_sha256": "dd6562a40b3f46cc22dc16ed843b2d53549bdced5040f222170141d2df09a717",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6866d4d2eea665b355a8f8ab": {
       "source_task_id": "6866d4d2eea665b355a8f8ab",
-      "tree_sha256": "410cdab282af5482e3437e3a256c3ea00cc7442958516f1921075f2ed6e1625d",
+      "tree_sha256": "959b8f1e4bcede0b21b6de4e8fb82a754cb1b3b517b105a134991177b1ed0b83",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__6866d4d2eea665b355a8f8bc": {
       "source_task_id": "6866d4d2eea665b355a8f8bc",
-      "tree_sha256": "6bedb99d1cab4cbfea90476ef96245c2b02692c5244c7f6866100b4ab8055b67",
+      "tree_sha256": "835b841a92ce78e5685b99d41be0c0629bd53ea540e23467bb3c3c8d6a4baca5",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__686bdf0ca7f3bf48518a172b": {
       "source_task_id": "686bdf0ca7f3bf48518a172b",
-      "tree_sha256": "4ed1a167f2d7ee531856a5fc40faf992d55fee2ca50bbd4cf7f834e6c349ed51",
+      "tree_sha256": "fcb3ffbd05cfeaa86b395ed9fed12fcceaba9733a03884b1d00442c57ca4651a",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__686bdf0ca7f3bf48518a1738": {
       "source_task_id": "686bdf0ca7f3bf48518a1738",
-      "tree_sha256": "11489d8273494cc669e2f9583a879fe43b2592103f9e9899a708e6bbfb7289ae",
+      "tree_sha256": "200ee2f8a9a256da30b99727f5263e9af09b2c364aa3e8371356fd2b25c8b1af",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__686bdf0ca7f3bf48518a1769": {
       "source_task_id": "686bdf0ca7f3bf48518a1769",
-      "tree_sha256": "1e54ef20bda84eac9ffabaceeff201cd7d46bc42da55a72739f3b0627994af18",
+      "tree_sha256": "b10347372dc2915eae2bace9f7f4fbe996a768fc983aac9aaf1d651b32d9a589",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__686d2c79e1db37ea23ddd9f5": {
       "source_task_id": "686d2c79e1db37ea23ddd9f5",
-      "tree_sha256": "c15f9f8ec73b0c7fc216682081f64e1fcc5a43eafed4472360fbbc722eb770f9",
+      "tree_sha256": "fab7d4fc118d6a797a3df592007151d9a2f3e512118cf31324be6991e3bff5a4",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__686d2c79e1db37ea23ddd9fa": {
       "source_task_id": "686d2c79e1db37ea23ddd9fa",
-      "tree_sha256": "1dba9cb2f07f7bafd70a00fdc95c17f8f05d3f67763f33f70206719995b34d96",
+      "tree_sha256": "717519d95ebe2d5a79db49bd8086dba538643bb0656c87f0e269185fa1e06c57",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__686d2c79e1db37ea23ddda08": {
       "source_task_id": "686d2c79e1db37ea23ddda08",
-      "tree_sha256": "08f28ec0256b1d36576a14e4cd34ac0048166c4fb931b8f14bc691f6146a6cd6",
+      "tree_sha256": "b2ee8e3ca348a30ddbe94f816e2f59bb21437229d94b12a4dda8e0f3cfdaeaef",
       "claim_count": 14,
       "credential_free": false
     },
     "mcp-atlas__686d2c79e1db37ea23ddda15": {
       "source_task_id": "686d2c79e1db37ea23ddda15",
-      "tree_sha256": "dad028cb517f180cc43369465cbbac94e50868d8372a6ba4719d91663f73da48",
+      "tree_sha256": "0a7479b5417811664698408ba5ea0a87e7206df8debd00953c49da0d4df8ceba",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__686d2c79e1db37ea23ddda26": {
       "source_task_id": "686d2c79e1db37ea23ddda26",
-      "tree_sha256": "9a012d81aadc3b1a541d52e15338a90bdfe83bba2e73aa95c8501b10574d384c",
+      "tree_sha256": "e14abb71ffb3798aee809416c39f23aee4833f9255b98b3bda63376d79894fb2",
       "claim_count": 2,
       "credential_free": true
     },
     "mcp-atlas__6876c6678fb597ff004a6afa": {
       "source_task_id": "6876c6678fb597ff004a6afa",
-      "tree_sha256": "db3f65d8776c88fa8c87b85b614d58ff546fee25c9156049f5c62e549715aab1",
+      "tree_sha256": "9e2ca53f412f206778d41c5bbe599ed88b53ef70bfa02219abe16a2f10a8b34a",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6876c6678fb597ff004a6b03": {
       "source_task_id": "6876c6678fb597ff004a6b03",
-      "tree_sha256": "9dccf289ae6c679ad0013effdbfb96cee66594e5e9296a2991bdbfc61bccba03",
+      "tree_sha256": "7e2072b079db35efe15943ddef4ac056a7d9753c5f2dfcd964f4882149166478",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__687b3f4e721b0fdbc8d0a79b": {
       "source_task_id": "687b3f4e721b0fdbc8d0a79b",
-      "tree_sha256": "46f98f53bf6809302f3a0f94bf08cb2d4c511b49dcf8db05f1c3a659efc6e59d",
+      "tree_sha256": "3b41e608e35132ab0942f04eb4f6ca3c4cbd32a81aa5aa8471fc1e30c1c46c52",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__687ebf5ff5a578e0055a455e": {
       "source_task_id": "687ebf5ff5a578e0055a455e",
-      "tree_sha256": "e60fb6b10c645a98116a4087ced1a992799f1583bb0afe9dfcc2898dd18c1abb",
+      "tree_sha256": "d7086544768efdde87ce991b2f5842297c50b9a5536fdc06be524ea0abde1672",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__687ebf5ff5a578e0055a4560": {
       "source_task_id": "687ebf5ff5a578e0055a4560",
-      "tree_sha256": "3aa3560a7957384fdef1b84cdc0b01ec535579a0d614564b2c76697de6a1bd5c",
+      "tree_sha256": "933731dca42ce121c7e43d8c6e64c34c800a28bfa2446fde0739f133d36aac0c",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6880e844943a73a8c5e412c1": {
       "source_task_id": "6880e844943a73a8c5e412c1",
-      "tree_sha256": "8d073717ffabba0734795935e99296b680c61627444d5dae2463a9e5823abc14",
+      "tree_sha256": "784a1734a5e54b0fe282a8036d125005e4164a1b77dc982390d42f268e445c2c",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__6880e844943a73a8c5e412c3": {
       "source_task_id": "6880e844943a73a8c5e412c3",
-      "tree_sha256": "e02bf4309a3d45bee126f2f8965a421a59051567069d7e1f4ae69f8f86c51c03",
+      "tree_sha256": "9ec3a63a39bdc70bdbb42779f19a1fa7b42450a0080d7ce3eda64f9367fcee5c",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68824c643e6ff020bc339906": {
       "source_task_id": "68824c643e6ff020bc339906",
-      "tree_sha256": "09ea36ea4be6026579e766d970b5f2e53b697fc25deaeecf8a9ca43b66f179ef",
+      "tree_sha256": "d4a473c7af5dece7bf438b04f6dad74b8919cc4f2bdbf8fdc262e77d00c84e20",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68824c643e6ff020bc33990b": {
       "source_task_id": "68824c643e6ff020bc33990b",
-      "tree_sha256": "ab5d4df97a30a3e18ea32ab7f4b048117d8508996be1c74f470a8e0905c61664",
+      "tree_sha256": "9568f72636a3b4612bca16f3bfc30f1b3675a49ef6713ca2b89ab21a22ec06d1",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68824c643e6ff020bc339914": {
       "source_task_id": "68824c643e6ff020bc339914",
-      "tree_sha256": "48b7906b578dc104376869f930d2c591344050f5c1bf178f7c93d2c4f6145ef0",
+      "tree_sha256": "bae93a93cc57bfecb05588af88cb85ceed7e6999a73967769575555f44483fc2",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68824c643e6ff020bc339928": {
       "source_task_id": "68824c643e6ff020bc339928",
-      "tree_sha256": "7ede65f8d7ea767a074e50a1737e5d1e22bbfa4b7ccc86b66ded6d655a49045f",
+      "tree_sha256": "8f1df7429af16838a7871edaf5d194c9f97e1014acd4f1eb2cd35d05ad091ec2",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68824c643e6ff020bc33994b": {
       "source_task_id": "68824c643e6ff020bc33994b",
-      "tree_sha256": "5a3a5c1c84226869c80a4ea8c36ccbf56ec6fe00452cf73c8d3ab5f4b61d5960",
+      "tree_sha256": "07dd48aa5c0134476be147d44bdaf41aa17c71d790f882913a1846e4603ca1de",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68834223448b8fe04df2a592": {
       "source_task_id": "68834223448b8fe04df2a592",
-      "tree_sha256": "0e5c3314fdb5850a3b77ff69d9b85b256f3347a3bdaf93953044c08f4a3ee55c",
+      "tree_sha256": "cbdd4b6345e600abb5448d7416ca2818ec9a8e0aa39cf15938298a8d00e688ee",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68834223448b8fe04df2a595": {
       "source_task_id": "68834223448b8fe04df2a595",
-      "tree_sha256": "915172a8394d2722615fe5c3bd85dae50610df922310d3dafea5d774a5d14480",
+      "tree_sha256": "9978726a5e2701484d7b4fd6cf50c4318d3f51d308b00e51858aed24b215bd8f",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__68834223448b8fe04df2a5b1": {
       "source_task_id": "68834223448b8fe04df2a5b1",
-      "tree_sha256": "435fe50ff7915c08be45db4c83d86d72b4bb2d868c28fb54da3103f5996714f8",
+      "tree_sha256": "a88732fcd6e491acf9885338604fd252cd5e007d86c834683def7c6a6a46d6ba",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__6884fb199c7308aa9d1185d8": {
       "source_task_id": "6884fb199c7308aa9d1185d8",
-      "tree_sha256": "b9f54df6093f3ae267f7ea5aa87a09330b6e6c7d1a6d566af6adf69d30858b42",
+      "tree_sha256": "d68382ff29bef02c803e67fd9d3fa7defe4adca3f635cdbea035f6d2b69d00e4",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6884fb199c7308aa9d1185dc": {
       "source_task_id": "6884fb199c7308aa9d1185dc",
-      "tree_sha256": "86292edab46444a10e0e964930aee6f582fabe9917367a84c8ab55cbe0a7ebbe",
+      "tree_sha256": "c6c9e5f58d6525ea24b77ffaaef7e24f6f8b5d346f161779eb06b1159e4b68d1",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6884fb199c7308aa9d1185e5": {
       "source_task_id": "6884fb199c7308aa9d1185e5",
-      "tree_sha256": "f40fa4ba0d1d704dddb9f4c1070a01c8d34200cb99fb56b1f06d5cfdccfc3611",
+      "tree_sha256": "425505486c0b8e66f265b26b539a66677aa336b8cd3de517393b1691bbbf5f72",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c381170": {
       "source_task_id": "6886306b5ed4da6b2c381170",
-      "tree_sha256": "435279c2d7e58f3594c223afda45a021ce6bb886279575a23a2e7000361c098c",
+      "tree_sha256": "613c430570eb028b817d296c8108077eb1a05a9542a38bca4841eb658ab7ff7c",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c381175": {
       "source_task_id": "6886306b5ed4da6b2c381175",
-      "tree_sha256": "62399e22c7bfac998a73c8421216a3963c5a58a439ee67624f7ff42041e39cde",
+      "tree_sha256": "039938bf1f4d5a4bf617bc23c3e6fbdd582c7af14d680ac03b0d86f14609f141",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c38117c": {
       "source_task_id": "6886306b5ed4da6b2c38117c",
-      "tree_sha256": "efaf19fc920912f9bd0d4f067b9350291df4c8a82bfad983f8f628f723e05142",
+      "tree_sha256": "e53c45a8e41693c062f6da6be73f661fbcb36b59c56330ab7931e84824f4767b",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c381182": {
       "source_task_id": "6886306b5ed4da6b2c381182",
-      "tree_sha256": "cc24e033ebef3f34e1854089d318a830b5b2057320fda266ce747e4336b23daf",
+      "tree_sha256": "6341a21f92efd09e73ecb3e73609e95dbdbbdd63e8869b0693116389888f5083",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c381189": {
       "source_task_id": "6886306b5ed4da6b2c381189",
-      "tree_sha256": "b2b96423134f30fa4f7e96486c73417f4a7212172469c86a3fb44ea131a2bb07",
+      "tree_sha256": "b9876d74588dfcbfd9f8a8b9d7ac46a1de19b5ea28f417bf770cc2013c509c36",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c38118b": {
       "source_task_id": "6886306b5ed4da6b2c38118b",
-      "tree_sha256": "e7cd2e795c466a7b9bb61727ac9ab92c0e42609ebf9ac9ee02afa0d7a4cabc0c",
+      "tree_sha256": "ef087711aefdd628cf52a160ef9b1864e2bfa997cd74204eb3861250bbc8505c",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c381199": {
       "source_task_id": "6886306b5ed4da6b2c381199",
-      "tree_sha256": "e9bb897728aaa5f55d339f7f9640b625871c5e1cbfd2382aa27f4c0ccfb31dfe",
+      "tree_sha256": "eee2812030ddb2c77eb04fdefdfb79d7aee40c7ab42c6d38fa5b9be94dfe4b43",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c3811a0": {
       "source_task_id": "6886306b5ed4da6b2c3811a0",
-      "tree_sha256": "09ba73742cce1c286076cb4b8fd8cc797b39cbd8bec0a9740a19c0f169f22087",
+      "tree_sha256": "b00d396b11ddc6c6eae9bff6ea2ad8a16b8e811af1994a79276a03a9637a5df7",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6886306b5ed4da6b2c3811aa": {
       "source_task_id": "6886306b5ed4da6b2c3811aa",
-      "tree_sha256": "cf823c65901fd321746c2b548364172aa9af2331ea839b5939853e7aa40390fa",
+      "tree_sha256": "14c390215cb313df5e3de52ee57dbc32e884406b13d46081e0488e9d0869d2a2",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688706e2ca6b3308497106ec": {
       "source_task_id": "688706e2ca6b3308497106ec",
-      "tree_sha256": "a3a9cd59bc5b6760e07e38cf62c42be24aae58c160aaa4fa215968f35288205a",
+      "tree_sha256": "37512fd1a3f22fd0729c28b9b1f20f1ddb54f86cf9af7c8abac1a3925c0bb4e6",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__688706e2ca6b3308497106fc": {
       "source_task_id": "688706e2ca6b3308497106fc",
-      "tree_sha256": "511220ca3b06095c1fc14188b0a35a52b4be14cdbacde2c62b61b3ec5dd3a0a4",
+      "tree_sha256": "8ba6c8130aab7fea8369307b76051b4a7186ca2a54eda82076534085f1101adc",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688706e2ca6b330849710721": {
       "source_task_id": "688706e2ca6b330849710721",
-      "tree_sha256": "1335756d7197952ced2cedd5988a47f150ee8a659a4126c98e13432bd86ae001",
+      "tree_sha256": "937af8e94083ed739dab3f484d930c16d2c1753b356e9b84ce7c065151ac7a41",
       "claim_count": 2,
       "credential_free": true
     },
     "mcp-atlas__6887c6d4614f06dc73af240c": {
       "source_task_id": "6887c6d4614f06dc73af240c",
-      "tree_sha256": "b5c571b46a048ae19d37edab58fe6f921335ae5c1a58defd3c1ea19e25021b2e",
+      "tree_sha256": "27a24e28cf6aac4c9cc5b08731f900e583ded45550cfedb77083f6a5b11bd90d",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6887c6d4614f06dc73af240d": {
       "source_task_id": "6887c6d4614f06dc73af240d",
-      "tree_sha256": "95da378abd526c08ba1221f2f0ab92818f7c583b19bd85f169a7702c63fd5a2b",
+      "tree_sha256": "9a06a0990976b9caa0cf9abea46da48aa34bc46a7e155d32e552d612363e4bb4",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6887c6d4614f06dc73af2411": {
       "source_task_id": "6887c6d4614f06dc73af2411",
-      "tree_sha256": "bf08a03637bfc039a5287058ab7bb46791896b004d5012749a5e69754fce7643",
+      "tree_sha256": "a8c7397e1a574b4428ab399658a5c575f27f11bd21c813cbf6e11d7374002ea2",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6887c6d4614f06dc73af243e": {
       "source_task_id": "6887c6d4614f06dc73af243e",
-      "tree_sha256": "92d5afa769010e52a7986f38f09d49c442b751d6fb2feb6c8b544de3347efa4c",
+      "tree_sha256": "db9c900e468dbedeebc1c2523971190a3792f7d45927118d9a69bef2e37e52f6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6887c6d4614f06dc73af245f": {
       "source_task_id": "6887c6d4614f06dc73af245f",
-      "tree_sha256": "096bd2aebb6cd6d1ef2fafd40e77d4d950e80b5bdfac6573933091c660bf3950",
+      "tree_sha256": "2580c1e4aa63e597bf5f7115ef7d124f751585c759115d4c460b34a3ff7ca9c6",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda3b": {
       "source_task_id": "6888e207a34beb25cfedda3b",
-      "tree_sha256": "2588157f4421c4d0cfbf83cc3deb370aa516a54f2d22a8b16f013c361bec3eef",
+      "tree_sha256": "faa94ce5977bb88ddf00be3b5db1d63653328a9317ea6b7cd98cd0b60e66f2c7",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda46": {
       "source_task_id": "6888e207a34beb25cfedda46",
-      "tree_sha256": "445375b6f0b70101d5af52f7bad81ffca4f4a2c21d2418b60a3bf1cba071a73e",
+      "tree_sha256": "774488b4ec19125f5453a932f8e5b95c32f24282101f31ce83af9968b4f6db44",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda6a": {
       "source_task_id": "6888e207a34beb25cfedda6a",
-      "tree_sha256": "8c0bffc0e38617f88a0e16d3dac4b23d5b87369ce2928a906db298d4a8f5fcbc",
+      "tree_sha256": "49541022adbd7c578f73a6aa56e2d979b5d9bb690ef6bc89b42807a0b77c0c69",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda70": {
       "source_task_id": "6888e207a34beb25cfedda70",
-      "tree_sha256": "48c6300176c0c09bdb9bc54e1cf14b6f9b00078ad5aa54b2afd3f618654d7963",
+      "tree_sha256": "eb31637560d4a4ded7b28395c40394e6b9128a3346c0202c101d8f7c8660cd93",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda86": {
       "source_task_id": "6888e207a34beb25cfedda86",
-      "tree_sha256": "5cb04d1bfcb44ecffae6bc23e27e2165bed4fb2cbb93a43d22f28c07919d5461",
+      "tree_sha256": "a477eeee9dcc2607c6263cf7a0345772f579859f53d2655510d3e226ae281aed",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda89": {
       "source_task_id": "6888e207a34beb25cfedda89",
-      "tree_sha256": "833d3dd319a56a7cdc87b6e3eba225d564880f47fb25fa11fad8b95a4c8b27d8",
+      "tree_sha256": "bb45e96a0e3254727b5b70329adaf3ef324a5a36d9f235f3f11fbed3daa18776",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda8b": {
       "source_task_id": "6888e207a34beb25cfedda8b",
-      "tree_sha256": "0b08ca50af3f6619b8eca8d90cfe295d69210f3aaa810673841e311e908e5606",
+      "tree_sha256": "f7e216a9d2169e082dc1a484a0b1b11fbe3bd5b9d967ca44ef16c1d7045061bb",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6888e207a34beb25cfedda95": {
       "source_task_id": "6888e207a34beb25cfedda95",
-      "tree_sha256": "8df00ccae5c8e77806fa2942c529af768d04a43894203e6bd6d9654d913ed34f",
+      "tree_sha256": "257c91dc47225e0132371f8ec59bfad57b210518d62af90b4d5f6f83361c646c",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__688a441c1a0d2e5c93853e4f": {
       "source_task_id": "688a441c1a0d2e5c93853e4f",
-      "tree_sha256": "44eddba19643cb7c5f24226df2cdf365f13d7adc683f02d1b75fa3e35b81efa3",
+      "tree_sha256": "8b801a7399d5fd3d124171c6f3a57a675e3c4779b69bfa8164c71f842aa7af67",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__688a441c1a0d2e5c93853e5a": {
       "source_task_id": "688a441c1a0d2e5c93853e5a",
-      "tree_sha256": "e75abecd146132186586db6ef9baf15919400dd3673917bb00f281d097686924",
+      "tree_sha256": "0476ccb5e66fc657b3c8c0e8c89c5ec54333e4f2795e2d2e530ce6afdd4a4b22",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688a441c1a0d2e5c93853e76": {
       "source_task_id": "688a441c1a0d2e5c93853e76",
-      "tree_sha256": "92ca6cfd812eaea584ed8cd81bf72142d40428b5936f5b6f227b74f787301efc",
+      "tree_sha256": "63e154c044c2bd17fbe9694ae44c23f2fd5559e1bbee801c515942d5cc0ce8f7",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688a441c1a0d2e5c93853e93": {
       "source_task_id": "688a441c1a0d2e5c93853e93",
-      "tree_sha256": "1ef90cc80a821e4c40b9990799ab919bc7ee93b720f8b1b5af319b3aafc63f55",
+      "tree_sha256": "d6bbca94b692b977a6c641fc9099ae90aa649a247ae967deb456f23fd231fde2",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688a441c1a0d2e5c93853e99": {
       "source_task_id": "688a441c1a0d2e5c93853e99",
-      "tree_sha256": "4610876a232203297dafa6a30b560386cd0f2f04c5f935d4aa5b9ee3b8fb5961",
+      "tree_sha256": "96407bf61e86e1d27b911918d534c3fdd4f818e14ea43f77e8dccf12ef63e939",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93e87": {
       "source_task_id": "688ba1b3e95696e72dd93e87",
-      "tree_sha256": "ec9abfcfb096de97cf9f965b6769a7f94721cd72abe0be5e1d6f05f6e0a6d628",
+      "tree_sha256": "19f78712e77b94a07df5b5cf6cac434d968bad9742057b3a0094e72a9f08d3bf",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93e8a": {
       "source_task_id": "688ba1b3e95696e72dd93e8a",
-      "tree_sha256": "022a47d24ab8ff42111cf62bea3e490dbbd3de6c54b9feea938fb8a8815e6b01",
+      "tree_sha256": "7dee4abb2cc10c9be3be7a8175639b847e7bb7e1caf2d33f9c0c32c13e8d3157",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__688ba1b3e95696e72dd93e8d": {
       "source_task_id": "688ba1b3e95696e72dd93e8d",
-      "tree_sha256": "b1cafce960e1ce82822370e48971c2412e697dd6d00c246d085365fbdc134585",
+      "tree_sha256": "20b8c6c75e36de46f1fda93000e91cc7bf4d620c9eef30bcf598bdb13848df17",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93e8e": {
       "source_task_id": "688ba1b3e95696e72dd93e8e",
-      "tree_sha256": "0119f2033af0035047a366ffe08821ef9dc893452afe82b5bc3a9746f0f3b97a",
+      "tree_sha256": "adf27394e98aea8ae95875c87af0fb6948fedc213c8dff116565bfda068ae561",
       "claim_count": 2,
       "credential_free": true
     },
     "mcp-atlas__688ba1b3e95696e72dd93e92": {
       "source_task_id": "688ba1b3e95696e72dd93e92",
-      "tree_sha256": "cc4e5c845292b2e5d58fe2a3fba205f986be713d8d89cdbb9a4129d97a4a8dd2",
+      "tree_sha256": "74f1d6d2bde8a2b4d81ef6660216ac2b646097f21b6c57fcf022fe841ffebfa6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93e9c": {
       "source_task_id": "688ba1b3e95696e72dd93e9c",
-      "tree_sha256": "a2ab4c627276dc0c033f3ac447afe5bb14de8966a07a9dc8c280cafcf33ffa6f",
+      "tree_sha256": "e7a6e6ec75126e641acb64399b62ee0af7fedafa3ee0e5a130ff9b093f992c1f",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93e9f": {
       "source_task_id": "688ba1b3e95696e72dd93e9f",
-      "tree_sha256": "9eaf10314a514f47043e34ed11f7b9e0c05bfa4829b8818cafa6be2e0b7420ce",
+      "tree_sha256": "55242e7c7be6639d42c3c54cd725bf61e95ee538a5ab7825ebb40cd03d8f7f93",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93ea2": {
       "source_task_id": "688ba1b3e95696e72dd93ea2",
-      "tree_sha256": "a11406b0bf7b9087b35b45be4b18ebbd34b981b47ed03a2b884e3d78046e7dcb",
+      "tree_sha256": "c0a66975edf726703037200ecce34b31c9d2f0b35a5db8d840d4faccd6b601d7",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93eaf": {
       "source_task_id": "688ba1b3e95696e72dd93eaf",
-      "tree_sha256": "6fd586366099f67f6a160aa7c73b0b8072c8739ca99b60a602f282e2d58844f4",
+      "tree_sha256": "13b11bb8b917edc2218ea8ff95bae3346954188eea14a84495b79bc540977bb7",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__688ba1b3e95696e72dd93ebb": {
       "source_task_id": "688ba1b3e95696e72dd93ebb",
-      "tree_sha256": "4c7593687396d2cbafd884f23628da16189e62bf78c74fd1e138cdf6cd9175f3",
+      "tree_sha256": "4d5beccdf89894042a9926790181017d42cda11d278cc95e19d37aa8533ad40d",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93ecb": {
       "source_task_id": "688ba1b3e95696e72dd93ecb",
-      "tree_sha256": "a5fa0e63bc61019b42434cbbabfd9736ef7ef0c88def357388ac91aa825c81be",
+      "tree_sha256": "56a37ba473d282c72a2e3a7dee0c89ad94bcf6a6ead9fa850fe596031f1db207",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93ed3": {
       "source_task_id": "688ba1b3e95696e72dd93ed3",
-      "tree_sha256": "aaacdf12ba3be3a43881d7190c1d9f0701e769a8037c42132f848d90ae76c6d1",
+      "tree_sha256": "a4a73e01a02d2a227c1f5c89b136f95b6a438647c6f0416b5b5693adc8ea7008",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93ed9": {
       "source_task_id": "688ba1b3e95696e72dd93ed9",
-      "tree_sha256": "e4b4e797ab69620f14b982a983b687f712f4151949c036bf1dca5e23cf56fed0",
+      "tree_sha256": "6bab9ce4f8b848ca4f56732dc563a00686000d69048349708260867b41b783bf",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__688ba1b3e95696e72dd93ee0": {
       "source_task_id": "688ba1b3e95696e72dd93ee0",
-      "tree_sha256": "6696901ac4570a6eb3890b6e13a1df481811e9d183f028b4cb084016bc5cd6bb",
+      "tree_sha256": "8497cfdb8854f97bd6d1af8fffd2eb7f6f8e5b7cb53f5838955a4e6387406321",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd0d": {
       "source_task_id": "688fb11183792b921381bd0d",
-      "tree_sha256": "305cc1f5c77deaf1af74bb12ca6ea4c0cdf66e7e24b3f3eb79605e60c3c62c8d",
+      "tree_sha256": "048284be445161cb0c05e5e2542cdf35a013202fcdd1361bcbd5980a4457a74e",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd10": {
       "source_task_id": "688fb11183792b921381bd10",
-      "tree_sha256": "72c4dd26789fcb0b518a1ea58ec53eaa14d42351b7647cf93eaaf0cc3a9e3111",
+      "tree_sha256": "b5a70b84e59d7bd7a3e1aca9d567c0827e6e280760c8a510f43d7d53ae228c76",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd14": {
       "source_task_id": "688fb11183792b921381bd14",
-      "tree_sha256": "5d2ccdb9a29291c7a480f087b69d7249237c5663cae1c6c9b8a3c6bdfce9f743",
+      "tree_sha256": "96452b8373fa2ba17dcefe011fa3ccc54f737c01cc521ca9005b7c3c38fa8cfb",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__688fb11183792b921381bd1e": {
       "source_task_id": "688fb11183792b921381bd1e",
-      "tree_sha256": "410a6e14b8ea972824dbcd081001243011f8f88c2dfad7a8c67daa93c9cf8df3",
+      "tree_sha256": "452844a2987cc40f09745c4a906eefffbd0e6258a27ad5cb26eba4a35ad99578",
       "claim_count": 14,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd21": {
       "source_task_id": "688fb11183792b921381bd21",
-      "tree_sha256": "78fb25840f675cc4de965ad662eeb53a4dce2277fa6446125ce7d29065578519",
+      "tree_sha256": "cfdf47f20db385d7abd532af51e1b4b3f89628d5f59878410d9f4b3f2ff7cc78",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd25": {
       "source_task_id": "688fb11183792b921381bd25",
-      "tree_sha256": "2d382c48eb5d7641c7217f9929a826b847f215a2aee20fc7e9b2c9f5c42d182a",
+      "tree_sha256": "8e73c94c9673e5ed2832e1bda507673f9eb67c5fea276e643ce61be38b327b8a",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd27": {
       "source_task_id": "688fb11183792b921381bd27",
-      "tree_sha256": "73c9b1162a9bbbaaec53f1730c25028813a1901d6f4bd25c7366863672424c43",
+      "tree_sha256": "ec4ae7e5c26206c8e4a37092d948d0e5a683b11a411b1d961472724593da1ae1",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd36": {
       "source_task_id": "688fb11183792b921381bd36",
-      "tree_sha256": "f789e0ea447fc376d79ac3b19498abb88d7b1f2b69150894f21ad032e7db41dd",
+      "tree_sha256": "2391fdda38564fd02b63006a4b20ca326329a98e6febe6dedacb89de002f7b41",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd38": {
       "source_task_id": "688fb11183792b921381bd38",
-      "tree_sha256": "e4ca0b5d49e44c644ef972f82fd12a77182c7dc38333d38ebec4c0398ebd5ace",
+      "tree_sha256": "c09a78451d800053e9dcad92719ed5ecfd57dbe4251e645563b301c74d48077a",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd44": {
       "source_task_id": "688fb11183792b921381bd44",
-      "tree_sha256": "c4e64615aed66e4fc62d7ee3850d0557498156be827ff6420de340a736d025a7",
+      "tree_sha256": "51a2f76ef9a05186e7b184a1b917248dba72c5bb6fa8052efba0818a5c1426b1",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd52": {
       "source_task_id": "688fb11183792b921381bd52",
-      "tree_sha256": "15892f13c0b78233cb4b4a7b83f6498f5b8badc21d109300ae5478d8c46f369e",
+      "tree_sha256": "38c71899f0cfbba827db0a12a56b71111164192e579b88fb39e3ffc3ede2a439",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd55": {
       "source_task_id": "688fb11183792b921381bd55",
-      "tree_sha256": "6de2f68a9f2cd12edd9138189ff63ee99546223cfa59a71a58b9829d3258bd5e",
+      "tree_sha256": "4503cecb3e7dfde1979f566a259072b391afc0d6de382097b55b6e9ac996258a",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd59": {
       "source_task_id": "688fb11183792b921381bd59",
-      "tree_sha256": "572d6922deeaec96495aadc3f5029e5ff17818eb8cd6d0ba6adcab86f105b0f2",
+      "tree_sha256": "e733a3578e1802e887b7019e7d4efb22a7b875a04e1829499885cf3159bad584",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__688fb11183792b921381bd66": {
       "source_task_id": "688fb11183792b921381bd66",
-      "tree_sha256": "be53fe9b6a815a57c17d9260ae65bea84d307856a720b0ccef2e46827fab17e7",
+      "tree_sha256": "529c3ba051fb632bd76c8bca129f3413991446b3902eba6223c758c9025f8d26",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e27": {
       "source_task_id": "6890e7fd2516f66b0a628e27",
-      "tree_sha256": "a2d0b4cf349b603d33ddc6856c5ab6a7ab71ffa4be3785df67416a031b697b30",
+      "tree_sha256": "0d345b1f8a05cbfae86886197c31e6768591a22709428fe8d6e12f5e86f9fd3a",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e30": {
       "source_task_id": "6890e7fd2516f66b0a628e30",
-      "tree_sha256": "68bff2ec9b9cc2c1179634816ca688e72777991a9c7bea7fd2c938a4be1afe9d",
+      "tree_sha256": "d665b36593f4809cce2bddb3fd3c6268de4c13fdb3663a2da968ebe2949d2394",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e32": {
       "source_task_id": "6890e7fd2516f66b0a628e32",
-      "tree_sha256": "9fc07cc7f5376157e17d62a60e50f482449b4e2d66ae8db24f5f3a1b90c1c8d9",
+      "tree_sha256": "68de335502cfc5df854c75514c952d436b819ad8c32c053aefdcd48be96e3566",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e35": {
       "source_task_id": "6890e7fd2516f66b0a628e35",
-      "tree_sha256": "1c6768093309c1d96af662e85aca636948672e21d4928845d0721f9657624169",
+      "tree_sha256": "3cfe90b99b9a2d643ba4ad985f1838bad891661f92ef1bc1f6496a43c0ba59a8",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e3a": {
       "source_task_id": "6890e7fd2516f66b0a628e3a",
-      "tree_sha256": "13fa7108c3caadc8361dd7174d33e21267cd497fd4e6492ef2cc0b1e1b593182",
+      "tree_sha256": "f46d1bb9ab121ab62f7210a8edb6b372d206598d7e6683e89cbbed04bf6e4842",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e3e": {
       "source_task_id": "6890e7fd2516f66b0a628e3e",
-      "tree_sha256": "118c38b9094b286f29c4f9cc8b7b3124ecee9c26ef1524ad052d293d3de445d3",
+      "tree_sha256": "2217b8b60eab04d9317ad6e0447c227a85c04c3183d428900e81301e45c5db6f",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e40": {
       "source_task_id": "6890e7fd2516f66b0a628e40",
-      "tree_sha256": "0ee5d26870cca8e68ea05982b600c73a2d7bf12985ba27d1f1d90e52d63d5224",
+      "tree_sha256": "6d64e77d6c91149dbcab42d58cd278605db998434adc3a2b62d4ed98250c65c1",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e5d": {
       "source_task_id": "6890e7fd2516f66b0a628e5d",
-      "tree_sha256": "6107aab56719f586b7494f9617cb5c2456612011833faffbdd1f2b53216c1634",
+      "tree_sha256": "04de3ee6b340f7cd7528f0b9163bd556f9d3a8638e1e4abb969f6fe494c200ac",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e5f": {
       "source_task_id": "6890e7fd2516f66b0a628e5f",
-      "tree_sha256": "3c53c9aa17d30e65ca9fcaf2a8d0ba526f81b04d49361d4296a17b7f869bb9b1",
+      "tree_sha256": "a772b3cd94dd130aa948a2902184c79092381ec070165e4800edc33cf77351c9",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e68": {
       "source_task_id": "6890e7fd2516f66b0a628e68",
-      "tree_sha256": "d24e29a300b9f010cfd043cf8ecd92ce2416ad60aa7d18599bd97805aaeea75c",
+      "tree_sha256": "87c131695c3f4c7cb49220f830a12814a52374ea89d40269cad40605cbec2c1a",
       "claim_count": 9,
       "credential_free": true
     },
     "mcp-atlas__6890e7fd2516f66b0a628e6f": {
       "source_task_id": "6890e7fd2516f66b0a628e6f",
-      "tree_sha256": "73d79b636c25c6c2ff0462422ed9b9b8354e1d5d87995e5272b1f4dad83b33f0",
+      "tree_sha256": "a9b6ab9a5acdb3740eb59bcbcaff1c29e0c72d84f1f57ed9deff5cf1b9841198",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e7c": {
       "source_task_id": "6890e7fd2516f66b0a628e7c",
-      "tree_sha256": "6c1eb0badb9fafcd4adf8c6a2a16985c55dae02118dada9a07fb2b79b03b30e6",
+      "tree_sha256": "d0cf057b9dc3951280f9216d01e708c3c5445e641f47123625588bd29277cf13",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e7e": {
       "source_task_id": "6890e7fd2516f66b0a628e7e",
-      "tree_sha256": "0044e800b0c469285fb22cb756daac81707577ff66b12548984348bed2aebbbd",
+      "tree_sha256": "bfd40764e4780df5b4f4f5561799892aa69528769b9f131be4f0f4ba46ec0f40",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e82": {
       "source_task_id": "6890e7fd2516f66b0a628e82",
-      "tree_sha256": "841df0467936d66155f69318e3946ea21d88f34128fa98b09a502df1f098ea91",
+      "tree_sha256": "362bbfac64fc4db4d9b1469b06babc28347d376794966ccdc6dce341171ed4fa",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6890e7fd2516f66b0a628e88": {
       "source_task_id": "6890e7fd2516f66b0a628e88",
-      "tree_sha256": "cb429b0b817c7b1479d741be38cf5c9778bfa74d2bc969dfe56ccf639b8214b7",
+      "tree_sha256": "51a7d30dd86bcabcdbce228a0facb13fb0a349d2575f04c6fc8418fed7b411ab",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e70": {
       "source_task_id": "68925f01db31fe35560e3e70",
-      "tree_sha256": "b509a0e09829a6a4eb2fa60ac67aec28a085bdc2042b525095d3ca70677599cd",
+      "tree_sha256": "1a03925bfe836fafd493b70f1d98f0fd6c591ab27293b38518fb84569a47bd42",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e77": {
       "source_task_id": "68925f01db31fe35560e3e77",
-      "tree_sha256": "85473c8d999673ef2659b6fcb8a5e0ceae9c9a552f9524b59fd15fe5be0a9bd7",
+      "tree_sha256": "ede356c0077eb5595fa0f568c38c54d679da806395b66f3d6fbbbe56fbab9af7",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e78": {
       "source_task_id": "68925f01db31fe35560e3e78",
-      "tree_sha256": "d7e27758c2bf1778d664491e5ae5e36bcb16433ed1c6961123a6bb3f5b4a9d27",
+      "tree_sha256": "defce20ef2766fa7a6c59736546cf49ddfaf807b6b7bd7cc529ccbc0fd89faeb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e85": {
       "source_task_id": "68925f01db31fe35560e3e85",
-      "tree_sha256": "4966706434709dd91ffaf56f4618c70c0885c9827e824aa4dfb2875d8f09c9d8",
+      "tree_sha256": "6edefe500eb67cb8337e031ee06a06065d54aee6436f81e412d32dac9f9c6518",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e87": {
       "source_task_id": "68925f01db31fe35560e3e87",
-      "tree_sha256": "badcba17e834aa9299edc794c3fde1542ea6050f125e5bf912389611a0fb60d4",
+      "tree_sha256": "ab3a9ea21b57574afb697d55266e33229f06125d18348562db86f2606a8dbe43",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e8a": {
       "source_task_id": "68925f01db31fe35560e3e8a",
-      "tree_sha256": "6474e62a0e05e9600b19c1d91c20dec7d7484848e2e3b8069cc38a25190555d8",
+      "tree_sha256": "c1bacfeff51c54317f4c32adb0952dddb1d9da85829561317aa254332ddb3090",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e8c": {
       "source_task_id": "68925f01db31fe35560e3e8c",
-      "tree_sha256": "6c6a223788ad6379aefaf7e4f03193c0b979c846d749ef6843ee3f107a9edd16",
+      "tree_sha256": "acb21fcb9df8e467b95863aaa99b7c2b6c449f1be63c26c68900b0877b10ea14",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e92": {
       "source_task_id": "68925f01db31fe35560e3e92",
-      "tree_sha256": "b1e1dfb9f8ad8637991ae61dd715996fdb5b29d54a8d7a80ab8c104300fd89ea",
+      "tree_sha256": "3e2241e832144d4c1550fa686e7827266051826c322401eac22d7686251850fb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e97": {
       "source_task_id": "68925f01db31fe35560e3e97",
-      "tree_sha256": "bf8b5de2347f8f55465e216e74d9d25466a544572397994830a5f697eeb25e36",
+      "tree_sha256": "d8b56574630c509215050d98bcc6cbe0b2c62f33e040a1966268effc569fd255",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e9d": {
       "source_task_id": "68925f01db31fe35560e3e9d",
-      "tree_sha256": "a378e2229b7f456cbc0a67812ea8b203ec93187574218195db3ed16fdf6cf6d6",
+      "tree_sha256": "5af0010d0fc3bf04b8026d52e7cd54395760c4294a50d63587d0b9324fdcd090",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3e9f": {
       "source_task_id": "68925f01db31fe35560e3e9f",
-      "tree_sha256": "e47a4aae761ee19e44d62d44b1e184c8b58183424a85842e1e3b7e60f1369fd4",
+      "tree_sha256": "e58c1d897f8f06f43c0ca36da1e3b83f1c40f528260c398091a1f25dd80db8ef",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ea2": {
       "source_task_id": "68925f01db31fe35560e3ea2",
-      "tree_sha256": "1e997cd82e2c359157e5365cae427df5264de97931d39ee9390474381a28e527",
+      "tree_sha256": "6ef37c1f29e765929ef0d55f5de130d64803a4ca80280c192aa5d235c96708e9",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ea8": {
       "source_task_id": "68925f01db31fe35560e3ea8",
-      "tree_sha256": "66e6551f454c7ca579f226a921e3c3e52b860b8363696094fedd0c589a697db4",
+      "tree_sha256": "27925d33430e36c9a2221d0316792d320ca45693f29db659894d4ed064423476",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3eaf": {
       "source_task_id": "68925f01db31fe35560e3eaf",
-      "tree_sha256": "128e5a9fdf39f903556161450adf2129ff7ed83d93b9271afb198a19bedb8bd2",
+      "tree_sha256": "93ffe3580576538e1f9a780d9689b807209189a3fd77968751417b939fb3d6c6",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3eb1": {
       "source_task_id": "68925f01db31fe35560e3eb1",
-      "tree_sha256": "ecdb0a7f666299f9d6c99208a202df28285003559543fbb2cba9f62b029d6fc8",
+      "tree_sha256": "925c65292e28cac5a7e6824f32e9bf505019db13918396edd9f8332623e26202",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3eb5": {
       "source_task_id": "68925f01db31fe35560e3eb5",
-      "tree_sha256": "40a9dc92ebdfce7bdc6f010f20b56e9abc6d00c5b572f29ac86713312b4ac045",
+      "tree_sha256": "2730d2fd134861d7c9268c5c46761658ba7223ebec1c7ab0be118a4dcb79f25c",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3eb8": {
       "source_task_id": "68925f01db31fe35560e3eb8",
-      "tree_sha256": "9b2bc3b2b66db69b963f8673b9529f491e0ddab6ee08ed6e6a703ee6f327a546",
+      "tree_sha256": "dab5270e812708fbb10285de86027d44ae22d0d4dd72b5b561bc360cf9b73c84",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ebb": {
       "source_task_id": "68925f01db31fe35560e3ebb",
-      "tree_sha256": "b0c72f56cf6fc00b1b74bccb0bea2c3ab51331ae4bd20e06b4950fc963b790b0",
+      "tree_sha256": "4cb263f778d64e45d195b5e95b3d6fee0b4dbb7e41a12281f6fd7692f274b14f",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ebf": {
       "source_task_id": "68925f01db31fe35560e3ebf",
-      "tree_sha256": "7bb7d10ca2132a3dd4ff0ebff0f84d29821f8389955f76bb22fef45b195f0484",
+      "tree_sha256": "dedc5114185394226aaca2e7d2098cf5ecc79824a818af33988364eda5a3e2ae",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ec1": {
       "source_task_id": "68925f01db31fe35560e3ec1",
-      "tree_sha256": "d723d28268772996d5e1fd83729b5ffb9c2ae3c57e6a9250f417863efa6c9abb",
+      "tree_sha256": "3d3a36963f50763607f4e400c7cd914ea2d24de25ab2b7ef833e38b6e83a00fa",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ec2": {
       "source_task_id": "68925f01db31fe35560e3ec2",
-      "tree_sha256": "299b1fb073e978ebc38bc281cfe01674044f5c8f69dbcbaf87104168f3d383c0",
+      "tree_sha256": "15d7c8e1a47d19359aefcddb2657d1b96b36c1f686d73f2ad864436497d0ba0f",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ec5": {
       "source_task_id": "68925f01db31fe35560e3ec5",
-      "tree_sha256": "862b21ddac4fe3ca45366ddca9550b0f43b7271a7bf67d26617f4175221d08be",
+      "tree_sha256": "faa407e27f80ea34c709b264752f699fadd4ca27ab7b3fe9c89c0f1ebffb8a65",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68925f01db31fe35560e3ecc": {
       "source_task_id": "68925f01db31fe35560e3ecc",
-      "tree_sha256": "fe4adfc780c3547ba8cd6d3cc04ff7094821908e3b45824030470b2a9210c4bd",
+      "tree_sha256": "76fe433a00a4c9b95a446a8576610fff0845729dae2dbf802b104850e0767acc",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b478": {
       "source_task_id": "68940d8355faa0b720f0b478",
-      "tree_sha256": "7ec0b739bf77444e56a8266fc76c80bbbf37f6586276ff08c32b50dc123d3cf6",
+      "tree_sha256": "93f993e9db7145d0f679d34d10f26bc892095eebe0bab8d8c67edcdccb104429",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b481": {
       "source_task_id": "68940d8355faa0b720f0b481",
-      "tree_sha256": "ac45abd373aa3fe2abf37cd011f16d29cef858a60770b1f8b9e726e526522412",
+      "tree_sha256": "19222902cef3ccc95a2bab74785110ab3abad2a18c2fde02e08e6a73bbe983f6",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b482": {
       "source_task_id": "68940d8355faa0b720f0b482",
-      "tree_sha256": "d9e70aa78e6b0ce404fe07bfe691bfa16c1412a8de5676fc381a95d5e7789326",
+      "tree_sha256": "49167e4e7d82ef78ab172bc459cd3a538b830d7b1ce46801702bfe9083e1108b",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b485": {
       "source_task_id": "68940d8355faa0b720f0b485",
-      "tree_sha256": "1cb732898e47b3c92d68fdc5913177ce05277d1fbae4cfdce4160d248c66e7f2",
+      "tree_sha256": "ff9ae06c981f20fe5605656e3d27f56476083bcebee24a035e09f9089f80c524",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b499": {
       "source_task_id": "68940d8355faa0b720f0b499",
-      "tree_sha256": "4a13cf4bae18fab46256b731208770b9eebd8dfbf16ed200e829e8af854dbf13",
+      "tree_sha256": "577480d7a7e5c536b801fb63bb18a25bc05b40a93be209f614dc0c524a9e9361",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4a9": {
       "source_task_id": "68940d8355faa0b720f0b4a9",
-      "tree_sha256": "c5d77850fb30f8baba0b039e03ed688dcced13f82c62f12c2f9f0b923f03495d",
+      "tree_sha256": "74ba1d7a703231ee7f46ad7b124fb76eac070f2f32f89bce0441bce821033392",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4aa": {
       "source_task_id": "68940d8355faa0b720f0b4aa",
-      "tree_sha256": "281c6f62ae1f7ec1c2708389c31d93d7f2def705a828c8a290c94bb58d3df6da",
+      "tree_sha256": "47e4dae3d6e91b483d6a97e8e45d5eab3732ed892eb80cd6b36e33ac5e48812c",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4b2": {
       "source_task_id": "68940d8355faa0b720f0b4b2",
-      "tree_sha256": "4a663d37aeace6867dd3bdd3698776b0bfcb70159b380ecb148524cc214758b1",
+      "tree_sha256": "6f1e4fc51517d50532b1cf35542eaca0b9125247a12f842d1c0ecee13e5d7c76",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4b4": {
       "source_task_id": "68940d8355faa0b720f0b4b4",
-      "tree_sha256": "238d51ebc4eebf0d9687ac5322bd3d959094615639faa6adaafb97df576ebb61",
+      "tree_sha256": "ce2e4dc9180c42dfb9e104187d451b170fd579dd3fa0cd3707ef0ca127f8deb1",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4b7": {
       "source_task_id": "68940d8355faa0b720f0b4b7",
-      "tree_sha256": "fa664dc28fe089d2151a5f8c0e2429b814158963ead6628492d5c78829494ab9",
+      "tree_sha256": "034489ce5f38acd5dcf9091f13f91aac253b3a81515e8e5e89820cbb9482fe05",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4ba": {
       "source_task_id": "68940d8355faa0b720f0b4ba",
-      "tree_sha256": "be9bddf3f7d921b5f69f9c94a8f170878351b4c43de45edb4673f2a99fd357f0",
+      "tree_sha256": "e5015315c2cfe8079c34b3a0f4d11df675274927d0cc423dcc855c3f88d91d77",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4bb": {
       "source_task_id": "68940d8355faa0b720f0b4bb",
-      "tree_sha256": "9bbd1d748415aefa11a42159970311a1799dc96ef8b6987082998cea6d6aa31b",
+      "tree_sha256": "6077c1db175b43cacf53351601ed6f2b6c7ed67bc071eaccb760b4c90b9aceb8",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68940d8355faa0b720f0b4c2": {
       "source_task_id": "68940d8355faa0b720f0b4c2",
-      "tree_sha256": "5da273857f674e40c2ddd8dd0a409fee8761bb2ac4e32838bfdfc055a22c6d6e",
+      "tree_sha256": "02db3010bc8a09ac9be9a896e1cdd829da96574a37c82f110c305b0fa29a6f69",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db36": {
       "source_task_id": "68952adeba1c2ad4e6a5db36",
-      "tree_sha256": "8ea5ff6a2e69c00efee3e1d78a3e09a0519bdb250803e93d7c789fa021696a0d",
+      "tree_sha256": "a0589813d1daed3e1f41dba6880c8475baf21bee59f86c22b53c600c1b19b64c",
       "claim_count": 12,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db37": {
       "source_task_id": "68952adeba1c2ad4e6a5db37",
-      "tree_sha256": "0035054d468175502610c5a48b9f288de265e9fb86cf59d77d4568908e11f225",
+      "tree_sha256": "724e6ceee40b78098cab2c50f22920741ff834b8b2dcf11683b169a819a3366f",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db3a": {
       "source_task_id": "68952adeba1c2ad4e6a5db3a",
-      "tree_sha256": "86d6cdbc932d858fb2a94f4cbe263c35ad740a201abd47c6d343ed4de973bd85",
+      "tree_sha256": "33f810dc2fec5d4efa400b0d717536a92ece3d8c0bd61faa7ee7af2664c22df2",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db40": {
       "source_task_id": "68952adeba1c2ad4e6a5db40",
-      "tree_sha256": "0832c038a75d1313258a7fb7cd54ff7dee633cd1ffdd33f54533bb36f93e97b3",
+      "tree_sha256": "5898d182c7c4e0c24142faf2f3fbb8159d04cef2116ee5aab4dc9d1031a59ac8",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db51": {
       "source_task_id": "68952adeba1c2ad4e6a5db51",
-      "tree_sha256": "bccd58bee77ba53f829847b39e9367d363b47938ace3ffc8a10e9e365f04af09",
+      "tree_sha256": "7dbae39b520fc8be41c3d3ffaf4bb6e9952b915d98c9e658cb2781dc1ef1c6d4",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db5b": {
       "source_task_id": "68952adeba1c2ad4e6a5db5b",
-      "tree_sha256": "8a532eeec9201147a1237d9d81efdde67db109a5653083d4165992c73eecb865",
+      "tree_sha256": "b34c6480bd0058b8074e86c3e776f5325e45ed81254c3a1dead41ad6581d5b27",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db6e": {
       "source_task_id": "68952adeba1c2ad4e6a5db6e",
-      "tree_sha256": "a1cd54d167458855791a2872d47f08134e5cb54d118855e99cfcf73d68af1922",
+      "tree_sha256": "3b6b236fe24f9093b546ea141bd731294b53314b7f18fdf446353e34bc9dd672",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db74": {
       "source_task_id": "68952adeba1c2ad4e6a5db74",
-      "tree_sha256": "491ce676da07fbe028e568a8af811dd70269926fd1a39630ff481e923634a69d",
+      "tree_sha256": "fb3f24d19cc1e82ed6058480313d0439e579d52a5db3c3488c139052ac693e2e",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db77": {
       "source_task_id": "68952adeba1c2ad4e6a5db77",
-      "tree_sha256": "97914e7df1f046a9b150e33a282d8ed92787dc0555a08be0549c4aa064ad117f",
+      "tree_sha256": "f86a3c912d38353dc3303ebf3880340952f644efb65764c8a42774c5595881cb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db79": {
       "source_task_id": "68952adeba1c2ad4e6a5db79",
-      "tree_sha256": "e3394a0a7ded5df6d45f491c75afb20075fd2ffbb4f2dd80cccf44bb78838056",
+      "tree_sha256": "9cf2fe04aa0079398d5f68ac0670455ee9fe6cbcabcba3eb321f6eb48c4a3f2d",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db7d": {
       "source_task_id": "68952adeba1c2ad4e6a5db7d",
-      "tree_sha256": "c763aa9b1ae1af5141b7d03455d7c495a599779da88016d5346e4eab5eec0dfd",
+      "tree_sha256": "bba2df51f1148442e7473d0eb21f8993eaa9f6980df712fce0bd24acc377ec66",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db84": {
       "source_task_id": "68952adeba1c2ad4e6a5db84",
-      "tree_sha256": "552a6998c3b20cb7c92bbbc7f8b46d0c468246e17509a5a20047a3c1a93a3b01",
+      "tree_sha256": "ec417251c7b789397d2b83bff5ed6dac9c1407d104b7da7d67822e3d52fabff6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db8f": {
       "source_task_id": "68952adeba1c2ad4e6a5db8f",
-      "tree_sha256": "236f14867d172ebb38ed87e7c748c7ac88ac476e82fa39254ccfe28d699b2255",
+      "tree_sha256": "572dd5602006edb0a55395b75d26a299d60e22951724f1ec81e83c7735173132",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db91": {
       "source_task_id": "68952adeba1c2ad4e6a5db91",
-      "tree_sha256": "4135710d4d93377d91a2ce92aad2a9d7da61f0fdd21d50a6a4dd73b879b795f8",
+      "tree_sha256": "cac42400419b832923a063ad8842b0456b7ea05172172c7c3621e39931892a15",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68952adeba1c2ad4e6a5db96": {
       "source_task_id": "68952adeba1c2ad4e6a5db96",
-      "tree_sha256": "b7f373152816b4f99877f75d30baa73768a2253d589e7ee32bd17522e0a51c57",
+      "tree_sha256": "82ee6b5a526f8c11473d4932229ab4bc03952b17be2e66e64335335e30271019",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8b4": {
       "source_task_id": "6896416f7b30e5d8ccd7c8b4",
-      "tree_sha256": "fb02d7bd2eca54cd2ff59dec0fd9f2634120e0881e1fc0a137e5abc4be864a0a",
+      "tree_sha256": "2e39126fbd7922fc033ba12b1a13c1ea3cef2a0ef545d36f08c7ad898444ea4a",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8b9": {
       "source_task_id": "6896416f7b30e5d8ccd7c8b9",
-      "tree_sha256": "72e2bf539f2c8e279315e9c1c76942116a1f6defbd951a86e32c8bd36cda6b21",
+      "tree_sha256": "063e681f6b54c036e8f3b9bc42f89629febb87eb71f79c9c3dc48c1db37359a7",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8be": {
       "source_task_id": "6896416f7b30e5d8ccd7c8be",
-      "tree_sha256": "63d3f6af9a92416ef93520250f9ac6044aa4258d8b8fe643198b45adb9ea06dc",
+      "tree_sha256": "4a01686b0d13fd924b2684d8ada56accbff10369e97f288d33dc3caf77300bfb",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8bf": {
       "source_task_id": "6896416f7b30e5d8ccd7c8bf",
-      "tree_sha256": "70612a2932229e62b02007b32b1095e91924f52f28d6243e48c99894dc2b36b8",
+      "tree_sha256": "9422ae79f1e7a63f9b5469bc36e58dab3a5c68f8a0732743c426121074f6679d",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8c2": {
       "source_task_id": "6896416f7b30e5d8ccd7c8c2",
-      "tree_sha256": "2fe4c8b532d38f84df67fc20914672e4562c5609aedc77129f9481718af344aa",
+      "tree_sha256": "7ef1385d898cf9d2bb915d398d52056b4a69140496927cd8d9ec0b824a4a0842",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8c6": {
       "source_task_id": "6896416f7b30e5d8ccd7c8c6",
-      "tree_sha256": "76ba3df864018642756b6f687ac284ac0180014aed456113834981e507115547",
+      "tree_sha256": "705ca66d9fe42228f976fca01fd538ad5875270fe2bb4d7ccd0a4948b68e078c",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8c7": {
       "source_task_id": "6896416f7b30e5d8ccd7c8c7",
-      "tree_sha256": "00f1d1281b07ee28cd17b87a21d1313bd2fa05fdf08180231e6679530b71ab8a",
+      "tree_sha256": "b6efcea85d39484dda5abee475c76ebed96358c94e375d6c94fe7ed5fb192687",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8d6": {
       "source_task_id": "6896416f7b30e5d8ccd7c8d6",
-      "tree_sha256": "b2677922a84870efdc80244ea2e636600dbb114244de5bc9900a0f6e9a2ec036",
+      "tree_sha256": "cb3b6f4db7cc9f730748605cc91666a2fdb2b7328c351b02319a38fcc65717fb",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8dd": {
       "source_task_id": "6896416f7b30e5d8ccd7c8dd",
-      "tree_sha256": "3a82d5cfb6df98eee480e4e55f261e7379d7c4ac60a6cf7f48bb58d29ee37634",
+      "tree_sha256": "09fb4921b82b8b3d12ad0ba066d8446d9d003f887a34a099ee13a713de32ed1f",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8e0": {
       "source_task_id": "6896416f7b30e5d8ccd7c8e0",
-      "tree_sha256": "132aec3b8f523fe6d5bed6fd6295763b89404f1a7b2838e2530a7dfe21c6e8c3",
+      "tree_sha256": "77e026d85e17a24f546cbcb554c63a263d50c6b004b0936ec485a009c74a017b",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8e2": {
       "source_task_id": "6896416f7b30e5d8ccd7c8e2",
-      "tree_sha256": "2286ae46f92b537943474cb3415363b5758c6bbd9cfd044ead08dedcdfbf525e",
+      "tree_sha256": "fac3cbeca88aaa235fea31aeb275334ac63d1394f2ccb59e5b38d6b1326f56bc",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8e5": {
       "source_task_id": "6896416f7b30e5d8ccd7c8e5",
-      "tree_sha256": "0c134551e0ab1825eb8894dfa6c1c1553598d0d8557efc5659b6d3d55cedc293",
+      "tree_sha256": "4f8c0694ca7218ce925eb37c369f76f892f26842b9aad75803aeb1e269a1adaf",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8f0": {
       "source_task_id": "6896416f7b30e5d8ccd7c8f0",
-      "tree_sha256": "829739c697de64f33e3bbd28cbdcefae569e59826487b5450c3c90fcb3f568a5",
+      "tree_sha256": "d0babb43d31342ee731b1e345b4e32b17b8503e0dec22f7a045d6809449a45cb",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8f3": {
       "source_task_id": "6896416f7b30e5d8ccd7c8f3",
-      "tree_sha256": "ec1b7b5076123e241b98e524835012634d7fb416cc018fba26dbb05ed836599d",
+      "tree_sha256": "156a76307383f75f5fe0e02689a96f0d726a6ee8bc87b67ba00df4e723c7df26",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8f7": {
       "source_task_id": "6896416f7b30e5d8ccd7c8f7",
-      "tree_sha256": "621f8a16feb443c0cafcc5e811d1eba760135741ea975c622414321148e6a0de",
+      "tree_sha256": "5844cc39cd2f4bbbf63b9a498a2a83f82cd003f6230a3eb43cdd39b816b6b676",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8f8": {
       "source_task_id": "6896416f7b30e5d8ccd7c8f8",
-      "tree_sha256": "3905937b8abf4157a169341642960f7951107d642ff1dd2de1bb6a11849393c5",
+      "tree_sha256": "c5919018b3b39e5bfb46171f66fa7c09dd695d889270261b1e39b0f941d9a529",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c8fc": {
       "source_task_id": "6896416f7b30e5d8ccd7c8fc",
-      "tree_sha256": "e417d192b89f71d8ae4889ad1b212d3c3753266a51faac7801c33f68fdcc66a0",
+      "tree_sha256": "457d865a1a1fb722a0b33e6c4221866066f3ee3b6ba6896177f0cb27f93d192a",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c901": {
       "source_task_id": "6896416f7b30e5d8ccd7c901",
-      "tree_sha256": "89a138ed328894c3ff709a6f98b8f6cfe941f08078669c2f38d81dcef9e554e9",
+      "tree_sha256": "396ba62f46b8105dd23e8d15d28c6dfba739e7322db226be157085d13e2de7ef",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c902": {
       "source_task_id": "6896416f7b30e5d8ccd7c902",
-      "tree_sha256": "55813fa52b197208e39395349e0d5a47564a9c2c7a0a109a3b920e6ddbfdeca6",
+      "tree_sha256": "8cd4ef5d7b80dce3541083411f2867db90c9f085232f30f69e90852c1259e315",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c909": {
       "source_task_id": "6896416f7b30e5d8ccd7c909",
-      "tree_sha256": "7fcc5ba0e0b649ce99bfc28a2102660b4ad2d6035974074e46bca18d97143e8a",
+      "tree_sha256": "73f20fbffb46fbb6a23579f12dba897d41090d97745ac2c272541e573439f0cd",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c90a": {
       "source_task_id": "6896416f7b30e5d8ccd7c90a",
-      "tree_sha256": "7b363f8849151c949faefda20744a4c260679ccfa04e990556511460f7100e7e",
+      "tree_sha256": "115d5bc5265c15e16f1c88c5ab6fbd5e4e6e079a7f205bcce0c6993285d7ee38",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6896416f7b30e5d8ccd7c913": {
       "source_task_id": "6896416f7b30e5d8ccd7c913",
-      "tree_sha256": "0fd74f5d423e3c11151c0ddb6260a945597c37b961514e297a63aa1fc04a3b92",
+      "tree_sha256": "6683ad553cb481728df6c043bce1e86c1b0dfd144b9a81b62315e9811ed43062",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa2e7": {
       "source_task_id": "6897a6002b64a8c831efa2e7",
-      "tree_sha256": "aa2e3dbf1da0eb63f237c3b5990728c79361e9fcd24e9dbe9f4d6352717b02bc",
+      "tree_sha256": "2d47991dbd5d1ab2698e7883623cf394685cd22eedd3b3bd8cff315a17a670da",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa2e9": {
       "source_task_id": "6897a6002b64a8c831efa2e9",
-      "tree_sha256": "440ecb08a5af07a570ad3b02bc07b42c71820026d66b653d508127d5b5508a19",
+      "tree_sha256": "47d845487e86f1bceb77c36aa86a83cc86f44adac2f2394c9be17f6de61d39e1",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa2f6": {
       "source_task_id": "6897a6002b64a8c831efa2f6",
-      "tree_sha256": "ab2ec92cf529ef630dc4a1a010c50d90df9cf78631abe6497a22db748abba1cc",
+      "tree_sha256": "6026236472804647dd198ba52e0e825491c320a62d7151fbf4858beb44853d9e",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa2fa": {
       "source_task_id": "6897a6002b64a8c831efa2fa",
-      "tree_sha256": "27320daa559a7e675ddda86134a89efc5b8cb1a7b83448f0a7337497b9f8b42f",
+      "tree_sha256": "d81e9f848b9072c421dbd827062bc96656f010074b1fa8f14b3e6666d4aeb4c0",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa2fb": {
       "source_task_id": "6897a6002b64a8c831efa2fb",
-      "tree_sha256": "5941685512f66f9dcb13c01fefb1db4612af045f1510d8dc6b985fdb40331d1b",
+      "tree_sha256": "2ae6207ff7ca76f0d8b86a866ba91320d856b462b5c1c28af292bf764c1cd652",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__6897a6002b64a8c831efa2ff": {
       "source_task_id": "6897a6002b64a8c831efa2ff",
-      "tree_sha256": "c7f78fcfe39a0794487236f8d12716621c32c723ed7dd2cd56a1bae3dc20e653",
+      "tree_sha256": "1b5d8a2dde4bb2582ba4e01a474a12c55d8765eab98d73296c2240b4037f5c08",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa301": {
       "source_task_id": "6897a6002b64a8c831efa301",
-      "tree_sha256": "a60e36900ab89d5d3e9380772bdf1565bce3ebc73c4c86935d7fbeb6f6b9e635",
+      "tree_sha256": "c0fe36c4f9a59513c5cbf220d0f7058e83a1497feed160c9b850088823170b58",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa304": {
       "source_task_id": "6897a6002b64a8c831efa304",
-      "tree_sha256": "8831166c739737930d4fe2b4e20b372eb59bf5db567f0e2493517777bb4601b4",
+      "tree_sha256": "ce958f8b7164762d80417844d2dbe0904511a25a7f84ba8523e1c3e0e4473860",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa30c": {
       "source_task_id": "6897a6002b64a8c831efa30c",
-      "tree_sha256": "83a6b1e366bdabc12b6ab4ec5f18d1adfcc8bec604980dcee46408d5558a6a13",
+      "tree_sha256": "a33167766724644c1755acaa7344670da35622e97adbd7da9d199fcc25c408c8",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa312": {
       "source_task_id": "6897a6002b64a8c831efa312",
-      "tree_sha256": "3ff7c2ab9ba76e3b571258906086a1dc8ddc00835ac6026d33f946b88d5126c4",
+      "tree_sha256": "cc3269d0b53f8115567d61dbe1842d543199b24d0293c99c0035ad37fb37cd36",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa314": {
       "source_task_id": "6897a6002b64a8c831efa314",
-      "tree_sha256": "ca76fa8a35cbc3483f5b4ae1777c3e87b8e0f8cbf0a3217c7176544b3556347b",
+      "tree_sha256": "b994829c26eb5704d58a345be067eab3a6b64b95a96d950ba7f797da1a44cd15",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa317": {
       "source_task_id": "6897a6002b64a8c831efa317",
-      "tree_sha256": "927f4025209c5ce719da996331858e199c0e60120bbf1fe5108a15ad111f16d1",
+      "tree_sha256": "5416e30a68b7dddc68ca1d174ffa73a8ff7180ef28985fd9fc7c7cdaf9eefcb0",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__6897a6002b64a8c831efa32f": {
       "source_task_id": "6897a6002b64a8c831efa32f",
-      "tree_sha256": "b0cb2c7d7b60751e202b318e6318a3b560e6f2fd6f01e7c28a70e0bd766e6417",
+      "tree_sha256": "a971a38654ccfb30855ab1c48014e75b8564300d0239ff5d652a815d9c63ee0f",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__6897a6002b64a8c831efa335": {
       "source_task_id": "6897a6002b64a8c831efa335",
-      "tree_sha256": "b2cd4d113474344e533da960137e2efa36cf08297d792a32eab4b45c6fb5cb37",
+      "tree_sha256": "6e5f763c731053230c5572333b7ca7cd44a2b873e83d46b3ab14ed9d4ca3ecf2",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa336": {
       "source_task_id": "6897a6002b64a8c831efa336",
-      "tree_sha256": "2d12e3c34e387d16298e46dac673600ea8bc55b41a95c8288819bef3fb17a922",
+      "tree_sha256": "192da367271c2276572298046b7db345e8adc42a8f54f3ab68a4fb32165a35f1",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__6897a6002b64a8c831efa338": {
       "source_task_id": "6897a6002b64a8c831efa338",
-      "tree_sha256": "3e24839fbca7724697f614c5583deaa31e950a59444bc9f7f92d50330f994048",
+      "tree_sha256": "3551a1f2d07e2dc40d9931d86c2811691cf87d58072462e302825c8850b7150b",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83f88": {
       "source_task_id": "68993ef3cf3e953b8ab83f88",
-      "tree_sha256": "7ac1824f26c39b1c0ec1566a21d0db69f3e17560d04e6d5dc1282ec31bdaf388",
+      "tree_sha256": "3c833c5f46ddb269e1f5e93a2a97b49549e62f7247377e9acd90e53d4bd7cb0f",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83f8b": {
       "source_task_id": "68993ef3cf3e953b8ab83f8b",
-      "tree_sha256": "dbfb96fb8dd3f9806ca3716bab0dbe580d2a9caa6b825b4a77e41886cf448aa9",
+      "tree_sha256": "37728aef9890c8d67d0ca5600a8e7f9baea2a1f96d976294090ee4e51699b78c",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83f90": {
       "source_task_id": "68993ef3cf3e953b8ab83f90",
-      "tree_sha256": "c51c807234ce801c8b7310bc35fcb9414c616a84bd475bfb24d77e84fa10a09c",
+      "tree_sha256": "e725138e9fef1f3a6cb7bfadca9ca205815f0512976c9e3ca2c1dbab5a88436f",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fa0": {
       "source_task_id": "68993ef3cf3e953b8ab83fa0",
-      "tree_sha256": "83eb877150c608ecaab893d9f46bcf09a11d4e54beebcc75bdfeb6c8e345b081",
+      "tree_sha256": "b985c51e6ec82ebde943d82038c1b749c444e9e0d0cc26157236c2c6718bd5ae",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fa3": {
       "source_task_id": "68993ef3cf3e953b8ab83fa3",
-      "tree_sha256": "2f6b00000856f865a62a25be0a7542fc763f7e1c158691f21188cd1dc890e735",
+      "tree_sha256": "a8d3d351a5cb31ca919323b52b6b2c5e315536278d11ebc4d423c49ab3498f7c",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fa4": {
       "source_task_id": "68993ef3cf3e953b8ab83fa4",
-      "tree_sha256": "6d6ba6498d8edea9d5b57132068110d09564ef06bc8e21dadfa89fcd98948394",
+      "tree_sha256": "ea9fdef2e9f99d0738f39a2548189fc74e0338fb64756def3cb721c4ef0f2fd0",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fa9": {
       "source_task_id": "68993ef3cf3e953b8ab83fa9",
-      "tree_sha256": "a66b33313e8583a4e29146aaed628453afc808ffe57123762c668f0f548c7726",
+      "tree_sha256": "ad8607d537a54988684145fb5f9bf2efa9ae1ce7ad1a86c4bf96a7494b178321",
       "claim_count": 7,
       "credential_free": true
     },
     "mcp-atlas__68993ef3cf3e953b8ab83faf": {
       "source_task_id": "68993ef3cf3e953b8ab83faf",
-      "tree_sha256": "3f70e60cb305cff8a7d3df7763d15eecafc79b4000d67244cf04974717a24c69",
+      "tree_sha256": "2999697a24837189de1db6be06ae833f4d91f6c8125383b3bdac25daf7f90fe6",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fb0": {
       "source_task_id": "68993ef3cf3e953b8ab83fb0",
-      "tree_sha256": "501b795784f433c91fd1c677c7f1c12f75f202a7eedc5006f6d2f28724e23d31",
+      "tree_sha256": "bec842fc75ab23096fd3826c8b09596865c5bb13d85f832dfa39e365d8b38d93",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fb1": {
       "source_task_id": "68993ef3cf3e953b8ab83fb1",
-      "tree_sha256": "5731e19b41d80de7a6b179a6f267b416d4baf58e137c915ed49d0e5181608ce9",
+      "tree_sha256": "8bcebaf97a2e504079b6f17012add8e54f293f55f41783fa1caefabb17efca8e",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fbb": {
       "source_task_id": "68993ef3cf3e953b8ab83fbb",
-      "tree_sha256": "d8727fcd9c8b65d62df709ebfba423142d33f98398d67064b138c673b124166e",
+      "tree_sha256": "ca734d333c661d503f6064286c13a8a719b16a22b24d2ab53c4d3f33a6dcee3b",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fbc": {
       "source_task_id": "68993ef3cf3e953b8ab83fbc",
-      "tree_sha256": "c6405af6f4127dd74c60dc8f28e0f1c87bdc27e014a295524a08cea7b9ff6f76",
+      "tree_sha256": "5db669905be3d75c4dd1614b6238dae79f26047f7a096b168dcbbf4b5ac6c4f0",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fbd": {
       "source_task_id": "68993ef3cf3e953b8ab83fbd",
-      "tree_sha256": "1e682f85d593dfbb1c4a36d7df2fad3c083a3b0f470e0b0f8a9a58cd8fca2552",
+      "tree_sha256": "b00ab2f6cf501e185d87de4270c5cae4373dc46635b072de305da13bc415cb0d",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fc4": {
       "source_task_id": "68993ef3cf3e953b8ab83fc4",
-      "tree_sha256": "2c8783c4d9ca48888d0773c559274dd25698e8e1edc86e3c68a18c858d1a584f",
+      "tree_sha256": "ec5da26c28a746bc5a794db6cf24e9ae85eac8cf8be751e042683e4b4a186e6b",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fca": {
       "source_task_id": "68993ef3cf3e953b8ab83fca",
-      "tree_sha256": "2e180001b85fadd447436ab6a033a46f71d0bc525d43f7683e96e1593e782a2e",
+      "tree_sha256": "b641f79c258ca5b27df71bc5e590f12c7e2d3b30d894301e3435f7cbe2c27ce5",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fcc": {
       "source_task_id": "68993ef3cf3e953b8ab83fcc",
-      "tree_sha256": "f9ccfb44e9c732302b738bbe9b3e698918b051456b124c493710950dc0df1e90",
+      "tree_sha256": "1edc4382fa0308d55a47fa56c68eeb6d2f9db67455a4b2da5ca9e4f0c4da93d6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fcd": {
       "source_task_id": "68993ef3cf3e953b8ab83fcd",
-      "tree_sha256": "b4308490197da5bd7af3ec7444a8c3bff93cfff50ce3e73b1a3b46eb33f5d102",
+      "tree_sha256": "273b0c15c07476600d28780c85fc52103a7eba5db5b05bcb090e61087d44a409",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd1": {
       "source_task_id": "68993ef3cf3e953b8ab83fd1",
-      "tree_sha256": "26c63e74b1844bcfa0d24339cc23a46f2a74b7d28879f3e867f4889037567074",
+      "tree_sha256": "2c0e947fdee6c659afcb005005cf40d19dbeba7b8c95f98d0347a9920702847e",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd2": {
       "source_task_id": "68993ef3cf3e953b8ab83fd2",
-      "tree_sha256": "5b0edd50a0220903822ca401cd9b8a9efefb950fdaa615a9f9d97c6c49d6e0dc",
+      "tree_sha256": "b7acc65f1f5dca3f71547f936bb546e61fe1f7ba16d2a3f85ec3025ae1a5704f",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd3": {
       "source_task_id": "68993ef3cf3e953b8ab83fd3",
-      "tree_sha256": "035ba249aefff91dc7ad14bb02307fcdf2f243535a95311cee924c93f801cc51",
+      "tree_sha256": "22c0932fa98abf23f243e20077653026c77803ea1306d6b1312e3863d762ba54",
       "claim_count": 1,
       "credential_free": true
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd5": {
       "source_task_id": "68993ef3cf3e953b8ab83fd5",
-      "tree_sha256": "b9d0a3771284ee492323bd974b25bbd6ad471ef53fd1da9f1fa081aa77bb6498",
+      "tree_sha256": "5a2b28e3f4cdd72ca87c49be263c10fa4ccd931317534d5a676528ef3b588c19",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd7": {
       "source_task_id": "68993ef3cf3e953b8ab83fd7",
-      "tree_sha256": "f9f120ada64667a263ee786f5baa77c447e2ed72d54712f3185e96204db9aa30",
+      "tree_sha256": "ef6a80986c9008f31b23a5b3355727881861c2c53db5ad6ba057aa38fe32942c",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd8": {
       "source_task_id": "68993ef3cf3e953b8ab83fd8",
-      "tree_sha256": "8a04fe003299bc7d4d3e93a9830c46a224d2284729e5581dc9c3d67913987a89",
+      "tree_sha256": "d630660b1b7a0a153c3d19c87af870416550f86eeb31d69484b2eea9d20759ec",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fd9": {
       "source_task_id": "68993ef3cf3e953b8ab83fd9",
-      "tree_sha256": "a979bcb6e31d0cd0bab7c7f577e04d87f9c0ecbcebb8e20739ef9a112b629162",
+      "tree_sha256": "966e6183468c022217f5b20df034c25b34550a10a4139211ed0a7d752b189bb6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fdb": {
       "source_task_id": "68993ef3cf3e953b8ab83fdb",
-      "tree_sha256": "7dbd22fee386118d7183e854b57a8973a92742de5718f40044b2276e5e2713ac",
+      "tree_sha256": "64ef4caca19e2bc5a44d0414d7779106e677b07e53a5c9425c4abc39520f1603",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fdf": {
       "source_task_id": "68993ef3cf3e953b8ab83fdf",
-      "tree_sha256": "5a29cdde42fb20e9463df5405ef9df0d44a66e91458a63932cc52f47792822e6",
+      "tree_sha256": "1652f6fb1fc3fd22d20481a917d3ddf13efda466be9e4f09cb9175f7d3bab624",
       "claim_count": 2,
       "credential_free": true
     },
     "mcp-atlas__68993ef3cf3e953b8ab83fe3": {
       "source_task_id": "68993ef3cf3e953b8ab83fe3",
-      "tree_sha256": "bf1fdebaf31664b6c13751eb4e952a9b658476db537fb52516d4badd58f4c35d",
+      "tree_sha256": "a6e02ad45ddbd200285461b55605a55ffffbc5300994da107882a6687defa346",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__689a373e148a49f91233dfca": {
       "source_task_id": "689a373e148a49f91233dfca",
-      "tree_sha256": "e8fbb6c6a5264a43f903dbfc588a0542ac536f097d373c93066bcf525401edcb",
+      "tree_sha256": "d968e1e5395290f73f70b8051fb284c441f4ab5d3446ff7ddc877b821afd4e2e",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfcb": {
       "source_task_id": "689a373e148a49f91233dfcb",
-      "tree_sha256": "ee09886f3a2f619a5b12bf41f0d967c9e68a38abf46818a08be71de0cef2af36",
+      "tree_sha256": "dbd97f44547ce33c170b879bbd0772afa509d5b67439082891231b109e4e980d",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfcd": {
       "source_task_id": "689a373e148a49f91233dfcd",
-      "tree_sha256": "94bc725acaf467718c4089f0889c84da7bc700dfc079839164cfd38c54bad0ad",
+      "tree_sha256": "9af5cfea31ca630a57a49044d05a505e0032e5dbfa44293cce6854f8a8b69c4c",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfce": {
       "source_task_id": "689a373e148a49f91233dfce",
-      "tree_sha256": "7ba4cd1e16ebab9767cc2fb58f1a0a258fb7ea9868a0baf796631ce600a011b2",
+      "tree_sha256": "83d6b4f4cb92f2afca90cf7910127c7e68b3601d26d61402da117cdca047eb07",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfcf": {
       "source_task_id": "689a373e148a49f91233dfcf",
-      "tree_sha256": "1ef0b05aac134af7925c4a93a984fccd4b5646ab8be5655daf330833cf1d2077",
+      "tree_sha256": "b7456f0157a0c9163c1c9ab625e2f1aa28763497f0bbf93d2ff979daef0409c0",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfd3": {
       "source_task_id": "689a373e148a49f91233dfd3",
-      "tree_sha256": "7039386c1a567412b622548021d57fff92c62194dd07ebc12937a758eae86f95",
+      "tree_sha256": "dc03e591cb01364f6f6dfb6ce974164254dc9a92825d0c1b38ce90115c8f04d6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfd6": {
       "source_task_id": "689a373e148a49f91233dfd6",
-      "tree_sha256": "8229f7b21c806431f9f50696c36b994b2a42a1d82749db8fc78ef78a22d48d2b",
+      "tree_sha256": "a2d3f09884ddf42542cd3e5f8f253bfc493e41e82519e43f0c4f8ac3ced6da82",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfdb": {
       "source_task_id": "689a373e148a49f91233dfdb",
-      "tree_sha256": "cf9be21b839c06d4f852b86f487c1c85719d7fe3e349e8bbb965f579359fc51f",
+      "tree_sha256": "4b748b0b0ec102069b65fe0cdc7265a1c8da7d9dd3e4bd0c32f5b1edfabdc5e8",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfdc": {
       "source_task_id": "689a373e148a49f91233dfdc",
-      "tree_sha256": "27cba092bf759fd5d41257a90278841f06e2ba160cfd9ff726242d1742809c53",
+      "tree_sha256": "abc43ebb43015b73004fd41e0e22e2429d7918d3216112ad57733b9758cc2497",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfe4": {
       "source_task_id": "689a373e148a49f91233dfe4",
-      "tree_sha256": "0bd2b17d570f8d5342491a85b3c8c81d3413888372c1afc731a9543a279fbf74",
+      "tree_sha256": "3d066e456e69fd882cb9e68e4f00fa5507193d70762fbac8fb7a9b5a1a791008",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfe6": {
       "source_task_id": "689a373e148a49f91233dfe6",
-      "tree_sha256": "ada3d7a670320fc3a6ca7ea55f05e8114130914316a047879f2f5aa377bd47bf",
+      "tree_sha256": "c5dbc5899f2e1df1ea66614d3fb5a3585fe2a84591113104acf05f56971fa13e",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfe8": {
       "source_task_id": "689a373e148a49f91233dfe8",
-      "tree_sha256": "4fccf5a45ba54039500d1cc04932c1911dc95e8f180ab3699ddf24e7c7105963",
+      "tree_sha256": "83bd928317adc3042ec13468ca66a4ad042add3c6f9ec5d3091040dc60833a57",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfec": {
       "source_task_id": "689a373e148a49f91233dfec",
-      "tree_sha256": "303b5ecd2c566f9cda434c9112a0725688d2c48c624d6d99fb9f3dde4fde80bf",
+      "tree_sha256": "5a1c20d54426fca2409a6834b275b2d4703ae95bee9ff232a6346b813d03bb9b",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dfed": {
       "source_task_id": "689a373e148a49f91233dfed",
-      "tree_sha256": "890a52665f747e0dce1d9f603372cb23aa2d35bdf243a081f54053214dba88d4",
+      "tree_sha256": "1244daaf2abdd6a69489364e0dcbebc38e0ffde8a7363319f68e1bd19bab1e1a",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dff0": {
       "source_task_id": "689a373e148a49f91233dff0",
-      "tree_sha256": "104a9c01a49754e4ebef7f78526d4fa320a29bbc2833d6c2074774e6537af2cc",
+      "tree_sha256": "b56471aeb5a18b2ea44bc07c74d5f9c5d69d10e174226ed672d0acda88111724",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dff1": {
       "source_task_id": "689a373e148a49f91233dff1",
-      "tree_sha256": "5a6139bef25c9bfa488a64f3bc6081af03fe6e5d240d625dcddd440a5e0fd9a6",
+      "tree_sha256": "07d573f6929c7f9dfba81ccf13919bda23c434020c222f26d2e0e0959d5ffb59",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dff7": {
       "source_task_id": "689a373e148a49f91233dff7",
-      "tree_sha256": "e8f5c11b82db9975033ad43b29864f93d00eec99b6310cb8ec8528c720016b3c",
+      "tree_sha256": "5e9e36bb06cb1bf271a155eee169520341b7d348d15d3c659cc7bfffd22350bd",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233dffa": {
       "source_task_id": "689a373e148a49f91233dffa",
-      "tree_sha256": "4b10ee6bb2e9bf994589c351f7185df6ac068de31dc760f20b48cbabe0053796",
+      "tree_sha256": "b14ddc5474af9f5a411f87c148f2db71d94f4ed290f7fbaf87d8555eed8fec28",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e000": {
       "source_task_id": "689a373e148a49f91233e000",
-      "tree_sha256": "999cc4652fdd7ece24ea96bd5cd9a8261f0c2c2dfa52b4c4367ae79b3ed8a828",
+      "tree_sha256": "ed2f10a2da9cae422eedc7d340dbd807ef8c99f76b11ee9a3d0e0aadb5483252",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e001": {
       "source_task_id": "689a373e148a49f91233e001",
-      "tree_sha256": "f2100ca6cc4cec2dc91ff1df453d008d56fe7aa47a66917f1cd0c36383879227",
+      "tree_sha256": "d797630fb867b7a3318d58a4fb3cbb7e8bef5cc8c523175202efad73cd8f0ec0",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e002": {
       "source_task_id": "689a373e148a49f91233e002",
-      "tree_sha256": "1cbbeed52b5cf8c5e8307b1ee8293087e62784318e2c9ced65e494b0819413a3",
+      "tree_sha256": "66352e356d2faa5b3e30e70076131fe06dd03a7fa5e04a83df1929f32dcbc08a",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e003": {
       "source_task_id": "689a373e148a49f91233e003",
-      "tree_sha256": "cd301503cef2fa67395a8a65c7427358fba019d3937accb8ecfc765529eceaee",
+      "tree_sha256": "ff20edeacb7abdf9d6184d0c3043f03ea07a4052429e1c4f454b4cbc90daf8d1",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e004": {
       "source_task_id": "689a373e148a49f91233e004",
-      "tree_sha256": "f40bd7c68df08118a11187fdb2d7c4fb03fbc06563b5ad93bb3b8a54440d6dc6",
+      "tree_sha256": "8a602b1496982074044b61e947d9e35e647b1b6b0a969d29b14f8044827c4e54",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e006": {
       "source_task_id": "689a373e148a49f91233e006",
-      "tree_sha256": "28ed48c02e767b847a05c164a7c7f87a860096816fabf7e8e1210c622caf5591",
+      "tree_sha256": "34759f0de4888b269dd2942d1099d277f381724ea28246caaea95fe68c66128c",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e00c": {
       "source_task_id": "689a373e148a49f91233e00c",
-      "tree_sha256": "a0309d68c4ff494b9bf2546c0a030e6d8b7f10538fff5445f511a8ac883242fa",
+      "tree_sha256": "8d0c3428f03c2ee490893c05c90c1e911dcb715f19f5b19b7bdcb7588da41427",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e00d": {
       "source_task_id": "689a373e148a49f91233e00d",
-      "tree_sha256": "d763080e4353acc88b897a2b46f107a167c9e02417c202de7dfc7b5ae9c06835",
+      "tree_sha256": "60b2c6c98dd8a64347d6771c0f735b2e347d137cdc83300429a5feeed4bd8e6d",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e016": {
       "source_task_id": "689a373e148a49f91233e016",
-      "tree_sha256": "d838862ff65eb5255d4b743962024a1990c4ba9caaa077b57532d6d0609ebba8",
+      "tree_sha256": "98689e7b3f1688735d431980ea17f43eb2c9599d3be08bebc67a6ea326adba37",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e018": {
       "source_task_id": "689a373e148a49f91233e018",
-      "tree_sha256": "7425a24517fc32624d884c567f8fee9b74cd59497a4d14578ae845ad266e70fd",
+      "tree_sha256": "620ea332d20724fcf8ac4f79f5e47111e5d09aea670f18aafae27667758bf48f",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e01a": {
       "source_task_id": "689a373e148a49f91233e01a",
-      "tree_sha256": "83245f1beb3044085deb49ddb909f2b5e750eda143938cb2f16456397186d251",
+      "tree_sha256": "433922f43f4958d383c2832f626fb532dccbc1fbeabcadbf837067970c89cefa",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e01d": {
       "source_task_id": "689a373e148a49f91233e01d",
-      "tree_sha256": "1cd80435c23ce7551fc1a75d55b13eee8b966188f2ebf3094b8e946ddba336c3",
+      "tree_sha256": "13d36d40ac1a0d4f110f76d86f411467a469caa54365ef5888f2bbe702e02f8c",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e021": {
       "source_task_id": "689a373e148a49f91233e021",
-      "tree_sha256": "1a8f97349efe4e470f93b64f208ee11be0478462b429cc40e7440d4ce96804eb",
+      "tree_sha256": "69d6420e324d134fa0b06c1dacfdb601ed2383de8d5d2841b034e99e8a29ffdc",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e023": {
       "source_task_id": "689a373e148a49f91233e023",
-      "tree_sha256": "1b8d9c4915bd27fd7a072b3fb7e8631e2ecc5e68fcb5f19ec3d95ef51690f4e5",
+      "tree_sha256": "6bb85ea3f5b9ff85b23b23c32216d932f42b2825b1c22be7ff7abd4aa59c672c",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e024": {
       "source_task_id": "689a373e148a49f91233e024",
-      "tree_sha256": "348f4e65057fa750720980b98c82d913c06d6e8f2b6653ec87b74fbcd29011b7",
+      "tree_sha256": "397ad1d6c7624eb17e2043bb621d173bbe128d2cf741d5d9d3e24c43a3899b43",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e027": {
       "source_task_id": "689a373e148a49f91233e027",
-      "tree_sha256": "29a844ea7b606f2cb88a67e2787aa0ead2af9ee780feca17308279bcb4cac86a",
+      "tree_sha256": "01ddae70e30605b3b6c01a7b7fd8e7100b574956ab6e480096e2289b7bbbdb7f",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e028": {
       "source_task_id": "689a373e148a49f91233e028",
-      "tree_sha256": "009cf049af1657365829af393b3c99468f996d434e1a4246a272566a7b977177",
+      "tree_sha256": "adf0d0fc1f0894066f22f2ed9a3d71435d5945d0082c62f82120512a550da172",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e029": {
       "source_task_id": "689a373e148a49f91233e029",
-      "tree_sha256": "cee9370676cdacb71ef46d7507a612bb183db0930f43c2d6099f899fe4fe54d3",
+      "tree_sha256": "5ffc6904af80969e4c4846ebc08ce49652d93c03b1f61caa00c95187ebd05651",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689a373e148a49f91233e02b": {
       "source_task_id": "689a373e148a49f91233e02b",
-      "tree_sha256": "e37ca7eceec218b64546c37bcebbdbad9df4f2e2efc4a4dc0ee2aa16b2413de1",
+      "tree_sha256": "dc49426b45a7c1cc6f697f1a43a30efc0e29775659488fb79c60cceaef2bebee",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2568": {
       "source_task_id": "689af4e653c3905e7b5b2568",
-      "tree_sha256": "285f449461fd66b196fad283616cdbf6e925b07379ae8c5549de3fd0a67b9b95",
+      "tree_sha256": "6381aeca51e2067ece1d42781b2d07a402a15db5154ff59048a43e5a4cc1412a",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2572": {
       "source_task_id": "689af4e653c3905e7b5b2572",
-      "tree_sha256": "12429e5c586435c1e6d6d5e5929ff8e2d6ffe18aa2620d4127124594f0d4813b",
+      "tree_sha256": "eef56b6b1f4bc96b166ac5bd5d987efda1776554dcb8e03e0772b525282e801c",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2576": {
       "source_task_id": "689af4e653c3905e7b5b2576",
-      "tree_sha256": "0e5840ae209547beaece09075b0e5f8853b977ffc5362208a6048b6e918f76fd",
+      "tree_sha256": "031ac425aa06d0064c5b83e4b33b7174b3f69e7767c41fb1870ed21f21554f09",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2578": {
       "source_task_id": "689af4e653c3905e7b5b2578",
-      "tree_sha256": "792cb0214c3e20fc1a313b5f8f2f50d61a3881999e7d02c3d21a1c5db5705182",
+      "tree_sha256": "bc04e379b4cebb85f56a27606fa2aa79fe1fc8e5f15e324099b75a47abc1c071",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2579": {
       "source_task_id": "689af4e653c3905e7b5b2579",
-      "tree_sha256": "85bba2ba6f6703f4389bb52d779a27257307e576be0f7ae3779a3b81f618d274",
+      "tree_sha256": "7b676239265cde84ae03216e9e8fba1c2ee285d965116314c3bba05fa7bf208e",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b257a": {
       "source_task_id": "689af4e653c3905e7b5b257a",
-      "tree_sha256": "4b8d91936c258811788fa9f695e3b8505ddbd2198cf716ba275cce5f656b41f6",
+      "tree_sha256": "1f8f0d101f744e66c1c2b10cc015a5d6bd3c5584dcaa357457443b69fb9ae179",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b257d": {
       "source_task_id": "689af4e653c3905e7b5b257d",
-      "tree_sha256": "0f6bbf59f62d4a32c7ca0a1bf6ae73a91c6c874e95c7aa371e09a89c32c9a39a",
+      "tree_sha256": "ddd661d8196c7d1ccb82b55d64fbb8dfba3f0d2b07fff3c57bf2612bd0679eb1",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b257f": {
       "source_task_id": "689af4e653c3905e7b5b257f",
-      "tree_sha256": "dab9d380c9b451b2d12ba0d365b6e447bebadfc19e506b129298de8ab16ee189",
+      "tree_sha256": "b0643f36fc971a15dd90e02d3b5a8057d9a8bbc0c70ab99463d941bae8f73a80",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2581": {
       "source_task_id": "689af4e653c3905e7b5b2581",
-      "tree_sha256": "3e6efe83bba8f466b0a85003b781964ab049d6bf71e9bda753f5b1e31d9c5e38",
+      "tree_sha256": "2c4fdb0ed74f7dbdde1e58fa9748393f117ada77ce6ab73658e4dd5cf3cf2122",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2582": {
       "source_task_id": "689af4e653c3905e7b5b2582",
-      "tree_sha256": "d760e2a993cca496734320263f37a1fa5078a4c6e29a7817d4e853634c485830",
+      "tree_sha256": "3c743c5eeee606eef191e63fb5c8121f005ae656700540f9309698f13fd3a701",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2588": {
       "source_task_id": "689af4e653c3905e7b5b2588",
-      "tree_sha256": "f7ce1686d404289d944806e0fd77e4e64cb2f729008c463e2b88ada63322d54f",
+      "tree_sha256": "5f5b589b7f6be13f25e803fd942051c241753ad5b3bc2871fdc090a68ec93640",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b258a": {
       "source_task_id": "689af4e653c3905e7b5b258a",
-      "tree_sha256": "b609ddc868e0c43266649a258e5ebacb11883e93a0756c724af8537191879d05",
+      "tree_sha256": "c25c0f3ee991aac6f9b039808be101a9db84f60a1854d902f78e1c6af6166904",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b258b": {
       "source_task_id": "689af4e653c3905e7b5b258b",
-      "tree_sha256": "97ef918d91485d3be8020f34c175c481a3700b891e00b266b2eeecb60ae46371",
+      "tree_sha256": "3721f0d424acfb1ba00c489386d14c699a6c6aac4fafc7d798238e2d6482b525",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b258e": {
       "source_task_id": "689af4e653c3905e7b5b258e",
-      "tree_sha256": "39f8238789a95f3b4d4de705dfdabbe71573e2fd61e6000afc5e7b0dbdd69d13",
+      "tree_sha256": "ce29fa59d9946ac87b1a652cfabc3a214be111788603fa2c000c41b07717a131",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2593": {
       "source_task_id": "689af4e653c3905e7b5b2593",
-      "tree_sha256": "0e231f86abdf6369de8aa77d3c1ebdaa6fcbcac43b8aa9903f8b7a6da8d85b17",
+      "tree_sha256": "7e953408875934d0ea80dc74bccdbdf302de77def5a4b6edc3ff9fcbe9bc7017",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b2596": {
       "source_task_id": "689af4e653c3905e7b5b2596",
-      "tree_sha256": "529f2a0c9446d05500ed6e22a906d3c92ab342745fe9f24457a3a84e9a10ce02",
+      "tree_sha256": "368cdae62c02baa99119140b77136cffbd4a7b3c01e3e1e5936f30fd8b6cd915",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b259a": {
       "source_task_id": "689af4e653c3905e7b5b259a",
-      "tree_sha256": "013648907751cb0ca748441e89d681118941e78030d38950a6da15a9bf5f10fa",
+      "tree_sha256": "27753a3f39d778e2e66ec93ee28ff2eb72d0b22d065c3d7eea547ac83867ce6c",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b259b": {
       "source_task_id": "689af4e653c3905e7b5b259b",
-      "tree_sha256": "f7a85565a9c9cf32aab3a71e9fbd74afa407d1370a11768f16782764c3d33eb1",
+      "tree_sha256": "30bda8ac6a2c3127d7d62f5ab38ac99df0d5dfa2dadd390fd540d684ed51c53d",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b259c": {
       "source_task_id": "689af4e653c3905e7b5b259c",
-      "tree_sha256": "eb253dad77c382be68be2de628a5da6f72699af84fe5ad3f9a486fb3932082e0",
+      "tree_sha256": "08781298c73eaf44d17609ebf8d307561afca25d5d3932cd5cd379ddf2c9b16d",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b259f": {
       "source_task_id": "689af4e653c3905e7b5b259f",
-      "tree_sha256": "28b2f6ac20f7cdda94e95932b386df3f51d4b7d8339d3c95360a6116b50e3623",
+      "tree_sha256": "f06e24717ccf9060959685516ac4cefcd8a231358bb73b9f469ba49df125b8f3",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25a0": {
       "source_task_id": "689af4e653c3905e7b5b25a0",
-      "tree_sha256": "89673a3b09b679f2294be6ea2280a47ec2deb7bb4621b5ab9f47b3687f976962",
+      "tree_sha256": "b794a603d5b628570f858c1d5ad32f2f74cc60f80672cb2d80f2a96443c45ce4",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25a1": {
       "source_task_id": "689af4e653c3905e7b5b25a1",
-      "tree_sha256": "3f1c886a688d3a58c16a97406ca56afb5df76ec443320d7e1dcd58d9d8e9be2c",
+      "tree_sha256": "b37b9cd29570d34d5f6c6bf05ec55571df8fc97c797f3f44176e35ba32c579e6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25a3": {
       "source_task_id": "689af4e653c3905e7b5b25a3",
-      "tree_sha256": "3f9cba99efc53da16f9811462d6bec85bff5677f92b17241df89b605b04cf378",
+      "tree_sha256": "f2a966ff2227a4a11786e9c9b3c1ab6f6a85984fb05c5f03f89def06374d7c85",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25a4": {
       "source_task_id": "689af4e653c3905e7b5b25a4",
-      "tree_sha256": "bd10c9ba12bd31c4313e46ba4411501cc57bf70d83abfcdb5f122c7deae58032",
+      "tree_sha256": "3836a914e0fa52d18804f5614427dd19d56784d3ba37b2512e472da8ad5d7697",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25a5": {
       "source_task_id": "689af4e653c3905e7b5b25a5",
-      "tree_sha256": "e4bb319b79465a7b23ecdddd678c0f483500a2620ff0ef51627d1b9b99d501f3",
+      "tree_sha256": "873862aec4cac11bf3f361cd4447d8868abb894344ae5a68e216b2ca1869b6b2",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25b0": {
       "source_task_id": "689af4e653c3905e7b5b25b0",
-      "tree_sha256": "70dc4368bd8f1aea0da74236bbb8cb58e52c40b00383a1e86bc2c9f67ea303fa",
+      "tree_sha256": "d51dd1bb7602eff50edad01b915fdf2084c6e447e11b3e14bd9f81a76b8f4995",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25b6": {
       "source_task_id": "689af4e653c3905e7b5b25b6",
-      "tree_sha256": "b38c076a13c9770d8b313359538126e65251ed895763446c11efbd077d661258",
+      "tree_sha256": "77c56a51da2c6fb7120579c3099df023822a9dcc6fe372fe4f6221435201c1ff",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25b8": {
       "source_task_id": "689af4e653c3905e7b5b25b8",
-      "tree_sha256": "626a6800f7a578ac3c8f836af58e4f1efd2242aeb564ab0e40e7818576162cc3",
+      "tree_sha256": "ea16c9b20f4582245ce52917a98cc35f10dfb9f681bc05553869bf6a1b2056d4",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25b9": {
       "source_task_id": "689af4e653c3905e7b5b25b9",
-      "tree_sha256": "c0296f47961ecd1d5707e29230b0bb3572b3a039eec251e0398418e8fdbac400",
+      "tree_sha256": "312461328d47db021309c931e57046518685b15205c424520e919af95e8a975e",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25bd": {
       "source_task_id": "689af4e653c3905e7b5b25bd",
-      "tree_sha256": "76ea319ec3f0d4bf5f0483539d39d554dfa3436cf5ced67d4d6532435923f839",
+      "tree_sha256": "a8f09addb21582cbc281f69b9de22b206e3bf37e29346dce7fbc3b6fc6001f65",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25c1": {
       "source_task_id": "689af4e653c3905e7b5b25c1",
-      "tree_sha256": "d324570ea8bd26ea8868c5be1c8c74cafef97c9f6ad5be7c78b9b3fcfaf4c754",
+      "tree_sha256": "ec61dc154063d365061a6aab38dcae4a11ec5bd2594a0c90405cbd69dc5eabaf",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25c2": {
       "source_task_id": "689af4e653c3905e7b5b25c2",
-      "tree_sha256": "8ae74336b2da141f5f3d30060999aed8e5f0bbd6808aa72c772570303f8b40a3",
+      "tree_sha256": "cdbfaa2f016e919ece395b4a9cd23736a833ba420e0d3e27ecf638452866451a",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25c3": {
       "source_task_id": "689af4e653c3905e7b5b25c3",
-      "tree_sha256": "2805b649163198fda196176ef5e81f0ef2a9fb5de142b24623d1e81ae30a1bbb",
+      "tree_sha256": "92ae30fc9b4195ad90da8331bcb9c15d0e710af072edd216c16291699a0b7e5b",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25c4": {
       "source_task_id": "689af4e653c3905e7b5b25c4",
-      "tree_sha256": "89f7bb2f206bced17f19d51e780dca64802908b9b06af4e82e1e16ca0d474c4f",
+      "tree_sha256": "60a2c96fdbbf2e848efb35fcd7000708df2b8dc5dbd9367e4afdf373b7c8560d",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25c8": {
       "source_task_id": "689af4e653c3905e7b5b25c8",
-      "tree_sha256": "554850624a6ff206ba3f9d1b24d245caaa61abf0011fbb7be048036b243bcd89",
+      "tree_sha256": "5f9fbdb6ea6a09e7e62e7b34f6056d1724787443fe7a5e58535399cd0bcea05d",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689af4e653c3905e7b5b25ca": {
       "source_task_id": "689af4e653c3905e7b5b25ca",
-      "tree_sha256": "249bb6148314f92ec484d5250cb4399b55f50a29eeca1bf8ce4fb2a1fbb20ba3",
+      "tree_sha256": "e40d6e3af86d96e52e00b8dd0763e3827f32586b62df1ddd23c9df1fdb94304b",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfca5": {
       "source_task_id": "689bd255c0422b257e7dfca5",
-      "tree_sha256": "5f87508e29f0473a9c3f7fea29e74486ad908370456f8f23e69d1ec4074cba9a",
+      "tree_sha256": "9efb56f9644b28b3d0ae3a77af46f6a4465bbab475aead57e61db8f9335d4a29",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfca8": {
       "source_task_id": "689bd255c0422b257e7dfca8",
-      "tree_sha256": "07fa5dd4cd80fb160c4b70bdfcdc924a406f9696c42ff21611658f633c6b2fdb",
+      "tree_sha256": "abd2cc75acd75c35db2f8100fab1ca5bae6c4e1554e1f33b71675f40eb81fdc4",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfca9": {
       "source_task_id": "689bd255c0422b257e7dfca9",
-      "tree_sha256": "d1d8dd81938752a5cf9b7af8cc7ce91a6e987cb0a4124bb114f3c40d44d03df2",
+      "tree_sha256": "62f60e8777244697cfaf43109c2360d04f9efedbc7666d53239a64cd0ad27d20",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcad": {
       "source_task_id": "689bd255c0422b257e7dfcad",
-      "tree_sha256": "c21c518b4861365fcaf90a39a8acab606620921668897dc4eeba43af9551a219",
+      "tree_sha256": "6744442c19571b26b6ace4b48642c0645f8556970c367edf74b1d844c5e5a0ae",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcae": {
       "source_task_id": "689bd255c0422b257e7dfcae",
-      "tree_sha256": "5ce921382682ea1b32b5a4ba616196a8792b0040a271e3ca4b53c008c43a8b12",
+      "tree_sha256": "bf8b52320aac1cc80e9b4241b2d68054614b76876131e41e5d7a883def0296ff",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcaf": {
       "source_task_id": "689bd255c0422b257e7dfcaf",
-      "tree_sha256": "d95c9c96ea562fe30ed6a9370f9b94d9512313c2ca0544ccaf9534d53f1bb00c",
+      "tree_sha256": "6120adb2dac7ebf1b4f3fa09788f7dfaa76a4e92aa71f918dfc337580b7c5eaf",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb0": {
       "source_task_id": "689bd255c0422b257e7dfcb0",
-      "tree_sha256": "9148c62667a8c890e3de0abecb87b51016cb3b02b523f7a12cd1c242dfc407cd",
+      "tree_sha256": "63678f267845bd3cfd8f3075029549dfc7382eda7207bb9b7f79b89878104bcc",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb1": {
       "source_task_id": "689bd255c0422b257e7dfcb1",
-      "tree_sha256": "7720bf77261eb4db2bcad92b1fa222a04be23566eebaf4034674cc97d9896746",
+      "tree_sha256": "a3908f2c1335eb872dc61791777ca73edd124312d4978a1fc90b1fb54368ede0",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb2": {
       "source_task_id": "689bd255c0422b257e7dfcb2",
-      "tree_sha256": "f617d114e2821fe14407b683d95b28a77b9e06e59328f906549e749f3fa9f5f3",
+      "tree_sha256": "1a75d757e02ac22e7ab33dfbd511c910428908aa9504add38d63a24478f5cc49",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb5": {
       "source_task_id": "689bd255c0422b257e7dfcb5",
-      "tree_sha256": "5b03e1b8f1ebae4aed61fc058bbef15890faccad8ff256a34780a8455519f1b7",
+      "tree_sha256": "c73227ec0bd3fb217248129d457b2a76cfe98758b82f8f3266e221d92799ffdd",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb6": {
       "source_task_id": "689bd255c0422b257e7dfcb6",
-      "tree_sha256": "96bc7930c1d956478e8db8b8a3242d7e200a9fa89c92f5b9f8d544d111c8f09c",
+      "tree_sha256": "0c0996cfaecd135fc967d356b526e31289a960ccb07c201389818623b8113103",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb8": {
       "source_task_id": "689bd255c0422b257e7dfcb8",
-      "tree_sha256": "3adeed45cd2c42631c93b9537464fd8c2af975a5fcce839139bd799122df4da8",
+      "tree_sha256": "67783503e96243a7361f21830d7b6444cd46708b0730c3a12552a3f5ae521c11",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcb9": {
       "source_task_id": "689bd255c0422b257e7dfcb9",
-      "tree_sha256": "a033d0b66294ebef262a9b14aa976bac650e6ce1779ce7a763d0552fb7064528",
+      "tree_sha256": "06c9715fc751d0d03328dbe0dab2e40db029954a7baea8c99ab81043d5350aa8",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcbb": {
       "source_task_id": "689bd255c0422b257e7dfcbb",
-      "tree_sha256": "fa63bbd85b17143483b0199d2a3ffad017ee6d91b9a75ed3afe5b8121a016114",
+      "tree_sha256": "42cd5b85f447abf2bf15c64a8b1d85185f88e63c0de75a32c4cd3fd3de77114b",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcbc": {
       "source_task_id": "689bd255c0422b257e7dfcbc",
-      "tree_sha256": "4146a86c718334bfbfbc77b8c6b0a49ba6a69bfb79066edfb1a5300e14ff38e2",
+      "tree_sha256": "7fc2dde5b51bd100695d242c36f018e674c156d3bef0ca0b03e47c0c3547d10a",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcbd": {
       "source_task_id": "689bd255c0422b257e7dfcbd",
-      "tree_sha256": "2bcb41acee7798aeca976e2294324fba351114ecca645df7e12629f4a6b9dbf9",
+      "tree_sha256": "9324abf4d5249d5e9032db60b267b4daa536ba30bfa229b1eb33172a193fb507",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcbe": {
       "source_task_id": "689bd255c0422b257e7dfcbe",
-      "tree_sha256": "120f412cead749af71c608e8f564f757b911c1e87d5e07c4daf954adf41895d0",
+      "tree_sha256": "323ef1981d16875209a1694da337b9fd211682a5607ca70ce8aa9af355b7b762",
       "claim_count": 7,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc1": {
       "source_task_id": "689bd255c0422b257e7dfcc1",
-      "tree_sha256": "c3cb1cef26281982ac4ff8f48614826a5b9dea079be8b19eeee27405d78c0628",
+      "tree_sha256": "8075e8a5225709921975c88948124eb95b429ba8bccdd01d117d7a66331da750",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc2": {
       "source_task_id": "689bd255c0422b257e7dfcc2",
-      "tree_sha256": "735b2b7979f418364a465df24b304f70354da8ded9946fa4c4a69e3df9c9b65f",
+      "tree_sha256": "08161cc007ef90a4d68b3fd9547d3f088695f962bc4f94c987cf672b3369c744",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc4": {
       "source_task_id": "689bd255c0422b257e7dfcc4",
-      "tree_sha256": "45d5149646c6cf742ee24807899a1ef81a3802632b1164824bd5eef066d6b16a",
+      "tree_sha256": "f2cb69745398456b394b7155d087967c792e510c80ca6743d1b7f3603e52c418",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc5": {
       "source_task_id": "689bd255c0422b257e7dfcc5",
-      "tree_sha256": "61cc6b843c4664393728ee4bf5375cea914da011b1aa6f97b936dddd683e2852",
+      "tree_sha256": "36e0f7b79126e079519f35458e1fcae45550e7ed7ef6b27bef00133493e75a14",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc6": {
       "source_task_id": "689bd255c0422b257e7dfcc6",
-      "tree_sha256": "a161a9c5ce3dc2b7b19f15e5e1db7af7458ea5c849ff352e87f9dc02d56b2c75",
+      "tree_sha256": "336d472fdaa46f5d431752cc3601d240b400985c911633bed9445161fed2570e",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc7": {
       "source_task_id": "689bd255c0422b257e7dfcc7",
-      "tree_sha256": "c112df647fd3a080bbe175aef1e2ddd7a5d8f8f73e352b541b99c536761529a0",
+      "tree_sha256": "bb448506d5b0b50a9b94ab7a68c1c77574c8da3abdd066f249f2cebbae3db371",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcc9": {
       "source_task_id": "689bd255c0422b257e7dfcc9",
-      "tree_sha256": "6817cecabfa934f6a88363344b7bb59dadd544e09bb395faf8eaa9c327dd7c9e",
+      "tree_sha256": "83cb2d35ad871a59fe1272bfbe7ab181039f05590681725c0ea7ee4697e08008",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcca": {
       "source_task_id": "689bd255c0422b257e7dfcca",
-      "tree_sha256": "85df0f42482a8caec5050f39790e0c1b2eeb1f1dc684ef5651d5c17132e9449d",
+      "tree_sha256": "c449e8721d66da959b7604729c816f22d355689ab67898d19fa0905248f66b33",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfccb": {
       "source_task_id": "689bd255c0422b257e7dfccb",
-      "tree_sha256": "8cf433d2a388bfa2cbc09fc65a5a00d84089f53e1b521df025ce62f0f2596e68",
+      "tree_sha256": "807150ebed48fdefc4707a1d13f2de79d2de683bd556b23ae55429257e7342a0",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcce": {
       "source_task_id": "689bd255c0422b257e7dfcce",
-      "tree_sha256": "cc26c61f40950fdc6f7ff81facbd407cb831da8b9f1a8ff66538ac6eb99240a6",
+      "tree_sha256": "02cb5442a2a98dcf4cabf0d7d959f9bf65063f97fd112097dfab056a9ca046ee",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfccf": {
       "source_task_id": "689bd255c0422b257e7dfccf",
-      "tree_sha256": "3bda6ce7e4aa269cf467a86f37c6d780b638fc2765e0882ac9cae9cb914b2ce7",
+      "tree_sha256": "52d46c55d55656bba7d5493ba508b58f6b0254e63bc7dca418328141f98d18ff",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcd0": {
       "source_task_id": "689bd255c0422b257e7dfcd0",
-      "tree_sha256": "a30d29979ca8c9c4ab5872561e691d5c7d52e273e0e64c58561936604f466448",
+      "tree_sha256": "116fffa02fb03a98e084dea60b0d7c9d30ffabfc710f88d89c7286e3dff1bf61",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcd4": {
       "source_task_id": "689bd255c0422b257e7dfcd4",
-      "tree_sha256": "3f29bb4f939aa462f9a2380ab6f323dd124ff95a391d7effefbb1d359cb70f79",
+      "tree_sha256": "1e7456155f182fe460ecd31943a9891ee337b88d5f0afc1a53f076bab7271d14",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcd5": {
       "source_task_id": "689bd255c0422b257e7dfcd5",
-      "tree_sha256": "e7e57bee463601cdf7a5b6549a2a8b30335f0ce51e34e471919104c24b1748ce",
+      "tree_sha256": "2bd5c07890922f49643e866e530e64cda36201bab93cce49935e94c2707e4f91",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcd7": {
       "source_task_id": "689bd255c0422b257e7dfcd7",
-      "tree_sha256": "71c31960656b2111d90d4b99e4dad152cf693788f99af76cf15408c49f674d39",
+      "tree_sha256": "396c9c9a7128979e32ca5b3eec9b3128933ff9733068db5cebbc4ce8fac474e0",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcd9": {
       "source_task_id": "689bd255c0422b257e7dfcd9",
-      "tree_sha256": "6daab2f2d3ba58aeabb174747d72d5bde8432221c08056520c6edaef57334e4b",
+      "tree_sha256": "537a0d567e8e4afd20df8c90523ff44ce973656f4849a50f2e0fbe6c18927092",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcda": {
       "source_task_id": "689bd255c0422b257e7dfcda",
-      "tree_sha256": "26e7d708dc285b39a908880318b436e50765ea72d619ee486d89e218b98063a9",
+      "tree_sha256": "1cfb72293d15f5f89a677387c92978a7d2b87d9553322ec1b883a50f15a4df9f",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcdc": {
       "source_task_id": "689bd255c0422b257e7dfcdc",
-      "tree_sha256": "c8b9456c2dd8f2ef786fbaa3d2394ab70e0609ba316a29ef0a9cee94f101a5ef",
+      "tree_sha256": "4f14adf60510a8646399e24a9261c535ee3a2f84a99e96bb229d73e1093ce855",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcde": {
       "source_task_id": "689bd255c0422b257e7dfcde",
-      "tree_sha256": "bc003f857b41a4f741a3468297c449ca68fd17ae6d56f2b09c7c2e2e4d2d19b8",
+      "tree_sha256": "11f1e1c9db4cce3905fa35ee8c0f7baeda16d503809fcc93ec560a0386f18a54",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfce1": {
       "source_task_id": "689bd255c0422b257e7dfce1",
-      "tree_sha256": "5d62d36f049679180d1a33ba7e9c0c23fdd6a24d3a70dde4f9f11b8547bd1b3b",
+      "tree_sha256": "8a76db46fc00052940c558474d5f71d4e2be2ca1dac1ee522de6003ae7e5c319",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfce2": {
       "source_task_id": "689bd255c0422b257e7dfce2",
-      "tree_sha256": "9add5a2d3da90a81ae6632b9b4aa61ca702d3cf2df10934cbb69810c7e419442",
+      "tree_sha256": "2b69e6432dfc773c215ddc42dd54535f32fe365cf17101ac8c116d42bafd7660",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfce4": {
       "source_task_id": "689bd255c0422b257e7dfce4",
-      "tree_sha256": "ae45a3f48f38a76fdfc081d2e6660f44667497b3e0f2dd6b7723d3ed31b351c7",
+      "tree_sha256": "8d29c52f3e14a53f49e81f7a2f2f76fa1f39b04bd2b1824261c765d12a7c36d2",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfce6": {
       "source_task_id": "689bd255c0422b257e7dfce6",
-      "tree_sha256": "26e052a87796b54d7680229bc6702f7fd745b38172cd4e5ece098f27960ba5b6",
+      "tree_sha256": "c577a838a11f642bea1a947723fa84d1b259fe6de213cd660964d9daf618963a",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfce7": {
       "source_task_id": "689bd255c0422b257e7dfce7",
-      "tree_sha256": "f8228260aa15d782cc3118cb2416e9628cd1cd06c21bbfc5739ee7c64ea6b80c",
+      "tree_sha256": "c6633927d67f2474c458f8e162d2df5e8b4dc735551d12030eef07a46ab125ee",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcec": {
       "source_task_id": "689bd255c0422b257e7dfcec",
-      "tree_sha256": "10653e570eff0d8c1e5024a71ee4ec3fe26a7773fe68670fab3e7b2f72e2407c",
+      "tree_sha256": "ca911622126c207dd9036598e13ff53b755152e660326d1a854bf855da51bf89",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcef": {
       "source_task_id": "689bd255c0422b257e7dfcef",
-      "tree_sha256": "2f99d1ea1a81a7ffc2de41344b1f8df0bd60b2313b4df3a5eb24fac1a9bb55cb",
+      "tree_sha256": "86f5cc2eec5d32cde8f67e30ccc122a4dfde6d0ac6c31919a9aa897ad449712f",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcf3": {
       "source_task_id": "689bd255c0422b257e7dfcf3",
-      "tree_sha256": "92f61d628dabd576c3a6128c21e4c33e08ae8a5186e6324cb01b9798e280e121",
+      "tree_sha256": "a3566ed1fece8e4886ede69a0f288450aee9fc0f83c4348cb095c2689c1942de",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcf4": {
       "source_task_id": "689bd255c0422b257e7dfcf4",
-      "tree_sha256": "c4f3fb3533167d6dfad4ae15554099053082fb41104118f9a96f91e97557df8f",
+      "tree_sha256": "9b83e343112bf2b8a309cc775e9c84011740cc14cfb4883c52eb0c0f36eb1f96",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcf7": {
       "source_task_id": "689bd255c0422b257e7dfcf7",
-      "tree_sha256": "685837108c8f432dd442f58e60b96759667045af779ffa3dd94a7a5e0e00b222",
+      "tree_sha256": "7eeda745d1dbe92b89ac025be512369d9fef73c4c3f2950fcb780ccd806498a5",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfcfd": {
       "source_task_id": "689bd255c0422b257e7dfcfd",
-      "tree_sha256": "7120fa7c438c4bcd0e3a95987e2d3b5447d6fe7ec38223f575eeff77f3b9d53b",
+      "tree_sha256": "d9ecf1bdc7ce068cb6bb3a45d462c50a8e915e51e990b85b858743a2bf2bb782",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfd00": {
       "source_task_id": "689bd255c0422b257e7dfd00",
-      "tree_sha256": "95936a53ad58536f3ab78359fc88fd159da79d74b3167c4d877d226073244a70",
+      "tree_sha256": "eefd947c5e3090587e0eb12d8b7513f68821bdb73e5640f0e11a9712a284c818",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfd04": {
       "source_task_id": "689bd255c0422b257e7dfd04",
-      "tree_sha256": "b00c4ace50004c49b164ef70b89ffcf5de46150a6bae20b0b3a2586dc1ab2917",
+      "tree_sha256": "ffc9d4864fc67496b443271849bc6424ee74009b0a15526e92082c625034644c",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfd05": {
       "source_task_id": "689bd255c0422b257e7dfd05",
-      "tree_sha256": "2d1faa2bd52dd18b43344a1a05ffee7f2aeec0311b3430ff62dd531942b51b3a",
+      "tree_sha256": "ce274d05326091df6c525aa1ca70754f365b1ce00e5b45f82b65532b7de640fc",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfd07": {
       "source_task_id": "689bd255c0422b257e7dfd07",
-      "tree_sha256": "f45ff95d239593d4d0a8be8295d82719d5e5862d76fdf95356587bd9b68efc01",
+      "tree_sha256": "d17792343fced80aeb3bef2cc9da5dbed20e3e6aec1af88095bc874ff2002289",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689bd255c0422b257e7dfd08": {
       "source_task_id": "689bd255c0422b257e7dfd08",
-      "tree_sha256": "f656f2017f319ea5fef965ba216db02fd73c2656397ceaead9037fb2277834a2",
+      "tree_sha256": "408fe2ab2046adf0c1c5a2692fa1b6a291d037c38187d95c0628e7b70f9c19bf",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fdb": {
       "source_task_id": "689cd6f8522029b7ad7b1fdb",
-      "tree_sha256": "34eb91423dc907a5d17b39722248296c0f9bea924d57436dbacf2dc900846624",
+      "tree_sha256": "1ea44203b336ee8a9caeb3672aef5af9e3a98f423ea5290234a49387d3599249",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fdc": {
       "source_task_id": "689cd6f8522029b7ad7b1fdc",
-      "tree_sha256": "832c8cf257524526d9d9b9cb385548dad2ffa0de4582da04de39977f2632d272",
+      "tree_sha256": "65e44341bb7a2fb9b3240719142de773b95c46d98b96dff021972ddd440c234d",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fdd": {
       "source_task_id": "689cd6f8522029b7ad7b1fdd",
-      "tree_sha256": "3cde16fba8afd581035cb7cfcff08a217f4d863877672a4f76e0d7cc7b3dbd01",
+      "tree_sha256": "60897fc860b4a6b1353384f3e71d485621202d323375a77d19f56cb972080e3a",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe0": {
       "source_task_id": "689cd6f8522029b7ad7b1fe0",
-      "tree_sha256": "bd4ddfb9ee843384ac673dd6149bab66c1318799fa35b5dfc4bf58edaddf1fce",
+      "tree_sha256": "72750c62a23218b6f6315733f807566d451171b9a649909ff61f819deaabb566",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe1": {
       "source_task_id": "689cd6f8522029b7ad7b1fe1",
-      "tree_sha256": "903b41273bd76813345057c59e751edc94b5fe90fdcadf7cdb199522c4c0567c",
+      "tree_sha256": "9aff73dfd0cbc4b2c3285f7f1f1dcf8f1bb62348277c1269c2f2201ee327bfc7",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe2": {
       "source_task_id": "689cd6f8522029b7ad7b1fe2",
-      "tree_sha256": "36e2b14041ca16966ae4893fee068e3c706b96950bc056294f46424e744b3113",
+      "tree_sha256": "7d55269670fd0fca55c75e65fd61f052b764e3ef98d3aab933bdcfdedcaf9796",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe3": {
       "source_task_id": "689cd6f8522029b7ad7b1fe3",
-      "tree_sha256": "a5ba4949578fd88457b204cbc5548b5e6bce57f7e1b2193e2d768f624363934d",
+      "tree_sha256": "010778f3a37a7f204205ed741cf258b2face72d96632c26c90f67deeb32fef53",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe4": {
       "source_task_id": "689cd6f8522029b7ad7b1fe4",
-      "tree_sha256": "f2caf683ff2d88dd09529784e8fb277dec1e17ed729f0d1027b704e93c2f1a63",
+      "tree_sha256": "1835df4f124b14c3a7b12f5471316ba3831752148dc0462e1718897920c58de4",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe5": {
       "source_task_id": "689cd6f8522029b7ad7b1fe5",
-      "tree_sha256": "96236ecd2c1d91de0b2ff0402e79bbda0292e5c629a9a33d560062007c16577f",
+      "tree_sha256": "4b361dd9f819ce67cd31fc70685137317f887c86c9980ff889dd274d864b89e0",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe6": {
       "source_task_id": "689cd6f8522029b7ad7b1fe6",
-      "tree_sha256": "dadf98dd14de5fdaeb858c149d62a44e170778ea3c204dec7853b9cf958b3cf1",
+      "tree_sha256": "c6a6e439756b70a4fbc0adeeb67775fe1eca27b0d19b0bd63d0bb63fd85a7a39",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe7": {
       "source_task_id": "689cd6f8522029b7ad7b1fe7",
-      "tree_sha256": "e510f02207a7b6d0bcc4faaca960fce59875615cc177a23b7435703f3b3d6adc",
+      "tree_sha256": "7d96a62b5e05853dc72592ea0f7c98903ae7c27357a2cd2108028157fe202cfc",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fe8": {
       "source_task_id": "689cd6f8522029b7ad7b1fe8",
-      "tree_sha256": "de52e1a17df637b530d26eb3ecbc1dcd661c5e9a9baa7e5b6cb263441c2081ba",
+      "tree_sha256": "ce254c937fee301f0888a82ac76b6b96f79cceb4de77cacacea9167211953f79",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1feb": {
       "source_task_id": "689cd6f8522029b7ad7b1feb",
-      "tree_sha256": "75ea5a9665bbd5b7547850aea8a643dd2f8e81ba3e4d0a681efa0c4c36e8548c",
+      "tree_sha256": "5e45bf2d804b8a6960ebd87c15f3b8b4347cf2a79f33e39634dceb134dc94ab5",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fee": {
       "source_task_id": "689cd6f8522029b7ad7b1fee",
-      "tree_sha256": "79a54ec24b900f192bf025624b428fdcaca6cc95611b9fe0685d9375b745d125",
+      "tree_sha256": "d8f6564fe71e75c83d5289421ed8148026ca723661320ee0754c4d03a71ec110",
       "claim_count": 1,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1ff0": {
       "source_task_id": "689cd6f8522029b7ad7b1ff0",
-      "tree_sha256": "f7d35d87ab3b64aba515e41af6a2499f97cfbb456cd7c67a629e720a829ab8f3",
+      "tree_sha256": "bf5e7123554ae958ff0ee07915f59164391b89d49708be93f0efa98101341a02",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1ff1": {
       "source_task_id": "689cd6f8522029b7ad7b1ff1",
-      "tree_sha256": "188e2f5f28e2e619bc274ef95dddfdfb10f1230c319b10ab4b6011bf4f4a104c",
+      "tree_sha256": "a674253c5ef784278c1a4cd2485ffa3422ef2ed24c140e7001148902b723c4c9",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1ff4": {
       "source_task_id": "689cd6f8522029b7ad7b1ff4",
-      "tree_sha256": "996211dad47207ac7e59e2e39abe80b20f18868d3bfca2c8fdfae29c00227c32",
+      "tree_sha256": "19bbac89b723cab75effc5e85d7c8111f334e4d4898e0f7251df9bdb737bf76f",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1ff7": {
       "source_task_id": "689cd6f8522029b7ad7b1ff7",
-      "tree_sha256": "33e02bce87877edad555baec775d94cdc637357b767df8d54cecc01a2a05d585",
+      "tree_sha256": "d58c842b222110cc3af17a311ac4a0d6e9004ce21d69b6ff712db4b6ac8bc344",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1ff9": {
       "source_task_id": "689cd6f8522029b7ad7b1ff9",
-      "tree_sha256": "b937b2339ba53fa6967eeb09c8d3d9dfec7128e9c62d46d1fdc45298de2b9714",
+      "tree_sha256": "b4db93927d2bf139b90fe2dd828e926078ff94b2864186d2567515ddef7057f6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1ffd": {
       "source_task_id": "689cd6f8522029b7ad7b1ffd",
-      "tree_sha256": "eeb25d60f8770983f86d4af22e40a2c436c164c0de2ad21dcad17be8673db8ae",
+      "tree_sha256": "c57f6f00bf23fd5954440f810be0c8b628f91fffca8f1f7140009a48cf21a042",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b1fff": {
       "source_task_id": "689cd6f8522029b7ad7b1fff",
-      "tree_sha256": "a646c0b960a2dac1d266b7ac86dc6b005fd6aef23868533d41197b3388c7049a",
+      "tree_sha256": "db1d293aa8fb948c2c896c6e01aaff5ea72ecdfee80734793ee8508d795f260d",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2003": {
       "source_task_id": "689cd6f8522029b7ad7b2003",
-      "tree_sha256": "42dbef6b748b62b21071f339786c2bbc0c827d6543e48c899fb23c09af5d6a50",
+      "tree_sha256": "a8cfbdc5a95e0de02df017db76a85b3df22fc4dfc156061b7195502fd00a6450",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2005": {
       "source_task_id": "689cd6f8522029b7ad7b2005",
-      "tree_sha256": "e4b75648dc1fc8bfee4e675b5c3f17096007f0f38e093b19b6b29e5530797145",
+      "tree_sha256": "17dac9e94c015231e8e11c77d3e4ea57f9ef937090946c3a533b28b901833dcb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2007": {
       "source_task_id": "689cd6f8522029b7ad7b2007",
-      "tree_sha256": "0dc97ca8ba97a3393a36eee2257bebd4087e27e0aa0f9b77d2d4e11c082d7f93",
+      "tree_sha256": "d5fd9246658fc57c430947c2fa262848a17a0ee72e008b6102f92648711e2c86",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2008": {
       "source_task_id": "689cd6f8522029b7ad7b2008",
-      "tree_sha256": "497ac77aa7da4678493c95591cec0d72be439fbf4607b31c72730f1e948d8fd2",
+      "tree_sha256": "7649f81e2fee5d7341de29a57885212d428fd0c797d20c0fe92b8418836caee5",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b200a": {
       "source_task_id": "689cd6f8522029b7ad7b200a",
-      "tree_sha256": "84cd9eae18f7aa1ce6b5405b421d4681ae7a554e1ac9ed2601178d75b5fd3a3d",
+      "tree_sha256": "4b46ebf5bbcf2826e56d2146b8da4de85e2cc65ff23d655a1f56b5d4bd9dd033",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b200c": {
       "source_task_id": "689cd6f8522029b7ad7b200c",
-      "tree_sha256": "6f85596d05efaae46a8f4d11fee3464a145a657a630f14fc20c92a675be15bc7",
+      "tree_sha256": "6257a5ec30e0964ebb97bd42efd47aeb9028c2069c9e261a2da29a78de785aa6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b200d": {
       "source_task_id": "689cd6f8522029b7ad7b200d",
-      "tree_sha256": "24aa452f912e173c81d5da6847bff7fcc09c4ab679ab341b2862485f1a5c8199",
+      "tree_sha256": "5c9dec272f87144ffc94acc16e9d150876b6fbf37697319d318ab3f1913773df",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b200e": {
       "source_task_id": "689cd6f8522029b7ad7b200e",
-      "tree_sha256": "529f4d6bd07eaaf8bb9361cf22baff36edfc22bc9df90c720f61244bab60b42e",
+      "tree_sha256": "cc48a45d979a3adebc0e300f1f8d45bbb9d33ab155c419f3c33cc5d28ba1f29a",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2012": {
       "source_task_id": "689cd6f8522029b7ad7b2012",
-      "tree_sha256": "101f00a2b8b7e749ae54ce75e091440c872004d99ed3f4bcd08f5180b8286da2",
+      "tree_sha256": "ce6419b481dc2f659efb4ed2632f75414c1580044a4ee70870b4ffb6ea8f8d30",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2013": {
       "source_task_id": "689cd6f8522029b7ad7b2013",
-      "tree_sha256": "9485d34960a57469d6af0caa3e25d76ee46be3eaade74ac448d93c646828a1ef",
+      "tree_sha256": "37c760c9c156eff4b151a8f0ee1f72cdc9061cb37cec895d47d8bbcc409b2b28",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2014": {
       "source_task_id": "689cd6f8522029b7ad7b2014",
-      "tree_sha256": "a05c7b24ec3a60ad7bad7979f80b01b147d8bc61eda4a561c3a15ea8febfbebf",
+      "tree_sha256": "98e94051a78fdfd3251aeeeb4ea4a77377683ccc974b7bbcf4e253041a0be992",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2015": {
       "source_task_id": "689cd6f8522029b7ad7b2015",
-      "tree_sha256": "a28f626e985cc8b1219aef97f3e96053fa8277184922a4ed62ffd31b09a5ff9d",
+      "tree_sha256": "caa5f27916feffe969d65d9307383055806eb4504579fb17bb929ce2fb9978bf",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2016": {
       "source_task_id": "689cd6f8522029b7ad7b2016",
-      "tree_sha256": "bafaa71f22ed0395d5a1107f19ef5a09df7c942a001758392d03d19876c46798",
+      "tree_sha256": "b868328ed683e41109f2b4165f84bf9d61b0ee2867e04f5f7460125c299d08d1",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2017": {
       "source_task_id": "689cd6f8522029b7ad7b2017",
-      "tree_sha256": "a041960377644e5ee8c31434250c8c58b397ba42c93a4bc631a0d5d4815e1c44",
+      "tree_sha256": "a2a995632bb869ede9df02e62fdbefbc9c20eb6034e0dfb7c85ceabfbece33fc",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__689cd6f8522029b7ad7b201e": {
       "source_task_id": "689cd6f8522029b7ad7b201e",
-      "tree_sha256": "e7707c7fd173a64fa6da32f7b6469e4e7d088370f0553df0f2128a5b1e975ac5",
+      "tree_sha256": "e6347a986fb43215e253020c0b16bcd021fab2a6324476638c0835e527f9fe4e",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2020": {
       "source_task_id": "689cd6f8522029b7ad7b2020",
-      "tree_sha256": "d83c38f67b60bef5e588b2c10c58ec7679cc54e5b79b84fe5c1ba25243187234",
+      "tree_sha256": "a083a4a612b32dd3211a8429122be592f119ae347e25ed254af3c15bdfa9f294",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2024": {
       "source_task_id": "689cd6f8522029b7ad7b2024",
-      "tree_sha256": "8d12748cf0dd019c4209517763ba7b293fe2702906b27b18d76dfd7aec3f92cb",
+      "tree_sha256": "13a22158b5eef5ee1650dc4b6d7ed5b10ae5b87df16ae7e9b74a03beab9ef11a",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2026": {
       "source_task_id": "689cd6f8522029b7ad7b2026",
-      "tree_sha256": "05570b43ccd3c6c833be8a48deb9cfa1113fed915d83213d4e7928d544c8a835",
+      "tree_sha256": "86464adc117bccb002314ac437ecff3aed7ad52e5e6f82304b3e998ddd546cef",
       "claim_count": 2,
       "credential_free": true
     },
     "mcp-atlas__689cd6f8522029b7ad7b202a": {
       "source_task_id": "689cd6f8522029b7ad7b202a",
-      "tree_sha256": "50eeb66601ba23b82c0ffa7add75161b663a45ec201ffe4c6599761e9136a6f6",
+      "tree_sha256": "a63d0f874c6189896c6f44d36b0898927d4a74d29cdd7067d742039cb0c3f6f2",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b202c": {
       "source_task_id": "689cd6f8522029b7ad7b202c",
-      "tree_sha256": "e0ab35f2e8f943dc82d11d39ece5d2ae87f43cd329d0b58c3816a988260ee904",
+      "tree_sha256": "7f917ffbf4e03a2ae40e7d6aac73f76e77b1d4377182aa1a3468ac99ba22d18a",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b202f": {
       "source_task_id": "689cd6f8522029b7ad7b202f",
-      "tree_sha256": "1582757789bb53fd3fc92db70a62102a3d31a0b1ac015d8d4750f1e73337122a",
+      "tree_sha256": "7e9ebb522e44996aa1a484e2a2fc952a81446e4b544877582fd6ecec42f46a18",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2030": {
       "source_task_id": "689cd6f8522029b7ad7b2030",
-      "tree_sha256": "98e0d815de8f2587b6bbb2aaba7c2a73a7a639b836a6dcf96f2022c759f0913f",
+      "tree_sha256": "1fd2bd5a73b6f30622ecc4b57e590cc513178800f5b8b2abbfd2824289852409",
       "claim_count": 13,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2034": {
       "source_task_id": "689cd6f8522029b7ad7b2034",
-      "tree_sha256": "9b50eda5067914baaee1315d5d082b49f4b8cd05e8fa23204caf1f5dc2e92285",
+      "tree_sha256": "3c60c35c6e9046e30dadcc37e4647217ea6d4605471e3da0fe11c0c83a6aebb2",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2036": {
       "source_task_id": "689cd6f8522029b7ad7b2036",
-      "tree_sha256": "5842a7e50d82043f4e4376f83a4799637aa9afd7e4729369757b92caac5ff23b",
+      "tree_sha256": "f503691ab48b5b86b7460c6f2397d1439d18885f1e205fc7cfb8e9eb301f99bb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2037": {
       "source_task_id": "689cd6f8522029b7ad7b2037",
-      "tree_sha256": "1f7f32712b902647d92ed21d6565f7677444a40862cd3e7073692b1f008fed71",
+      "tree_sha256": "b5e1327e73b8749194eba682d5bf4bb13ecb9d38c90f969b08e9f54ff29557d4",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b2039": {
       "source_task_id": "689cd6f8522029b7ad7b2039",
-      "tree_sha256": "8034ca7906401607abf35f4a9a374ff7bff0bc83f6337096dc28ba0b45d98225",
+      "tree_sha256": "708eb932a88e2d12af1152ef365a31ee7be37bac2dd247e0deb6b9ebaf69db5a",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b203a": {
       "source_task_id": "689cd6f8522029b7ad7b203a",
-      "tree_sha256": "60a01d08365761bfbe747e5980715b837925ef7d55d298b5be6afb0ebb82d745",
+      "tree_sha256": "5f381b87512b5b2d45df9de18dafe78177e8bcae7827a7656dfa5d020c41aaa0",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b203c": {
       "source_task_id": "689cd6f8522029b7ad7b203c",
-      "tree_sha256": "dfc7184ede7582414be9c59a4aabc640c2d9c92370fa9a5fda8f15736f095da6",
+      "tree_sha256": "47b61b86539dc66e2ae730e220f816b8d5a582fa22cdf6d44bef8c66ab12502e",
       "claim_count": 9,
       "credential_free": false
     },
     "mcp-atlas__689cd6f8522029b7ad7b203e": {
       "source_task_id": "689cd6f8522029b7ad7b203e",
-      "tree_sha256": "1d5f16751a920619b140a8434f4a307764049fb450db731990ad670ceadacded",
+      "tree_sha256": "8e46cbbf9b9e6283220b4b5e54ae082383582ff0a38c2a9836d57976d3e60eb2",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f1fe": {
       "source_task_id": "689e0b1d9c8e2ac413c1f1fe",
-      "tree_sha256": "61d729a9ace76773c8847b7d5b11b8770598494bea03c02c2235395b631a5356",
+      "tree_sha256": "5b538e6732d903d6a54d9980b6536d9fde17b5cf6e28f153fe511c2bcb0283ea",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f1ff": {
       "source_task_id": "689e0b1d9c8e2ac413c1f1ff",
-      "tree_sha256": "8532a60886309ecd8937a8026fe569de1665fdd184d73016fba8d191e0fc0bca",
+      "tree_sha256": "6da29d134695d2f913ddf27e1bb69d40d3f24bc5d1e309444c7041dac78a2955",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f200": {
       "source_task_id": "689e0b1d9c8e2ac413c1f200",
-      "tree_sha256": "2311623071f7ecc196b1000a044451b078e3354a73a36001bfd0e8c71920a0dc",
+      "tree_sha256": "f5e3ed82c0208e09ec41ee32a349d553c0dbfae7e6edd5ad80e97c5bca632da7",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f201": {
       "source_task_id": "689e0b1d9c8e2ac413c1f201",
-      "tree_sha256": "50be1934db97134342f825c22361521c310004641a37797caf2bd15b927a91a7",
+      "tree_sha256": "d421f0c66e7c022d85a5c41e4dfad2b8a1ec2964f4da99ac46979679f835d802",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f202": {
       "source_task_id": "689e0b1d9c8e2ac413c1f202",
-      "tree_sha256": "6c8f626902183d5091f140cb909044575c8dfc8da67b0b7dc60dc148b494145a",
+      "tree_sha256": "62aad8b891321733c11665eccc424aada8a508aeb2af636ef4879228364a574a",
       "claim_count": 1,
       "credential_free": true
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f204": {
       "source_task_id": "689e0b1d9c8e2ac413c1f204",
-      "tree_sha256": "a4bc738dd4a795d290d1b3ae1f5cb4e09464b306949a3d6d934a863b84750c0a",
+      "tree_sha256": "a923a11ba5555a0ab1227b7a23e2235b39f00975255a22c985fe8ac731259a4e",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f206": {
       "source_task_id": "689e0b1d9c8e2ac413c1f206",
-      "tree_sha256": "86febb584d974f624af8da8d9da80b5a33eeb81bff8be78a1471fabbbb89d289",
+      "tree_sha256": "9097aac1065a54ba04b6f3ec34c05c4944c8cf1f350c0472463f396b93fc12e9",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f208": {
       "source_task_id": "689e0b1d9c8e2ac413c1f208",
-      "tree_sha256": "b4eaf578096c441b4a31a8bd3d817c14a0feb0a4bd11bec06bbe807893214455",
+      "tree_sha256": "673a69325d167dd06116cf9a75217f5328c1e8de0cc7145c4b3ecc5c2aa18ac8",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f20c": {
       "source_task_id": "689e0b1d9c8e2ac413c1f20c",
-      "tree_sha256": "7ff4d381eb35060fd9bb90db7921f927317e82632d2f1886cb3290b553c6d4dd",
+      "tree_sha256": "061b342aba7bce7bd72faedd703bf4946fdf480659fe4e9afe20711ae07ad3b7",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f20e": {
       "source_task_id": "689e0b1d9c8e2ac413c1f20e",
-      "tree_sha256": "d16ad472f775258f78f7da9acff0410d11c157f413d062160a19cc5cd6dcce79",
+      "tree_sha256": "777d0de35a4c4baf00fba9782d8679594ab4df33d0d6fd534ab1215dfd0551af",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f20f": {
       "source_task_id": "689e0b1d9c8e2ac413c1f20f",
-      "tree_sha256": "50019420859280a802dc9aff9ee94169dd8f6fad7b8e8a184b689238a893c4eb",
+      "tree_sha256": "764418667cb8697c48556588c381dd6785e72a8b7357ae840fa4f8d5d586ee0f",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f211": {
       "source_task_id": "689e0b1d9c8e2ac413c1f211",
-      "tree_sha256": "d69de7415c535aea62089411700f970bc644088f9a16a817c0628aa5424049fe",
+      "tree_sha256": "13e213d3f76392666a17c533f2f13147f2fc75f8700abc6c331fae778ca2e5f9",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f214": {
       "source_task_id": "689e0b1d9c8e2ac413c1f214",
-      "tree_sha256": "bdca4c1952923cf97d2e305e1ef5afb2fcbe10a4b04bb5ec73ef604e5b281fc4",
+      "tree_sha256": "810fb2a99a038997fd0567ca6a99cb126678521a14ada60f23fc98a61fa9a3ee",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f21b": {
       "source_task_id": "689e0b1d9c8e2ac413c1f21b",
-      "tree_sha256": "d301a3bd98b1e26e87449797fa232423cac301ecda90bf1465ffe99090de9941",
+      "tree_sha256": "5e09ba622cb6f9854a83d13560c1df185bb76f6d2d1b2b8b46d59781232927b6",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f220": {
       "source_task_id": "689e0b1d9c8e2ac413c1f220",
-      "tree_sha256": "7ae2d403d4ac6a26607e78883a52b1d2d08dfe7c18e81719d22ab5c430aee7c2",
+      "tree_sha256": "f39e56e33cc646dc697d8551c863aef0f8a64c54a42eb5dc975966fa1fb32401",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f225": {
       "source_task_id": "689e0b1d9c8e2ac413c1f225",
-      "tree_sha256": "c7d17bb5eed5a122a7d245bad6503f50b131aee6db1cbf2d0010e90136c57942",
+      "tree_sha256": "6e1a7ad5ade3ec7e312cbf068be13c3f9c7e59318028e964ac478255f3ae4d15",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f228": {
       "source_task_id": "689e0b1d9c8e2ac413c1f228",
-      "tree_sha256": "b717aa1844036474265d715e69985367370e6a0a5e467e1e59f4e5a7f335a1a9",
+      "tree_sha256": "4ad24c967a1335e653e00df6929e5c4ae880cdf959ac1bd425197e4fd57b1570",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f229": {
       "source_task_id": "689e0b1d9c8e2ac413c1f229",
-      "tree_sha256": "fad7746347588c1d3c1a8cb51e7dafb14b187ceca5f75330f9dddf160da12d79",
+      "tree_sha256": "3686602fc7bef5bbb44aaf9275935c1a8feaff4f7162a7113058306d0a88bea2",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f237": {
       "source_task_id": "689e0b1d9c8e2ac413c1f237",
-      "tree_sha256": "5c0cbe1e58501faf35e14717f58ea616a40094c6772b6554bebbc78a74880f6f",
+      "tree_sha256": "c659e8946e8bcc08b20446d4a099726fdf1fcb1231f494accf2d04f318b0627d",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f238": {
       "source_task_id": "689e0b1d9c8e2ac413c1f238",
-      "tree_sha256": "d1422d1b7ebfba3071bf09a7eb3e4bb61e72e23dd3e60720148bdd80bd60538d",
+      "tree_sha256": "418412a49e3d6afceca98c0eaf0c0129382c0c53887c1df7f3ca3e2369c76ead",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f23a": {
       "source_task_id": "689e0b1d9c8e2ac413c1f23a",
-      "tree_sha256": "b89ae1de91772af3995b122364dc163f58f37164fb1e16363af24bcfba55d08f",
+      "tree_sha256": "f1c73c6505fcf7a14380dc8f2673b946cc5e245bd7c31c9153dcbab7cf0786fa",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f23b": {
       "source_task_id": "689e0b1d9c8e2ac413c1f23b",
-      "tree_sha256": "7a0f38106b5899c1783419934b196203b12850b648d11f79e624607c4af6e677",
+      "tree_sha256": "5a01e1ed42353271024eca7e9d7f5e8abac3bb1da3ff73eea79a9a8684934a2d",
       "claim_count": 4,
       "credential_free": true
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f240": {
       "source_task_id": "689e0b1d9c8e2ac413c1f240",
-      "tree_sha256": "2ed54a6a126eaa4de2689bca1921c3ead11050685ce6c84d052cf9b5a7acca7e",
+      "tree_sha256": "9c5059b673183ca3bb85d2d03bae0d56796489d3bbd43e8f9bc1b0f70f2cc1f4",
       "claim_count": 23,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f242": {
       "source_task_id": "689e0b1d9c8e2ac413c1f242",
-      "tree_sha256": "83ae15dc81df8560dbfd995f6bee537bce0036293d49572266f96a20e3d8c1bb",
+      "tree_sha256": "84fd2a354c76e6b672010786e470ce1293826473f49acb89356ed0a9d748aba0",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f245": {
       "source_task_id": "689e0b1d9c8e2ac413c1f245",
-      "tree_sha256": "d65bc134cc718d21b29340980a62e4101e8ada6d27e5446c0be7f4284feb6a5f",
+      "tree_sha256": "575c308fea328989765a5c24dc92e3b24a81a8830616fbc535c1f93a4de4b0cf",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f248": {
       "source_task_id": "689e0b1d9c8e2ac413c1f248",
-      "tree_sha256": "836ff3c7058468d5199be90b0ea98b6b051a1fa88bec0be87495930594c031bf",
+      "tree_sha256": "64f3590405affe2869aeb6027e23c5580ae4fd451ddd9f40f828bff188f3b7ec",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f249": {
       "source_task_id": "689e0b1d9c8e2ac413c1f249",
-      "tree_sha256": "5f2f68c1b5a5cd1801fa6bad41223ce2d8526e0f35e66333efe83bc7d779188b",
+      "tree_sha256": "758e9d68009907dd05d5ec243ee18af2406fadd0b555885b6a6423ce793ef164",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f24b": {
       "source_task_id": "689e0b1d9c8e2ac413c1f24b",
-      "tree_sha256": "615470ff8a7cb1b2cf89ea69ac15a648f872d95ef1f5174d9ea4b5fa693b8425",
+      "tree_sha256": "b397bcb55206f1d2628e0105412694cb6753b151e15f8b9a938227add73390f7",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f24c": {
       "source_task_id": "689e0b1d9c8e2ac413c1f24c",
-      "tree_sha256": "c01bdf56a3d46c011fa531af3ba35d3526b0903d80d7c2b3fa6d2c382ab936b0",
+      "tree_sha256": "6d2b558b83cd79bb6534be297eeac8ebbade1e0060471ca9e74ca95670d45c14",
       "claim_count": 6,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f24d": {
       "source_task_id": "689e0b1d9c8e2ac413c1f24d",
-      "tree_sha256": "6c36bae91f52056d39ff482fb69f92b9a35d8e6a354a9af220645e56ca23430a",
+      "tree_sha256": "aec9b12d5523e45a3fff818715e00bffbaea9c548669e4af633911335c4616ec",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f24e": {
       "source_task_id": "689e0b1d9c8e2ac413c1f24e",
-      "tree_sha256": "2e8cb13430ea99cb0ed4d0838bc9cf395b69e00e33fd5edc73f55a7f1ddbab78",
+      "tree_sha256": "742b97565005d85701b92dde2ceb4abec7d2ee28e27005864b15f7db4a2cc5e6",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f254": {
       "source_task_id": "689e0b1d9c8e2ac413c1f254",
-      "tree_sha256": "ba6259b5ddddf37d6bef420c42096f7e4b20295a922d8d0984d088c2febb44a1",
+      "tree_sha256": "7a53ce79806560c7706771b789e777c03b0b1d6c6c87994e95b9a982fe6689eb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f257": {
       "source_task_id": "689e0b1d9c8e2ac413c1f257",
-      "tree_sha256": "ea8b24b764631ddf04a0d2fd38f99714cb7701c4fe1452d05c5bb8f56a876a0a",
+      "tree_sha256": "f1436e48765140f049e9de091db3b6ca99ea6493dd98e77726d1957c655965a4",
       "claim_count": 11,
       "credential_free": false
     },
     "mcp-atlas__689e0b1d9c8e2ac413c1f25c": {
       "source_task_id": "689e0b1d9c8e2ac413c1f25c",
-      "tree_sha256": "b709c8ade76a73243f1aaa29b67871d555d0fd37c18d6126b985fa921355c2b8",
+      "tree_sha256": "241f4b1d9d668234b4522421d783eba85335e4e7787e5e7abd67179e466d01af",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__689f4d693e212e8ef33906e5": {
       "source_task_id": "689f4d693e212e8ef33906e5",
-      "tree_sha256": "d2556b059b466fcd676d75b2fd0c6ef90a77778dd85f4715402125e97515419d",
+      "tree_sha256": "3c48791daba2fb7dfcf4982b16ebad8b0c7530ac3f8f32789949ff65fe5b3255",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef33906f6": {
       "source_task_id": "689f4d693e212e8ef33906f6",
-      "tree_sha256": "44b7e0588b5c3efcd4b6c7f4524754eabdcd26f67adfb8e25eeef48dd2d2d621",
+      "tree_sha256": "a1e463d3d5498f90028acbfae43575b361f7cd6f26419c122ea68d2fe9c06f49",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef33906f7": {
       "source_task_id": "689f4d693e212e8ef33906f7",
-      "tree_sha256": "53e84cb7d33ba4fb71864a9e6ec3c55c77fc5f4901b3149faa943f58bd360d71",
+      "tree_sha256": "2caa1ba585cf425aa9f6bf87415ad8392cb22acc60fa6a78b18117eab905feab",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef33906f8": {
       "source_task_id": "689f4d693e212e8ef33906f8",
-      "tree_sha256": "f64f0ac6d1713f91c538b06fe492003f07c0000bcee9c4345893ffa411b86b20",
+      "tree_sha256": "4a245d678b4b7b7f85585b23ea71d590ee60a8c6bf32c27abb542be210b2365d",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390701": {
       "source_task_id": "689f4d693e212e8ef3390701",
-      "tree_sha256": "ee0cd673c36502e5b90b6a2f4c660b757b25e8924cd7e5b9c2474d271fe7bab7",
+      "tree_sha256": "867565935efd37663e6f6c807ac737e29cbb2d001798238aec17d10c460107a1",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390707": {
       "source_task_id": "689f4d693e212e8ef3390707",
-      "tree_sha256": "3b7e87598405d5b7e726fddd9d3284b92f302211ee3e1eb6cf8131835d976be1",
+      "tree_sha256": "372dd2d967f9779d42108bc6e9954c536988b0ee350eab362be6aee41bb7d9f6",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390708": {
       "source_task_id": "689f4d693e212e8ef3390708",
-      "tree_sha256": "1bd742d4fa64b7d52b01890fd7b71b70e8f0b710bf4b40128d87dd8ab6f2db85",
+      "tree_sha256": "9313a1f70ca5a467fea57cee8329667a8bf40795cead1beb45611ae600f82d91",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339070a": {
       "source_task_id": "689f4d693e212e8ef339070a",
-      "tree_sha256": "470f5dd8c1861f18d0ee9d16879d3d3a03eeff648351fc084c18e19e1e0507d3",
+      "tree_sha256": "4133f38573b33be56b26eeb3e160dec8b61095d28dc4c4cc800a525bf77023cf",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390710": {
       "source_task_id": "689f4d693e212e8ef3390710",
-      "tree_sha256": "43165f232b09b6fe0188e1147bac3b62223f48faf945302891475406a84e614f",
+      "tree_sha256": "57a0a44e77f64ea092417060fc84a704ea9c3a5361e54db7e6f462844c93109e",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390716": {
       "source_task_id": "689f4d693e212e8ef3390716",
-      "tree_sha256": "ab002344562a9979f3659e023ff0fccc15297bc872d15a7225683f58f6c0bc15",
+      "tree_sha256": "b3f2ab8c59dd1441f173485be205dfe6bf3680454301fa86eb3ff89702b4fe36",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339071d": {
       "source_task_id": "689f4d693e212e8ef339071d",
-      "tree_sha256": "19bfc260239630081f3e5930422a17f2896e1ff63e3b222f7ea7b7a841529397",
+      "tree_sha256": "f132f1aad398baa81a41b6a3a780b907c5389ef567d2a8f938db1caae706bbae",
       "claim_count": 10,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339071f": {
       "source_task_id": "689f4d693e212e8ef339071f",
-      "tree_sha256": "7213c355ca25e4b47bf4496e23ce9daf502dcea79e47dc38666a120b3002b187",
+      "tree_sha256": "51a0271b8c0f128a681e31516f49c40c6416e21ceec92e45fbfb3edb44db071e",
       "claim_count": 2,
       "credential_free": true
     },
     "mcp-atlas__689f4d693e212e8ef3390720": {
       "source_task_id": "689f4d693e212e8ef3390720",
-      "tree_sha256": "53db3c79d244c918d16477a75e4010f293a4635077c86e35fbaca73e14fb6f74",
+      "tree_sha256": "f5fa7a693d655ae4f488f8a237c76827fe8c1f2394de79958291f64e55287248",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390724": {
       "source_task_id": "689f4d693e212e8ef3390724",
-      "tree_sha256": "6745e61505d0b63dbbb615febd9024b86835b7cdbf465c60b0ba67902a208530",
+      "tree_sha256": "d67b540de09bcf15fc4b97b24065fb96d074b05873dce1511ac9f08ccb174a32",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390728": {
       "source_task_id": "689f4d693e212e8ef3390728",
-      "tree_sha256": "bd58fb3566cff2ce94db4cc988928b665e4671b8081d7998c360ca32255d916d",
+      "tree_sha256": "1b59fe3711801269c9cba5d7d6af472ac940b020f8c67bf74cac3089d40d8573",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339072a": {
       "source_task_id": "689f4d693e212e8ef339072a",
-      "tree_sha256": "2ac56391f02ec62160508f45c74679e6802ccbfcebe1ef69f526b4e8a019700e",
+      "tree_sha256": "68b8d0d955f1c1cf22553f7a75ae2bab5848a83ecbde22266446e2728c45484e",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390731": {
       "source_task_id": "689f4d693e212e8ef3390731",
-      "tree_sha256": "a3885f513f0bdc76a7f3f18e6d51c811f770f85f1da558ed3ac5d97615d60055",
+      "tree_sha256": "12a4988718e761c799eb5aff36e350f84324020c91119bcdf39a203aad8d7ba0",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390733": {
       "source_task_id": "689f4d693e212e8ef3390733",
-      "tree_sha256": "38b9b83c1781d2011c16f2089cdcf57cd4331c16901baf2201a8e6fd1a1e088d",
+      "tree_sha256": "95b73df628b9c9255f3d3d5bd03f3ef66660df0ae156754f3c52c2d0330a4cef",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390736": {
       "source_task_id": "689f4d693e212e8ef3390736",
-      "tree_sha256": "cb3f31ccf93c9bdfead4ec308a425360c45ca8afc1d3e070ac1b0b52a025de20",
+      "tree_sha256": "79b32b2fc72ae7deca76843635818a931760baf6b90ef544ac5415acf1ee780f",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390737": {
       "source_task_id": "689f4d693e212e8ef3390737",
-      "tree_sha256": "ae623edac7ede79ddceb199728d111eeafce053717a555a82d009835796b697b",
+      "tree_sha256": "ca6ab338178e32012ca79f6f1f09942799ee3fe5f2e067957b73e9621c491a25",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339073a": {
       "source_task_id": "689f4d693e212e8ef339073a",
-      "tree_sha256": "f0da0389cdd8f53d4d679918ee5509efcd9cbf722d43380c7daa4e3e4c2c3e82",
+      "tree_sha256": "6a4b3a044546d7695cb52f2913377c0b280299691c0973a166ca849f32202deb",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339073e": {
       "source_task_id": "689f4d693e212e8ef339073e",
-      "tree_sha256": "ff5fbda0ff7c9965558204d6d0d3e8a22ac4924b531ac70d19c3d4b592323991",
+      "tree_sha256": "d9ef210d29eafeb0998f1b9d154e90372c4cfa43b77a3d748c4634dc3c7806b8",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef339073f": {
       "source_task_id": "689f4d693e212e8ef339073f",
-      "tree_sha256": "c9cabc0fec505b54a97c564f4f96f794fdc0a6e91b46ae840cb122aa8fbb4b31",
+      "tree_sha256": "80aeaf6e889040bee0d9e30379ff58dbac168f67d362b094f243e09affd1646f",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390740": {
       "source_task_id": "689f4d693e212e8ef3390740",
-      "tree_sha256": "1cb24a995c2040510cb0c3c35c77be14dd79c6e962a13ab547bc40ac7b717d87",
+      "tree_sha256": "5f6b391ce17cd590ed9be7633e289255f575bdc4960fd80ae3d44016a25d288d",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__689f4d693e212e8ef3390744": {
       "source_task_id": "689f4d693e212e8ef3390744",
-      "tree_sha256": "27f2f4ea88c5732ec3e644a4ec0311f617689fc40a97cbda205ae9fc0e6f3458",
+      "tree_sha256": "da6b723ba2f4165da69b863efc98e9c3b8b611e8a825b72fd27edef853c265f8",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__689f4d693e212e8ef3390748": {
       "source_task_id": "689f4d693e212e8ef3390748",
-      "tree_sha256": "e3d2caee7f65c5aa375c1cdd9473f7d1cd925c10012a70ce4f3edb564a717edf",
+      "tree_sha256": "cfb2e06f8ea65fdea65c7fb4741c57ca1adf2ea47513cdce1b8ddf1d612603ad",
       "claim_count": 8,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edce": {
       "source_task_id": "68a398aa2f58036e8d45edce",
-      "tree_sha256": "82939824bc429d73e892d53b6009f7e89f5ac8f488c83fccf52e20550958075c",
+      "tree_sha256": "45d256f85a44a6a6c8ea8f8a2326813f71836084c44059edd789fa3fceea5187",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edcf": {
       "source_task_id": "68a398aa2f58036e8d45edcf",
-      "tree_sha256": "01e23f34a194129c8922457380cf430599257e066f506806c1b949b97d7efb95",
+      "tree_sha256": "e949d4056d09a1922b5c2a31dc7d7e5b578bc44e96fa2e6ee26c412fc0e8c149",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edd1": {
       "source_task_id": "68a398aa2f58036e8d45edd1",
-      "tree_sha256": "0f236c4354e22a30f37e66109404496959226b543ed7cba3151c297879494cef",
+      "tree_sha256": "18241d43299450d7829cdea2e18a834bf3510eb0fc72eaa24f853b702df53a9c",
       "claim_count": 23,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edd2": {
       "source_task_id": "68a398aa2f58036e8d45edd2",
-      "tree_sha256": "f0467e91f41f174920d54bcb17b77aa2bb9872dfacecd35efe88f9e318518e42",
+      "tree_sha256": "fdc3bd77fabc1034e71d242d3b39c0261c2108a0b979fea9edc486cf8d56a3c7",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edd3": {
       "source_task_id": "68a398aa2f58036e8d45edd3",
-      "tree_sha256": "c2423e7e1cc65058721627718d4e8b9c5ed4943dc542762fef12015810f5013f",
+      "tree_sha256": "12a9d7f8d408a3dc88b3b9668e7e0c8ad6597e8c9e984d57e1f31cea50fb50dc",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edd4": {
       "source_task_id": "68a398aa2f58036e8d45edd4",
-      "tree_sha256": "2f234aea25ada52fe17d0273b68a8bcdfa52b7697f930b7d43899fb7ad2508fc",
+      "tree_sha256": "ad4f3f8f1b3ca21353da5771a47bc8ca474162ae4143a30b21ef1ec0277c9fc4",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edd7": {
       "source_task_id": "68a398aa2f58036e8d45edd7",
-      "tree_sha256": "15aa9ff909a3a1a4b842cbf6a8b0256f7415e5345394dddf8d3c32a97f3c3cca",
+      "tree_sha256": "551a4a97905367532a11d1b60fe94858336386036db40fd6d4f69c9bf39c8924",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edda": {
       "source_task_id": "68a398aa2f58036e8d45edda",
-      "tree_sha256": "0f81e4da8d6572be21c8e5e18daae864d92602ecebfe4686a81a6729dc521cc7",
+      "tree_sha256": "feab1b11c7a141f4fdde3c5b4d11b73af133676354fb6f1632a696373ef2c252",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45eddb": {
       "source_task_id": "68a398aa2f58036e8d45eddb",
-      "tree_sha256": "7a755cc2c0ec2cb2ab50a2df44a13f00fd6d805132afae20f98044e631ee1e37",
+      "tree_sha256": "83140132236ccf95c1603dc2b17dca6ffe71b7f955235e934a405c46e26fc624",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45eddc": {
       "source_task_id": "68a398aa2f58036e8d45eddc",
-      "tree_sha256": "5fff82ff16a9a0b789379597f20e175019294193700331a45ae841123f3e38b1",
+      "tree_sha256": "0c27d341f9648a0a24490298c47bdd635c03ba81a6e5f8b797bc3e795e6c2280",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edde": {
       "source_task_id": "68a398aa2f58036e8d45edde",
-      "tree_sha256": "85cd6b974b7e211aebcc63508ada07f5caa899df15c44ee1b868726823d62199",
+      "tree_sha256": "feacb6bbd54c1860eee6d32c7f342d5fc061abc007f5fe4f28166ef19c05b94c",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45eddf": {
       "source_task_id": "68a398aa2f58036e8d45eddf",
-      "tree_sha256": "8913c478d447deb232675e8169f1efe29be8372b4771ee3847c78bd502d87143",
+      "tree_sha256": "8bb42370287484ecf246d1427b144ae1c6c999618e0d0eb6ef3bfd0352fac18c",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ede0": {
       "source_task_id": "68a398aa2f58036e8d45ede0",
-      "tree_sha256": "4cadea4a643a5a8ccdd0e3429e29f84224fdb4983650d7a7de44413421f41b49",
+      "tree_sha256": "b90005bd1438c1d7e0c39aa2127e9704978b2cd1292153392ed362c77a4f2f25",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ede2": {
       "source_task_id": "68a398aa2f58036e8d45ede2",
-      "tree_sha256": "e6844419f37644b59f7f25b47d80b2621e223dc46fbf15b655434030cc9e688d",
+      "tree_sha256": "9f71033f38a2ac031c817028c20613dc35eca0d97b2b53bfae36c934219ffcca",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ede3": {
       "source_task_id": "68a398aa2f58036e8d45ede3",
-      "tree_sha256": "a224f4ff1c0f96410e9d49682d0849878f1f1ccf150c398ca5b6c86814fa46e2",
+      "tree_sha256": "8939cd7c235bd100fa813715812393eed8638ba0ec3a98771c5fc6da00369ad0",
       "claim_count": 5,
       "credential_free": true
     },
     "mcp-atlas__68a398aa2f58036e8d45ede8": {
       "source_task_id": "68a398aa2f58036e8d45ede8",
-      "tree_sha256": "c1a4165877937a6703e451ea8e0aaed7fe79c498f2ac66b1ae638c3983a7631b",
+      "tree_sha256": "e09bb94b2078be9d81c3dc3bf86482a4556dced06cdced6f3a10a320634c2b02",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edeb": {
       "source_task_id": "68a398aa2f58036e8d45edeb",
-      "tree_sha256": "2b331e3f91520772c46ec870a650df29a382705d11f2ec24dc2eff5aaa37113d",
+      "tree_sha256": "e042b2f84895dc3217e45527b76f25cfca49fa219a472d82bd4e70184ad0fbdd",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edec": {
       "source_task_id": "68a398aa2f58036e8d45edec",
-      "tree_sha256": "bd25e1d65cab4f046c97a7e30c0ca53d315eb4ab4ff3905569ac07a6f49d2ded",
+      "tree_sha256": "b3b8857fbe070e8ae56c1320d76e7690cb2124ea8f5c5f44d3fd8dc04395d66f",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edee": {
       "source_task_id": "68a398aa2f58036e8d45edee",
-      "tree_sha256": "840f2e773584bd3e45f31c0d5393273f883460fa71c0001a23f94a9e8317df14",
+      "tree_sha256": "6b1bd72c9b9b595ddab29d9a7d6c900c40216937077b3b2ccbcdd6ceb076f41e",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edf4": {
       "source_task_id": "68a398aa2f58036e8d45edf4",
-      "tree_sha256": "8f81075d35cbe4b2366d4045dfb7dd63bf43feeeded6d178dc124e1063931b5f",
+      "tree_sha256": "c7634492da63f74e305ab04e9d7cb31d08c051f94be2e8468735cd62986e071a",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edf6": {
       "source_task_id": "68a398aa2f58036e8d45edf6",
-      "tree_sha256": "01292a6986429d3dd4eb2d2098138db71c5434a2efe8864ebc7aa203c0a23f13",
+      "tree_sha256": "cbeb0dbecff54c6970145b72d38aaf28ba9c0ceed38a30db367c3d6cbafc2c49",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edf7": {
       "source_task_id": "68a398aa2f58036e8d45edf7",
-      "tree_sha256": "c6cd60263c4b6cb64b827c89a1f49f82c6d448f3d8bd75986e640dce41a8c41d",
+      "tree_sha256": "30c9bd43b58fcd307db0c058e6bb716723cf066b4f46fe4faa4040434a34a49b",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edfb": {
       "source_task_id": "68a398aa2f58036e8d45edfb",
-      "tree_sha256": "5a8dbe9fb27659877e397e3d692601a8f3653bb91de9bc3c4550a930605c3369",
+      "tree_sha256": "9f3f4c085def9e537a89b3ab635c1050380614a7bf88dca3b42df4b05a99cec3",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edfc": {
       "source_task_id": "68a398aa2f58036e8d45edfc",
-      "tree_sha256": "b9091d8c34598b3cad5298604f9a909988c690c5a1740ebf777f7803d2dd0824",
+      "tree_sha256": "b6084b548b743f306e2b98bc41e47e837392195f6db4309e45c183f55a5af5da",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45edfd": {
       "source_task_id": "68a398aa2f58036e8d45edfd",
-      "tree_sha256": "5c693e104f51ee9a20d984a899928c08957b37510742b8a90161257e4a33ad41",
+      "tree_sha256": "fe50b52854256d83faeae6d10d9363bafac73bd7c6443f57ad48b76d7f1efcbf",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee00": {
       "source_task_id": "68a398aa2f58036e8d45ee00",
-      "tree_sha256": "295315afcafb2d59b5ce9331425551328172c29f534e71fb470662526a687a40",
+      "tree_sha256": "7fc5bd3fa2d734b164ba5cb2bb078f3a1d11991d9f02095c32108e79921bf463",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee01": {
       "source_task_id": "68a398aa2f58036e8d45ee01",
-      "tree_sha256": "72eb2b4f67684b86e1b67b7b84585c22715c8b584ae051f438f972e4f9321df0",
+      "tree_sha256": "ee9b4793405799b146c1d29d2b5ab13d58c7e7086cbd5a0dad1d04cd3455f114",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee03": {
       "source_task_id": "68a398aa2f58036e8d45ee03",
-      "tree_sha256": "7726b795c0b64ef1bb0ffa74aabfaf0708af2590824e17af0d77d925b7640de4",
+      "tree_sha256": "0e5732adcc7627609065b96f7710602dd30af1f1ac554e07ceeab30d5acc970e",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee05": {
       "source_task_id": "68a398aa2f58036e8d45ee05",
-      "tree_sha256": "be14973071967d0ca02801ba8a25be37f656f3d97eda5c916ba1e150230a5b2f",
+      "tree_sha256": "152fb3de308517854767d9aed8f9236dc25afb69bb85d05eac2b1b37266b9ce9",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee08": {
       "source_task_id": "68a398aa2f58036e8d45ee08",
-      "tree_sha256": "2dbc1790dff6eff3b0706e881b22465bb62385d49752ca80dd7f73cc4b9b7b7a",
+      "tree_sha256": "d1188a019cc8ad97238a0cc350444c42141ff7f83cbbe591d30048d9c527f342",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee09": {
       "source_task_id": "68a398aa2f58036e8d45ee09",
-      "tree_sha256": "f972f3b8f2b7a3d83f389ce0fa662854e84d778fbf63fb7f8914ef7e55d10e5a",
+      "tree_sha256": "9b06f842972f57f395997247c4e2ae26c0addd1a91cea82877ab4d39098bc296",
       "claim_count": 3,
       "credential_free": true
     },
     "mcp-atlas__68a398aa2f58036e8d45ee0c": {
       "source_task_id": "68a398aa2f58036e8d45ee0c",
-      "tree_sha256": "c8f97a0cda4f68fdab6c643aba3cae76f9fc68f565039768792d8be48094203f",
+      "tree_sha256": "52c940f0fc5778310695f8406a035da2a82cec9d8777725f8cdffc93d87fbbdf",
       "claim_count": 5,
       "credential_free": true
     },
     "mcp-atlas__68a398aa2f58036e8d45ee11": {
       "source_task_id": "68a398aa2f58036e8d45ee11",
-      "tree_sha256": "a2696f022edb2cd357094684298cd4015753a9180323b7552f634ddbaad7615f",
+      "tree_sha256": "0c338e0dd2d599b09564ceaec29afd960e243f56498ff524243a7d7228030287",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee13": {
       "source_task_id": "68a398aa2f58036e8d45ee13",
-      "tree_sha256": "a8f75bfef087b6d05f7e37869200ef56e4c1de0ac46f9d7acbead904184f7aee",
+      "tree_sha256": "b29e29421a039c0c73c5ea643de5fe4a2a40d3f76adcffb84e549c7dc4c50e99",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee15": {
       "source_task_id": "68a398aa2f58036e8d45ee15",
-      "tree_sha256": "ef44c5e7025b8698e483f9b47eb23bda78384c20fba09f3e7beefbcb52fef4d8",
+      "tree_sha256": "774f06208075ad6e0654432ca502e00cabb97f40563b128e2d2e834fb4fbb725",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee16": {
       "source_task_id": "68a398aa2f58036e8d45ee16",
-      "tree_sha256": "52b5723eabf79fdc7a10003198da87c7ad81b826431959a7d702d9024621836a",
+      "tree_sha256": "df791be29008ea715c54a7041e20e0b16a5358ac153300951997960f99fcc095",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee19": {
       "source_task_id": "68a398aa2f58036e8d45ee19",
-      "tree_sha256": "5c1a199fba19302fb655ef6736cb17494a409b9152e2cd7cdb89763c1188293d",
+      "tree_sha256": "6a16f4c37ad0b82c74a79a42bbecc3d189f5085dc9e7ee9b0835f0d4b5a5b5d8",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee1c": {
       "source_task_id": "68a398aa2f58036e8d45ee1c",
-      "tree_sha256": "ccefd637ce91fc78374996d9b5aa526c5fb2d526f3ac1530db8723eaf94de934",
+      "tree_sha256": "cf769aee5422f55e6875532a740cf71500342c4545af5db37ca875545213c865",
       "claim_count": 2,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee1f": {
       "source_task_id": "68a398aa2f58036e8d45ee1f",
-      "tree_sha256": "418637950c169bde4d319902ee92a8aa911dc600b63ec5a6e778984be1934315",
+      "tree_sha256": "d26dfcdc1e06bdb433cdd29f5c2ce23ecd9d39bfb33f3a4069eae9375dcfed53",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee20": {
       "source_task_id": "68a398aa2f58036e8d45ee20",
-      "tree_sha256": "6fe1c9ba261b34912a3fba9e0adbfb2f1de7e20465374a17ffadf9f6c3b459b9",
+      "tree_sha256": "91e46618b3479a6f9e241a174e1347849c31976e5c4403c9856e7d2a7397a59c",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee21": {
       "source_task_id": "68a398aa2f58036e8d45ee21",
-      "tree_sha256": "d648acedac426e87f54a005932ead2588f4e786ebf9bc7fe29ca20c290b3e362",
+      "tree_sha256": "21ac3cb96ff3876a01a4e2c212ef9422285eb2c4c81b20ca850fd970adcf77ca",
       "claim_count": 3,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee23": {
       "source_task_id": "68a398aa2f58036e8d45ee23",
-      "tree_sha256": "20256858dc97fb64d09ba5dba2f24aa7b591e6f5acadbb3a45f3b8ae3f32b131",
+      "tree_sha256": "b193dd91f530cf508920a1e6071a828050de2da172eb1f624199f807b6789bda",
       "claim_count": 5,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee26": {
       "source_task_id": "68a398aa2f58036e8d45ee26",
-      "tree_sha256": "f51d84c15b57ec852f28bdb6e11e276573d8bd392ef8c23ed04adce9baeb4722",
+      "tree_sha256": "7628fe2e7b6958bc0c6de1f9d3f3c42ae35c19ae65c79be1be4befeb4d83109c",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee28": {
       "source_task_id": "68a398aa2f58036e8d45ee28",
-      "tree_sha256": "f2e3fe2ac7b78c6b7bbdd098caffeacabbd2342a168787d16b8a2115446de18e",
+      "tree_sha256": "35da1a9fa7f13c2dcb8bb97d292617c80dc3e69063d6fa97d8afdc24bbd99585",
       "claim_count": 4,
       "credential_free": false
     },
     "mcp-atlas__68a398aa2f58036e8d45ee2e": {
       "source_task_id": "68a398aa2f58036e8d45ee2e",
-      "tree_sha256": "884e092acd6a91f430f73ec2ec2f76fb2b803ddff188a531f898e465c8c2fd4a",
+      "tree_sha256": "dc2d3b41eb4e7d64387cc6426e8435bf9e04c1c4a641e45694d3858637669f47",
       "claim_count": 3,
       "credential_free": false
     }

@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "arxiv,cli-mcp-server,mongodb,open-library,osm-mcp-server,twelvedata,wikipedia"
       MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
       TWELVE_DATA_API_KEY: "${TWELVE_DATA_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

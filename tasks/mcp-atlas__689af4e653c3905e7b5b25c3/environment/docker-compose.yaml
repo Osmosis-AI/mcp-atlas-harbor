@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "brave-search,desktop-commander,fetch,mcp-code-executor"
       BRAVE_API_KEY: "${BRAVE_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "alchemy,arxiv,clinicaltrialsgov-mcp-server,context7,exa,fetch,filesystem,git,mcp-code-executor,met-museum"
       ALCHEMY_API_KEY: "${ALCHEMY_API_KEY:-}"
       EXA_API_KEY: "${EXA_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

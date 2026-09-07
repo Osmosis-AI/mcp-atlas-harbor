@@ -53,6 +53,9 @@ services:
       LARA_ACCESS_KEY_SECRET: "${LARA_ACCESS_KEY_SECRET:-}"
       TWELVE_DATA_API_KEY: "${TWELVE_DATA_API_KEY:-}"
       WEATHER_API_KEY: "${WEATHER_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

@@ -1,0 +1,7 @@
+# Mounted into the MCP-Atlas runtime at /etc/uv/uv.toml. The official image
+# installs its MCP servers with uvx at startup, so their dependencies float to
+# whatever PyPI serves today; mcp 2.x (2026-07-28) broke six of them. Freezing
+# resolution to the image build date restores the server versions the
+# benchmark was built against. Environment variables cannot do this because the
+# runtime spawns servers with a filtered environment.
+exclude-newer = "2026-07-17T19:34:33Z"

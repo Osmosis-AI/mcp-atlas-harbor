@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "fetch,filesystem,git,github"
       GITHUB_TOKEN: "${GITHUB_TOKEN:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

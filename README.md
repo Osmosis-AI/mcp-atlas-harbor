@@ -4,23 +4,23 @@ This repository contains the generated Harbor distribution of
 [Scale AI MCP-Atlas](https://github.com/scaleapi/mcp-atlas), a benchmark for
 tool use with real Model Context Protocol servers.
 
-Release **v1.0.5** contains the complete pinned public split: **500 tasks** and
+Release **v1.0.6** contains the complete pinned public split: **500 tasks** and
 **1,952 normalized claims**. Reference trajectories are intentionally excluded.
 
 ## Datasets
 
 | Dataset | Tasks | Intended use |
 |---|---:|---|
-| `mcp-atlas-smoke@1.0.5` | 1 | Credential-free Docker deployment check. |
-| `mcp-atlas-credential-free@1.0.5` | 30 | Evaluation without Atlas service credentials. |
-| `mcp-atlas@1.0.5` | 500 | Full public split; credentials and prepared external state may be required. |
+| `mcp-atlas-smoke@1.0.6` | 1 | Credential-free Docker deployment check. |
+| `mcp-atlas-credential-free@1.0.6` | 30 | Evaluation without Atlas service credentials. |
+| `mcp-atlas@1.0.6` | 500 | Full public split; credentials and prepared external state may be required. |
 
 Start with the smoke task:
 
 ```bash
 harbor run \
-  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.5 \
-  --dataset mcp-atlas-smoke@1.0.5 \
+  --repo Osmosis-AI/mcp-atlas-harbor@v1.0.6 \
+  --dataset mcp-atlas-smoke@1.0.6 \
   --agent <agent> \
   --model <model>
 ```
@@ -31,6 +31,7 @@ The claim grader uses an OpenAI-compatible endpoint:
 export EVAL_LLM_API_KEY='...'
 export EVAL_LLM_BASE_URL='https://your-endpoint'   # a trailing /v1 is accepted
 export EVAL_LLM_MODEL='your-judge-model'
+export EVAL_LLM_TEMPERATURE=default   # for models that reject temperature 0
 ```
 
 The verifier scores an empty or `ERROR:` response as `0`. Verifier-side
@@ -54,6 +55,15 @@ Harbor agent -> allowlisting MCP bridge -> official MCP-Atlas runtime
 The bridge exposes only the task's enabled tools. Atlas credentials are
 substituted only into the runtime sidecar; the bridge and main agent do not
 receive them.
+
+The official image installs its MCP servers with `uvx` at startup, so their
+dependencies float to whatever PyPI serves. After `mcp` 2.0 (2026-07-28) six
+credential-free servers (`arxiv`, `cli-mcp-server`, `ddg-search`, `fetch`,
+`git`, `pubmed`) no longer start, which affects 350 of the 500 tasks. Since
+v1.0.6 every task mounts `environment/uv.toml` into the runtime with
+`exclude-newer` set to the image build date, freezing resolution to the
+package versions the benchmark was built against. Do not use v1.0.5 or
+earlier: their runtime sidecars cannot start those servers.
 
 Local Docker is the supported environment. Keep concurrency low because every
 trial starts an Atlas runtime and cold startup can take more than a minute.
@@ -99,18 +109,18 @@ validation are not reported as model parity.
 | Hugging Face dataset | `ScaleAI/MCP-Atlas` at `8c563b55d7c967755f474299848049834d624617` |
 | Public Parquet | SHA-256 `2d7bc052f14cbcb3b8294293481053f7111d256f9c9deaa96f3ff632d19958d0` |
 | Upstream source | `scaleapi/mcp-atlas` at `f24ba3fb0bfa484c86acb28431fad6d7282455f9` |
-| Harbor adapter | `Osmosis-AI/harbor` at `c78c159c57f4c1a1c7176a6485c871006cae3a81` |
+| Harbor adapter | `Osmosis-AI/harbor` at `4a9f6bf54cad8c57833dfa939661a6de29f6fc31` |
 | Official Atlas image | `ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c` |
 
-`manifests/mcp-atlas-1.0.5.json` records these inputs and every generated task
-checksum. The immutable `v1.0.5` tag pins this repository snapshot.
+`manifests/mcp-atlas-1.0.6.json` records these inputs and every generated task
+checksum. The immutable `v1.0.6` tag pins this repository snapshot.
 
 ## Repository layout
 
 ```text
 .
 ├── tasks/                          # 500 Harbor tasks
-├── manifests/mcp-atlas-1.0.5.json # source pins and task checksums
+├── manifests/mcp-atlas-1.0.6.json # source pins and task checksums
 ├── registry.json                   # full, credential-free, and smoke views
 └── scripts/release.sh              # regenerate, validate, and compare
 ```

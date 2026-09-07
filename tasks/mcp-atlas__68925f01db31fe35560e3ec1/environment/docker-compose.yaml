@@ -55,6 +55,9 @@ services:
       MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
       NPS_API_KEY: "${NPS_API_KEY:-}"
       WEATHER_API_KEY: "${WEATHER_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

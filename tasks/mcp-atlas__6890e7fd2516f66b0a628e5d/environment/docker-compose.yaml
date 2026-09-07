@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "git,github,mongodb,wikipedia"
       GITHUB_TOKEN: "${GITHUB_TOKEN:-}"
       MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "e2b-server,filesystem,git"
       E2B_API_KEY: "${E2B_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

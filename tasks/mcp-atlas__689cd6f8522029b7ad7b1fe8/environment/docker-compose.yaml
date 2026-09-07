@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "fetch,filesystem,mcp-code-executor,memory,oxylabs"
       OXYLABS_PASSWORD: "${OXYLABS_PASSWORD:-}"
       OXYLABS_USERNAME: "${OXYLABS_USERNAME:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

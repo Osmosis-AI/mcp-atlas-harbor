@@ -88,6 +88,8 @@ class JudgeConfig:
     max_attempts: int
     retry_base_sec: float
     timeout_sec: float
+    # None omits the field for models that only accept their default.
+    temperature: float | None = 0.0
 
     @classmethod
     def from_env(cls, env: Mapping[str, str] | None = None) -> JudgeConfig:
@@ -100,6 +102,7 @@ class JudgeConfig:
             raise VerifierError("EVAL_LLM_API_KEY is required")
         if not base_url.startswith(("http://", "https://")):
             raise VerifierError("EVAL_LLM_BASE_URL must be an http(s) URL")
+        raw_temperature = values.get("EVAL_LLM_TEMPERATURE", "0").strip().lower()
         try:
             config = cls(
                 base_url,
@@ -109,9 +112,16 @@ class JudgeConfig:
                 int(values.get("EVAL_LLM_MAX_ATTEMPTS", "3")),
                 float(values.get("EVAL_LLM_RETRY_BASE_SEC", "1")),
                 float(values.get("EVAL_LLM_TIMEOUT_SEC", "60")),
+                None if raw_temperature in {"", "default"} else float(raw_temperature),
             )
         except ValueError as exc:
             raise VerifierError("judge numeric configuration is invalid") from exc
+        if config.temperature is not None and not (
+            math.isfinite(config.temperature) and 0 <= config.temperature <= 2
+        ):
+            raise VerifierError(
+                "judge temperature must be between 0 and 2 or 'default'"
+            )
         if (
             config.concurrency <= 0
             or config.max_attempts <= 0
@@ -240,7 +250,9 @@ def load_claims(path: Path = CLAIMS_PATH) -> list[str]:
     return [claim.strip() for claim in raw]
 
 
-def _judge_payload(model: str, claim: str, response: str) -> dict[str, Any]:
+def _judge_payload(
+    model: str, claim: str, response: str, temperature: float | None = 0.0
+) -> dict[str, Any]:
     # Verbatim from upstream services/scoring/score_claims.py at the pinned
     # commit, so numerical tolerances match the official scorer.
     prompt = f"""You are evaluating how well a model's response addresses a specific expert-defined claim.
@@ -273,15 +285,17 @@ INSTRUCTIONS:
    - When numbers differ slightly, note if they're within acceptable range
 5. Provide a confidence level (0.0-1.0) for your assessment
 Be rigorous but fair in your assessment. Focus on whether the response conveys the same information as the claim, not on exact numerical precision unless precision is critical to the claim's meaning."""
-    return {
+    payload: dict[str, Any] = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.0,
         "response_format": {
             "type": "json_schema",
             "json_schema": {"name": "claim_evaluation", "schema": CLAIM_SCHEMA},
         },
     }
+    if temperature is not None:
+        payload["temperature"] = temperature
+    return payload
 
 
 def _http_post_json(
@@ -354,7 +368,9 @@ async def evaluate_claims(
                     data = await asyncio.to_thread(
                         transport,
                         f"{config.base_url}/v1/chat/completions",
-                        _judge_payload(config.model, claim, response),
+                        _judge_payload(
+                            config.model, claim, response, config.temperature
+                        ),
                         config.api_key,
                         config.timeout_sec,
                     )

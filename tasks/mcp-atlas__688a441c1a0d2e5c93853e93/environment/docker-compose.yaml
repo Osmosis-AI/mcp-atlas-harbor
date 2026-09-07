@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "alchemy,calculator,cli-mcp-server,context7,fetch,memory,notion"
       ALCHEMY_API_KEY: "${ALCHEMY_API_KEY:-}"
       NOTION_TOKEN: "${NOTION_TOKEN:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

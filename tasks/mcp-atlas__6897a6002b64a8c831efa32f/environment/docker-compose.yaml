@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "ddg-search,desktop-commander,fetch"
       # This task needs no Atlas credentials.
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

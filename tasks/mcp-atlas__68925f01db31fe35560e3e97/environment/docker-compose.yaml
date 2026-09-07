@@ -53,6 +53,9 @@ services:
       EXA_API_KEY: "${EXA_API_KEY:-}"
       GITHUB_TOKEN: "${GITHUB_TOKEN:-}"
       GOOGLE_MAPS_API_KEY: "${GOOGLE_MAPS_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

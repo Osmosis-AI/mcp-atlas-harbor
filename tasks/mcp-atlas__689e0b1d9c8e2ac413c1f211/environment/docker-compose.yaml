@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "alchemy,arxiv,git,github,mcp-server-code-runner,met-museum,whois"
       ALCHEMY_API_KEY: "${ALCHEMY_API_KEY:-}"
       GITHUB_TOKEN: "${GITHUB_TOKEN:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

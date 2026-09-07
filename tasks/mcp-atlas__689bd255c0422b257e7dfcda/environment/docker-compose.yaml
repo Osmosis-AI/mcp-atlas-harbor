@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "calculator,clinicaltrialsgov-mcp-server,fetch,filesystem,slack"
       SLACK_MCP_XOXC_TOKEN: "${SLACK_MCP_XOXC_TOKEN:-}"
       SLACK_MCP_XOXD_TOKEN: "${SLACK_MCP_XOXD_TOKEN:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

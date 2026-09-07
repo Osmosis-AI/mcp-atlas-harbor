@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "clinicaltrialsgov-mcp-server,mongodb,osm-mcp-server,pubmed,weather,wikipedia"
       MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

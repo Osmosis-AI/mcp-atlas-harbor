@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "cli-mcp-server,fetch,met-museum,national-parks,pubmed"
       NPS_API_KEY: "${NPS_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

@@ -56,6 +56,9 @@ services:
       OXYLABS_PASSWORD: "${OXYLABS_PASSWORD:-}"
       OXYLABS_USERNAME: "${OXYLABS_USERNAME:-}"
       WEATHER_API_KEY: "${WEATHER_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

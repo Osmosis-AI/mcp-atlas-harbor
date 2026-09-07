@@ -55,6 +55,9 @@ services:
       LARA_ACCESS_KEY_ID: "${LARA_ACCESS_KEY_ID:-}"
       LARA_ACCESS_KEY_SECRET: "${LARA_ACCESS_KEY_SECRET:-}"
       NPS_API_KEY: "${NPS_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

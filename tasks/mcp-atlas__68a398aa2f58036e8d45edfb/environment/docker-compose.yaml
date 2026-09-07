@@ -51,6 +51,9 @@ services:
       ENABLED_SERVERS: "arxiv,clinicaltrialsgov-mcp-server,github,pubmed,twelvedata,whois,wikipedia"
       GITHUB_TOKEN: "${GITHUB_TOKEN:-}"
       TWELVE_DATA_API_KEY: "${TWELVE_DATA_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

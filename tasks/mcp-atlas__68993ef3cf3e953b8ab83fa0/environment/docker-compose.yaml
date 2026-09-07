@@ -50,6 +50,9 @@ services:
     environment:
       ENABLED_SERVERS: "ddg-search,filesystem,google-maps,mcp-code-executor,osm-mcp-server"
       GOOGLE_MAPS_API_KEY: "${GOOGLE_MAPS_API_KEY:-}"
+    volumes:
+      # Freeze uvx dependency resolution to the image build date; see uv.toml.
+      - ./uv.toml:/etc/uv/uv.toml:ro,z
     healthcheck:
       test:
         - CMD

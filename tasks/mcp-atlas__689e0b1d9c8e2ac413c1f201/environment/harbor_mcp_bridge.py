@@ -209,10 +209,12 @@ class MCPAtlasBridge:
 
     async def check_ready(self) -> int:
         health = await self.client.request_json("GET", "/health")
-        if not isinstance(health, Mapping) or health.get("status") != (
-            "health_and_client_connection_ok"
-        ):
+        if not isinstance(health, Mapping) or "status" not in health:
             raise AtlasBackendError("Atlas backend health check failed.")
+        # The runtime's own status reports *_timeout whenever reconnecting every
+        # enabled server takes more than its five second budget, which is the
+        # norm for tasks with several servers. A complete tool listing is the
+        # readiness signal that matters, so only liveness is taken from /health.
         return len(await self.refresh_tools())
 
     async def wait_until_ready(

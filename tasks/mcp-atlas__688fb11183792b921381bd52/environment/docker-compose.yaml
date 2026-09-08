@@ -32,12 +32,13 @@ services:
         - -c
         - >-
           import urllib.request;
-          urllib.request.urlopen('http://localhost:18765/healthz',timeout=5).read()
+          urllib.request.urlopen('http://localhost:18765/healthz',timeout=55).read()
       # /healthz re-probes the Atlas backend and re-lists its tools on every
-      # call, so poll modestly once the bridge is up. Failures inside
-      # start_period (the bridge's own startup timeout) do not count.
-      interval: 15s
-      timeout: 10s
+      # call; listing spawns every enabled server and takes several seconds, so
+      # poll modestly with a generous timeout once the bridge is up. Failures
+      # inside start_period (the bridge's own startup timeout) do not count.
+      interval: 30s
+      timeout: 60s
       retries: 4
       start_period: 240s
     init: true
@@ -47,26 +48,46 @@ services:
 
   mcp-atlas-runtime:
     image: "ghcr.io/scaleapi/mcp-atlas:1.2.7@sha256:24e6ed3534916afe2c6825382da159a30e23516ef612be5d074fd96a74f9184c"
+    # warmup.py installs the enabled servers, then execs the image entrypoint
+    # with the image's original command (compose clears CMD when entrypoint is
+    # overridden).
+    entrypoint:
+      - /agent-environment/.venv/bin/python
+      - /harbor/warmup.py
+    command:
+      - uv
+      - run
+      - python
+      - -m
+      - uvicorn
+      - agent_environment.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "1984"
     environment:
       ENABLED_SERVERS: "mongodb,wikipedia"
       MONGODB_CONNECTION_STRING: "${MONGODB_CONNECTION_STRING:-}"
     volumes:
       # Freeze uvx dependency resolution to the image build date; see uv.toml.
       - ./uv.toml:/etc/uv/uv.toml:ro,z
+      - ./warmup.py:/harbor/warmup.py:ro,z
     healthcheck:
       test:
         - CMD
         - /agent-environment/.venv/bin/python
         - -c
         - >-
-          import json,urllib.request;
-          data=json.load(urllib.request.urlopen('http://localhost:1984/health',timeout=5));
-          raise SystemExit(0 if data.get('status') == 'health_and_client_connection_ok' else 1)
-      # The runtime installs its MCP servers with uvx on first start (pubmed
-      # builds from git), which can take several minutes on a cold sandbox.
-      interval: 5s
-      timeout: 10s
-      retries: 72
+          import urllib.request;
+          urllib.request.urlopen('http://localhost:1984/health',timeout=20).read()
+      # Liveness only: the runtime's own /health status reports a timeout
+      # whenever reconnecting all servers takes over five seconds, which is
+      # normal for multi-server tasks. Readiness (every allowlisted tool
+      # present) is enforced by the gateway. warmup.py installs the servers
+      # before uvicorn starts, which can take several minutes on a cold sandbox.
+      interval: 10s
+      timeout: 30s
+      retries: 36
       start_period: 60s
     init: true
     networks:
